@@ -1,0 +1,48 @@
+{
+  "title": "C.3.2  建築物の主題属性",
+  "path": "/plateaudocument02/tocC/tocC_03/tocC_03_02",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "C.3.2\t建築物の主題属性",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_7c7d57e3-4175-b70a-df09-42e30a1731e8"
+        },
+        "content": [
+          {
+            "text": "bldg:Buildingの主題属性には、あらかじめCityGML又はGMLにおいて定義された属性（接頭辞bldg、gml）と、i-URにより拡張された属性（接頭辞uro）がある。CityGMLで定義された属性は、建築物の用途や階数など、基本的な情報となる。i-URにより拡張された属性には、建築物を識別するための属性（uro:BuildingIDAttribute）、都市計画基礎調査において収集された詳細な情報を格納するための属性（uro:BuildingDetailAttribute、uro:LargeCustomerFacilityAttribute）、災害リスク情報を格納するための属性（uro:BuildingDisasterRiskAttribute）、作成したデータの品質に関する情報を格納するための属性（uro:DataQualityAttribute）、建築物が存在する土地及び建築物に紐づく不動産IDを格納するための属性（uro:RealEstateIDAttribute）などがある。また、拡張製品仕様においてコード型の属性を追加した場合には、主題属性としてuro:KeyValuePairAttributeが含まれる。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_38c3c161-1027-6be1-fa39-6d044ef72abe"
+        },
+        "content": [
+          {
+            "text": "さらに、特定分野での施設管理に使用する属性として、施設区分に関する属性（uro:FacilityTypeAttribute）、その分野における施設の位置や識別に関する属性（uro:FacilityIdAttribute）、その分野における施設の詳細な属性（uro:FacilityAttribute）をもつことができる。また、公共測量標準図式に従った表現に必要となる属性（uro:bldgDmAttribute）をもってもよい。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    }
+  ]
+}

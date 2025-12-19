@@ -1,0 +1,2237 @@
+{
+  "title": "4.26.3.6.1  uro:ParkFacilityLongevityPlanAttribute",
+  "path": "/plateaudocument/toc4/toc4_26/toc4_26_03/toc4_26_03_06/_uroparkfacilitylongevityplanattribute",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "4.26.3.6.1\turo:ParkFacilityLongevityPlanAttribute",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "tableFigure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_54512a9b-d12c-9b6a-400d-7a2d4fa2b034"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "表",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "4-892",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "colWidths": [
+                "25%",
+                "25%",
+                "50%"
+              ]
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "型の定義",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a944568f-beb6-c034-b0a3-950f6a99af5d"
+                        },
+                        "content": [
+                          {
+                            "text": "公園施設長寿命化計画に関する情報を定義したデータ型。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "公園施設とは、都市公園法第２条第２項、都市公園法施行令第５条で定義する施設のうち、建物又は工作物に係る全ての施設を指す（公園施設長寿命化計画策定指針（案）【改定版】（平成30年10月））。 ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "属性facilityIdは、工事・点検の対象となる施設の識別子とし、 公園施設を一意に識別するコード（施設コード）を記述する。 ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "識別子は、公園施設の種類を表す3文字と、4桁の通し番号を公園施設の識別子とする。[記述例] BEN0001  ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": " ENR：園路広場、SYU：修景施設、KYU：休養施設、YUG：遊戯施設、 UND：運動施設、KYO：教養施設、BEN：便益施設、KAN：管理施設、 SNO：その他施設",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "なお、都市公園内の植生は、植生の種類を表す3文字と、4桁の通し番号を識別子とする。 ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": " GRN：植生",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "上位の型",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_b9eed4d3-2508-1aca-41a8-2a81ee22ef34"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:FacilityAttribute",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "ステレオタイプ",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_569a39e0-2354-1070-fea4-808c8fc823a9"
+                        },
+                        "content": [
+                          {
+                            "text": "\u003c\u003c DataType \u003e\u003e",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "3",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "継承する属性",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "属性名",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "属性の型及び多重度",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "定義",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d89c4946-5987-1820-fb9a-569eba88cbb6"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:facilityId",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ FacilityAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d7ea8557-2c29-d122-6424-dd5be6409df4"
+                        },
+                        "content": [
+                          {
+                            "text": "xs::string [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_5ab7d60f-3742-a692-fd8e-332866dd5f5a"
+                        },
+                        "content": [
+                          {
+                            "text": "施設の用途や区分ごとに付与された管理番号。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "3",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "自身に定義された属性",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "属性名",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "属性の型及び多重度",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "定義",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_0272456d-e5b6-eede-0954-e538602bdcb5"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:parkCode",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ ParkFacilityLongevityPlanAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_53d08238-4b7d-e741-4543-fe097a7cb52d"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::CodeType [1..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_ce5fe9e1-7e2f-21f1-7605-60ca2a399d95"
+                        },
+                        "content": [
+                          {
+                            "text": "国営公園を一意に識別するコード。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "コードリスト（ ",
+                            "type": "text"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_common_parkcode_xml"
+                            },
+                            "content": [
+                              {
+                                "text": "Common_parkCode.xml",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "text": "）より選択する。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "国営公園以外の都市公園を追加する場合は、Common_parkCode.xmlを拡張する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_04363a5b-7725-a4e0-30e1-df66e1fbd95f"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:parkName",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ ParkFacilityLongevityPlanAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f6abd348-a027-941c-9307-2a970e839b38"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::CodeType [1..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_3b192eeb-941b-ebd8-e1a3-ad6edd6302b7"
+                        },
+                        "content": [
+                          {
+                            "text": "国営公園の名称。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "コードリスト（ ",
+                            "type": "text"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_common_parkname_xml"
+                            },
+                            "content": [
+                              {
+                                "text": "Common_parkName.xml",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "text": "）より選択する。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "国営公園以外の都市公園を追加する場合は、Common_parkCode.xmlを拡張する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_782fa3c8-97ec-2881-2421-c326041ea26f"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:parkType",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ ParkFacilityLongevityPlanAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_1eb20ec9-3ae3-5fda-144d-75d34c3e3bf4"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::CodeType [1..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_83e98e77-dee2-4416-9a29-ce3b109e762d"
+                        },
+                        "content": [
+                          {
+                            "text": "都市公園の種別。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "コードリスト（ ",
+                            "type": "text"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_common_parktype_xml"
+                            },
+                            "content": [
+                              {
+                                "text": "Common_parkType.xml",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "text": "）より選択する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a99a35db-9ec2-a223-f7f0-4efa4fc12f58"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:facilityName",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ ParkFacilityLongevityPlanAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_64fa7c0e-23d7-6ac4-00c2-ddd1f6ce3724"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::CodeType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_3009453f-ac36-16b5-dd38-e09333e4fde1"
+                        },
+                        "content": [
+                          {
+                            "text": "公園施設長寿命化計画策定指針（案）【改定版】（平成30年10月）が示す公園施設の名称。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "コードリスト（ ",
+                            "type": "text"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_common_parkfacilityname_xml"
+                            },
+                            "content": [
+                              {
+                                "text": "Common_parkFacilityName.xml",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "text": "）より選択する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_365bf7a2-8744-b52b-b1f9-65980a845fff"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:facilityNameOptional",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ ParkFacilityLongevityPlanAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_c4eb0c84-9aef-4321-bb9d-d3579846dc2d"
+                        },
+                        "content": [
+                          {
+                            "text": "xs::string [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_4598e385-3d0c-a9c2-283d-3efee9794785"
+                        },
+                        "content": [
+                          {
+                            "text": "公園施設の任意の名称。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a669f224-2727-f326-2b9c-4c460e425120"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:specificFacilityName",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ ParkFacilityLongevityPlanAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_4a73f439-3ffb-2ee9-b5a1-b12033d64ee3"
+                        },
+                        "content": [
+                          {
+                            "text": "xs::string [1..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_21efcd20-d802-5de0-4a17-0fcc6ff5e463"
+                        },
+                        "content": [
+                          {
+                            "text": "公園施設の具体的な名称。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_547f35cf-8012-df5d-bf57-946f987f0efa"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:numberOfFacilities",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ ParkFacilityLongevityPlanAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_abe6f50a-29f9-6c2e-5ee5-0f2fd4c7897e"
+                        },
+                        "content": [
+                          {
+                            "text": "NumberOfFacilities [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_0e2068d0-276c-21b4-b2e4-17e24e005e77"
+                        },
+                        "content": [
+                          {
+                            "text": "公園施設の数量。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_3e3ace68-3afb-2ec1-9376-c7787e73af30"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:size",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ ParkFacilityLongevityPlanAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_1a46f7fb-6b4c-c812-2622-7d72e46c585e"
+                        },
+                        "content": [
+                          {
+                            "text": "xs::string [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_32c91aad-2946-355f-395a-d657cf2bc93f"
+                        },
+                        "content": [
+                          {
+                            "text": "公園施設の数量以外に、規模を示す任意の情報。例：公園施設が占める面積など。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": " [記述例] 228.95m2、16m、1基、1式など。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_0f83c318-1b2c-fcf9-f338-e37a5b56fc5d"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:mainMaterial",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ ParkFacilityLongevityPlanAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_35f36646-5e32-3815-1af8-5b8762e8b911"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::CodeType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_3ebe5792-8fd6-ce84-36bf-b7a1a42d0fbf"
+                        },
+                        "content": [
+                          {
+                            "text": "公園施設の主要部材。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "コードリスト（ ",
+                            "type": "text"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_common_parkfacilitymainmaterial_xml"
+                            },
+                            "content": [
+                              {
+                                "text": "Common_parkFacilityMainMaterial.xml",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "text": "）より選択する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_e41cb5f0-4d96-8b6a-8f95-668961a518ac"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:mainMaterialOptional",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ ParkFacilityLongevityPlanAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_54fd9f9a-e166-f3f0-a664-c2948ae81e0e"
+                        },
+                        "content": [
+                          {
+                            "text": "xs::string [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_8df04310-132d-be3f-031f-6b9708e31aae"
+                        },
+                        "content": [
+                          {
+                            "text": "公園施設のその他の主要部材。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d4e60ce9-bea5-9e3f-e45e-9be487e5cc85"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:installationYear",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ ParkFacilityLongevityPlanAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_e1677e52-e3cb-692d-7b9f-3dd2693a4111"
+                        },
+                        "content": [
+                          {
+                            "text": "xs::gYear [1..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_6bc5aff7-388c-da16-f7e1-232f36f88381"
+                        },
+                        "content": [
+                          {
+                            "text": "公園施設の設置年度。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_6a9d042e-c624-e367-350a-94258c313670"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:disposalLimitPeriod",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ ParkFacilityLongevityPlanAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a35a8b34-d6ba-da56-2521-6ab0567fae33"
+                        },
+                        "content": [
+                          {
+                            "text": "xs::integer [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a7fc036d-ed0c-8b6d-196d-76f7125c58b2"
+                        },
+                        "content": [
+                          {
+                            "text": "処分制限期間。補助金などに係る予算の執行の適正化に関する法律(昭和30 年法律第179 号)第22 条に基づく制限を受ける期間のこと。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_86c57a53-23a4-b37b-ed54-7eaf766bd8ea"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:expectedUsagePeriod",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ ParkFacilityLongevityPlanAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_af48675c-34bf-eec2-8ac1-1275479a79a9"
+                        },
+                        "content": [
+                          {
+                            "text": "xs::integer [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_fa2cdd3c-44d2-0a9f-961c-cf722b369172"
+                        },
+                        "content": [
+                          {
+                            "text": "使用見込み期間。公園施設ごとのライフサイクルコストを算定するため、実際に使用が可能と想定される使用期間の目安として設定する期間。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_dfad5849-59e1-b78a-f82b-720f206bb333"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:repairsBeforeParkHealthAssessment",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ ParkFacilityLongevityPlanAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_526dd361-031a-7115-8a35-ef8e3fe4d8aa"
+                        },
+                        "content": [
+                          {
+                            "text": "RepairsBeforeParkHealthAssessment [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_1c46865e-1114-7390-9ec0-ba33fc4dc44b"
+                        },
+                        "content": [
+                          {
+                            "text": "健全度調査以前に実施した補修の記録。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_1adebbac-9fc0-f4e6-c370-77a28fc8e1f1"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:parkHealthAssessment",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ ParkFacilityLongevityPlanAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_939ff39f-87df-4803-3dff-7b96714cd069"
+                        },
+                        "content": [
+                          {
+                            "text": "ParkHealthAssessment [0..*]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_751047cf-3192-167f-9557-f7694734ea76"
+                        },
+                        "content": [
+                          {
+                            "text": "現地において、公園施設の構造材及び消耗材などの劣化や損傷の状況を目視等により健全度を確認調査した結果。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a1362969-aa28-6424-a0d5-da7a1381863d"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:managementType",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ ParkFacilityLongevityPlanAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_08a6e74c-75b2-2f26-8401-bf3c1e4f13c2"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::CodeType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_78460eb0-0431-4bf8-0e44-ef100a1b45fd"
+                        },
+                        "content": [
+                          {
+                            "text": "公園の計画的な管理の手法。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "コードリスト（ ",
+                            "type": "text"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_common_parkfacilitymanagementtype_xml"
+                            },
+                            "content": [
+                              {
+                                "text": "Common_parkFacilityManagementType.xml",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "text": "）より選択する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_25974bed-738b-3835-b131-df7877471ed2"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:expectedRenewalYearWithMeasures",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ ParkFacilityLongevityPlanAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_36d1b59f-5e09-d328-c7e3-409eb53c6dac"
+                        },
+                        "content": [
+                          {
+                            "text": "xs::gYear [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f8ef9a6f-74ac-c6e9-f206-59ce9772d108"
+                        },
+                        "content": [
+                          {
+                            "text": "対策を踏まえた更新見込み年度。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_282d99dc-c67e-a70f-03f2-b1cf5cb0fea6"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:longevityMeasures",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ ParkFacilityLongevityPlanAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2e6a8ed2-4d3c-f54b-17a9-6b87637f92db"
+                        },
+                        "content": [
+                          {
+                            "text": "LongevityMeasures [0..*]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_5717a83b-f0ac-6084-b824-4d31525dd4bc"
+                        },
+                        "content": [
+                          {
+                            "text": "予防保全型管理において、公園施設の使用見込み期間の延伸及びライフサイクルコストの縮減に寄与する定期的な健全度調査や補修を含む長寿命化対策。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_325647e1-86dc-47e4-5ece-10bcb8212f2f"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:noteForLongevity",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ ParkFacilityLongevityPlanAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_af706cb5-bfea-4e9e-2955-5da13f9d05b0"
+                        },
+                        "content": [
+                          {
+                            "text": "xs::string [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f9461415-74d7-334b-e599-cb4d93eedc59"
+                        },
+                        "content": [
+                          {
+                            "text": "長寿命化に向けた特記事項。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              }
+            ],
+            "type": "table"
+          }
+        ],
+        "type": "tableFigure"
+      }
+    }
+  ]
+}

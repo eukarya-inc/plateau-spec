@@ -1,0 +1,225 @@
+# Q.2 地下街の記述とLOD
+
+## Q.2 地下街の記述とLOD
+
+## Q.2.1 地下街モデル
+
+地下街とは、地下街その他地下に設けられた不特定かつ多数の者が利用する施設（地下に建設が予定されている施設又は地下に建設中の施設であって、不特定かつ多数の者が利用すると見込まれるものを含む。）をいう。
+
+［出典：[[18]，箇条第15条第1項第4号イ](https://elaws.e-gov.go.jp/document?lawid=324AC0000000193)]
+
+地下街の記述には、i-URのUrban Objectモジュールに定義されたuro:UndergroundBuildingを使用する。
+
+標準製品仕様書では、地下街の表現に必要な地物型等をCityGML及びi-URより抽出し、LODごとに、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を定めた「地下街モデル」を定義する。
+
+地下街モデルのLODは、LOD0からLOD4までを対象とする。
+
+![Image](images/tocQ_02_img001.png)
+
+- 地下街モデル（LOD0）は、地下街の上方からの正射影の外周である。高さは0とする。
+- 地下街モデル（LOD1）は、地下街の上方からの正射影の外周を、地表から一律の高さで下向きに押し出した立体として表現する。
+- 地下街モデル（LOD2）は、地下街の形状を立体により表現し、立体の境界面を、屋根面、外壁面及び底面に区分する。
+- 地下街モデル（LOD3）は、地下街の形状を立体により表現し、立体の境界面を、屋根面、外壁面及び底面に区分し、これらの面に存在する開口部を閉鎖面として区分する。
+- 地下街モデル（LOD4）は、地下街モデル（LOD3）により表現される地下街の外側の形状に加え、地下街の内側の形状（屋内空間）を表現する。
+
+## Q.2.2 使用可能な地物型とLOD
+
+地下街モデルは、LODごとに、使用すべき地物型やその空間属性が異なる。
+
+**表 Q-2 — Q-1: 地下街記述のLOD対応条件**
+
+| ID | `/req/ubld/1` |
+| --- | --- |
+| 主題 | 妥当な地下街データセットの要件 |
+| 分類 | 要件分類Q-1: 妥当な地下街オブジェクト |
+| 条文 | 地下街の記述には、指定されたLODに対応する地物型及び空間属性を使用する。 |
+
+地下街は、i-URのUrban Objectモジュールに定義されたuro:UndergroundBuildingを用いて
+記述する。uro:UndergroundBuildingはCityGMLのBuildingモジュールに定義されたbldg:_AbstractBuildingを継承し、定義されている。そのため、uro:UndergroundBuildingは、建築物（bldg:Building）と同様に、境界面や開口部に区分することができる。
+
+- 地下街モデル（LOD0）では、uro:UndergroundBuildingを使用し、地下街の形状を面で記述する。
+- 地下街モデル（LOD1）では、uro:UndergroundBuildingを使用し、地下街の形状を立体で記述する。
+- 地下街モデル（LOD2）では、uro:UndergroundBuildingを使用し、地下街の形状を立体で記述するとともに、uro:UndergroundBuildingの境界面を屋根面や外壁面等の地物型を用いて記述する。屋根面や外壁面はbldg:_BoundarySurfaceとして定義されている。bldg:_BoundarySurfaceは抽象地物であり、実装にはこれを継承する地物型（例：屋根面はbldg:RoofSurface）を使用する。
+- 地下街モデル（LOD3）では、地下街モデル（LOD2）で使用可能な地物型に加え、境界面に存在する開口部を閉鎖面として区分する。さらに、屋根や壁に扉（bldg:Door）や窓（bldg:Window）を付けることができる。
+また、地下街モデル（LOD2）及び地下街モデル（LOD3）では、bldg:BuildingPartを使用できる。bldg:BuildingPartは、一つの地下街を二つ以上の部分に分けた地下街の一部である。例えば、一つの地下街について一部の階数や用途が異なる場合や、複合的な施設から構成され施設ごとに都市計画基礎調査の情報が作成されている場合に、一つの地下街を複数に区切り、区切った部品ごとに階数や用途、都市計画基礎調査の情報といった属性を与えるために使用する。 
+ただし、このとき、 uro:UndergroundBuildingを構成するbldg:BuildingPartとは、一体的な建築物（互いに接する）でなければならない。またLOD2及びLOD3では、地下街の外側に付属する階段やエレベーターといった設備を、bldg:BuildingInstallationを用いて記述できる。
+- 地下街モデル（LOD4）では、地下街モデル（LOD3）で使用可能な地物型に加え、地下街の内部の空間を部屋（bldg:Room）に区分して表現する。各部屋は、天井面や床面といった境界面に区分するとともに、屋内に存在する固定的な設備（bldg:IntBuildingInstallation）や家具（bldg:BuildingFurniture）を表現することができる。
+
+地下街の各LODにおいて使用可能な地物型とその空間属性を表Q-3に示す。
+
+**表 Q-3 — 地下街モデルの記述に使用する地物型と空間属性**
+
+| 地物型 | 空間属性 | LOD0 | LOD1 | LOD2 | LOD3 | LOD4 | 適用 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| uro:UndergroundBuilding |  | ● | ● | ● | ● | ● |  |
+| ↑ | lod0FootPrint |  |  |  |  |  |  |
+| ↑ | lod0RoofEdge | ● |  |  |  |  |  |
+| ↑ | lod1Solid |  | ● |  |  |  |  |
+| ↑ | lod2Solid |  |  | ● |  |  |  |
+| ↑ | lod3Solid |  |  |  | ● |  |  |
+| ↑ | lod4Solid |  |  |  |  | ■ | Solid又はMultiSurfaceのいずれかとする。 |
+| ↑ | lod4MultiSurface |  |  |  |  | ■ | ↑ |
+| bldg:BuildingPart |  |  |  | ■ | ■ | ■ | 一棟の建築物を、属性の異なる複数の部分に分ける場合に必須とする。 |
+| ↑ | lod1Solid |  |  |  |  |  |  |
+| ↑ | lod2Solid |  |  | ■ |  |  |  |
+| ↑ | lod3Solid |  |  |  | ■ |  |  |
+| ↑ | lod4Solid |  |  |  |  | ■ | Solid又はMultiSurfaceのいずれかとする。 |
+| ↑ | lod4MultiSurface |  |  |  |  | ■ | ↑ |
+| bldg:Room |  |  |  |  |  | ● |  |
+| ↑ | lod4Solid |  |  |  |  | ● |  |
+| bldg:RoofSurface |  |  |  | ● | ● | ● |  |
+| ↑ | lod2MultiSurface |  |  | ● |  |  |  |
+| ↑ | lod3MultiSurface |  |  |  | ● |  |  |
+| ↑ | lod4MultiSurface |  |  |  |  | ● |  |
+| bldg:WallSurface |  |  |  | ● | ● | ● |  |
+| ↑ | lod2MultiSurface |  |  | ● |  |  |  |
+| ↑ | lod3MultiSurface |  |  |  | ● |  |  |
+| ↑ | lod4MultiSurface |  |  |  |  | ● |  |
+| bldg:GroundSurface |  |  |  | ● | ● | ● |  |
+| ↑ | lod2MultiSurface |  |  | ● |  |  |  |
+| ↑ | lod3MultiSurface |  |  |  | ● |  |  |
+| ↑ | lod4MultiSurface |  |  |  |  | ● |  |
+| bldg:OuterCeilingSurface |  |  |  |  |  |  | 対象外 |
+| ↑ | lod2MultiSurface |  |  |  |  |  |  |
+| ↑ | lod3MultiSurface |  |  |  |  |  |  |
+| ↑ | lod4MultiSurface |  |  |  |  |  | ↑ |
+| bldg:OuterFloorSurface |  |  |  |  |  |  |  |
+| ↑ | lod2MultiSurface |  |  |  |  |  | 対象外 |
+| ↑ | lod3MultiSurface |  |  |  |  |  |  |
+| ↑ | lod4MultiSurface |  |  |  |  |  | ↑ |
+| bldg:ClosureSurface |  |  |  | ■ | ■ | ■ | BuildingPartを作成する場合は必須とする。 LOD4において、内壁面等はないが、建築確認申請では部屋となっている空間を区切る場合は必須とする。 |
+| ↑ | lod2MultiSurface |  |  | ■ |  |  | bldg:ClosureSurfaceを作る場合は必須とする。 |
+| ↑ | lod3MultiSurface |  |  |  | ■ |  | ↑ |
+| ↑ | lod4MultiSurface |  |  |  |  | ■ | ↑ |
+| bldg:InteriorWallSurface |  |  |  |  |  | ● |  |
+| ↑ | lod4MultiSurface |  |  |  |  | ● |  |
+| bldg:CeilingSurface |  |  |  |  |  | ● |  |
+| ↑ | lod4MultiSurface |  |  |  |  | ● |  |
+| bldg:FloorSurface |  |  |  |  |  | ● |  |
+| ↑ | lod4MultiSurface |  |  |  |  | ● |  |
+| bldg:Door |  |  |  |  | ● | ● |  |
+| ↑ | lod3MultiSurface |  |  |  | ● |  |  |
+| ↑ | lod4MultiSurface |  |  |  |  | ● |  |
+| bldg:Window |  |  |  |  | ● | ● |  |
+| ↑ | lod3MultiSurface |  |  |  | ● |  |  |
+| ↑ | lod4MultiSurface |  |  |  |  | ● |  |
+| bldg:BuildingInstallation |  |  |  |  |  |  |  |
+| ↑ | lod2Geometry |  |  |  |  |  |  |
+| ↑ | lod3Geometry |  |  |  |  |  |  |
+| ↑ | lod4Geometry |  |  |  |  |  |  |
+| bldg:IntBuildingInstallation |  |  |  |  |  | ■ | LOD4.1及び 4.2では必須とする。 |
+| ↑ | lod4Geometry |  |  |  |  | ■ | MultiSufaceを使用することを基本とする。 |
+| bldg:BuildingFurniture |  |  |  |  |  | ■ | LOD4.2では必須とする。 |
+| ↑ | lod4Geometry |  |  |  |  | ■ | bldg:BuildingFurnitureを作成する場合は必須とする。 MultiSufaceを使用することを基本とする。 |
+| ●：必須■：条件付必須〇：任意（ユースケースに応じて要否を決定してよい） | ← | ← | ← | ← | ← | ← | ← |
+
+補足
+
+LOD4は、BIMモデルからの変換を前提とした区分である。測量を前提としたLOD2やLOD3とは異なり、地物の大きさによる取得の要否ではなく、変換対象となるIFCのクラスによりLODを細分している。LODが上がるにつれ、詳細な地物が含まれるモデルとなる。
+
+## Q.2.3 地下街の空間属性LOD0
+
+地下街モデル（LOD0）では、地下街の形状を面として表現する。このとき、地下街オブジェクトは、地下街モデル（LOD0）の定義に従ったものでなければならない。
+
+**表 Q-4 — Q-2: 地下街のLOD0形状定義**
+
+| ID | `/req/ubld/2` |
+| --- | --- |
+| 主題 | 妥当な地下街データセットの要件 |
+| 分類 | 要件分類Q-1: 妥当な地下街オブジェクト |
+| 条文 | 地下街のLOD0の形状は、地下街モデル（LOD0）の定義に従う。 |
+
+## Q.2.3.1 LOD1
+
+地下街モデル（LOD1）では、地下街の形状を立体として表現する。立体は、地下街モデル（LOD0）の面を、地表面から一律の高さで下向きに押し出して作成する。一律の高さは、地表から地下街の下端までとする。このとき、地下街オブジェクトは、地下街モデル（LOD1）の定義に従ったものでなければならない。
+
+**表 Q-5 — Q-3: 地下街のLOD1形状定義**
+
+| ID | `/req/ubld/3` |
+| --- | --- |
+| 主題 | 妥当な地下街データセットの要件 |
+| 分類 | 要件分類Q-1: 妥当な地下街オブジェクト |
+| 条文 | 地下街のLOD1の形状は、地下街モデル（LOD1）の定義に従う。 |
+
+地表面から一律の高さで下向きに押し出した立体として表現するため、地下街の正確な深さは分からないが、地下街が存在する可能性がある空間を表現できる。
+
+## Q.2.3.2 LOD2
+
+地下街モデル（LOD2）では、地下街の形状を立体として表現する。地下街の外形を立体として表現し、立体を構成する境界面を、上向きの面は屋根面、下向きの面は底面、それ以外は外壁面に区分する。このとき、地下街オブジェクトは、地下街モデル（LOD2）の定義に従ったものでなければならない。
+
+**表 Q-6 — Q-4: 地下街のLOD2形状定義**
+
+| ID | `/req/ubld/4` |
+| --- | --- |
+| 主題 | 妥当な地下街データセットの要件 |
+| 分類 | 要件分類Q-1: 妥当な地下街オブジェクト |
+| 条文 | 地下街のLOD2の形状は、地下街モデル（LOD2）の定義に従う。 |
+
+地下街モデル（LOD2）は、開口部を区分しないため、地上に設けられた地下街の出入口は屋根面として取得する。なお、地上に設置された、地下街出入口の建屋は都市設備（CityFurniture）として取得する。
+
+## Q.2.3.3 LOD3
+
+地下街モデル（LOD3）では、地下街の形状を立体として表現する。地下街の外形を立体として表現し、立体を構成する境界面のそれぞれを、上向きの面は屋根面、下向きの面は底面、それ以外は外壁面として区分する。また、地下街への出入口を閉鎖面として取得する。このとき、地下街オブジェクトは、地下街モデル（LOD3）の定義に従ったものでなければならない。
+
+**表 Q-7 — Q-5: 地下街のLOD3形状定義**
+
+| ID | `/req/ubld/5` |
+| --- | --- |
+| 主題 | 妥当な地下街データセットの要件 |
+| 分類 | 要件分類Q-1: 妥当な地下街オブジェクト |
+| 条文 | 地下街のLOD3の形状は、地下街モデル（LOD3）の定義に従う。 |
+
+地下街モデル（LOD3）は、地下街モデル（LOD2）から、地下街への出入口を閉鎖面に区分したモデルである。ユースケースの必要に応じて境界面に扉や窓を設けてもよい。
+
+なお、地上に設置された、地下街出入口の建屋は都市設備（CityFurniture）として取得する。
+
+## Q.2.3.4 LOD4
+
+地下街モデル（LOD4）では、地下街モデル（LOD3）により表現される地下街の外側の形状に加え、地下街の内側の形状（屋内空間）を表現する。このとき、地下街オブジェクトは、地下街モデル（LOD4）の定義に従ったものでなければならない。
+
+**表 Q-8 — Q-6: 地下街のLOD4形状定義**
+
+| ID | `/req/ubld/6` |
+| --- | --- |
+| 主題 | 妥当な地下街データセットの要件 |
+| 分類 | 要件分類Q-1: 妥当な地下街オブジェクト |
+| 条文 | 地下街のLOD4の形状は、地下街モデル（LOD4）の定義に従う。 |
+
+地下街モデル（LOD4）は、含むべき地物により、LOD4.0、LOD4.1及びLOD4.2に区分する（表Q-9）。これは、建築物モデル（LOD4）の区分と同一である。標準製品仕様書では原則としてLOD4.0を採用する。ただし、ユースケースの必要に応じてLOD4.1又はLOD4.2を採用できる。
+
+**表 Q-9 — LOD4.0, LOD4.1及びLOD4.2の区分**
+
+| 地下街モデル（LOD4）に含むべき地物 | 対応する地物型 | LOD4.0 | LOD4.1 | LOD4.2 |
+| --- | --- | --- | --- | --- |
+| 地下街 | uro:UndergroundBuilding | ● | ● | ● |
+| 建築物部分 | bldg:BuildingPart | ■ | ■ | ■ |
+| 屋根面 | bldg:RoofSurface | ● | ● | ● |
+| 外壁面 | bldg:WallSurface | ● | ● | ● |
+| 底面 | bldg:GroundSurface | ● | ● | ● |
+| 屋外天井面 | bldg:OuterCeilingSurface |  |  |  |
+| 屋外床面 | bldg:OuterFloorSurface |  |  |  |
+| 屋外付属物 | bldg:BuildingInstallation |  |  |  |
+| 部屋 | bldg:Room | ● | ● | ● |
+| 天井面 | bldg:CeilingSurface | ● | ● | ● |
+| 内壁面 | bldg:InteriorWallSurface | ● | ● | ● |
+| 床面 | bldg:FloorSurface | ● | ● | ● |
+| 閉鎖面 | bldg:ClosureSurface | ● | ● | ● |
+| 窓 | bldg:Window | ● | ● | ● |
+| 扉 | bldg:Door | ● | ● | ● |
+| 階段 | bldg:IntBuildingInstallation |  | ● | ● |
+| スロープ | bldg:IntBuildingInstallation |  | ● | ● |
+| 輸送設備 | bldg:IntBuildingInstallation |  | ● | ● |
+| 柱 | bldg:IntBuildingInstallation |  | ● | ● |
+| デッキ・ステージ | bldg:IntBuildingInstallation |  | ● | ● |
+| 梁 | bldg:IntBuildingInstallation |  |  | 〇 |
+| パネル | bldg:IntBuildingInstallation |  |  | 〇 |
+| 手すり | bldg:IntBuildingInstallation |  |  | 〇 |
+| 家具 | bldg:BuildingFurniture |  |  | 〇 |
+| 階 | grp:CityObjectGroup | ● | ● | ● |
+| 任意設定空間（例：防火区画） | grp:CityObjectGroup |  |  | 〇 |
+| ●：必須■：条件付必須〇：任意（ユースケースに応じて要否を決定してよい） | ← | ← | ← | ← |
+
+## Q.2.4 地下街の主題属性
+
+地下街は、抽象建築物（bldg:_AbstractBuilding）を継承して定義される。そのため、地下街の主題属性は、bldg:_AbstractBuildingの属性として定義された属性以外に、i-URにおいて拡張された全ての属性をもつことができる。
+

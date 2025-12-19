@@ -1,0 +1,3275 @@
+{
+  "title": "2.5.1  データ品質の決定",
+  "path": "/plateaudocument02/toc1/toc1_05/toc1_05_01",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "2.5.1\tデータ品質の決定",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_cc5d7fd5-096e-412b-17de-66cb2a076f7c"
+        },
+        "content": [
+          {
+            "text": "以下に該当する場合は、品質要求及び評価手順を決定し、拡張製品仕様書に示されなければならない。",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_9d1a1747-02f7-4318-b06e-9cd0324d6cba"
+            },
+            "type": "anchor"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "bullet_list",
+      "content": {
+        "content": [
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_ed9538e0-ca7f-1fc6-1aff-76a4bba8085d"
+                },
+                "content": [
+                  {
+                    "text": "標準製品仕様書にない地物型、地物属性又は地物関連を新たに追加した場合",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_151c4709-ae13-2920-925e-e009e95d4ec8"
+                },
+                "content": [
+                  {
+                    "text": "標準製品仕様書定義された品質要求を変更する場合",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          }
+        ],
+        "type": "bullet_list"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_73099897-a037-c330-c4f7-9c2d5e566bdb"
+        },
+        "content": [
+          {
+            "text": "品質要求及びその評価手順の作成には、",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "href": "urn:metanorma:doc-part:tocA_03_07"
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "A.3.7",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              }
+            ],
+            "type": "resource_link"
+          },
+          {
+            "text": "に示す様式を用いる。品質要求及びその評価手順の作成は、国土交通省国土地理院「品質の要求、評価及び報告のための規則」に従うこと。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "bullet_list",
+      "content": {
+        "content": [
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_945a3026-7719-4185-33ee-e75bef7e21e2"
+                },
+                "content": [
+                  {
+                    "text": "【手順】",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_cb85c6f5-cf60-fbe9-0111-68b7b498ded1"
+                },
+                "content": [
+                  {
+                    "text": "手順1．地理空間データに求める品質（地理空間データに含まれるべきでないエラーの内容）を整理する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_24ad5d3b-924b-2207-6d82-e448a0153d43"
+                        },
+                        "content": [
+                          {
+                            "text": "整理した全ての品質要求に対して、個々を識別する識別子を与える。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_3c744d38-9cb1-c2db-feaa-82c1fca49382"
+                        },
+                        "content": [
+                          {
+                            "text": "以降の手順は、識別子を与えた全ての品質要求について実施する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_1cbdcf7c-e08c-0d6f-b51b-f761ddbbb4db"
+                },
+                "content": [
+                  {
+                    "text": "手順2．「品質の要求、評価及び報告のための規則」に定義された品質要素から、手順1．に適合する品質要素（",
+                    "type": "text"
+                  },
+                  {
+                    "attrs": {
+                      "href": "urn:metanorma:doc-part:tab-1-10"
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "text": "表",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "span"
+                          },
+                          {
+                            "text": "2-17",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      }
+                    ],
+                    "type": "resource_link"
+                  },
+                  {
+                    "text": "）を選択する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:tab-1-10"
+                },
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "text": "表",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      },
+                      {
+                        "text": "2-17 — 品質要素",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "figCaption"
+                  },
+                  {
+                    "attrs": {
+                      "colWidths": [
+                        "10%",
+                        "30%",
+                        "60%"
+                      ]
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": "2",
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": ""
+                                },
+                                "content": [
+                                  {
+                                    "text": "品質要素",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_header"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": ""
+                                },
+                                "content": [
+                                  {
+                                    "text": "概要",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_header"
+                          }
+                        ],
+                        "type": "table_row"
+                      },
+                      {
+                        "content": [
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": "2",
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_3892697e-6e35-ca5d-213a-a93650126c97"
+                                },
+                                "content": [
+                                  {
+                                    "text": "完全性",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_a3ed6a6c-bf02-4f41-bfa7-199565956a0e"
+                                },
+                                "content": [
+                                  {
+                                    "text": "地物、地物属性及び地物間関係の存在及び欠落",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          }
+                        ],
+                        "type": "table_row"
+                      },
+                      {
+                        "content": [
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": "2"
+                            },
+                            "type": "table_cell"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_735c3205-afc1-af6d-ea02-035bd45113c1"
+                                },
+                                "content": [
+                                  {
+                                    "text": "過剰",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_c82f091f-1240-cea5-6f71-95b9f8907cf8"
+                                },
+                                "content": [
+                                  {
+                                    "text": "データ集合内の過剰なデータの存在",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          }
+                        ],
+                        "type": "table_row"
+                      },
+                      {
+                        "content": [
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_c149145e-2ef4-123b-69fd-5893d91fe54b"
+                                },
+                                "content": [
+                                  {
+                                    "text": "漏れ",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_8c507256-d541-88a8-abab-f51de4af1cda"
+                                },
+                                "content": [
+                                  {
+                                    "text": "データ集合内のデータの欠落",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          }
+                        ],
+                        "type": "table_row"
+                      },
+                      {
+                        "content": [
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": "2",
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_a372a9fa-611c-a31f-4ad8-8eb754e26855"
+                                },
+                                "content": [
+                                  {
+                                    "text": "論理一貫性",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_73c9b963-b33d-05a0-62a3-845f6c1f30b3"
+                                },
+                                "content": [
+                                  {
+                                    "text": "データの構造、属性及び関係に関する論理的規則の遵守度合い",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          }
+                        ],
+                        "type": "table_row"
+                      },
+                      {
+                        "content": [
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": "4"
+                            },
+                            "type": "table_cell"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_66ee8ae5-c974-343e-f956-87a46e114072"
+                                },
+                                "content": [
+                                  {
+                                    "text": "書式一貫性",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_780adf0f-95cb-c5cf-922b-469ae3f73c4f"
+                                },
+                                "content": [
+                                  {
+                                    "text": "データがデータ集合の物理的構造に従って格納されている度合い",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          }
+                        ],
+                        "type": "table_row"
+                      },
+                      {
+                        "content": [
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_20bbc3ef-df24-1929-7544-5a46b3ab5987"
+                                },
+                                "content": [
+                                  {
+                                    "text": "概念一貫性",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_6ffc8ec2-37fa-f6b8-2ef9-92427519240c"
+                                },
+                                "content": [
+                                  {
+                                    "text": "概念スキーマ規則の厳守",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          }
+                        ],
+                        "type": "table_row"
+                      },
+                      {
+                        "content": [
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_d0253ecf-3ba0-6de5-ca2b-eea98a7af6b7"
+                                },
+                                "content": [
+                                  {
+                                    "text": "定義域一貫性",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_50e8c25d-4114-a794-ddb9-2906323ce5a9"
+                                },
+                                "content": [
+                                  {
+                                    "text": "値定義域に対する値の厳守",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          }
+                        ],
+                        "type": "table_row"
+                      },
+                      {
+                        "content": [
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_4f35a709-57f1-c95e-e4e2-a3443c467e56"
+                                },
+                                "content": [
+                                  {
+                                    "text": "位相一貫性",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_1753815e-a70c-74dd-7609-0a45784525d2"
+                                },
+                                "content": [
+                                  {
+                                    "text": "データ集合に関して明示的に符号化した位相的特性の正しさ",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          }
+                        ],
+                        "type": "table_row"
+                      },
+                      {
+                        "content": [
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": "2",
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_2fc23186-e68f-b0d4-5220-a9a53f5aad3b"
+                                },
+                                "content": [
+                                  {
+                                    "text": "位置正確度",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_7714cd8b-1bc3-1685-a23a-9c9570bc1476"
+                                },
+                                "content": [
+                                  {
+                                    "text": "空間参照系内の地物の位置の正確度",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          }
+                        ],
+                        "type": "table_row"
+                      },
+                      {
+                        "content": [
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": "3"
+                            },
+                            "type": "table_cell"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_88f198c2-0f8f-7cb0-700f-717bed235f18"
+                                },
+                                "content": [
+                                  {
+                                    "text": "絶対正確度又は外部正確度",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_f8c9aadb-a0a5-3f3c-f00f-444b66a284aa"
+                                },
+                                "content": [
+                                  {
+                                    "text": "報告された座標値と採択された値又は真とみなす値との近さ",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          }
+                        ],
+                        "type": "table_row"
+                      },
+                      {
+                        "content": [
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_d553d9c8-9269-e93b-828b-ca3deb5b8546"
+                                },
+                                "content": [
+                                  {
+                                    "text": "相対正確度又は内部正確度",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_fbe8f608-4d5c-5691-886c-0f16fcf7c64e"
+                                },
+                                "content": [
+                                  {
+                                    "text": "データ集合内の地物の相対位置と採択された個々の相対位置又は真とみなす個々の相対位置との近さ",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          }
+                        ],
+                        "type": "table_row"
+                      },
+                      {
+                        "content": [
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_1fe5ad08-e4c4-26e9-ceed-918fa479e2e6"
+                                },
+                                "content": [
+                                  {
+                                    "text": "グリッドデータ位置正確度",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_88c357a7-f038-fe57-2937-38a3c04e70ba"
+                                },
+                                "content": [
+                                  {
+                                    "text": "グリッドデータ位置と採択された値又は真とみなす値との近さ",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          }
+                        ],
+                        "type": "table_row"
+                      },
+                      {
+                        "content": [
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": "2",
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_2d1a4eb1-0a9c-c049-0008-4123ee44ffbf"
+                                },
+                                "content": [
+                                  {
+                                    "text": "時間正確度",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_6c055451-dcf9-1b71-12cd-04700ac7f6dc"
+                                },
+                                "content": [
+                                  {
+                                    "text": "地物の時間属性及び時間関係の品質",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          }
+                        ],
+                        "type": "table_row"
+                      },
+                      {
+                        "content": [
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": "3"
+                            },
+                            "type": "table_cell"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_66d276a9-78cb-f8f6-c83e-2e43d6ec41f3"
+                                },
+                                "content": [
+                                  {
+                                    "text": "時間測定正確度",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_515bce0c-5d5d-5c11-d687-46c37787dc78"
+                                },
+                                "content": [
+                                  {
+                                    "text": "報告された時間測定と、真と採択された値もしくは真とみなす値との近さ",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          }
+                        ],
+                        "type": "table_row"
+                      },
+                      {
+                        "content": [
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_bbaf79e6-5f4b-d450-a6bd-25a4de9c743a"
+                                },
+                                "content": [
+                                  {
+                                    "text": "時間一貫性",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_45e106f6-4e76-4882-29ce-0499fa2cd2ba"
+                                },
+                                "content": [
+                                  {
+                                    "text": "報告された事象の順序の正しさ",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          }
+                        ],
+                        "type": "table_row"
+                      },
+                      {
+                        "content": [
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_80bd45d6-2658-9bd1-3153-52565342f068"
+                                },
+                                "content": [
+                                  {
+                                    "text": "時間妥当性",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_44184a49-f866-f4e1-209b-af957eeeb3b6"
+                                },
+                                "content": [
+                                  {
+                                    "text": "データの時間に関する妥当性",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          }
+                        ],
+                        "type": "table_row"
+                      },
+                      {
+                        "content": [
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": "2",
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_09b9b4d6-5b62-95ee-6d77-7ce44658f840"
+                                },
+                                "content": [
+                                  {
+                                    "text": "主題正確度",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_d36bf16c-afa1-b07a-1021-1823f6d63ddd"
+                                },
+                                "content": [
+                                  {
+                                    "text": "地物の分類の正しさや主題属性の値の正しさ",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          }
+                        ],
+                        "type": "table_row"
+                      },
+                      {
+                        "content": [
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": "3"
+                            },
+                            "type": "table_cell"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_70e91b7d-091a-2af5-bd73-442c591b3b81"
+                                },
+                                "content": [
+                                  {
+                                    "text": "分類の正しさ",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_396417a9-800f-e7c3-0152-c31faeef9d80"
+                                },
+                                "content": [
+                                  {
+                                    "text": "地物又はその属性に割り当てられた分類と論議領域との比較",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          }
+                        ],
+                        "type": "table_row"
+                      },
+                      {
+                        "content": [
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_093615e5-3b25-4e0d-de6d-a6044e6aeaeb"
+                                },
+                                "content": [
+                                  {
+                                    "text": "非定量的属性の正しさ",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_63cc525b-b6cf-0513-a149-e5b42b86b2a6"
+                                },
+                                "content": [
+                                  {
+                                    "text": "非定量的属性が正しいか否かについての評価尺度",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          }
+                        ],
+                        "type": "table_row"
+                      },
+                      {
+                        "content": [
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_32262766-893b-8463-d984-8c24ad4a8516"
+                                },
+                                "content": [
+                                  {
+                                    "text": "定量的属性の正確度",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_1de17ba1-c400-09e1-7d0e-4cfe826c87ef"
+                                },
+                                "content": [
+                                  {
+                                    "text": "定量的属性値と、真として採択された値もしくは真とみなす値との近さ",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          }
+                        ],
+                        "type": "table_row"
+                      }
+                    ],
+                    "type": "table"
+                  }
+                ],
+                "type": "tableFigure"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_f2165e31-e2b0-558c-ea01-ee63121bbd87"
+                },
+                "content": [
+                  {
+                    "text": "手順3．「品質の要求、評価及び報告のための規則」5．品質要求のための規則に従い、品質要求の項目として「データ品質適用範囲」及び「データ品質評価尺度」を定める。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_bdeb28c2-88c3-d625-456c-6bdba607b415"
+                        },
+                        "content": [
+                          {
+                            "text": "「データ品質適用範囲」は品質評価の対象である。手順1．に関係する地物型/地物属性/地物関連を特定し、設定する。このとき、複数の地物型/地物属性/地物関連は、まとめてデータ品質適用範囲と設定してもよい。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_79244612-25f9-4105-d061-c8f0ae13963f"
+                        },
+                        "content": [
+                          {
+                            "text": "「データ品質評価尺度」は、エラーの定義、エラーの数え方等、品質を定量的な数値で記述するための基準である。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_eb5076b9-0cd4-831b-429a-deccc81d9ee5"
+                },
+                "content": [
+                  {
+                    "text": "手順4．合否判断の基準（適合品質水準）を決定する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_41429fcf-a638-cd16-ea86-fd12cb7aeecd"
+                },
+                "content": [
+                  {
+                    "text": "手順5．手順2．～手順4．を踏まえ、品質評価手法を決定する。品質評価手法の決定に当たっては、「品質の要求、評価及び報告のための規則」6．品質評価のための規則に従い、データ品質評価尺度を適用するための手順（規定された方法）を記述する、又はその記述を含む文書（例えば、認定済の日本産業規格など）を引用する。また、参照データの名称も示す。",
+                    "type": "text"
+                  },
+                  {
+                    "type": "linebreak"
+                  },
+                  {
+                    "text": "品質評価手法の決定においては、関連するオープンソースソフトウェアがProject”PLATEAU”公式GitHubリポジトリに公開されており、それらを利用しても良い（https://github.com/Project-PLATEAU/ ）。 ",
+                    "type": "text"
+                  },
+                  {
+                    "attrs": {
+                      "href": "urn:metanorma:doc-part:tocW"
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "text": "附属書",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "span"
+                          },
+                          {
+                            "text": "W",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      }
+                    ],
+                    "type": "resource_link"
+                  },
+                  {
+                    "text": "に、オープンソースソフトウェアが対応する品質評価項目を示す。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          }
+        ],
+        "type": "bullet_list"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_884c4354-cc53-82d0-272b-7c2f3176afb3"
+        },
+        "content": [
+          {
+            "text": "品質要求及び評価手法の例を",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "href": "urn:metanorma:doc-part:tab-1-11"
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "text": "表",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "span"
+                  },
+                  {
+                    "text": "2-18",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              }
+            ],
+            "type": "resource_link"
+          },
+          {
+            "text": "に示す。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "tableFigure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:tab-1-11"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "表",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "2-18 — 品質要求及び評価手法の例",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "colWidths": [
+                "15%",
+                "85%"
+              ]
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "No.",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "LO1",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "品質要素",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "論理一貫性・書式一貫性",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "品質適用範囲",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_098837e1-43a5-2fe4-1692-4bcc60b489c2"
+                        },
+                        "content": [
+                          {
+                            "text": "データ製品に含まれる全ての都市モデル（core:CityModel）のインスタンス。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "品質評価尺度",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a82a629c-0e84-92d0-c7e8-c982a7c28db7"
+                        },
+                        "content": [
+                          {
+                            "text": "整形式（Well-Formed XML）になっていない箇所数。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "適合品質水準",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_72f52b7e-1a96-53b7-41eb-0e7c1bced391"
+                        },
+                        "content": [
+                          {
+                            "text": "エラーの箇所数が0の場合に合格。エラーの箇所数が1以上の場合は不合格。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "品質評価手法",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_40fc6f1e-ba0c-5150-9593-079a88c3ee91"
+                        },
+                        "content": [
+                          {
+                            "text": "全数・自動検査を実施する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_b84279cb-2018-a054-c706-e1406957541a"
+                                },
+                                "content": [
+                                  {
+                                    "text": "手順1．検査プログラム（XMLパーサなど）によって、都市モデルの書式が、XML文書の構文として正しくない箇所を数える。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              }
+            ],
+            "type": "table"
+          }
+        ],
+        "type": "tableFigure"
+      }
+    },
+    {
+      "type": "tableFigure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_att_decision_7"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "表",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "2-19 — ",
+                "type": "text"
+              },
+              {
+                "content": [
+                  {
+                    "text": "留意事項",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "7: 品質基準の柔軟性",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "colWidths": []
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "ID",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "text": "/att/decision/7",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "主題",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "標準作業手順",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "分類",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_req_decision"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "要件分類",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "1: 拡張製品仕様書作成時の留意事項",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "条文",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_53929665-fdbf-7e24-baa1-17fd710da523"
+                        },
+                        "content": [
+                          {
+                            "text": "地物型等により、要求する品質及び品質評価手法を変えることができる。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_b45863b1-ffd1-5777-79a9-44fc360bdc14"
+                                },
+                                "content": [
+                                  {
+                                    "text": "標準製品仕様では、データ製品が満たすべき位置正確度として、外部位置正確度における地図情報レベル2500を基本とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_24a0447b-fbf1-6acb-11df-3c2ec4ed513c"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "ただし、建築物には地図情報レベル2500、道路には地図情報レベル500というように、ユースケースに応じて地物型ごとに変更できる。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_125b6c5b-2309-9f34-434a-5a7acf6c90d1"
+                                },
+                                "content": [
+                                  {
+                                    "text": "また、標準製品仕様書では、",
+                                    "type": "text"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "href": "https://www.gsi.go.jp/common/000259076.pdf"
+                                    },
+                                    "content": [
+                                      {
+                                        "text": "地図情報レベル2500数値地形図データ作成のための標準製品仕様書（案）",
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "type": "external_link"
+                                  },
+                                  {
+                                    "text": "を参考に品質評価手法を定めている。拡張製品仕様書におけるデータ品質の決定においても、これを参考にするとよい。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              }
+            ],
+            "type": "table"
+          }
+        ],
+        "type": "tableFigure"
+      }
+    },
+    {
+      "type": "tableFigure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_att_decision_8"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "表",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "2-20 — ",
+                "type": "text"
+              },
+              {
+                "content": [
+                  {
+                    "text": "留意事項",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "8: 位置精度の選定",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "colWidths": []
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "ID",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "text": "/att/decision/8",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "主題",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "標準作業手順",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "分類",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_req_decision"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "要件分類",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "1: 拡張製品仕様書作成時の留意事項",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "条文",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_b1dcb287-1b64-dfc0-c9e3-dc94bc48a316"
+                        },
+                        "content": [
+                          {
+                            "text": "適切な位置正確度の適合品質水準を選択する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_f0bd3222-a5a1-f81f-5679-284c742e7dd1"
+                                },
+                                "content": [
+                                  {
+                                    "text": "拡張製品仕様書では、各都市のユースケースに基づき、適切な地図情報レベルに応じた位置正確度の適合品質水準を選択すること。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_1e78fb53-b564-fe12-d38d-42d22f7c9ae9"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "作業規程の準則では標高点や等高線以外の地物についての高さ方向の指標が無い。そのため、標準製品仕様では、各地図情報レベルにおける標高点や等高線の標準偏差（",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "href": "urn:metanorma:doc-part:table-1-12"
+                                            },
+                                            "content": [
+                                              {
+                                                "content": [
+                                                  {
+                                                    "content": [
+                                                      {
+                                                        "text": "表",
+                                                        "type": "text"
+                                                      }
+                                                    ],
+                                                    "type": "span"
+                                                  },
+                                                  {
+                                                    "text": "2-21",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "span"
+                                              }
+                                            ],
+                                            "type": "resource_link"
+                                          },
+                                          {
+                                            "text": "）を参考に、地図情報レベルごとの適合品質水準を定めている。拡張製品仕様では、各都市のユースケースに基づき、適切な地図情報レベルを選択する必要がある。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              }
+            ],
+            "type": "table"
+          }
+        ],
+        "type": "tableFigure"
+      }
+    },
+    {
+      "type": "tableFigure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:table-1-12"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "表",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "2-21 — 新規測量における数値地形図データの位置精度及び地図情報レベル（作業規程の準則第106条）",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "colWidths": []
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "地図情報レベル",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "水平位置の標準偏差",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "標高点の標準偏差",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "等高線の標準偏差",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "相当する地形図の縮尺",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_08c89eba-8ef4-6d0f-f7b6-196874d67fd7"
+                        },
+                        "content": [
+                          {
+                            "text": "500",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_7cf0bbaf-3538-1d9e-64dc-16f8223f6f78"
+                        },
+                        "content": [
+                          {
+                            "text": "0.25m以内",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_fc71f709-47cc-d944-03cf-a11d5c2845ae"
+                        },
+                        "content": [
+                          {
+                            "text": "0.25m以内",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_11cb3ef1-bacc-aff2-1b5a-095d90b226ba"
+                        },
+                        "content": [
+                          {
+                            "text": "0.5m以内",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_da644968-c8d4-e54b-bd33-82f5b411b563"
+                        },
+                        "content": [
+                          {
+                            "text": "1/500",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_0d47aa8e-78ec-b5bc-d9c3-d04e8597eca5"
+                        },
+                        "content": [
+                          {
+                            "text": "1000",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_9a20fce1-7cd2-817a-3a62-e50d19e4d083"
+                        },
+                        "content": [
+                          {
+                            "text": "0.70m以内",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_352c76d0-ec9a-e4de-b774-a65cca790866"
+                        },
+                        "content": [
+                          {
+                            "text": "0.33m 以内",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_5bc8fe94-8c98-fa0f-2b4e-da7efa939ad7"
+                        },
+                        "content": [
+                          {
+                            "text": "0.5m以内",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d9e46047-6bda-c2dd-2c8a-a22179868c1f"
+                        },
+                        "content": [
+                          {
+                            "text": "1/1,000",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_c85f396a-5d00-e1e1-72ef-b4469c784482"
+                        },
+                        "content": [
+                          {
+                            "text": "2500",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_36788a3d-7d49-d0c9-96dc-3b3717b51109"
+                        },
+                        "content": [
+                          {
+                            "text": "1.75m以内",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_cdc11ba6-029a-df14-86d0-19bc827c9f78"
+                        },
+                        "content": [
+                          {
+                            "text": "0.66m以内",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_87019dae-2b22-bf47-f1e2-782e885d0267"
+                        },
+                        "content": [
+                          {
+                            "text": "1.0m以内",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_081ccf5a-16d4-51be-d1ea-9e0069df9e10"
+                        },
+                        "content": [
+                          {
+                            "text": "1/2,500",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              }
+            ],
+            "type": "table"
+          }
+        ],
+        "type": "tableFigure"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_bf528399-23dc-846d-21af-a2cf464e9ecf"
+        },
+        "content": [
+          {
+            "text": "　",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "admonition",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_80f97d46-03f2-cbf5-8dbc-8d738080ba89",
+          "tags": [
+            "note",
+            "commentary"
+          ]
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "注記",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              }
+            ],
+            "type": "xrefLabel"
+          },
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "2.5.1",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "content": [
+                  {
+                    "text": "の",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "content": [
+                  {
+                    "text": "注記",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              }
+            ],
+            "type": "xrefLabel"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_cc5880ae-8c6d-29b8-a87b-c61cd857166a"
+            },
+            "content": [
+              {
+                "text": "標準製品仕様書の品質要求は、2次元の地理空間データの基盤として整備・活用されている基盤地図情報の、原形データベース仕様（",
+                "type": "text"
+              },
+              {
+                "attrs": {
+                  "href": "https://www.gsi.go.jp/common/000259076.pdf"
+                },
+                "content": [
+                  {
+                    "text": "「基盤地図情報　原形データベース　地理空間データ製品仕様書（案）」",
+                    "type": "text"
+                  }
+                ],
+                "type": "external_link"
+              },
+              {
+                "text": "）に示された品質要求を参考として適合性品質水準（誤率等）や品質評価手法（抜取検査等）を設定している。しかしながら、ユースケースによっては、より高い適合性品質水準を求める場合や、より厳密な品質評価を求める場合も想定される（例：人命にかかわるユースケース）。",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_962c50fc-70d2-a01c-6f88-087460fddd9d"
+            },
+            "content": [
+              {
+                "text": "品質要求を高くすることは、原典資料（データ取得の拠り所となる資料）やデータ整備方法、品質評価方法に影響を与え、3D都市モデルの整備費用に反映される場合が多く、品質と費用はトレードオフの関係にある傾向にある。ユースケースの実現により得られる効果と3D都市モデルの整備にかかる費用との均衡点を見つけることも重要となる。",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        ],
+        "type": "admonition"
+      }
+    }
+  ]
+}

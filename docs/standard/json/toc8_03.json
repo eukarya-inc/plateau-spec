@@ -1,0 +1,198 @@
+{
+  "title": "8.3  メタデータの作成単位",
+  "path": "/plateaudocument/toc8/toc8_03",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "8.3\tメタデータの作成単位",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_c340345f-f3cc-3845-d5d7-8dfa6d579d42"
+        },
+        "content": [
+          {
+            "text": "メタデータは、3D都市モデル全体について、一つのメタデータを作成することを原則とする。",
+            "type": "text"
+          },
+          {
+            "type": "linebreak"
+          },
+          {
+            "text": "以下の場合には、3D都市モデル全体のメタデータとは別に、対象を限定したメタデータを作成する。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "bullet_list",
+      "content": {
+        "content": [
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_8f5fae5c-3898-7955-4221-7acffb28001f"
+                },
+                "content": [
+                  {
+                    "text": "原典資料の管理者が3D都市モデルの整備主体とは異なる場合（ただし、原典資料がオープンデータである場合は除く。）",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_fdc2b81f-da28-24e1-cda6-194bad89307f"
+                        },
+                        "content": [
+                          {
+                            "text": "洪水浸水想定区域、津波浸水想定、高潮浸水想定区域、内水浸水想定区域及び土砂災害警戒区域にかかる原典資料として、",
+                            "type": "text"
+                          },
+                          {
+                            "attrs": {
+                              "href": "https://nlftp.mlit.go.jp"
+                            },
+                            "content": [
+                              {
+                                "text": "国土数値情報（オープンデータ）",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "external_link"
+                          },
+                          {
+                            "text": "ではなく、河川管理者等から貸与されたデータを使用した場合は、それぞれメタデータを作成する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2024472d-201e-ee95-3c6b-27424d698a42"
+                        },
+                        "content": [
+                          {
+                            "text": "建築物モデル（LOD4）の原典資料として、整備主体以外の施設管理者から貸与されたBIMモデル等を使用した場合は、建築物モデル（LOD4）に対するメタデータを作成する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_ab7eb892-b473-56bb-3e38-000997b20b00"
+                },
+                "content": [
+                  {
+                    "text": "3D都市モデルの整備事業者が対象地物によって異なる場合",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_0a16f739-1841-7783-ac78-a971dc8948fc"
+                        },
+                        "content": [
+                          {
+                            "text": "整備事業者毎に作成する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_5d519abe-74da-b9ad-becb-d34b5b4cbc57"
+                },
+                "content": [
+                  {
+                    "text": "空間参照系が日本測地系2011における経緯度座標系と東京湾平均海面を基準とする標高の複合座標参照系以外の場合",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_943b0ca3-433d-4098-9d8c-cbaadab809c9"
+                        },
+                        "content": [
+                          {
+                            "text": "地下埋設物モデルは空間参照系が日本測地系2011における平面直角座標系と東京湾平均海面を基本とする標高の複合座標参照系であるため、地下埋設物モデルに対するメタデータを作成する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          }
+        ],
+        "type": "bullet_list"
+      }
+    }
+  ]
+}

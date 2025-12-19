@@ -1,0 +1,32 @@
+# 4.4.4.1.3 TrafficArea_function.xml
+
+## 4.4.4.1.3 TrafficArea_function.xml
+
+**表 4-208**
+
+| ファイル名 | TrafficArea_function.xml |
+| --- | --- |
+| ファイルURL | [https://www.geospatial.jp/iur/codelists/3.2/TrafficArea_function.xml](https://www.geospatial.jp/iur/codelists/3.2/TrafficArea_function.xml) |
+| コード | 説明 |
+| 1000 | 車道部 |
+| 1010 | 車線 |
+| 1020 | 車道交差部 |
+| 1030 | すりつけ区間 |
+| 1040 | 踏切道 |
+| 1050 | 軌道敷 |
+| 1070 | 待避所 |
+| 1130 | 副道 |
+| 2000 | 歩道部 |
+| 2010 | 自転車歩行者道 |
+| 2020 | 歩道 |
+| 2030 | 自転車道 |
+| 6000 | 自転車駐車場 |
+| 7000 | 自動車駐車場 |
+| 8000 | 軌道中心線 |
+| 8100 | 軌道 |
+| 8110 | 軌きょう |
+| 8111 | 軌間 |
+| 8112 | レール |
+| 8120 | 道床 |
+| 出典： JIS E 1001:2001 | ← |
+

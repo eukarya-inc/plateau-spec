@@ -1,0 +1,5237 @@
+{
+  "title": "4.10.3.10.14  urf:DistrictFacility",
+  "path": "/plateaudocument/toc4/toc4_10/toc4_10_03/toc4_10_03_10/_urfdistrictfacility",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "4.10.3.10.14\turf:DistrictFacility",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "tableFigure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_09a0bcc5-e686-ccc8-63e2-1cdd47c4200b"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "表",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "4-442",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "colWidths": [
+                "25%",
+                "25%",
+                "50%"
+              ]
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "型の定義",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f06a1015-6f4a-3518-e97c-035303493d69"
+                        },
+                        "content": [
+                          {
+                            "text": "地区計画において定められる、主として街区内の居住者等の利用に供される道路、公園その他政令で定める施設。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "道路、公園、避難路、避難施設、雨水貯留浸透施設、緑地及び広場その他公共空地。 ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": " urf:_UrbanFunctionから継承する主題属性のうち、urf:function、urf:usage、urf:reference及びurf:noteのみを対象とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_468f46ca-63cd-f3ee-2b70-81b08588a386"
+                                },
+                                "content": [
+                                  {
+                                    "text": "属性urf:functionは、地区施設の種類とする。コードリスト（",
+                                    "type": "text"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "href": "urn:metanorma:doc-part:_common_districtfacilitytype_xml"
+                                    },
+                                    "content": [
+                                      {
+                                        "text": "Common_districtFacilityType.xml",
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "type": "resource_link"
+                                  },
+                                  {
+                                    "text": "）より選択する。多重度は任意となっているが、運用上必須とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_e8279ed8-d702-aa5b-2962-6e5e8a027bc8"
+                                },
+                                "content": [
+                                  {
+                                    "text": "属性urf:usageは、地区施設の用途とする。コードリスト（",
+                                    "type": "text"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "href": "urn:metanorma:doc-part:_urbanfacility_function_xml"
+                                    },
+                                    "content": [
+                                      {
+                                        "text": "UrbanFacility_function.xml",
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "type": "resource_link"
+                                  },
+                                  {
+                                    "text": "）より選択する。多重度は任意となっているが、運用上必須とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "上位の型",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_cc388ab6-16d2-fabb-3a89-e260bb4a8811"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:Zone",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "ステレオタイプ",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_31d448cc-472e-1f38-eecb-077ea8b62aa7"
+                        },
+                        "content": [
+                          {
+                            "text": "\u003c\u003c FeatureType \u003e\u003e",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "3",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "継承する属性",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "属性名",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "属性の型及び多重度",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "定義",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_16eb0437-59b1-b1e0-5845-f872461eaf65"
+                        },
+                        "content": [
+                          {
+                            "text": "gml:description",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _Feature ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_c85f836b-596e-2148-ddf2-e8df9031343c"
+                        },
+                        "content": [
+                          {
+                            "text": "gml:StringOrRefType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_5d75b44a-3c94-1923-1796-c10dcc39aae4"
+                        },
+                        "content": [
+                          {
+                            "text": "都市オブジェクトの概要。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_7f86bc64-a62a-2f82-2904-f3292ff7cf51"
+                        },
+                        "content": [
+                          {
+                            "text": "gml:name",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _Feature ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_47b84f5d-3e91-7ffd-8ff8-b4cfa25faf28"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::CodeType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f360fc8c-99c2-edd8-276b-7e7381725f12"
+                        },
+                        "content": [
+                          {
+                            "text": "都市オブジェクトを識別する名称。文字列とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2b9b42dd-886f-b584-fb08-a069063394b0"
+                        },
+                        "content": [
+                          {
+                            "text": "gml:boundedBy",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _Feature ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_8b8b55fc-23d5-6bb0-8d1d-29feaa467af3"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::Envelope [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_3e4be30a-76c5-b5a4-4ca6-79cc737152ee"
+                        },
+                        "content": [
+                          {
+                            "text": "都市オブジェクトの範囲及び適用される空間参照系。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": " CityModelの場合のみ必須とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_9816eeb9-ccc0-b70a-f42d-0bd01fb0a28f"
+                        },
+                        "content": [
+                          {
+                            "text": "core:creationDate",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _CityObject ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_871dbf64-84bb-c6ac-6624-b9eaff189803"
+                        },
+                        "content": [
+                          {
+                            "text": "xs::date [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_af87b8e4-cc6a-e80e-042e-fbb1eb542291"
+                        },
+                        "content": [
+                          {
+                            "text": "データが作成された日。運用上必須とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_dc173215-075a-5d96-cc8d-abdb1c0b2451"
+                        },
+                        "content": [
+                          {
+                            "text": "core:terminationDate",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _CityObject ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_5d2d002c-1b65-b273-4855-e5ea908df9fb"
+                        },
+                        "content": [
+                          {
+                            "text": "xs::date [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_b1b3ad8c-f597-faee-f496-98d263e6e4ea"
+                        },
+                        "content": [
+                          {
+                            "text": "データが削除された日。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a0d9abb7-a894-9ce2-eaa5-3373be580ded"
+                        },
+                        "content": [
+                          {
+                            "text": "core:relativeToTerrain",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _CityObject ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_6c5113fa-07e3-c19c-2182-a571d6c4b869"
+                        },
+                        "content": [
+                          {
+                            "text": "core::RelativeToTerrainType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_0c4ed4f3-d28a-340b-0e11-e656bd643546"
+                        },
+                        "content": [
+                          {
+                            "text": "地表面との相対的な位置関係。標準製品仕様書では使用しない。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_87db1c6f-26cf-d2d4-0915-165e9c8f0295"
+                        },
+                        "content": [
+                          {
+                            "text": "core:relativeToWater",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _CityObject ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_b331fbc2-25e4-fd01-2f1e-2af66ebb494f"
+                        },
+                        "content": [
+                          {
+                            "text": "core::RelativeToWaterType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_6d12a37e-6bf8-22d4-cf9a-d864630f488b"
+                        },
+                        "content": [
+                          {
+                            "text": "水面との相対的な位置関係。標準製品仕様書では使用しない。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f0ce0915-7074-3334-e3f1-3bc0b0e95481"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:class",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_be301b02-2967-623d-68f5-fe26b7ad0072"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::CodeType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_c54b6fb0-524e-ebfc-0cff-567b15043576"
+                        },
+                        "content": [
+                          {
+                            "text": "分類。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "都市計画決定情報の場合は使用しない。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_7bb182dc-df73-3ebb-8fa1-a1919a14330c"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:function",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a4e204e4-6771-a3ae-e14a-e4fd6d2c5971"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::CodeType [0..*]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_38d8d566-ec07-9583-cff6-5caeba197810"
+                        },
+                        "content": [
+                          {
+                            "text": "機能。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "これを実装する下位の地物型に応じて使用するコードリストを選択する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_106d397d-b8d7-9f6c-f10a-2a588aae4cd2"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:usage",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2fab788e-1c53-90e4-c35e-82b7c061372f"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::CodeType [0..*]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a3ffee62-ed24-8398-6cd2-3e1645ea162d"
+                        },
+                        "content": [
+                          {
+                            "text": "区域の用途。これを実装する下位の地物型に応じて使用するコードリストを選択する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_53e2a01a-83e4-eaaa-e9b3-11fe05593ad1"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:validFrom",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_7cf40333-4d7d-788c-c747-28c5d8c3a3b0"
+                        },
+                        "content": [
+                          {
+                            "text": "xs::date [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_9b8b383b-69c4-8a2f-27a7-32243d837a1c"
+                        },
+                        "content": [
+                          {
+                            "text": "効力を生じる日の年月日を西暦（YYYY-MM-DD）で記述する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_e1b80c91-37b7-339d-55e1-a290fee8e2d8"
+                                },
+                                "content": [
+                                  {
+                                    "text": "都市計画決定情報の場合は、当初の決定日とする。多重度は任意となっているが、運用上必須とする。年月日が不明な場合は、0001-01-01とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_6f3651a0-2ca8-3ab9-0e87-ef87e0448e6f"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:validFromType",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_90830b89-c154-b5d5-0638-e8a734c0fb9a"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::CodeType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_72a212d3-a1c5-cfda-b528-66012ea117fc"
+                        },
+                        "content": [
+                          {
+                            "text": "効力を生じる日の種類。コードリスト（",
+                            "type": "text"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_common_validtype_xml"
+                            },
+                            "content": [
+                              {
+                                "text": "Common_validType.xml",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "text": "）より選択する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_183ab180-8c99-e876-bf36-b9f00aee9c1c"
+                                },
+                                "content": [
+                                  {
+                                    "text": "都市計画決定情報の場合は、多重度は任意となっているが、運用上必須とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d74778e8-abab-e1ba-5c9b-3a8c06ec4aee"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:enactmentFiscalYear",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_45315db1-83fe-e823-a480-1eafdb025625"
+                        },
+                        "content": [
+                          {
+                            "text": "xs::gYear [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a4c1f707-63e5-d6b8-b7af-17d651b36d9a"
+                        },
+                        "content": [
+                          {
+                            "text": "決定された年度（西暦）。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d3128118-d6c0-3a2a-f793-be09e2bb9ca2"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:validTo",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_31f63532-35fa-345f-8e6e-6db819a7d0e0"
+                        },
+                        "content": [
+                          {
+                            "text": "xs::date [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_55d39097-f1e9-e63e-1b16-62d989c705bb"
+                        },
+                        "content": [
+                          {
+                            "text": "効力を失う日の年月日を西暦（YYYY-MM-DD）で記述する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_31944eea-3a5c-6055-99cd-104fd05077d3"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:validToType",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d84ddc34-62b3-fbfd-c388-b5900f9c3724"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::CodeType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_e79b40bb-5f4b-fbfd-ec68-14caa85c025e"
+                        },
+                        "content": [
+                          {
+                            "text": "効力を失う日の種類。コードリスト（",
+                            "type": "text"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_common_validtype_xml"
+                            },
+                            "content": [
+                              {
+                                "text": "Common_validType.xml",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "text": "）より選択する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2ba0bb07-896d-d812-8531-c1156ebb1e97"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:expirationFiscalYear",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_b54b54ed-9853-fe35-90ff-d67d7e0c76f0"
+                        },
+                        "content": [
+                          {
+                            "text": "xs::gYear [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_874d09f7-e86f-1bd5-9f72-02959c376368"
+                        },
+                        "content": [
+                          {
+                            "text": "効力を失う日の年度（西暦）。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_5574b25c-5a24-7a35-9f26-c14d251296d6"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:legalGrounds",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f2bdee2e-3fa3-432b-9c7a-2da8726f687b"
+                        },
+                        "content": [
+                          {
+                            "text": "xs::string [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_19944c27-841e-b4bf-8311-764e05b744f9"
+                        },
+                        "content": [
+                          {
+                            "text": "法的背景。根拠法令を記述する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_06c66b6c-02a3-9465-229a-cff1eca4867a"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:custodian",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_9ff2412a-08c4-5aed-105e-1991ea97b5d2"
+                        },
+                        "content": [
+                          {
+                            "text": "xs::string [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_7f246333-b578-e2b3-feb6-c9baa60cda9b"
+                        },
+                        "content": [
+                          {
+                            "text": "決定者。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_f6d8c600-f4ea-d11a-e320-d951b401f2ac"
+                                },
+                                "content": [
+                                  {
+                                    "text": "都市計画決定情報の場合は、都市計画法第15条第1項で規定する都市計画を定める者の名称。多重度は任意となっているが、運用上必須とする。不明な場合は文字列で「Null」と入力する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_e8f7a6cd-370d-180d-4947-f443636da0e1"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:notificationNumber",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_54ecab0f-22dc-a52f-1470-df4dd1806d15"
+                        },
+                        "content": [
+                          {
+                            "text": "xs::string [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_8e931595-2958-58ad-59fa-f9b193cee92f"
+                        },
+                        "content": [
+                          {
+                            "text": "告示番号（当初）。多重度は任意となっているが、都市計画決定情報の場合は、運用上必須とする。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "不明な場合は文字列で「Null」と入力する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_b73441a6-2efb-f7b1-3179-4e946e34aac6"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:finalNotificationDate",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_ba3c4568-b499-14cc-6c28-4a62b8436513"
+                        },
+                        "content": [
+                          {
+                            "text": "xs::date [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2c28b878-d6da-aed4-b8a6-111459d9f697"
+                        },
+                        "content": [
+                          {
+                            "text": "告示（最終）の日付。多重度は任意となっているが、都市計画決定情報の場合は、運用上必須とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_370a1747-2f34-35dc-94d0-c04f7048eeda"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:finalNotificationNumber",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_268d2e9f-cd63-b8d4-7e08-5a1a3c7feeba"
+                        },
+                        "content": [
+                          {
+                            "text": "xs::string [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a6002f33-cff7-2456-8e3a-9992f6a0ba1e"
+                        },
+                        "content": [
+                          {
+                            "text": "告示番号（最終）。多重度は任意となっているが、都市計画決定情報の場合は、運用上必須とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_c85e023d-ffdc-80e3-c8d9-615d92ff0f0c"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:urbanPlanType",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_37cd39fa-8aae-d80b-6e39-80a9a4e2f08c"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::CodeType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_dfdc8f86-6d94-67a1-a50a-320e2f5fbb23"
+                        },
+                        "content": [
+                          {
+                            "text": "指定された区域が属する都市計画区域の区分。コードリスト（",
+                            "type": "text"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_common_urbanplantype_xml"
+                            },
+                            "content": [
+                              {
+                                "text": "Common_urbanPlanType.xml",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "text": "）より選択する。都市計画区域及び準都市計画区域の場合は使用しない。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a3a27f5b-0d8d-6759-e290-f910bd869b91"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:areaClassificationType",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_02ea4e65-4a2b-6b45-fecb-925baa3b37bd"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::CodeType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_6031213b-f83f-e9a4-ed8d-64c369792dc5"
+                        },
+                        "content": [
+                          {
+                            "text": "指定された区域 が属する区域区分。コードリスト（",
+                            "type": "text"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_common_areaclassificationtype_xml"
+                            },
+                            "content": [
+                              {
+                                "text": "Common_areaClassificationType.xml",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "text": "）より選択する。都市計画区域、準都市計画区域及び区域区分の場合は使用しない。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a3271512-8b4d-923d-540f-fc96de0dd735"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:nominalArea",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_beba1c2d-b2b3-ee32-ac50-1ddbe0ee1fdd"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::MeasureType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2f564e66-d3dd-f8b3-3bf8-291d77dd0354"
+                        },
+                        "content": [
+                          {
+                            "text": "公式の面積。単位はha（uom=”ha”）とする。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "区域の総面積とし、区域が複数の市区町村に跨っている場合は合計とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_e22a7fef-3080-ef0f-bdee-7211bdc04bdd"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:prefecture",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a929d30e-97fc-b47c-2802-1c34f0259bdc"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::CodeType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_1e56bd8b-ce0c-3e34-4fae-6a44efef7dd3"
+                        },
+                        "content": [
+                          {
+                            "text": "区域が所在する都道府県の都道府県コード。コードリスト（Common_localPublicAuthorities.xml）より選択する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2e06f66d-8e30-a338-f0ce-f873f271c601"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:city",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_27fe7ee2-32d7-e358-120c-c5b43674e3eb"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::CodeType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_aeb22cf9-57e5-b654-4d85-1a1800554dd5"
+                        },
+                        "content": [
+                          {
+                            "text": "区域が所在する市区町村の市区町村コード。コードリスト（Common_localPublicAuthorities.xml）より選択する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_1c1550d7-6c2c-678a-a235-9db5b0281592"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:reference",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_51544989-90e7-66f2-55d8-c03c6499233f"
+                        },
+                        "content": [
+                          {
+                            "text": "xs::anyURI [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a24dd8a7-4c74-affc-a80d-2e03cd3ef755"
+                        },
+                        "content": [
+                          {
+                            "text": "外部の参照情報。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_7f4b303a-75b1-5897-4785-76ea64cbbeb2"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:reason",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_8bc5c0c6-17a6-b5d2-4abc-85fa5d003187"
+                        },
+                        "content": [
+                          {
+                            "text": "gml:StringOrRefType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_7ffaa3e0-9866-e38d-31d3-64ef270b87a9"
+                        },
+                        "content": [
+                          {
+                            "text": "区域が指定された理由。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_4992d932-070c-2ae6-4a73-95eafe540ca4"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:note",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_936d8697-234c-5552-6082-df0003d7c748"
+                        },
+                        "content": [
+                          {
+                            "text": "gml:StringOrRefType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a6194be7-8af5-1f68-0bd3-a3ca43970b51"
+                        },
+                        "content": [
+                          {
+                            "text": "その他特筆すべき事項。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_9d5fe81b-9851-f22a-0f71-19bfc8c187f5"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:surveyYear",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_763dd349-90ae-1b43-f79e-a531bc91acd5"
+                        },
+                        "content": [
+                          {
+                            "text": "xs::gYear [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f85ffb8d-2bb5-f345-fcea-3dbe11826f6c"
+                        },
+                        "content": [
+                          {
+                            "text": "調査が実施された年（西暦）。都市計画決定情報、区域及び災害リスク（土砂災害）の場合は対象外とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d44c4726-de38-58e4-c0b7-62258f2a2d29"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:location",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ Zone ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_61b2bb52-3b46-9407-64b1-1255357a9128"
+                        },
+                        "content": [
+                          {
+                            "text": "xs::string [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_46bca34d-cfda-dd71-ccf5-5633ee2d32e2"
+                        },
+                        "content": [
+                          {
+                            "text": "区域の位置を示す名称。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": " [記述例] 新潟県長岡市大字宮本東方町、大字高頭町、大字深沢町、大字親沢町及び大字大積町一丁目",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "3",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "継承する関連役割",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "関連役割名",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "関連役割の型及び多重度",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "定義",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2421c71a-088f-30b8-3866-4afaf469e376"
+                        },
+                        "content": [
+                          {
+                            "text": "core:externalReference",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _CityObject ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_66d42755-64ef-f559-604c-d79da9fcb6cc"
+                        },
+                        "content": [
+                          {
+                            "text": "core:ExternalReference [0..*]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_755a2a75-f61e-63da-75c6-9e586f5f7def"
+                        },
+                        "content": [
+                          {
+                            "text": "外部への参照。標準製品仕様書では使用しない。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_b31a9f18-0bb3-d388-58d1-09c0b62ac264"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:dateAttribute",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _CityObject ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_c7c93245-da29-fb95-9900-302c61214233"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:dateAttribute [0..*]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a80b7996-ddc9-f263-3193-b3b18af7c963"
+                        },
+                        "content": [
+                          {
+                            "text": "日付型属性。属性を追加したい場合に使用する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_35a4d50b-5536-3cdd-dc8e-ffa1b806a652"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:doubleAttribute",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _CityObject ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_024aa697-2fda-4178-92df-a7250c87a2fa"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:doubleAttribute [0..*]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2e6197f1-0595-f8bb-e146-3f8ca841163f"
+                        },
+                        "content": [
+                          {
+                            "text": "実数型属性。属性を追加したい場合に使用する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_748c923f-4041-2952-1df5-65fce2df3282"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:genericAttributeSet",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _CityObject ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_338a6acd-9bcb-8ab7-0287-47aa3cb32e15"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:genericAttributeSet [0..*]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_e03e3581-56ee-93dd-281f-cbdfc1b2aed6"
+                        },
+                        "content": [
+                          {
+                            "text": "汎用属性のセット。属性を追加したい場合に使用する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_3a0ad2c0-0f30-cb96-95b9-38bfbf2fc7a1"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:intAttribute",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _CityObject ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_1eefe240-2d5d-3284-f14d-3f6e7ea48e85"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:intAttribute [0..*]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_c2a36772-3352-93c4-8252-8a7aefa310f1"
+                        },
+                        "content": [
+                          {
+                            "text": "整数型属性。属性を追加したい場合に使用する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d2c6675b-84b0-313b-27bf-5d85eb21ceff"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:measureAttribute",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _CityObject ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_0b01874c-a549-8f9c-781b-2e075bc69405"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:measureAttribute [0..*]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_e932f196-8572-24a2-3bd3-8fd32ff354cb"
+                        },
+                        "content": [
+                          {
+                            "text": "単位付き数値型属性。属性を追加したい場合に使用する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_9bf290a1-8297-a137-37a4-d22ae70d57e5"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:stringAttribute",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _CityObject ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_e525347d-e62a-ca6d-6755-55c468235173"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:stringAttribute [0..*]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d288b2c3-119d-f8a1-beaf-c3b67df5e7b9"
+                        },
+                        "content": [
+                          {
+                            "text": "文字列型属性。属性を追加したい場合に使用する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_bdb366b9-15dd-ad6d-13bf-f4c909f703b8"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:uriAttribute",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _CityObject ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_73ac7056-750d-3dce-bb56-a0ccbe3c102e"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:uriAttribute [0..*]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_09f25a93-378c-808a-3b34-9c468b67bf5b"
+                        },
+                        "content": [
+                          {
+                            "text": "URI型属性。属性を追加したい場合に使用する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_fc99552b-c922-9d9b-95df-c309d541ae67"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:pointCloud",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _CityObject ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_698d021b-9df7-460e-380d-53812ab84574"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:AbstractPointCloud [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_61008e2c-e608-519a-c190-7e07ce3ac997"
+                        },
+                        "content": [
+                          {
+                            "text": "ポイントクラウドへの参照。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_3611923e-aca7-4543-e919-c00c9f688b7c"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:lod-1MultiCurve",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_aa7b36e8-8ec3-76af-93cd-37828798e0a3"
+                        },
+                        "content": [
+                          {
+                            "text": "gml:MultiCurve [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_306951b4-0d0c-464c-4853-ed0294b334d6"
+                        },
+                        "content": [
+                          {
+                            "text": "地物の外周又は中心線（LOD-1）。標準製品仕様書では使用しない。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_c2a54111-e7a3-d4c9-70ce-74bd4273038e"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:lod-1MultiPoint",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2c5140ed-3602-bf74-4a52-4199717507e6"
+                        },
+                        "content": [
+                          {
+                            "text": "gml:MultiPoint [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f9b403d6-69e2-3a7d-5a5f-663482a2b4b9"
+                        },
+                        "content": [
+                          {
+                            "text": "地物の位置（LOD-1）。標準製品仕様書では使用しない。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f74abdeb-ffd5-22c9-9e74-462b4b4a0e32"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:lod-1MultiSurface",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_7e159029-5794-7dae-db77-d220850adc0e"
+                        },
+                        "content": [
+                          {
+                            "text": "gml:MultiSurface [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_dfac7f91-9b9a-2ee9-e3c9-eb9caba6acb4"
+                        },
+                        "content": [
+                          {
+                            "text": "広がりを持った範囲（LOD-1）。都道府県レベルでの表現に使用する。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "標準製品仕様書では使用しない。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_49e02cfd-423f-5b29-3065-1999d2faad08"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:lod-2MultiCurve",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_70f8f0ef-991f-1d66-3a65-ddd93a2bb584"
+                        },
+                        "content": [
+                          {
+                            "text": "gml:MultiCurve [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_abb8da93-35c6-a5ac-409e-2498b45e5296"
+                        },
+                        "content": [
+                          {
+                            "text": "地物の外周又は中心線（LOD-2）。標準製品仕様書では使用しない。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_70a83fec-e3d3-2370-6860-20bd2eb65f72"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:lod-2MultiPoint",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_e90f96f4-5c1e-fdb0-5fb5-2d6b13adb86c"
+                        },
+                        "content": [
+                          {
+                            "text": "gml:MultiPoint [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_735661c1-681b-aa5f-5b1e-244f4e708db6"
+                        },
+                        "content": [
+                          {
+                            "text": "地物の位置（LOD-2）。標準製品仕様書では使用しない。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_46a32f96-e38c-e43f-7a10-74b682aea7c2"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:lod-2MultiSurface",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_e7d8a033-b485-9c54-4243-24d81afe6b63"
+                        },
+                        "content": [
+                          {
+                            "text": "gml:MultiSurface [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_279da8df-cd1f-1de1-891d-70a90f4d74dc"
+                        },
+                        "content": [
+                          {
+                            "text": "広がりを持った範囲（LOD-2）。国レベルでの表現に使用する。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "標準製品仕様書では使用しない。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_4b5a5608-cca6-4f3d-7378-26e1f947c78f"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:lod0MultiCurve",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d6394520-5fde-83ad-a57c-77b9326c8d41"
+                        },
+                        "content": [
+                          {
+                            "text": "gml:MultiCurve [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_ee94824a-333f-6d2f-81e2-6c41d2fb594e"
+                        },
+                        "content": [
+                          {
+                            "text": "地物の外周又は中心線（LOD0）。標準製品仕様書では使用しない。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_af899c88-c7b5-323b-7b0e-2e54b091504a"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:lod0MultiPoint",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_72c92deb-9d6a-dfb8-1d1d-e00b4e05b5c6"
+                        },
+                        "content": [
+                          {
+                            "text": "gml:MultiPoint [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_7b5ec06b-176d-19d8-cfe7-803932a967f0"
+                        },
+                        "content": [
+                          {
+                            "text": "地物の位置（LOD0）。標準製品仕様書では使用しない。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f91b772c-3391-ff6b-18da-70a8ff5746b0"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:lod0MultiSurface",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_88446cc7-290c-ad59-b465-a2c1d3f5b7cc"
+                        },
+                        "content": [
+                          {
+                            "text": "gml:MultiSurface [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_4814d63c-d6d4-d07c-1cac-6ce051325e4d"
+                        },
+                        "content": [
+                          {
+                            "text": "広がりを持った範囲（LOD0）。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "標準製品仕様書では使用しない。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_ea313ae2-bc33-7b54-2c02-b878850e1d32"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:lod1MultiCurve",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_89848962-10c7-684b-14f4-7d7773a46d67"
+                        },
+                        "content": [
+                          {
+                            "text": "gml:MultiCurve [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_34870cb7-fd94-94b2-a4b7-e626bc443535"
+                        },
+                        "content": [
+                          {
+                            "text": "地物の外周又は中心線（LOD1）。標準製品仕様書では使用しない。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_239d5ae8-63cb-3f73-80e8-de73f0f98e89"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:lod1MultiSurface",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_7e84424c-4b6b-5e66-e09c-73e90e864f43"
+                        },
+                        "content": [
+                          {
+                            "text": "gml:MultiSurface [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2047a7e1-49b4-58a9-ee2b-a326c362f562"
+                        },
+                        "content": [
+                          {
+                            "text": "面的な範囲。高さを0とする。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "区域の場合は、計画図に示す区域の境界線に囲まれた平面的な範囲を指す。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_8c8a9b6c-337f-091c-b576-71a03bc02ed9"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:target",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d6a9a54c-f7ef-cf72-eb42-0133219cd8e7"
+                        },
+                        "content": [
+                          {
+                            "text": "core:_CityObject [0..*]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_5ac3ab1c-b450-b5ab-0977-95607c8d03df"
+                        },
+                        "content": [
+                          {
+                            "text": "都市オブジェクトへの参照。標準製品仕様書では使用しない。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_fa2599db-04b5-3577-bb41-8fe91f4fd7f4"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:dataQualityAttribute",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_44df8665-6308-a74c-b1c9-988ccbc88179"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:DataQualityAttribute [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_cf66642d-4645-a6d6-d778-11f8c373a4d2"
+                        },
+                        "content": [
+                          {
+                            "text": "作成したデータの品質に関する情報。必須とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_c9ea87c5-d4f1-9b4f-337c-ddf170bf4be8"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:keyValuePairAttribute",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _UrbanFunction ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_adc252a7-77fe-802e-d683-ceb11f6d44c2"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:KeyValuePairAttribute [0..*]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_73c1be4c-70ba-643a-2bfb-6c8a637d7e35"
+                        },
+                        "content": [
+                          {
+                            "text": "コード属性を拡張するための仕組み。コ－ド値以外の属性を拡張する場合は、gen:_GenericAttributeの下位型を使用する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_80d58457-5086-b57e-b9f4-c5c12c1d4144"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:boundary",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ Zone ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_5b8231df-c719-e440-4733-23f603e548fd"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:Boundary [0..*]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f97d901f-e368-399a-9a31-ad9d25e2d0db"
+                        },
+                        "content": [
+                          {
+                            "text": "区域を構成する境界。区域の外周及び内周となる境界線。境界線の詳細な情報を記述したい場合にのみ作成する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_4016ec67-15fb-5789-0d33-bce7ff7a7985"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:urbanParkAttribute",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ Zone ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_126e528e-146b-1fad-1324-8688b5976890"
+                        },
+                        "content": [
+                          {
+                            "text": "urf:UrbanParkAttribute [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_fb4f8b19-b806-2819-837b-9cf625b36c51"
+                        },
+                        "content": [
+                          {
+                            "text": "都市公園に関するデータ型を保持する。区域が都市公園の区域の場合に使用する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              }
+            ],
+            "type": "table"
+          }
+        ],
+        "type": "tableFigure"
+      }
+    }
+  ]
+}

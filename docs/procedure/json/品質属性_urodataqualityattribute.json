@@ -1,0 +1,78 @@
+{
+  "title": "L.2.4.8  品質属性（uro:DataQualityAttribute）",
+  "path": "/plateaudocument02/tocL/tocL_02/橋梁の主題属性_/品質属性_urodataqualityattribute",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "L.2.4.8\t品質属性（uro:DataQualityAttribute）",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_c2c8d30b-f5bb-4cab-2505-2311732326cc"
+        },
+        "content": [
+          {
+            "text": "橋梁オブジェクトの作成に使用した原典資料の記録や、適用した詳細なLODの区分を示すための属性である。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_f1c23ef4-f514-2164-c97a-765a414ba8c3"
+        },
+        "content": [
+          {
+            "text": "使用した原典資料やそれに基づくデータの品質、また、採用したLODは、データセットのメタデータに記録できる。ただし、データセット全体に対して一つのメタデータを作成することが基本となり、個々の都市オブジェクトの品質を記録することは困難である。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_797017ea-8994-ae55-b7a8-636676368b68"
+        },
+        "content": [
+          {
+            "text": "そこで、標準製品仕様書では、個々のデータに対してデータ品質に関する情報を記述するための属性として、「データ品質属性」（uro:DataQualityAttribute）を定義している。データ品質属性は、属性としてデータ作成に使用した原典資料の地図情報レベル、その他原典資料の諸元及び精緻化したLODをもつ。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_5cbe4609-1c94-d0df-5ca6-0c15c97c71df"
+        },
+        "content": [
+          {
+            "text": "3D都市モデルに含まれる全ての橋梁オブジェクトは、このデータ品質属性を必ず作成しなければならない。ただし、橋梁（brid:Bridge）又は橋梁部分（brid:BridegPart）に対してデータ品質属性を付与することはできるが、これを構成する屋根面や外壁面（brid:_BoundarySurfaceの下位クラス）にデータ品質属性を付与することはできない。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    }
+  ]
+}

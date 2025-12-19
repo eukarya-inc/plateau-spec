@@ -1,0 +1,646 @@
+{
+  "title": "J.3.1  幾何オブジェクトの作成",
+  "path": "/plateaudocument02/tocJ/tocJ_03/幾何オブジェクトの作成__5",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "J.3.1\t幾何オブジェクトの作成",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_a9a89352-30a6-7679-c205-ee95e6a777b9"
+        },
+        "content": [
+          {
+            "text": "災害リスクモデルの作成は、災害リスク（浸水）モデルと災害リスク（土砂災害）モデルで原典資料が異なる。",
+            "type": "text"
+          },
+          {
+            "type": "linebreak"
+          },
+          {
+            "text": "それぞれの原典資料を下表に示す。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "tableFigure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:tab-J-2"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "表",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "J-4 — 災害リスク（浸水）モデルの原典資料一覧",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "colWidths": [
+                "14.2857%",
+                "42.8571%",
+                "42.8572%"
+              ]
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "水平位置",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "高さ",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_40ce71fd-524c-6fd4-8c4b-e96252cdf4b1"
+                        },
+                        "content": [
+                          {
+                            "text": "LOD1",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_80573db4-5db1-307c-4029-f9e2d7505a65"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料の整備主体（河川管理者、市町村）が保有する洪水浸水想定区域等のオリジナルデータ",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_8794ffa6-0837-2177-2188-7194cce8a2ad"
+                        },
+                        "content": [
+                          {
+                            "text": "以下のいずれかのデータを使用する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_0010f7b2-50ff-a115-1da4-177e7c54eb07"
+                                },
+                                "content": [
+                                  {
+                                    "text": "原典資料の整備主体が保有する洪水浸水想定区域等のオリジナルデータ（地盤高・浸水深）",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_d1f272c2-c84a-a4d0-5903-daf993ca0d21"
+                                },
+                                "content": [
+                                  {
+                                    "text": "原典資料の整備主体が保有する洪水浸水想定区域等のオリジナルデータ（浸水深）及び地形モデル（LOD1）",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "3",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_c6ce21d8-2448-0b64-1837-9c524f11cfe8",
+                          "tags": [
+                            "note"
+                          ]
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "注記",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              }
+                            ],
+                            "type": "xrefLabel"
+                          },
+                          {
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "J.3.1",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "text": "の",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "text": "注記",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              }
+                            ],
+                            "type": "xrefLabel"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_dd7c79bc-b31b-7655-b82e-c8e32fe76d9f"
+                            },
+                            "content": [
+                              {
+                                "text": "オリジナルデータの⼊⼿にあたっては、「洪⽔浸⽔想定区域図作成マニュアル」や「浸⽔想定区域図データ電⼦化ガイドライン」のように、国によりデータの作成⽅法や電⼦化する場合のデータ仕様が定められているため、それらのマニュアルやガイドラインに基づいて作成されたデータを⼊⼿する。データの入手先等の詳細は、「3D都市モデルを活用した災害リスク情報の可視化マニュアル」を参照すること。データが入手できない場合は3D都市モデルの整備主体と協議し決定する。",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "paragraph"
+                          }
+                        ],
+                        "type": "admonition"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              }
+            ],
+            "type": "table"
+          }
+        ],
+        "type": "tableFigure"
+      }
+    },
+    {
+      "type": "tableFigure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:tab-J-3"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "表",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "J-5 — 災害リスク（土砂災害）モデルの原典資料一覧",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "colWidths": [
+                "14.2857%",
+                "42.8571%",
+                "42.8572%"
+              ]
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "水平位置",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "高さ",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_becf94d7-bd4e-d267-a85b-e930bc38bf44"
+                        },
+                        "content": [
+                          {
+                            "text": "LOD1",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_589d4580-ac22-81cc-40b9-8813c1a35e8a"
+                        },
+                        "content": [
+                          {
+                            "text": "以下のいずれかのデータを使用する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_8f145f0b-b337-91bd-a006-597f3a82db5b"
+                                },
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "href": "https://nlftp.mlit.go.jp"
+                                    },
+                                    "content": [
+                                      {
+                                        "text": "国土数値情報（土砂災害警戒区域データ）",
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "type": "external_link"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_54e496f1-46fb-021d-bcc3-77bd150d7b6d"
+                                },
+                                "content": [
+                                  {
+                                    "text": "都道府県が保有する土砂災害警戒区域データ",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_af4afb03-432b-4c54-833a-44f18bcca9d2"
+                        },
+                        "content": [
+                          {
+                            "text": "―",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "3",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_36b94bbd-71f4-ff50-a678-7f41dc074a13",
+                          "tags": [
+                            "note"
+                          ]
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "注記",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              }
+                            ],
+                            "type": "xrefLabel"
+                          },
+                          {
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "J.3.1",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "text": "の",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "text": "注記",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              }
+                            ],
+                            "type": "xrefLabel"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_1e05f877-1438-ee43-dc1e-8996e7e25ae9"
+                            },
+                            "content": [
+                              {
+                                "text": "災害リスク（土砂災害）モデルの作成には、国土数値情報（土砂災害警戒区域データ）を利用できる。また、国土数値情報の作成元となる各都道府県においてGISデータを整備している場合があり、これを利用することもできる。",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "paragraph"
+                          }
+                        ],
+                        "type": "admonition"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              }
+            ],
+            "type": "table"
+          }
+        ],
+        "type": "tableFigure"
+      }
+    }
+  ]
+}

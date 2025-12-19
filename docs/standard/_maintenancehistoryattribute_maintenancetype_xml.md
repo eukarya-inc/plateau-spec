@@ -1,0 +1,21 @@
+# 4.26.4.5.1 MaintenanceHistoryAttribute_maintenanceType.xml
+
+## 4.26.4.5.1 MaintenanceHistoryAttribute_maintenanceType.xml
+
+**表 4-924**
+
+| ファイル名 | MaintenanceHistoryAttribute_maintenanceType.xml |
+| --- | --- |
+| ファイルURL | [https://www.geospatial.jp/iur/codelists/3.2/MaintenanceHistoryAttribute_maintenanceType.xml](https://www.geospatial.jp/iur/codelists/3.2/MaintenanceHistoryAttribute_maintenanceType.xml) |
+| コード | 説明 |
+| 1 | 初期工事 |
+| 2 | 改良工事 |
+| 3 | 補修工事 |
+| 4 | 防食工事 |
+| 5 | 更生工事 |
+| 6 | 再構築工事 |
+| 7 | 更新工事 |
+| 8 | 布設管渠工事 |
+| 9 | 既設管調査 |
+| 10 | 現場調査 |
+

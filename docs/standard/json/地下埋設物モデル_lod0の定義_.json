@@ -1,0 +1,4479 @@
+{
+  "title": "4.15.1.1.2  地下埋設物モデル（LOD0）の定義",
+  "path": "/plateaudocument/toc4/toc4_15/toc4_15_01/toc4_15_01_01/地下埋設物モデル_lod0の定義_",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "4.15.1.1.2\t地下埋設物モデル（LOD0）の定義",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_945b7be6-995e-4289-dedc-8ab569041456"
+        },
+        "content": [
+          {
+            "text": "地下埋設物モデル（LOD0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "tableFigure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_17ae8834-11f5-1590-3169-b4f966e3a8d0"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "表",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "4-686",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "colWidths": [
+                "7.6923%",
+                "7.6923%",
+                "7.6923%",
+                "7.6923%",
+                "23.0769%",
+                "23.0769%",
+                "23.077%"
+              ]
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "LOD",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "地物型",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "空間属性の型",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "取得基準",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "取得方法",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "補足",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "2"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_609b1d1b-088c-2136-406e-63c92d38859e"
+                        },
+                        "content": [
+                          {
+                            "text": "LOD0",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "2"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2bf16bea-7e74-5ad3-00b4-4497f62b970d"
+                        },
+                        "content": [
+                          {
+                            "text": "●",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "2"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f2f3a429-ee08-b620-ec1f-c9123905b0bc"
+                        },
+                        "content": [
+                          {
+                            "text": "WaterPipe",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_4b5dc1e6-339f-dc9c-8a84-e89af8640413"
+                        },
+                        "content": [
+                          {
+                            "text": "MultiCurve",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_6ca44b96-4c66-de40-610d-c51e8aff66f3"
+                                },
+                                "content": [
+                                  {
+                                    "text": "水道管",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_91d0ddc3-5736-d1cf-0214-0650a3c270f2"
+                                },
+                                "content": [
+                                  {
+                                    "text": "指定された管径よりも小さい管路",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_bb8d7dfc-9115-b832-e84a-f1e7a88b14b9"
+                                },
+                                "content": [
+                                  {
+                                    "text": "管路の中心線を取得する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_747b37be-62d5-b3d7-fa10-62f543fbcfd3"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高さは0とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_86c7618a-ebbc-6cc2-13d2-9787be9720fe"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料の取得方法に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a4294390-e154-3bb4-0254-afeaad9eef07"
+                        },
+                        "content": [
+                          {
+                            "text": "MultiSurface",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_28fa83ab-18ea-d251-0cd5-39eb1ed8b90c"
+                                },
+                                "content": [
+                                  {
+                                    "text": "水道管",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_19df57d8-1db2-222e-d35d-99c42ef360d7"
+                                },
+                                "content": [
+                                  {
+                                    "text": "指定された管径よりも大きい管路",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_e18ff290-99cb-eca0-3cc8-521792e80c29"
+                                },
+                                "content": [
+                                  {
+                                    "text": "管路の外縁を取得する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_091968c1-b1af-9b22-4077-f89f1576e4a5"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高さは0とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f4e807f8-c219-954d-8aa5-62eda55e9f52"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料の取得方法に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "2"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f6677baf-00db-c745-aecb-016a6fce6f74"
+                        },
+                        "content": [
+                          {
+                            "text": "LOD0",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "2"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_28c5023a-d6d9-4fa0-3161-69b3e87aca4e"
+                        },
+                        "content": [
+                          {
+                            "text": "●",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "2"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_ea36bc3a-d11c-fd5b-5b00-ff3937a07b9c"
+                        },
+                        "content": [
+                          {
+                            "text": "SewerPipe",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_12ba0564-947f-d925-dc53-4d6e9fd531a9"
+                        },
+                        "content": [
+                          {
+                            "text": "MultiCurve",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_e329b237-4ff0-18be-eed6-3c513fc9a478"
+                                },
+                                "content": [
+                                  {
+                                    "text": "下水管",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_9bad410d-b8e0-38c6-75fa-509de90f8231"
+                                },
+                                "content": [
+                                  {
+                                    "text": "指定された管径よりも小さい管路",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_a6ede33f-d8ea-dc39-d391-79af0f814edc"
+                                },
+                                "content": [
+                                  {
+                                    "text": "管路の中心線を取得する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_75ed68b4-43a1-d387-1063-04c444c54527"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高さは0とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_8c5ca2f8-2769-dc93-8363-79da7b247811"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料の取得方法に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_3a771295-5d93-d171-06d1-e73365e684fd"
+                        },
+                        "content": [
+                          {
+                            "text": "MultiSurface",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_5755ae77-3029-c77b-8339-66196976f876"
+                                },
+                                "content": [
+                                  {
+                                    "text": "下水管",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_7d2f18d9-de5c-c217-c5b0-3f9784996170"
+                                },
+                                "content": [
+                                  {
+                                    "text": "指定された管径よりも大きい管路",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_d5022b2f-0d02-a905-0b1e-c7afe039309b"
+                                },
+                                "content": [
+                                  {
+                                    "text": "管路の外縁を取得する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_4aa81b20-a70a-783c-0d75-97da6f49cb68"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高さは0とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a7237d9d-2da3-5df2-0714-181fb6be6d6c"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料の取得方法に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "2"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_8021c390-57dd-19e8-4453-27d4ed2f90b4"
+                        },
+                        "content": [
+                          {
+                            "text": "LOD0",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "2"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_872b7d07-1eaa-1392-c837-704d36c1f1e8"
+                        },
+                        "content": [
+                          {
+                            "text": "●",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "2"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_4008287d-e280-0e4c-2b2a-d2c1997aed5b"
+                        },
+                        "content": [
+                          {
+                            "text": "ThermalPipe",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_c79d5497-9942-74e9-60fc-a657af23c247"
+                        },
+                        "content": [
+                          {
+                            "text": "MultiCurve",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_d844f1f1-a329-e3a7-ae24-d348a9aa57a4"
+                                },
+                                "content": [
+                                  {
+                                    "text": "熱供給管",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_ee481c54-a4a4-402c-5a27-3beb18b568af"
+                                },
+                                "content": [
+                                  {
+                                    "text": "指定された管径よりも小さい管路",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_12b33519-ed50-9d8b-2230-568a443a9011"
+                                },
+                                "content": [
+                                  {
+                                    "text": "管路の中心線を取得する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_b706ac9f-c3c6-e6b5-a816-d4a487f3b2a3"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高さは0とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_295cc75e-c4c0-3554-7eb7-8818d147eb6f"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料の取得方法に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_e96d5ee5-c13a-ceaf-4935-0b019b13bf83"
+                        },
+                        "content": [
+                          {
+                            "text": "MultiSurface",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_71e34ebf-673e-e094-4534-a8e431266151"
+                                },
+                                "content": [
+                                  {
+                                    "text": "熱供給管",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_11e63bcf-c35b-fb21-7f33-66f8211291c1"
+                                },
+                                "content": [
+                                  {
+                                    "text": "指定された管径よりも大きい管路",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_1c76b6f6-295c-72e1-c1c0-bef7386c4de2"
+                                },
+                                "content": [
+                                  {
+                                    "text": "管路の外縁を取得する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_d78e8678-574e-2736-ec81-ed398f88c722"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高さは0とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_6bffc5bc-c020-2715-b8de-28e9e914dd0e"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料の取得方法に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "2"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_c3664406-f086-8f92-8eef-f19a600c50e6"
+                        },
+                        "content": [
+                          {
+                            "text": "LOD0",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "2"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_64882201-8c31-9498-2e00-d09233230ee6"
+                        },
+                        "content": [
+                          {
+                            "text": "●",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "2"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_93e5f5c8-46b9-814a-8b4f-59e4aba04e16"
+                        },
+                        "content": [
+                          {
+                            "text": "OilGasChemicalPipe",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_9a182544-8d67-63ca-b26d-019410920bca"
+                        },
+                        "content": [
+                          {
+                            "text": "MultiCurve",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_749c10dd-398e-e312-0417-abc67e9457e3"
+                                },
+                                "content": [
+                                  {
+                                    "text": "ガス管",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_13e6faac-1572-451f-c41d-a84b9c60e8f7"
+                                },
+                                "content": [
+                                  {
+                                    "text": "指定された管径よりも小さい管路",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_3d85900a-34ae-2332-4262-31dafde8d165"
+                                },
+                                "content": [
+                                  {
+                                    "text": "管路の中心線を取得する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_1cfdf3b8-c3a4-99db-6355-d3b0cdcc8d6c"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高さは0とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_c4014070-361c-e37c-32a2-ecfae3cbb783"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料の取得方法に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_ff08cf68-4e98-e702-e42a-d5a17fa13b8c"
+                        },
+                        "content": [
+                          {
+                            "text": "MultiSurface",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_aa8922f3-8474-471a-e693-fba15c3c1fb1"
+                                },
+                                "content": [
+                                  {
+                                    "text": "ガス管",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_f35956d2-688f-366b-815c-09cd532d34a6"
+                                },
+                                "content": [
+                                  {
+                                    "text": "指定された管径よりも大きい管路",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_b6fe997e-c02c-0c79-f88e-24e47eaf7565"
+                                },
+                                "content": [
+                                  {
+                                    "text": "管路の外縁を取得する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_9f37392a-b9ca-0ea5-b724-77854cd10451"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高さは0とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a09322bb-76c1-3b62-7755-33f6987cdb60"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料の取得方法に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "3"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_eeef854b-ceb2-c7b9-7e3e-c80babae98a5"
+                        },
+                        "content": [
+                          {
+                            "text": "LOD0",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "3"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_3c96e327-7c40-ff03-163b-2b2dc8e81d5a"
+                        },
+                        "content": [
+                          {
+                            "text": "●",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "3"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a5997bd1-1834-ff8c-26d4-5dc7a5caee09"
+                        },
+                        "content": [
+                          {
+                            "text": "Pipe",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_82d62ddf-7210-5eba-e8ba-7246ea7b46f0"
+                        },
+                        "content": [
+                          {
+                            "text": "MultiCurve",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_54923a2c-dbe9-eead-72c7-c747cab42031"
+                                },
+                                "content": [
+                                  {
+                                    "text": "その他の管路",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_540546c3-335c-eab2-de15-10702a80ee7e"
+                                },
+                                "content": [
+                                  {
+                                    "text": "単独で埋設されている管路",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_568c39b0-bc5a-2bc9-ff42-42edc7517b99"
+                                },
+                                "content": [
+                                  {
+                                    "text": "管路の中心線を取得する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_c344479f-1513-4fb8-f813-2cf1fbddfaaa"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高さは0とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_180199a1-0d19-a687-ca4c-81d72802d161"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料の取得方法に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a409fca2-a146-82fd-511a-e5e5684702d4"
+                        },
+                        "content": [
+                          {
+                            "text": "MultiCurve",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_deee6c72-c2b3-58c8-95ed-00796a625e2a"
+                                },
+                                "content": [
+                                  {
+                                    "text": "その他の管路",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_174b4b76-9fc5-e8c9-7a71-49bb70fb6478"
+                                },
+                                "content": [
+                                  {
+                                    "text": "まとまって埋設されている管路",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_efa14e7a-3835-46f7-d6bd-4ce2aee216d0"
+                                },
+                                "content": [
+                                  {
+                                    "text": "管路全体の中心線を取得する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_404e23b6-fd2d-db23-d77e-956cd7455501"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高さは0とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_4aaa2386-1488-f233-bd40-2a3774decde6"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料の取得方法に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_84eace43-b0c4-1179-5afd-f909e1c7537d"
+                        },
+                        "content": [
+                          {
+                            "text": "MultiSurface",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_f09bdcbc-deb8-c2d3-f331-96742b1da3ad"
+                                },
+                                "content": [
+                                  {
+                                    "text": "その他の管路",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_050057a9-e8fe-e8e0-4f99-bf72a052d4ee"
+                                },
+                                "content": [
+                                  {
+                                    "text": "指定された管径よりも大きい管路",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_3cd0e410-33de-878c-8370-04b2f80e6a91"
+                                },
+                                "content": [
+                                  {
+                                    "text": "管路の外縁を取得する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_b5cebb6b-2689-26d4-e709-dff26fce360e"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高さは0とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_538350ff-555f-0ec7-50aa-267ecaea508b"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料の取得方法に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "2"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f91ba782-1043-0494-6a10-492793fddd68"
+                        },
+                        "content": [
+                          {
+                            "text": "LOD0",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "2"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_3f929f2e-8ba5-3467-419d-f1bc863b5240"
+                        },
+                        "content": [
+                          {
+                            "text": "●",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "2"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f3cae801-0844-ce40-de90-4543a45ae388"
+                        },
+                        "content": [
+                          {
+                            "text": "TelecommunicationsCable",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_b22844ff-3b55-eb7b-bdd4-ebf669f0758f"
+                        },
+                        "content": [
+                          {
+                            "text": "MultiCurve",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_446a1ceb-e9ab-f7a3-3136-09f287336a92"
+                                },
+                                "content": [
+                                  {
+                                    "text": "通信ケーブル",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_36f3e49b-f535-8aa6-c965-c6f7d5cf3809"
+                                },
+                                "content": [
+                                  {
+                                    "text": "単独で埋設されているケーブル",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_fe1d0022-595b-9d9b-2727-e671b1e35040"
+                                },
+                                "content": [
+                                  {
+                                    "text": "ケーブルの中心線を取得する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_504c0a51-aab8-17b6-6d00-48f173cda1c9"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高さは0とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_ce95baca-0d7e-112b-f5bc-a0b34cc18e37"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料の取得方法に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_98368ae0-11e5-8c9d-b183-4f68a2ddbba0"
+                        },
+                        "content": [
+                          {
+                            "text": "MultiCurve",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_740e9c7a-f13d-b5a7-430a-26ca32ea06aa"
+                                },
+                                "content": [
+                                  {
+                                    "text": "通信ケーブル",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_d92919e4-2d3c-174d-9c01-d09150a32384"
+                                },
+                                "content": [
+                                  {
+                                    "text": "まとまって埋設されているケーブル",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_1817a150-0452-f0a2-0064-710cb9fc666d"
+                                },
+                                "content": [
+                                  {
+                                    "text": "ケーブル全体の中心線を取得する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_a1124178-7a05-5e09-2ad3-45c766a01158"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高さは0とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_16035c7c-7060-3ca3-e2c8-dc96f81cc351"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料の取得方法に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "2"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_81c4f317-ec22-caa8-8f38-0e17f9370e64"
+                        },
+                        "content": [
+                          {
+                            "text": "LOD0",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "2"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_69914342-86b4-ed2c-ecdf-8fc6c38fe23b"
+                        },
+                        "content": [
+                          {
+                            "text": "●",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "2"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_e074488c-3a2b-567a-49ad-704844521fa9"
+                        },
+                        "content": [
+                          {
+                            "text": "ElectricityCable",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_78319c0e-b215-cf5d-ec0b-6dd775df37fb"
+                        },
+                        "content": [
+                          {
+                            "text": "MultiCurve",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_6b8062db-07f0-00cf-cad7-9d2509574eb1"
+                                },
+                                "content": [
+                                  {
+                                    "text": "電気ケーブル",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_310c9555-1bae-7df6-87c1-9df3670eda68"
+                                },
+                                "content": [
+                                  {
+                                    "text": "単独で埋設されているケーブル",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_f4d4df3d-d8be-37be-229a-a544ed36a7fc"
+                                },
+                                "content": [
+                                  {
+                                    "text": "ケーブルの中心線を取得する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_b75d8308-853a-85f0-066a-6fa6b3026820"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高さは0とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_c45b76de-84df-5caf-6665-35260e4a19a2"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料の取得方法に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_80fc6682-b771-efc2-64ee-882f38d56816"
+                        },
+                        "content": [
+                          {
+                            "text": "MultiCurve",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_b4c79543-91ec-a5cd-6913-7731493bd3bd"
+                                },
+                                "content": [
+                                  {
+                                    "text": "電気ケーブル",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_5811b6ab-2376-d2ba-65c6-34ff7c326d3b"
+                                },
+                                "content": [
+                                  {
+                                    "text": "まとまって埋設されているケーブル",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_39391d69-b8aa-3d5d-0ead-2e9cf120a2b2"
+                                },
+                                "content": [
+                                  {
+                                    "text": "ケーブル全体の中心線を取得する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_d3f5750a-af2c-962a-57bd-e0b7311d4e74"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高さは0とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2dcd1e4a-b074-0ac6-775f-521be53044e0"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料の取得方法に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "2"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d64da22e-a5bf-f67a-aa62-046da3d2fd3b"
+                        },
+                        "content": [
+                          {
+                            "text": "LOD0",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "2"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_409f7bea-34e1-1265-5c53-e098aa4488fd"
+                        },
+                        "content": [
+                          {
+                            "text": "●",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "2"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_eedd7a98-da93-b8a5-da7a-b624fc959800"
+                        },
+                        "content": [
+                          {
+                            "text": "Cable",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_3988d2ed-aa28-7769-fa55-c1e874169fab"
+                        },
+                        "content": [
+                          {
+                            "text": "MultiCurve",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_a30244d5-abdf-f3da-2f15-b0848fef2230"
+                                },
+                                "content": [
+                                  {
+                                    "text": "その他のケーブル",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_dc0b17de-2317-6085-2995-c6b452a845a4"
+                                },
+                                "content": [
+                                  {
+                                    "text": "単独で埋設されているケーブル",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_086f95f0-ef46-c98a-cf5c-bd73d699eeab"
+                                },
+                                "content": [
+                                  {
+                                    "text": "ケーブルの中心線を取得する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_d29867b9-d3e5-13c9-1100-417b7e2f31af"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高さは0とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_c3fccdc4-4f9d-2455-f6f7-f3edfb198682"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料の取得方法に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_1529757d-abe9-7688-e3f2-3fdb575b28cc"
+                        },
+                        "content": [
+                          {
+                            "text": "MultiCurve",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_72284db9-7f5f-5640-0297-bcc10b656966"
+                                },
+                                "content": [
+                                  {
+                                    "text": "その他のケーブル",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_c34be504-94c5-ad6a-7b37-807b82fb096e"
+                                },
+                                "content": [
+                                  {
+                                    "text": "まとまって埋設されているケーブル",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_a0a21dce-c3a4-567d-e664-ca45e151598a"
+                                },
+                                "content": [
+                                  {
+                                    "text": "ケーブル全体の中心線を取得する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_89b45b88-b857-f57e-090b-bce55459fcda"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高さは0とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_ef44b6de-b011-0b86-ad94-f553906f17b8"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料の取得方法に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "2"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a9fc7f47-daa8-0e67-2bc5-594857d3e73c"
+                        },
+                        "content": [
+                          {
+                            "text": "LOD0",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "2"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2a8c979a-fad4-17da-5800-a4f5b5328d1c"
+                        },
+                        "content": [
+                          {
+                            "text": "●",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "2"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a7038096-4304-daf3-68dd-14ed33f0b76c"
+                        },
+                        "content": [
+                          {
+                            "text": "Duct",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_0e68eebf-ba7a-b689-d2d2-68a0739be320"
+                        },
+                        "content": [
+                          {
+                            "text": "MultiCurve",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_2ebc7f2b-85a0-e253-30e0-f9135ae0971a"
+                                },
+                                "content": [
+                                  {
+                                    "text": "指定された幅径よりも小さいトラフ",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_e7b89609-debf-d144-2058-0671b5447c0c"
+                                },
+                                "content": [
+                                  {
+                                    "text": "構造物の中心線を取得する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_d4a77103-d9a3-b6bc-e3a9-912a2ee05f2e"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高さは0とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_01c2a7e3-c41a-014c-3762-75fce89625a5"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料の取得方法に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_1825ff9b-fc3c-ac7d-d0ab-cea2a6529d71"
+                        },
+                        "content": [
+                          {
+                            "text": "MultiSurface",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_58b736ee-af09-3070-e684-b037eb4501e6"
+                                },
+                                "content": [
+                                  {
+                                    "text": "指定された幅径よりも大きいトラフ",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_e5e63251-9fb8-fd8a-aef9-4148fe4003a0"
+                                },
+                                "content": [
+                                  {
+                                    "text": "とう道、CAB、CCBOX",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_9e90d92f-ef72-9b26-9373-acf1242adc84"
+                                },
+                                "content": [
+                                  {
+                                    "text": "構造物の上方からの正射影の外周を取得する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_8d24b945-b737-3543-7290-5f2aabbe0759"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高さは0とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d9dc57ab-ffa4-0b72-c1ed-33f4fe1375b7"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料の取得方法に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2f4601a6-3265-96bf-3e7a-42efd0e26fc3"
+                        },
+                        "content": [
+                          {
+                            "text": "LOD0",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_0d18d2ba-a934-b511-3bcc-b3dcfbb9c8d6"
+                        },
+                        "content": [
+                          {
+                            "text": "●",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_dc6c664f-57f5-0024-22a3-62257a5a8d97"
+                        },
+                        "content": [
+                          {
+                            "text": "Appurtenance",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f2d0d5a9-0762-72f0-5091-abf7c30523e6"
+                        },
+                        "content": [
+                          {
+                            "text": "Point",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_77c5559f-c5de-c9d0-7c73-e787d74f39d8"
+                                },
+                                "content": [
+                                  {
+                                    "text": "弁栓類、消火栓、空気弁、その他配水弁栓、加圧ポンプ、計測施設、テレメータ",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_e2d02554-185e-2d5c-ade3-4e48b4613c42"
+                                },
+                                "content": [
+                                  {
+                                    "text": "ガバナ、バルブ、水取器",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_18fe8c9a-3ded-1d08-6136-dc9e1db5e17b"
+                                },
+                                "content": [
+                                  {
+                                    "text": "設備の中心位置を取得する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_121be9f1-8cd2-35f3-e5c3-a7c3c3edae2e"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高さは0とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_6a079fa7-b1f5-1fc4-f045-e4bba495bc29"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料の取得方法に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_df29da8c-eef8-aeb9-d843-44a9c9f0bf03"
+                        },
+                        "content": [
+                          {
+                            "text": "LOD0",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f5d6214c-b7eb-964e-07d4-831f6be2224c"
+                        },
+                        "content": [
+                          {
+                            "text": "●",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_84b0b45f-cc5b-4eab-2ecd-842e057d0c2f"
+                        },
+                        "content": [
+                          {
+                            "text": "Manhole",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_8b420b02-fbbb-64cf-4699-d49b4072a58d"
+                        },
+                        "content": [
+                          {
+                            "text": "Point",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_a049e399-88ad-76a8-aeaf-6c17a2d54150"
+                                },
+                                "content": [
+                                  {
+                                    "text": "マンホール",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_dda4a6f8-ed70-2f07-a003-eded4ba9ee94"
+                                },
+                                "content": [
+                                  {
+                                    "text": "マンホールの蓋の中心位置を取得する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_8ce121e5-f0f1-e476-6658-81fdbe645c9f"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高さは0とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a69aa81e-037f-362d-2fe4-b86caabe4401"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料の取得方法に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_51d97ee4-ff27-178d-23c4-14ea2a8806d7"
+                        },
+                        "content": [
+                          {
+                            "text": "LOD0",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_c2546b04-cbc2-234f-d25d-916a58332c35"
+                        },
+                        "content": [
+                          {
+                            "text": "●",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2a70e6fd-0ecf-f28a-2e6e-fe3beb5e0fa1"
+                        },
+                        "content": [
+                          {
+                            "text": "Handhole",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_aa9be5d6-ca28-ff31-c756-36f3204db05e"
+                        },
+                        "content": [
+                          {
+                            "text": "Point",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_7f73dd39-9293-92d8-db92-3dc8885538a8"
+                                },
+                                "content": [
+                                  {
+                                    "text": "ハンドホール",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_005aea42-0e7c-4ae8-c37b-5f5697629e1c"
+                                },
+                                "content": [
+                                  {
+                                    "text": "ハンドホールの蓋の中心位置を取得する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_4ce9c887-c9dc-9923-0575-ba5b910b27f6"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高さは0とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f33874d4-f078-69e5-c83a-ac2f62ed6479"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料の取得方法に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "7",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": ""
+                                },
+                                "content": [
+                                  {
+                                    "text": "●",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "dt"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_2091ffe6-648a-7064-587c-8ecc9a96c22f"
+                                },
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "text": "：",
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "type": "span"
+                                  },
+                                  {
+                                    "text": "必須",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "dd"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": ""
+                                },
+                                "content": [
+                                  {
+                                    "text": "■",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "dt"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_a1f5d525-b890-6cd0-7c91-05f303a9533f"
+                                },
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "text": "：",
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "type": "span"
+                                  },
+                                  {
+                                    "text": "条件付必須",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "dd"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": ""
+                                },
+                                "content": [
+                                  {
+                                    "text": "〇",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "dt"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_6a8e4dc0-d19f-8f2c-cabf-ae48504b2d37"
+                                },
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "text": "：",
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "type": "span"
+                                  },
+                                  {
+                                    "text": "任意（ユースケースに応じて要否を決定してよい）",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "dd"
+                          }
+                        ],
+                        "type": "definition_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              }
+            ],
+            "type": "table"
+          }
+        ],
+        "type": "tableFigure"
+      }
+    }
+  ]
+}

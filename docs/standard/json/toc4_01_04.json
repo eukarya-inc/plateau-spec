@@ -1,0 +1,1272 @@
+{
+  "title": "4.1.4  応用スキーマ文書の読み方",
+  "path": "/plateaudocument/toc4/toc4_01/toc4_01_04",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "4.1.4\t応用スキーマ文書の読み方",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_f58065ab-7b73-3899-c824-d733b93b1391"
+        },
+        "content": [
+          {
+            "text": "応用スキーマ文書では、応用スキーマクラス図に示す各クラスについて、クラスの定義及びクラスがもつ属性及び関連役割の定義を表形式で示す。表に記載する属性名、属性の型及び多重度、また、関連役割、関連役割の型（関連の相手クラス）及び多重度は、クラス図と一致する。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_11c6a034-a738-23c2-87c2-408bf9dc79fd"
+        },
+        "content": [
+          {
+            "text": "定義列の説明文には、属性や関連役割の定義説明に加え、該当の属性や関連役割が運用上必須であったり、標準製品仕様で使用しない旨の情報も記載する。標準製品仕様書では使用しない属性及び関連役割は、特段の注意書きが無い限り、拡張製品仕様書で使用できる。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_7f5f4a6c-34cf-abd2-2573-fcb7404064d9"
+        },
+        "content": [
+          {
+            "text": "なお、応用スキーマ文書では、具象型（インスタンスを作成できる型）のみを示す。抽象型（インスタンスを作成できない型）の定義は省略するが、抽象型から継承する属性や関連役割は、継承する属性又は継承する関連役割として示す。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "tableFigure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_b5848f44-c2b6-830f-385e-900a53446cc3"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "表",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "4-6 — 定義文書の構成",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "colWidths": [
+                "25%",
+                "25%",
+                "50%"
+              ]
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "クラスの定義",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_fdce9dd6-e167-d97a-20b5-4853851695f0"
+                        },
+                        "content": [
+                          {
+                            "text": "クラスの定義を記載。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "上位の型",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_c968192f-096d-8ab0-0fae-29eee05e9236"
+                        },
+                        "content": [
+                          {
+                            "text": "クラスが他のクラスを継承している場合、上位のクラスの名称を記載する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "ステレオタイプ",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_9f40f352-d2ca-3e8b-2c2d-dc978f7d7897"
+                        },
+                        "content": [
+                          {
+                            "text": "クラスのステレオタイプを記載する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "3",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "継承する属性",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "属性名",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "属性の型及び多重度",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "定義",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_4aa4bb19-a65e-f065-c25b-00ec2d6f9037"
+                        },
+                        "content": [
+                          {
+                            "text": "継承する属性の名称",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": " ",
+                            "type": "text"
+                          },
+                          {
+                            "content": [
+                              {
+                                "text": "[継承元のクラス名称]",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f423357b-b54c-dedc-9d0d-d40208f178c6"
+                        },
+                        "content": [
+                          {
+                            "text": "属性の型と多重度",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "多重度は以下のように記載する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": ""
+                                },
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "text": "[1..1]",
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "type": "code"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "dt"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_1222df40-0c07-d927-3959-4c6deae39e41"
+                                },
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "text": "：",
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "type": "span"
+                                  },
+                                  {
+                                    "text": "必ず1",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "dd"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": ""
+                                },
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "text": "[0..1]",
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "type": "code"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "dt"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_e4cd2879-6076-5c6f-3618-092e50987b5b"
+                                },
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "text": "：",
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "type": "span"
+                                  },
+                                  {
+                                    "text": "0又は1",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "dd"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": ""
+                                },
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "text": "[0..*]",
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "type": "code"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "dt"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_5695bde1-19f4-fe9f-97b0-44898eac347c"
+                                },
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "text": "：",
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "type": "span"
+                                  },
+                                  {
+                                    "text": "0以上",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "dd"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": ""
+                                },
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "text": "[1..*]",
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "type": "code"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "dt"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_b5fa27c8-ec2c-c247-5330-9aad46619c6c"
+                                },
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "text": "：",
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "type": "span"
+                                  },
+                                  {
+                                    "text": "1以上",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "dd"
+                          }
+                        ],
+                        "type": "definition_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_cca4c471-c594-e09c-4260-e3a095281cb8"
+                        },
+                        "content": [
+                          {
+                            "text": "上位クラスに定義され、このクラスが継承する属性の定義。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "運用上必須であったり、標準製品仕様で使用しない場合は、説明を記載する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "3",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "自身に定義された属性",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "属性名",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "属性の型及び多重度",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "定義",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_52a440c5-356a-d757-40f6-20079a14ea7c"
+                        },
+                        "content": [
+                          {
+                            "text": "自身に定義された属性の名称",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": " ",
+                            "type": "text"
+                          },
+                          {
+                            "content": [
+                              {
+                                "text": "[自身のクラス名称]",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_71111ff7-46c5-e8fa-0a12-c3a2d7b735b5"
+                        },
+                        "content": [
+                          {
+                            "text": "属性の型と多重度",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_09055749-cbda-a7b1-abe5-6c45233fd07a"
+                        },
+                        "content": [
+                          {
+                            "text": "自身に定義された属性の定義。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "運用上必須であったり、標準製品仕様で使用しない場合は、説明を記載する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "3",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "継承する関連役割",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "関連役割名",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "関連役割の型及び多重度",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "定義",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_da7d6ee4-e750-08e2-37a0-e73e13425c22"
+                        },
+                        "content": [
+                          {
+                            "text": "継承する関連役割の名称",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": " ",
+                            "type": "text"
+                          },
+                          {
+                            "content": [
+                              {
+                                "text": "[継承元のクラス名称]",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_1c759e70-cce7-dd03-237f-31aff50fe90d"
+                        },
+                        "content": [
+                          {
+                            "text": "関連の相手クラスと多重度",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_9cb72b00-5c5c-9365-60ba-1553043017f3"
+                        },
+                        "content": [
+                          {
+                            "text": "上位クラスに定義され、このクラスが継承する関連役割の定義。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "運用上必須であったり、標準製品仕様で使用しない場合は、説明を記載する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "3",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "自身に定義された関連役割",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "関連役割名",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "関連役割の型及び多重度",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "定義",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_ed286921-b852-9733-e74c-da8d54539862"
+                        },
+                        "content": [
+                          {
+                            "text": "自分自身に定義された関連役割の名称",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": " ",
+                            "type": "text"
+                          },
+                          {
+                            "content": [
+                              {
+                                "text": "[自身のクラス名称]",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_ea2b1849-5dcf-2b27-e956-4fdebffcd24d"
+                        },
+                        "content": [
+                          {
+                            "text": "関連の相手クラスと多重度",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_9a938c70-ee59-87cf-557b-69836592fda7"
+                        },
+                        "content": [
+                          {
+                            "text": "関連役割の定義。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "運用上必須であったり、標準製品仕様で使用しない場合は、説明を記載する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              }
+            ],
+            "type": "table"
+          }
+        ],
+        "type": "tableFigure"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_a07005e5-a290-2dc8-d110-692e5a2413c7"
+        },
+        "content": [
+          {
+            "text": "継承する属性や、継承する関連役割の表示順は、継承元のクラスごととなる。また、クラス、属性及び関連役割には、それらが定義されたパッケージの接頭辞を付す。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "title": "P.4  ノードとなる地物型",
+  "path": "/plateaudocument02/tocP/tocP_04",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "P.4\tノードとなる地物型",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_4a364641-09be-c839-2ed0-c2c769ae212e"
+        },
+        "content": [
+          {
+            "text": "地下埋設物のネットワークのノードとなる地物型には、uro:UtilityNodeとこれを格納するuro:UtilityNodeContainerがある。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_51dab00b-0a61-a767-a1c5-f63db2d61413"
+        },
+        "content": [
+          {
+            "text": "uro:UtilityNodeを継承するuro:Appurtenanceは弁栓類等の設備を表現する。属性previousLinkは、このノードにつながる0個以上複数個のリンク（管路又はケーブル）の識別子であり、属性nextLinkは、このノードの先にある0個以上複数個のリンクと後となるリンク（管路又はケーブル）の識別子である。このようなノードとリンクとの関係を属性としてもつことで、地下埋設物のネットワークを意味的にも表現できる。このとき使用する識別子は、都市設備の位置や識別に関するデータ型であるuro:frnFacilityIdAttributeの属性idの値とする。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_c66916d8-bc82-b1c8-c057-a57386b9fd8b"
+        },
+        "content": [
+          {
+            "text": "また、uro:Appurtenanceはuro:ThematicShapeは設備の中心点の情報をもつことができる。この中心点の高さは、設備の中心の高さ、地表の高さ、土被りの高さのいずれかとなり、中心点がもつ高さを属性heightTypeで指定する。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_9d120307-9f4c-2d28-0dab-b0d8095b2fe4"
+        },
+        "content": [
+          {
+            "text": "uro:UtilityNodeContainerはこれらの設備を格納するマンホールやハンドホールである。属性appurtananceは、ハンドホール又はマンホールに格納されている設備の識別子を記述するための属性である。これによりマンホールやハンドホール単位で設備を管理することができる。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_69aafc45-cbba-69c3-eb79-4e0c5166d0ea"
+        },
+        "content": [
+          {
+            "text": "また、uro:UtilityNodeContainerは、uro:Appurtenanceと同様に、高さを地表の高さとした中心点の情報をuro:ThematicShapeとしてもつことができる。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "title": "C.11.2.5  建築物の一部が計測できない場合の対応",
+  "path": "/plateaudocument02/tocC/tocC_11/tocC_11_02/tocC_11_02_05",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "C.11.2.5\t建築物の一部が計測できない場合の対応",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_b7e9be07-f56c-0c8f-a763-d5e975881b90"
+        },
+        "content": [
+          {
+            "text": "MMS点群、地上レーザ点群等の地上からの計測データでは、道路又は屋内通路等に面していない箇所の作成は困難である。次の方法を併用してその形を補完するものとする。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_bf13ebfe-ce22-875a-d52e-d6d74ab6ce92"
+        },
+        "content": [
+          {
+            "text": "建築物の屋根面が作成できない場合",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "bullet_list",
+      "content": {
+        "content": [
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_3c08c8d5-ecfc-5472-94c5-3d5e7cf275c7"
+                },
+                "content": [
+                  {
+                    "text": "LOD2の形状で屋根面を補完する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_224850db-f15c-df25-efb8-5e21201b2316"
+                },
+                "content": [
+                  {
+                    "text": "LOD2を整備していない場合は、航空レーザ点群又は航空写真を使い屋根面を取得する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          }
+        ],
+        "type": "bullet_list"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_53ce0dc5-acde-324d-9c90-124e5638bf2b"
+        },
+        "content": [
+          {
+            "text": "建築物の外壁面が作成できない場合",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "bullet_list",
+      "content": {
+        "content": [
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_823a14a2-8aff-4db4-de3d-0bd1634b9ccc"
+                },
+                "content": [
+                  {
+                    "text": "LOD2の形状で外壁面を補完する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_a23f4989-71fe-e506-bdea-252bb72a1054"
+                },
+                "content": [
+                  {
+                    "text": "LOD2を整備していない場合はLOD1の正射影の外周形状を参考に外壁面を補完する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          }
+        ],
+        "type": "bullet_list"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1486 @@
+{
+  "title": "4.9.3.2.5  uro:ReservoirFloodingRiskAttribute",
+  "path": "/plateaudocument/toc4/toc4_09/toc4_09_03/toc4_09_03_02/_uroreservoirfloodingriskattribute_2",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "4.9.3.2.5\turo:ReservoirFloodingRiskAttribute",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "tableFigure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_04c21fee-6a6d-d7a0-08a0-d1e7a52c1200"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "表",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "4-318",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "colWidths": [
+                "25%",
+                "25%",
+                "50%"
+              ]
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "型の定義",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_79715a19-7794-ee53-f743-bd3fe9d507b2"
+                        },
+                        "content": [
+                          {
+                            "text": "ため池ハザードマップに存在する建築物に、ため池ハザードマップの属性を与えるための属性型。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": " 「ため池ハザードマップ」とは、ため池が決壊する恐れのある場合又は決壊した場合に迅速かつ安全に非難するための参考資料である。 ",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part-unstable:p-39d78232-7faf-4db2-a9d6-1e1f16e87375"
+                        },
+                        "content": [
+                          {
+                            "text": "［出典：",
+                            "type": "text"
+                          },
+                          {
+                            "attrs": {
+                              "href": "https://www.maff.go.jp/j/nousin/bousai/bousai_saigai/b_tameike/pdf/tameike_manual_1rev.pdf"
+                            },
+                            "content": [
+                              {
+                                "text": "「ため池ハザードマップ作成の手引き」農林水産省農村振興局防災課、2013年5月",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "external_link"
+                          },
+                          {
+                            "text": "］",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_211268f4-7188-9582-7f45-3b79b9ba8348"
+                        },
+                        "content": [
+                          {
+                            "text": "複数の区域が一棟の建築物に跨って存在する場合は、同一浸水ランクを持つ浸水ランクのメッシュを一つの区域とし、その区域と建築物が重なる面積が最も大きい浸水ランクの値を採用する。（面積が等しい場合は、より浸水ランクの危険な区域を採用する）",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "浸水深は採用した浸水ランクを持つ浸水深のメッシュのうち、建築物と重なる面積が最も大きいメッシュの浸水深を採用する。（同じ浸水深を持つメッシュは面積算出の際に合算する） ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "面積の有効桁数は、小数点2 桁（ 3 桁目で四捨五入）とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "上位の型",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_bdbdc2ed-08fe-22b2-adff-8aa83160e54a"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:FloodingRiskAttribute",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "ステレオタイプ",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_9bf23476-7384-3fae-1055-7f12398e7768"
+                        },
+                        "content": [
+                          {
+                            "text": "\u003c\u003c DataType \u003e\u003e",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "3",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "継承する属性",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "属性名",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "属性の型及び多重度",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "定義",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f213271a-2b79-1ff1-a60a-300f18b6ef0a"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:description",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ DisasterRiskAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_cf74d00c-41f9-5f25-0177-f64c912e55bb"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::CodeType [1..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_0aa737ad-d249-6a88-9d84-ee27009ea136"
+                        },
+                        "content": [
+                          {
+                            "text": "使用する下位のデータ型により以下のように定義する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_cea8fa09-e80e-5edf-7199-7348a8b98c7a"
+                                },
+                                "content": [
+                                  {
+                                    "text": "洪水浸水想定区域の場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_b14a86b3-bc39-ef35-96ea-ea7d8ea57ce2"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "指定河川の名称。コードリスト（RiverFloodingRiskAttribute_description.xml）より選択する。都市ごとにコードリストを作成する。",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": "指定河川の名称には、水防法に基づき指定された洪水浸水想定区域図の対象となる洪水予報河川又は水位周知河川として示された、「水系名」及び「指定河川名」を用いることを基本とする。 ",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": "一つの浸水想定区域図に複数の洪水予報河川又は水位周知河川が含まれている場合は、「指定河川名」を列挙する。指定河川名を列挙する場合の区切り文字は「・」（全角中点）を使用する。また、都道府県が独自に作成している浸水の区域図は、当該浸水想定区域の名称から、対象となる区域を指す名称を用いる。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_1058cb81-e396-88b1-2ae8-64cf020100fe"
+                                },
+                                "content": [
+                                  {
+                                    "text": "津波浸水想定の場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_afae00f8-863f-0747-84f0-7ac0198f5dc6"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "津波浸水想定の属性を付与する元となる図又はデ－タの名称。コードリスト（TsunamiRiskAttribute_description.xml）より選択する。都市ごとにコードリストを作成する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_24c8e1de-5269-f02e-0be3-c5ad72b7e75d"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高潮浸水想定区域の場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_f797d2fe-885a-488a-ff6a-02a29a2a44b6"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "高潮浸水想定区域の属性を付与する元となる図又はデ－タ集合の名称。コードリスト（HighTideRiskAttribute_description.xml）より選択する。都市ごとにコードリストを作成する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_1c172cdc-bfcf-84c4-b4b1-0b6971f7c0ad"
+                                },
+                                "content": [
+                                  {
+                                    "text": "内水浸水想定区域の場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_f3e25c1a-5230-0763-cdb7-eb38779ea2e7"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "内水浸水想定区域の属性を付与する元となる図又はデ－タの名称。コードリスト（InlandFloodingRiskAttribute_description.xml）より選択する。都市ごとにコードリストを作成する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_b2075b95-69c6-f35e-06ad-b396e95983bc"
+                                },
+                                "content": [
+                                  {
+                                    "text": "ため池ハザードマップの場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_6fd85788-e4bc-2adb-ed07-c6704c14518b"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "ため池ハザードマップの属性を付与する元となる図又はデ－タの名称。コードリスト（ReservoirFloodingRiskAttribute_description.xml）より選択する。都市ごとにコードリストを作成する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_fc7ba83d-2e2c-e354-7293-c093c219c9d7"
+                                },
+                                "content": [
+                                  {
+                                    "text": "土砂災害警戒区域の場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_4be41f3f-28c9-f2e2-ec42-d73d01e1c277"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "発生が想定されている災害の種類。コードリスト（",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "href": "urn:metanorma:doc-part:_landslideriskattribute_description_xml"
+                                            },
+                                            "content": [
+                                              {
+                                                "text": "LandSlideRiskAttribute_description.xml",
+                                                "type": "text"
+                                              }
+                                            ],
+                                            "type": "resource_link"
+                                          },
+                                          {
+                                            "text": "）より選択する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_7c7b59a1-8fd7-b99e-481d-cde1d4b2cb15"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:rank",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ FloodingRiskAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_7a4b2de7-a795-2d42-75a1-f0d8759e3c54"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::CodeType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_1334ae16-f1e9-4cdd-2370-667b586759ad"
+                        },
+                        "content": [
+                          {
+                            "text": "浸水深（津波浸水想定の場合は「水位」）に応じた区分。uro:rank又はuro:rankOrgのいずれか一つをもつ。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_53006ff6-7130-4d1a-f1f1-be82c72c029f"
+                                },
+                                "content": [
+                                  {
+                                    "text": "洪水浸水想定区域の場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_e72b7822-bd86-cfac-9dc2-3c9b024622d8"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "コードリスト（",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "href": "urn:metanorma:doc-part:_riverfloodingriskattribute_rank_xml"
+                                            },
+                                            "content": [
+                                              {
+                                                "text": "RiverFloodingRiskAttribute_rank.xml",
+                                                "type": "text"
+                                              }
+                                            ],
+                                            "type": "resource_link"
+                                          },
+                                          {
+                                            "text": "）より選択する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_da088d56-7fdb-55e1-8127-662c7c7ac1b5"
+                                },
+                                "content": [
+                                  {
+                                    "text": "津波浸水想定の場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_cbbb786a-2dd5-6ae7-598e-72a50b7a2374"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "コードリスト（",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "href": "urn:metanorma:doc-part:_tsunamiriskattribute_rank_xml"
+                                            },
+                                            "content": [
+                                              {
+                                                "text": "TsunamiRiskAttribute_rank.xml",
+                                                "type": "text"
+                                              }
+                                            ],
+                                            "type": "resource_link"
+                                          },
+                                          {
+                                            "text": "）より選択する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_d288cd4f-f0b7-e957-32e1-5d70023558dc"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高潮浸水想定区域の場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_004c32e7-9ded-5a6f-88c8-7a9585a8b1b1"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "コードリスト（",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "href": "urn:metanorma:doc-part:_hightideriskattribute_rank_xml"
+                                            },
+                                            "content": [
+                                              {
+                                                "text": "HighTideRiskAttribute_rank.xml",
+                                                "type": "text"
+                                              }
+                                            ],
+                                            "type": "resource_link"
+                                          },
+                                          {
+                                            "text": "）より選択する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_232c92c9-694c-a74f-76d6-bb76b1ffac37"
+                                },
+                                "content": [
+                                  {
+                                    "text": "内水浸水想定区域の場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_dc55b643-1554-4867-4b08-dd1e8cd1073e"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "コードリスト（",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "href": "urn:metanorma:doc-part:_inlandfloodingriskattribute_rank_xml"
+                                            },
+                                            "content": [
+                                              {
+                                                "text": "InlandFloodingRiskAttribute_rank.xml",
+                                                "type": "text"
+                                              }
+                                            ],
+                                            "type": "resource_link"
+                                          },
+                                          {
+                                            "text": "）より選択する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_cfcabebf-67c9-2cb0-e7eb-c06f6a866be5"
+                                },
+                                "content": [
+                                  {
+                                    "text": "ため池ハザードマップの場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_e7fbabcd-996f-302b-071b-b55fd276077d"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "コードリスト（",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "href": "urn:metanorma:doc-part:_reservoirfloodingriskattribute_rank_xml"
+                                            },
+                                            "content": [
+                                              {
+                                                "text": "ReservoirFloodingRiskAttribute_rank.xml",
+                                                "type": "text"
+                                              }
+                                            ],
+                                            "type": "resource_link"
+                                          },
+                                          {
+                                            "text": "）より選択する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_5f71fb58-1cd8-4d1b-1b5d-5a4ecdd7f1c1"
+                        },
+                        "content": [
+                          {
+                            "text": "なお、津波浸水想定の場合の水位は、「津波基準水位」がある場合はこれを採用し、ない場合は「津波浸水想定に定める水深に係る水位」とする。「津波基準水位」とは、「津波浸水想定に定める水深に係る水位に建築物等への衝突による津波の水位の上昇（せき上げ）を考慮して必要と認められる値を加えて定める水位」（『津波浸水想定の設定の手引き』参照）である。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_48a483d5-1dd3-d7cc-6794-f4b2966512bc"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:rankOrg",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ FloodingRiskAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_65f1033e-4c01-0f84-8741-33641a61d4fb"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::CodeType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_445a3c3c-d55b-1ee9-48bb-1ebf9cdd5fd0"
+                        },
+                        "content": [
+                          {
+                            "text": "市町村等が独自に設定した浸水深（津波浸水想定の場合は「水位」）に応じた区分。uro:rank又はuro:rankOrgのいずれか一つをもつ。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_8ea7762a-0bf9-4d71-8f91-d835d919c90b"
+                                },
+                                "content": [
+                                  {
+                                    "text": "洪水浸水想定区域の場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_f5e6e31e-fe74-7f66-e1e3-c68a134dd3fc"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "コードリスト（RiverFloodingRiskAttribute_rankOrg.xml）より選択する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_78c4700f-284d-f9cd-295d-6cbfcc53e378"
+                                },
+                                "content": [
+                                  {
+                                    "text": "津波浸水想定の場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_a64a3c63-2002-834b-bbf6-e5e77e642a8c"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "コードリスト（TsunamiRiskAttribute_rankOrg.xml）より選択する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_ff67070f-52c5-bdde-9f15-39606e595db9"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高潮浸水想定区域の場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_34f90ccc-229c-47d5-1e7e-3fb4798d8ba3"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "コードリスト（HighTideRiskAttribute_rankOrg.xml）より選択する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_9ad77445-f6af-bcae-cab9-51850838b000"
+                                },
+                                "content": [
+                                  {
+                                    "text": "内水浸水想定区域の場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_490a4734-0a7d-d870-9905-43d06faf611e"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "コードリスト（InlandFloodingRiskAttribute_rankOrg.xml）より選択する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_88db66be-e89e-cb43-00c4-c28c4bed43e4"
+                                },
+                                "content": [
+                                  {
+                                    "text": "ため池ハザードマップの場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_e0f87353-1c56-59d1-9b7a-efaf43192276"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "コードリスト（ReservoirFloodingRiskAttribute_rankOrg.xml）より選択する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_080b9342-64ef-cb43-ca51-78645bb8d6a0"
+                        },
+                        "content": [
+                          {
+                            "text": "なお、津波浸水想定の場合の水位は、「津波基準水位」がある場合はこれを採用し、ない場合は「津波浸水想定に定める水深に係る水位」とする。「津波基準水位」とは、「津波浸水想定に定める水深に係る水位に建築物等への衝突による津波の水位の上昇（せき上げ）を考慮して必要と認められる値を加えて定める水位」（『津波浸水想定の設定の手引き』参照）である。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_6f5dccd4-24b5-3997-d367-d89faa0578af"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:depth",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ FloodingRiskAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_61f5399e-6251-071d-aa2f-ae0ef26e350f"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::LengthType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_4d145533-7047-5a98-4480-a0e3cacc1224"
+                        },
+                        "content": [
+                          {
+                            "text": "浸水の深さ。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "津波浸水想定、高潮浸水想定、内水浸水想定区域及びため池ハザードマップの場合は、陸上の各地点で水面が最も高い位置にきたときの地面から水面までの高さ。 ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "単位はm（uom=”m”）とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              }
+            ],
+            "type": "table"
+          }
+        ],
+        "type": "tableFigure"
+      }
+    }
+  ]
+}

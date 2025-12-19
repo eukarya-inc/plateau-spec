@@ -1,0 +1,117 @@
+{
+  "title": "D.3.2.5  車線数",
+  "path": "/plateaudocument02/tocD/tocD_03/道路の主題属性_/車線数_",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "D.3.2.5\t車線数",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_ae4b021f-14c8-dafd-f0c5-0d9bfaa3eb40"
+        },
+        "content": [
+          {
+            "text": "uro:numberOfLanesは、上下線の合計（一方通行区間の場合を除く）の車線数である。道路構造令第2条第7号の登坂車線、同第2条第6号にいう付加追越車線、同第2条8号の屈折車線、同第2条第9号の変速車線及び同第2条第14号の停車帯、及びゆずり車線は車線数には含めない。また、「1車線道路」は道路構造令第5条1項ただし書きによって、車線により構成されない車道を持つ道路であるが、ここでは車線数＝1とする。「1車線道路」は車道幅員が5.5m未満の場合とする。",
+            "type": "text"
+          },
+          {
+            "type": "linebreak"
+          },
+          {
+            "text": "想定される取得方法を以下に示す。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "ordered_list",
+      "content": {
+        "attrs": {
+          "order": 1
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_73392921-6326-3403-6366-59798f6360f6"
+                },
+                "content": [
+                  {
+                    "text": "都市計画基礎調査で収集されている場合は、これを使用する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_78a7fc23-0302-9b9f-14de-7298af0043ee"
+                },
+                "content": [
+                  {
+                    "text": "道路基盤地図情報より得られる場合はこれを使用する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_4669d8f9-b848-64a4-f0ac-4f55ebe11c78"
+                },
+                "content": [
+                  {
+                    "text": "全国道路・街路交通量情勢調査（一般交通量調査）で収集されている場合はこれを使用する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          }
+        ],
+        "type": "ordered_list"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_54b64bc7-5463-86f7-e742-fc7545699d15"
+        },
+        "content": [
+          {
+            "text": "既存資料より得られない場合には、航空写真やMMSにより取得された画像や点群を用いて判読する。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    }
+  ]
+}

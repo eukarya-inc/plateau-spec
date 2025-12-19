@@ -1,0 +1,64 @@
+{
+  "title": "C.3.2.8  構造種別（uro:buildingStructureType）",
+  "path": "/plateaudocument02/tocC/tocC_03/tocC_03_02/tocC_03_02_08",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "C.3.2.8\t構造種別（uro:buildingStructureType）",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_c920bd5e-5c5a-9eb1-f5be-a63af84a7179"
+        },
+        "content": [
+          {
+            "text": "bldg:Buildingの属性uro:buildingStructureTypeは、「建築物に使用されている主たる材料の区分」である。構造種別の区分は都市によって異なる場合が多いが、複数の都市間を定量的に比較したい場合には区分が統一されていることが望ましい。そこで、建築物の属性uro:buildingStructureTypeには、統一的な区分として、",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "href": "https://www.mlit.go.jp/toshi/tosiko/kisotyousa001.html"
+            },
+            "content": [
+              {
+                "text": "都市計画基礎調査実施要領",
+                "type": "text"
+              }
+            ],
+            "type": "external_link"
+          },
+          {
+            "text": "において示された建物利用現況の構造の七区分に、多くの都市で使用されている「非木造」を加えた八区分を採用する。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_266d0bca-ab6a-c018-9d74-f4554c8d73d4"
+        },
+        "content": [
+          {
+            "text": "一方、都市ごとの独自の区分を利用し、データの可視化・分析を行うことも考えられるため、これらについては、建築物の主題属性uro:buildingStructureOrgTypeを使用し記述する。ただし、この属性に対応するコードリストを必ず作成しなければならない。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    }
+  ]
+}

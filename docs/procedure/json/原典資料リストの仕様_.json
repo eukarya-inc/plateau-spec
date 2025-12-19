@@ -1,0 +1,1449 @@
+{
+  "title": "6.3.4.1  原典資料リストの仕様",
+  "path": "/plateaudocument02/toc5/toc5_03/toc5_03_04/原典資料リストの仕様_",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "6.3.4.1\t原典資料リストの仕様",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_d104d80e-aa7e-4e67-b48d-e9caf17afe34"
+            },
+            "type": "anchor"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_989bf5ee-cd37-49c3-a0a3-12c6737cdb3c"
+            },
+            "type": "anchor"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_7f5e21bf-2116-4ec7-b8ab-afec49880b1c"
+            },
+            "type": "anchor"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "ordered_list",
+      "content": {
+        "attrs": {
+          "order": 1
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_64b44128-2000-9282-e9f4-475c331c4591"
+                },
+                "content": [
+                  {
+                    "text": "作成単位",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_20c4120d-4545-7bd2-6c94-cfb89a7d122f"
+                        },
+                        "content": [
+                          {
+                            "text": "データ製品に対して一つの原典資料リストを作成することを基本とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_459a639c-c790-1450-e7ae-3fc02da8d409"
+                        },
+                        "content": [
+                          {
+                            "text": "ただし、行政界を跨ぐ都市オブジェクトを、隣接する市区町村の3D都市モデルから取得し、これを当該市区町村の3D都市モデルに重複して含めた場合、隣接する市区町村の3D都市モデルから取得した都市オブジェクトの原典資料リストは分けることができる。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_d006400e-b00a-6332-0ef6-eb90140b7d85"
+                },
+                "content": [
+                  {
+                    "text": "ファイルフォーマット",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_b87eba21-538b-473d-623c-1f6965391297"
+                        },
+                        "content": [
+                          {
+                            "text": "CSV形式とする。拡張子は、「.csv」とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_12111b6e-18c0-d90f-6355-943cafc9264b"
+                },
+                "content": [
+                  {
+                    "text": "ファイル名称",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_748fc82d-6782-a895-3f67-845524769c58"
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "text": "udx_[都市コード]_[整備年度]_resource",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_dd646fde-5fd0-3df4-2e0a-3fc30b9c6ca2"
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "text": "[都市コード]",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          },
+                          {
+                            "text": "は、成果品のルートフォルダの名称に含める",
+                            "type": "text"
+                          },
+                          {
+                            "content": [
+                              {
+                                "text": "[都市コード]",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          },
+                          {
+                            "text": "とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2b784ca4-25ce-0f23-3405-68ab5352a4e5"
+                        },
+                        "content": [
+                          {
+                            "text": "隣接する市区町村の3D都市モデルから取得した都市オブジェクトの原典資料リストの名称に使用する",
+                            "type": "text"
+                          },
+                          {
+                            "content": [
+                              {
+                                "text": "[都市コード]",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          },
+                          {
+                            "text": "は、隣接する市区町村の都市コードとする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_be9313e5-678a-e7a2-bef3-eb8e4bc878b4"
+                },
+                "content": [
+                  {
+                    "text": "記載項目",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          }
+        ],
+        "type": "ordered_list"
+      }
+    },
+    {
+      "type": "tableFigure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_85a43799-6bae-5fe7-0816-e915e1273815"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "表",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "6-7",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "colWidths": [
+                "16.6666%",
+                "66.6666%",
+                "16.6668%"
+              ]
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料リスト項目",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "記述する内容",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "記述例",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_fc4f9853-1243-2fd6-f69a-e5a2914a7b2b"
+                        },
+                        "content": [
+                          {
+                            "text": "meshcode",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_fdd8eb78-617c-0e3d-3477-0218504e9d9c"
+                        },
+                        "content": [
+                          {
+                            "text": "標準地域メッシュのコードを記述する。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "コードは、地物のファイル単位として指定されている3次メッシュ又は2次メッシュのメッシュコードとする。地下埋設物モデルの場合は、国土基本図の図郭コード（図郭の区画名）とする。 ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "メッシュ毎又は図郭ごとに記述することを基本とする。 ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "同一の地物・属性について、都市域全体で同一の原典資料が使用されている場合、メッシュコード又は図郭コードを省略する。 ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "例えば、一つの洪水浸水想定区域図を都市域全体で使用している場合は、メッシュコードを省略する。 ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "一方、LOD0の建築物の外形について、都市計画基本図を使用して作成しつつ、一部のメッシュは航空写真から図化した場合は、同一地物・属性について複数の原典資料が使用されているため、メッシュ毎に記述する。 ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "また、都市計画基礎調査を複数年に分けて実施しており、場所によって作成時点の異なる都市計画基礎調査の成果が使用されている場合には、同一地物・属性について複数の原典資料が使用されているため、メッシュ毎に記述する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_dced9e21-b646-51f7-a5e7-f26341f2b31d"
+                        },
+                        "content": [
+                          {
+                            "text": "50305455",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2790b643-59fc-cd23-9529-2f2f882ab3b7"
+                        },
+                        "content": [
+                          {
+                            "text": "feature",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_463373b5-0c1d-3b44-c794-4dcd43b2e0e7"
+                        },
+                        "content": [
+                          {
+                            "text": "地物名を記述する。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "各モジュールに複数の地物が定義されている場合は、集成する地物（例：Building）を記述することを基本とする。集成する地物に束ねられ、部品として使われる地物（例：WallSurface,Door）は記述しなくてもよいが、特に明記したい場合は、記述してもよい。 ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "なお、Appearance（地物に貼るテクスチャ）は、貼り付ける対象となる地物（例：Building）のプロパティとして本リストでは記述する。 ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "地物名には接頭辞を付する。例えばBuildingの場合は、bldgを付する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_81fd3323-2340-14f2-c188-fa1a76d6e123"
+                        },
+                        "content": [
+                          {
+                            "text": "bldg:Building",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a0a7c0e5-718b-6907-f476-3604909e7e4d"
+                        },
+                        "content": [
+                          {
+                            "text": "featureName",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_396647f6-1812-16c4-2b5f-3bf2dce49d08"
+                        },
+                        "content": [
+                          {
+                            "text": "“feature”で、”GenericCityObject”を記述した場合は、どのGenericCityObjectを使用したかを識別するため、name属性の値を記述する。GenericCityObject以外をfeatureに記述した場合は、空とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_963410be-5b6e-285e-beef-b1869b3538d2"
+                        },
+                        "content": [
+                          {
+                            "text": "20",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f33baff1-69df-b14c-97d3-89c4f6a8aa3f"
+                        },
+                        "content": [
+                          {
+                            "text": "property",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_4115dbf0-dbe9-9de2-f65a-d5d89c971069"
+                        },
+                        "content": [
+                          {
+                            "text": "地物の主題属性（データ型を含む）及び空間属性（幾何オブジェクトへの参照）を記述する。空間属性はLOD別とする。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "地物の主題属性がデータ型として定義されている場合は、関連役割名とする。ただし、データ型に定義された各属性に異なる原典資料が使用されている場合は、”関連役割名.主題属性名“とする。 ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "地物のテクスチャは、”property”を“app:appearance”とする。 ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "属性名には、接頭辞を付す。 ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "接頭辞は、応用スキーマ文書に示す地物の主題属性又は空間属性に付す接頭辞に一致させる。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_fbc49252-0649-ddb8-5184-da3bf6a98c1c"
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "例",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              }
+                            ],
+                            "type": "figCaption"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_b7adff67-566b-bd28-3742-b33ae280a5f1"
+                            },
+                            "content": [
+                              {
+                                "text": "bldg:function,bldg:lod1Solid,bldg:lod2Solid,uro:buildingDetailAttribute,uro:buildingDetailAttribute.uro:vacancy,app:appearance",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "paragraph"
+                          }
+                        ],
+                        "type": "example"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_34ed3ce3-95db-b465-8323-adb58d76394d"
+                        },
+                        "content": [
+                          {
+                            "text": "bldg:lod0RoofEdge",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_8dab2d73-1808-f81b-30ab-326ce20ddf68"
+                        },
+                        "content": [
+                          {
+                            "text": "propertyName",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a477eff6-caff-2221-4604-e4dcb5d077a4"
+                        },
+                        "content": [
+                          {
+                            "text": "“property”で、”gen:stringAttribute”などの任意に追加した属性を記述した場合は、属性を識別するため、name属性（又はkey属性）の値を記述する。任意に追加した属性以外をpropertyに記述した場合は、空とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_bb87d8ec-3ffb-7af8-e219-11b3cd2f399f"
+                        },
+                        "content": [
+                          {
+                            "text": "名称",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_108c3cc9-7351-44f1-4c0e-9a9ca3ddb124"
+                        },
+                        "content": [
+                          {
+                            "text": "sourceName",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_454d276e-dff0-484a-e678-44aa9b6bab16"
+                        },
+                        "content": [
+                          {
+                            "text": "原典として使用した資料の名称を記述する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_9a4e2626-b46e-dad2-2f66-cd39312b1f01"
+                        },
+                        "content": [
+                          {
+                            "text": "航空写真",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d90da592-3b51-557b-3068-2a9026630e47"
+                        },
+                        "content": [
+                          {
+                            "text": "authority",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f452d4d2-acac-5f0d-1913-2678c10d8582"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料の作成機関の名称を記述する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_6a9b7139-d688-5117-de73-1d4d48b998ca"
+                        },
+                        "content": [
+                          {
+                            "text": "●●県〇〇市",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_6781d63a-8c8e-4cd6-aaf4-30746e4f737d"
+                        },
+                        "content": [
+                          {
+                            "text": "date",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_cf17c70f-28a4-f1e1-76ef-87ff75159baf"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料が作成、公表又は改訂された日付を記述する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_55067dff-cd4e-ddd9-7f44-d050a6587dbb"
+                        },
+                        "content": [
+                          {
+                            "text": "2021-01-01",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_b7227c13-cf29-72ba-e539-596acf487d66"
+                        },
+                        "content": [
+                          {
+                            "text": "dateType",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_6ae31e50-20ba-e57a-87cb-9e9f13a7ab94"
+                        },
+                        "content": [
+                          {
+                            "text": "“date”で記述した日付の意味を記述する。作成日の場合は001、公表日の場合は002、改訂日の場合は003、不明な場合は004とする。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "作成日は原典資料の納品日とする。 ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "公表日は原典資料がオープンデータとして公開された日とする。 ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "改訂日は作成又は公開された原典資料が修正され、納品又は公開された日とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_1bf3dc55-5aa5-e50e-d9e3-35aea4d60082"
+                        },
+                        "content": [
+                          {
+                            "text": "001",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_c90dce51-e322-6ae5-106d-f7d1c3d94386"
+                        },
+                        "content": [
+                          {
+                            "text": "srs",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_e28ec4a9-ff5a-4743-6f09-c4471477dbf7"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料がGISデータ又は図面の場合に、適用されている座標参照系の識別子を、JIS X7115メタデータ附属書2に従い記述する。GISデータではない場合は空とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d96ae19d-45b0-0743-b411-cc67685f68dd"
+                        },
+                        "content": [
+                          {
+                            "text": "JGD2011/2（X,Y）",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a851fd9d-fa72-e489-f374-f8d370e7170a"
+                        },
+                        "content": [
+                          {
+                            "text": "mapLevel",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_b584ca9a-adc2-704b-7998-cc8466fcfc86"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料がGISデータの場合又は図面の場合に、地図情報レベルを記述する。数値のみの記載とする。例：地図情報レベル2500の場合は”2500”とする。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "一つの原典資料に複数の地図情報レベルが混在している場合は、列挙してよい。ただし、その他の項目の内容が同一である場合に限る（その他の項目の内容は異なる場合は行を分ける）。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_e539a5e9-9342-aab5-94d5-209d458a0106"
+                        },
+                        "content": [
+                          {
+                            "text": "2500",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_8692fea5-2272-50d6-f021-7ab1a9d88808"
+                        },
+                        "content": [
+                          {
+                            "text": "列挙する場合",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": " 2500;1000",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_15bc499e-e689-2678-c314-66f99ae5e3ff"
+                        },
+                        "content": [
+                          {
+                            "text": "URL",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_030083df-98de-25e0-5cb8-cdb9537ee103"
+                        },
+                        "content": [
+                          {
+                            "text": "原典資料又はその詳細な情報が入手可能なウェブサイトがある場合にはURLを記述する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_dcf0d246-0be9-f751-9bc7-e7d824fdf838"
+                        },
+                        "content": [
+                          {
+                            "attrs": {
+                              "href": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A27-v3_0.html"
+                            },
+                            "type": "external_link"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              }
+            ],
+            "type": "table"
+          }
+        ],
+        "type": "tableFigure"
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "title": "H.2.4.2  データ品質属性（uro:DataQualityAttribute）",
+  "path": "/plateaudocument02/tocH/tocH_02/航路の主題属性_/データ品質属性_urodataqualityattribute_4",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "H.2.4.2\tデータ品質属性（uro:DataQualityAttribute）",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_6378a8f9-23b2-91eb-c466-e92fa68dc914"
+        },
+        "content": [
+          {
+            "text": "航路のデータ作成に使用した原典資料を記述するための属性である。3D都市モデルでは、データ集合全体としての品質はメタデータに記録する。しかしながら、メタデータでは、個々のデータに対して位置正確度や適用したLOD等の品質を記述することが困難である。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_93e3c833-211b-3182-7f5e-862bfce1160d"
+        },
+        "content": [
+          {
+            "text": "そこで、標準製品仕様書では、個々のデータに対してデータ品質に関する情報を記述するための属性として、「データ品質属性」（uro:DataQualityAttribute）を定義している。データ品質属性は、属性としてデータ作成に使用した原典資料の地図情報レベル、その他原典資料の諸元及び精緻化したLODをもつ。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_dbe42476-5499-3f16-41ff-2bb72f712196"
+        },
+        "content": [
+          {
+            "text": "3D都市モデルに含まれる全ての交通（航路）モデルは、このデータ品質属性を必ず作成しなければならない。ただし、航路（uro:Waterway）に対してデータ品質属性を付与することはできるが、これを構成する交通領域（tran:TrafficArea）や交通補助領域（tran:AuxiliaryTrafficArea）にデータ品質属性を付与することはできない。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    }
+  ]
+}

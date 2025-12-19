@@ -1,0 +1,48 @@
+{
+  "title": "9.4.2  テクスチャの実装仕様",
+  "path": "/plateaudocument/toc9/toc9_04/toc9_04_02",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "9.4.2\tテクスチャの実装仕様",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_b2ec5858-a63e-0851-6743-d214906d5908"
+        },
+        "content": [
+          {
+            "text": "地物の外観に画像を貼る場合は、アピアランスモデル（app:Appearance）を使用する。アピアランスモデルは、テクスチャとして使用する画像への参照、地物に貼り付けたい画像の部分を切り出すための画像上の座標、切り出した画像の貼り付けたい地物の面への参照により構成する。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_a56b92a7-ca59-cae2-e90c-d59dbc4fbc6f"
+        },
+        "content": [
+          {
+            "text": "画像への参照及び貼り付けたい地物の面への参照は、相対パスを使用する。画像上の座標値の指定は、UV座標を用いる。UV座標とは、横方向をU軸、縦方向をV軸とする2次元の直交座標系に基づく座標であり、その座標値は、左下を原点（0.0,0.0）、右上を（1.0,1.0）とする0から1までの小数値で表現される。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    }
+  ]
+}

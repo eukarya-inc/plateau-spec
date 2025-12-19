@@ -1,0 +1,56 @@
+name: Generate Docs
+
+on:
+  workflow_dispatch:
+    inputs:
+      document_type:
+        description: 'Document type to generate'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - standard
+          - procedure
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: cmd/go.mod
+          cache-dependency-path: cmd/go.sum
+
+      - name: Build CLI
+        run: |
+          cd cmd
+          go build -o specgen .
+
+      - name: Generate standard docs
+        if: inputs.document_type == 'all' || inputs.document_type == 'standard'
+        run: |
+          rm -r ./docs/standard
+          ./cmd/specgen -type standard -output ./docs/standard
+
+      - name: Generate procedure docs
+        if: inputs.document_type == 'all' || inputs.document_type == 'procedure'
+        run: |
+          rm -r ./docs/procedure
+          ./cmd/specgen -type procedure -output ./docs/procedure
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "docs: update generated documentation"
+          title: "docs: update generated documentation"
+          body: |
+            This PR updates the generated documentation.
+
+            Document type: ${{ inputs.document_type }}
+          branch: docs/update-${{ github.run_id }}
+          delete-branch: true

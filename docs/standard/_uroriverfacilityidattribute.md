@@ -1,0 +1,41 @@
+# 4.26.3.2.1 uro:RiverFacilityIdAttribute
+
+## 4.26.3.2.1 uro:RiverFacilityIdAttribute
+
+**表 4-873**
+
+| 型の定義 | 河川管理施設の識別に関する情報を定義したデータ型。堤防及び護岸の場合は、上流側及び下流側の距離標及び追加距離を記述する。 | ← |
+| --- | --- | --- |
+| 上位の型 | uro:FacilityIdAttribute | ← |
+| ステレオタイプ | << DataType >> | ← |
+| 継承する属性 | ← | ← |
+| 属性名 | 属性の型及び多重度 | 定義 |
+| uro:id     [ FacilityIdAttribute ] | xs::string [0..1] | 構造物の識別子。 |
+| uro:partId     [ FacilityIdAttribute ] | xs::string [0..1] | 構造物を部分（Part）に分けて記述する場合の各部分を識別するための番号。河川管理施設の場合は使用しない。 |
+| uro:branchId     [ FacilityIdAttribute ] | xs::string [0..1] | 枝番。同一の構造物ではないが、一連の構造物として管理したい場合に、それぞれを識別するための番号。 |
+| uro:prefecture     [ FacilityIdAttribute ] | gml::CodeType [0..*] | 構造物が所在する都道府県の都道府県コ－ド。JIS X0401に定義される2桁の半角数字。コードリスト（Common_localPublicAuthorities.xml）より選択する。複数の都道府県に跨って存在する場合は、複数の都道府県コードを記述する。 |
+| uro:city     [ FacilityIdAttribute ] | gml::CodeType [0..*] | 構造物が所在する市区町村の市区町村コ－ド。JIS X0401に定義される2桁の半角数字とJIS X0402に定義される3桁の半角数字とを組み合わせた5桁の半角数字。政令市の場合は、区の市区町村コードとする。コードリスト（Common_localPublicAuthorities.xml）より選択する。 複数の市区町村に跨って存在する場合は、複数の市区町村コードを記述する。 |
+| uro:route     [ FacilityIdAttribute ] | xs::string [0..1] | 構造物が存在する路線名。河川管理施設の場合は使用しない。 |
+| uro:startPost     [ FacilityIdAttribute ] | xs::string [0..1] | 構造物の開始位置の距離標。河川管理施設の場合は使用しない。 |
+| uro:endPost     [ FacilityIdAttribute ] | xs::string [0..1] | 構造物の終了位置の距離標。河川管理施設の場合は使用しない。 |
+| uro:startLat     [ FacilityIdAttribute ] | xs::double [0..1] | 構造物の開始位置の緯度（北緯）。10進数により記述する。河川管理施設の場合は使用しない。 |
+| uro:startLong     [ FacilityIdAttribute ] | xs::double [0..1] | 構造物の開始位置の経度（東経）。10進数により記述する。河川管理施設の場合は使用しない。 |
+| uro:alternativeName     [ FacilityIdAttribute ] | xs::string [0..*] | 別名。gml:nameで記述する正式な名称以外に、一般に普及している名称がある場合に記述する。 |
+| 自身に定義された属性 | ← | ← |
+| 属性名 | 属性の型及び多重度 | 定義 |
+| uro:riverCode     [ RiverFacilityIdAttribute ] | gml::CodeType [1..1] | 河川管理施設が存在する河川の河川コード。文字列とする。 1級河川、2級河川、準用河川、普通河川に該当する個別の河川を一意に特定するために付与された、2桁の地域番号、4桁の水系番号、4桁の河川番号からなる10桁の番号 |
+| uro:riverName     [ RiverFacilityIdAttribute ] | xs::string [0..1] | 河川の名称。 ○○水系△△川というように、水系名と河川名との組み合わせで記述する。 |
+| uro:sideType     [ RiverFacilityIdAttribute ] | gml::CodeType [1..1] | 河川管理施設が存在する場所の区分。コードリスト（RiverFacilityIdAttribute_sideType.xml）より選択する。 |
+| uro:leftPost     [ RiverFacilityIdAttribute ] | gml::LengthType [0..1] | 左岸の距離標。単位はkmとする。小数点1桁まで記載する。 |
+| uro:leftDistance     [ RiverFacilityIdAttribute ] | gml::LengthType [0..1] | 左岸距離標からの追加距離。単位はkmとする。 |
+| uro:rightPost     [ RiverFacilityIdAttribute ] | gml::LengthType [0..1] | 右岸の距離標。単位はkmとする。小数点1桁まで記載する。 |
+| uro:rightDistance     [ RiverFacilityIdAttribute ] | gml::LengthType [0..1] | 右岸距離標からの追加距離。単位はkmとする。 |
+| uro:leftStartPost     [ RiverFacilityIdAttribute ] | gml::LengthType [0..1] | 左岸の上流側距離標。単位はkmとする。小数点1桁まで記載する。堤防及び護岸の場合に記述する。 |
+| uro:leftStartDistance     [ RiverFacilityIdAttribute ] | gml::LengthType [0..1] | 左岸の上流側距離標からの追加距離。単位はkmとする。堤防及び護岸の場合に記述する。 |
+| uro:leftEndPost     [ RiverFacilityIdAttribute ] | gml::LengthType [0..1] | 左岸の下流側距離標。単位はkmとする。小数点1桁まで記載する。堤防及び護岸の場合に記述する。 |
+| uro:leftEndDistance     [ RiverFacilityIdAttribute ] | gml::LengthType [0..1] | 左岸の下流側距離標からの追加距離。単位はkmとする。 |
+| uro:rightStartPost     [ RiverFacilityIdAttribute ] | gml::LengthType [0..1] | 右岸の上流側距離標。単位はkmとする。小数点1桁まで記載する。堤防及び護岸の場合に記述する。 |
+| uro:rightStartDistance     [ RiverFacilityIdAttribute ] | gml::LengthType [0..1] | 右岸の上流側距離標からの追加距離。単位はkmとする。堤防及び護岸の場合に記述する。 |
+| uro:rightEndPost     [ RiverFacilityIdAttribute ] | gml::LengthType [0..1] | 右岸の下流側距離標。単位はkmとする。小数点1桁まで記載する。堤防及び護岸の場合に記述する。 |
+| uro:rightEndDistance     [ RiverFacilityIdAttribute ] | gml::LengthType [0..1] | 右岸の下流側距離標からの追加距離。単位はkmとする。堤防及び護岸の場合に記述する。 |
+

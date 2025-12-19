@@ -1,0 +1,237 @@
+{
+  "title": "5.2.1  幾何オブジェクトの作成",
+  "path": "/plateaudocument02/toc4/toc4_02/toc4_02_01",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "5.2.1\t幾何オブジェクトの作成",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_799d70ab-5dfc-8d91-d37a-87c673c002cf"
+        },
+        "content": [
+          {
+            "text": "ここで作成された幾何オブジェクトは",
+            "type": "text"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "href": "urn:metanorma:doc-part:tocB"
+                },
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "text": "附属書",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      },
+                      {
+                        "text": "B",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "span"
+                  }
+                ],
+                "type": "resource_link"
+              },
+              {
+                "text": "に示す妥当な幾何オブジェクトの要件を満たさなければならない。",
+                "type": "text"
+              }
+            ],
+            "type": "underline"
+          },
+          {
+            "text": "また、地物型ごとに取りうる幾何型や満たすべき要件が異なるため、",
+            "type": "text"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "href": "urn:metanorma:doc-part:tocC"
+                },
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "text": "附属書",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      },
+                      {
+                        "text": "C",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "span"
+                  }
+                ],
+                "type": "resource_link"
+              },
+              {
+                "text": "から",
+                "type": "text"
+              },
+              {
+                "attrs": {
+                  "href": "urn:metanorma:doc-part:tocU"
+                },
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "text": "附属書",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      },
+                      {
+                        "text": "U",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "span"
+                  }
+                ],
+                "type": "resource_link"
+              },
+              {
+                "text": "に示す地物型ごとの要件を満たす",
+                "type": "text"
+              }
+            ],
+            "type": "underline"
+          },
+          {
+            "text": "こと。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_8cf5c9d9-f336-fdbd-a4cd-c20b957ba80f"
+        },
+        "content": [
+          {
+            "text": "地物型が取りうる幾何型は、0次元の幾何である点（gml:Point又はgml:MultiPoint）、1次元の幾何である線（gml:MultiCurve）、2次元の幾何である面（gml:MultiSurface）又は、3次元の幾何である立体",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_8bb3bf9f-5d80-4e77-af32-d3770b2ee99a"
+            },
+            "type": "anchor"
+          },
+          {
+            "text": "（gml:Solid）のいずれかである。点、線及び面の作成は、基盤地図情報をはじめとする2次元の地図作成において採用される手法に従う。ここでは、建築物",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_6971a7d5-7e14-4b07-83ee-19a8f97cdec6"
+            },
+            "type": "anchor"
+          },
+          {
+            "text": "を例として3D都市モデル",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_b28e75fd-132b-4878-8942-05b22bfc8f45"
+            },
+            "type": "anchor"
+          },
+          {
+            "text": "として新たに追加される立体",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_85c49dcb-79c2-44a3-9be2-ebbebe2a66e2"
+            },
+            "type": "anchor"
+          },
+          {
+            "text": "（gml:Solid）の作成手順を示す。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_fbf4a58f-3a42-88c7-4eaa-a05307ae6915"
+        },
+        "content": [
+          {
+            "text": "なお、幾何オブジェクトの作成においては、各都道府県や市区町村が定める公共測量作業規程又は、作業規程の準則（国土交通省国土地理院）に従うこと。また3Dの立体",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_11854c8d-52d6-40a8-9d8b-1c845617ce32"
+            },
+            "type": "anchor"
+          },
+          {
+            "text": "の図化においては「",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "href": "https://www.mlit.go.jp/plateau/libraries/"
+            },
+            "content": [
+              {
+                "text": "3D都市モデル整備のための測量マニュアル",
+                "type": "text"
+              }
+            ],
+            "type": "external_link"
+          },
+          {
+            "text": "」を参考とする。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# 4.6.4.1.1 Square_function.xml
+
+## 4.6.4.1.1 Square_function.xml
+
+**表 4-274**
+
+| ファイル名 | Square_function.xml |
+| --- | --- |
+| ファイルURL | [https://www.geospatial.jp/iur/codelists/3.2/Square_function.xml](https://www.geospatial.jp/iur/codelists/3.2/Square_function.xml) |
+| コード | 説明 |
+| 1 | 駅前広場 |
+| 2 | 自動車ターミナル |
+| 3 | 交通広場 |
+| 出典： [[35]](https://www.mlit.go.jp/toshi/tosiko/genkyou.html) | ← |
+

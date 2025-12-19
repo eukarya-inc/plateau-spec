@@ -1,0 +1,1556 @@
+{
+  "title": "2.4.2.1  コード型の地物属性を追加する場合",
+  "path": "/plateaudocument02/toc1/toc1_04/toc1_04_02/toc1_04_02_01",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "2.4.2.1\tコード型の地物属性を追加する場合",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_b39b9318-d0f3-fb51-3dfe-fb75714c2d0a"
+        },
+        "content": [
+          {
+            "text": "コード型の地物属性を追加したい場合は、以下の手順に従う。",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_b7d18292-dbe3-419f-ba8d-e1de43d90a39"
+            },
+            "type": "anchor"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_4aac6a48-d8fb-4280-95bc-21f701538a14"
+            },
+            "type": "anchor"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_6b9af741-9f25-4651-b240-91f4ca84624a"
+            },
+            "type": "anchor"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "bullet_list",
+      "content": {
+        "content": [
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_cc29227d-d8a1-856d-9e9e-e72d0615fa52"
+                },
+                "content": [
+                  {
+                    "text": "【手順】",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_6664a068-9780-381e-ba1f-d25a846cd60b"
+                },
+                "content": [
+                  {
+                    "text": "手順1．",
+                    "type": "text"
+                  },
+                  {
+                    "attrs": {
+                      "href": "urn:metanorma:doc-part:tocA_03_03"
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "text": "A.3.3",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      }
+                    ],
+                    "type": "resource_link"
+                  },
+                  {
+                    "text": "に示す様式に従い、追加したいコード型の属性（拡張属性）のリストを作成する。作成例を",
+                    "type": "text"
+                  },
+                  {
+                    "attrs": {
+                      "href": "urn:metanorma:doc-part:tab-1-3"
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "text": "表",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "span"
+                          },
+                          {
+                            "text": "2-10",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      }
+                    ],
+                    "type": "resource_link"
+                  },
+                  {
+                    "text": "に示す。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_d8a1ea52-b705-c3b2-bb9a-dd5c4a8ab864"
+                },
+                "content": [
+                  {
+                    "text": "拡張属性のリストは、以下に示す事項を守り、作成すること。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_404fdccf-e417-9028-8367-6c5231cdd2ad"
+                        },
+                        "content": [
+                          {
+                            "text": "拡張属性には「key」を与える。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_b760d674-7510-008a-5ae6-5a51840f2217"
+                                },
+                                "content": [
+                                  {
+                                    "text": "「key」は、拡張属性の中で、一意となる番号とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_35eb2ae9-c49f-b49f-5e91-1a54e6c3949f"
+                                },
+                                "content": [
+                                  {
+                                    "text": "「key」は、半角数字とし、100以降の連番を使用する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_0a7f7349-b301-42b5-1fe9-57b04a86aa6b"
+                        },
+                        "content": [
+                          {
+                            "text": "追加した拡張属性ごとに、「説明」「定義」「多重度」「型」「定義域」「注釈」を記述する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_20f1bc3d-65a5-67f9-286d-6bc0091f4d26"
+                                },
+                                "content": [
+                                  {
+                                    "text": "「説明」は、拡張属性の内容が分かる、簡潔な語句（名称）を記述する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_7f6bf7e5-efaa-f7bc-b1fa-43089b879acc"
+                                },
+                                "content": [
+                                  {
+                                    "text": "「定義」は、拡張属性の詳細な内容を示す。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_d28a4a68-b240-b570-0543-9d6005d8c0b2"
+                                },
+                                "content": [
+                                  {
+                                    "text": "「多重度」は、その拡張属性が一つの地物インスタンスに出現しうる回数を示す。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_339cb52a-c50a-fcd2-cff9-a2903161e4a0"
+                                },
+                                "content": [
+                                  {
+                                    "text": "「型」は、コード型を示す「uro:codeValue」とする。この値は固定値である。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_1b9654f0-2fb1-ae76-23f6-a4ecb46a66db"
+                                },
+                                "content": [
+                                  {
+                                    "text": "「定義域」には、次項で示す、拡張属性が取りうる値を格納するコードリストのファイル名を記述する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_b4fb9787-1d18-be75-ad58-be0566c56101"
+                                },
+                                "content": [
+                                  {
+                                    "text": "「注釈」には、必要に応じて、当該拡張属性について特筆すべき事項を記述する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:tab-1-3"
+                                },
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "content": [
+                                          {
+                                            "text": "表",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "span"
+                                      },
+                                      {
+                                        "text": "2-10 — 建築物の拡張属性リストの作成例（様式A.3.3）",
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "type": "figCaption"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "colWidths": [
+                                        "8%",
+                                        "17%",
+                                        "17%",
+                                        "7%",
+                                        "17%",
+                                        "17%",
+                                        "17%"
+                                      ]
+                                    },
+                                    "content": [
+                                      {
+                                        "content": [
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": ""
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "key",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_header"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": ""
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "説明",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_header"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": ""
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "定義",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_header"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": ""
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "多重度",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_header"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": ""
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "型",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_header"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": ""
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "定義域",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_header"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": ""
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "注釈",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_header"
+                                          }
+                                        ],
+                                        "type": "table_row"
+                                      },
+                                      {
+                                        "content": [
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_44e1cc37-7b01-c57e-c71d-236641c0c92c"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "100",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_cell"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_c2f775fb-5bd1-1eee-240a-8f753391bfbb"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "建築面積区分",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_cell"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_69d2b816-0b16-f2fe-82ba-9ab90ff35b2d"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "建築物の建築面積の広さによる分類。",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_cell"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_2888db12-0770-a83d-4249-e2f6e176b21b"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "1",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_cell"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_9c42b9b2-47d2-3344-473c-401b834694dc"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "uro::codeValue",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_cell"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_d1b03f25-2d66-5758-98ad-7e1af4c6782b"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "content": [
+                                                      {
+                                                        "text": "keyValuePairAttribute_key100.xml",
+                                                        "type": "text"
+                                                      }
+                                                    ],
+                                                    "type": "code"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_cell"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "type": "table_cell"
+                                          }
+                                        ],
+                                        "type": "table_row"
+                                      }
+                                    ],
+                                    "type": "table"
+                                  }
+                                ],
+                                "type": "tableFigure"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_ec9d7e97-6d24-310e-a88d-e1e1a7ce03ab"
+                },
+                "content": [
+                  {
+                    "text": "手順2．",
+                    "type": "text"
+                  },
+                  {
+                    "attrs": {
+                      "href": "urn:metanorma:doc-part:tocA_03_02"
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "text": "A.3.2",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      }
+                    ],
+                    "type": "resource_link"
+                  },
+                  {
+                    "text": "に示す様式に従い、追加した拡張属性ごとに、定義域を示すコードリストを作成する。作成例を",
+                    "type": "text"
+                  },
+                  {
+                    "attrs": {
+                      "href": "urn:metanorma:doc-part:tab-1-4"
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "text": "表",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "span"
+                          },
+                          {
+                            "text": "2-11",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      }
+                    ],
+                    "type": "resource_link"
+                  },
+                  {
+                    "text": "に示す。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_ecd5d7fa-dc21-248e-4c6e-5ae5a8a8f967"
+                },
+                "content": [
+                  {
+                    "text": "コードリストは、以下に示す事項を守り、作成すること。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_fe7c8b90-4a0c-8cd7-7691-d1c113108921"
+                        },
+                        "content": [
+                          {
+                            "text": "取りうる「コード」とその「説明」を対として記述する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_e47f17e3-6a82-3ef2-0eb3-a2d5b780aa3f"
+                                },
+                                "content": [
+                                  {
+                                    "text": "「説明」は、コードの内容が分かるように記述すること。",
+                                    "type": "text"
+                                  },
+                                  {
+                                    "type": "linebreak"
+                                  },
+                                  {
+                                    "text": "例えば、建築物の用途を定義する際に、コードの説明が「娯楽施設1」では、対象となる施設に何が含まれるのか分からない。このような場合には、「娯楽施設1（劇場、映画館、演芸場、観覧場、料理店）」というように、説明や事例を付する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_4b055bed-9965-cee2-5ea8-865595295dc6"
+                        },
+                        "content": [
+                          {
+                            "text": "「コード」の値は半角数字とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_473389d2-2a5e-6d7c-f27c-dc36ecca43f6"
+                        },
+                        "content": [
+                          {
+                            "text": "一つのコードリストには「コード」を一つ以上作成しなければならない。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_0b05b6bd-1c4e-ba02-92a0-bd5dc2a2633b"
+                        },
+                        "content": [
+                          {
+                            "text": "一つのコードリストにおいて、「コード」及びその「説明」は一意でなければならない。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_1e211870-5555-e3fd-99e2-e840a8c15db7"
+                        },
+                        "content": [
+                          {
+                            "text": "コードリストのファイル名は以下とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_86b58171-dd6d-1f38-d393-6e9595ae3d4f"
+                                },
+                                "content": [
+                                  {
+                                    "text": "“KeyValuePairAttribute_keyX.xml” ： “X” は、拡張属性を識別するkeyの値（半角数字）と一致する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:tab-1-4"
+                                },
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "content": [
+                                          {
+                                            "text": "表",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "span"
+                                      },
+                                      {
+                                        "text": "2-11 — 拡張コードリストの作成例（様式 A.3.2）",
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "type": "figCaption"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "colWidths": [
+                                        "25%",
+                                        "75%"
+                                      ]
+                                    },
+                                    "content": [
+                                      {
+                                        "content": [
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": ""
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "ファイル名",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_header"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_49d765e0-4793-7d7a-daff-7bdfecc359a2"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "KeyValuePairAttribute_key100.xml",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_cell"
+                                          }
+                                        ],
+                                        "type": "table_row"
+                                      },
+                                      {
+                                        "content": [
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": ""
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "コード",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_header"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": ""
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "説明",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_header"
+                                          }
+                                        ],
+                                        "type": "table_row"
+                                      },
+                                      {
+                                        "content": [
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_32180b70-d8a4-8fd0-5210-a2ae4781247e"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "701",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_cell"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_4a2418bc-435b-204f-29b6-02c38dbdfafe"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "50㎡以下",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_cell"
+                                          }
+                                        ],
+                                        "type": "table_row"
+                                      },
+                                      {
+                                        "content": [
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_ea1b5da7-33cc-5db8-0bdf-decbf944a331"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "702",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_cell"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_ae032fb8-5337-4716-98f0-4a10c28d8264"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "75㎡以下",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_cell"
+                                          }
+                                        ],
+                                        "type": "table_row"
+                                      },
+                                      {
+                                        "content": [
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_308505b8-5c2b-6e8e-62e6-f2afca5a5762"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "703",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_cell"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_acc88235-2209-39cc-a7b5-f2d791ec4630"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "150㎡以下",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_cell"
+                                          }
+                                        ],
+                                        "type": "table_row"
+                                      },
+                                      {
+                                        "content": [
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_577b62f2-f72d-665e-c929-92bf92a5f056"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "704",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_cell"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_437168cb-23b6-f153-98c4-5aecb027bcae"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "500㎡以下",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_cell"
+                                          }
+                                        ],
+                                        "type": "table_row"
+                                      },
+                                      {
+                                        "content": [
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_1e9a5399-dd69-be1d-ee56-f3259ecbb05a"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "705",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_cell"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_c2c58a7d-21c8-e4b0-c079-4a4d82be0ba3"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "1500㎡以下",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_cell"
+                                          }
+                                        ],
+                                        "type": "table_row"
+                                      },
+                                      {
+                                        "content": [
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_e52a9ccd-bc69-ea51-9e46-b968cbb7e893"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "706",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_cell"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_1c77eab6-9032-244b-241f-09eb932898b3"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "1500㎡超",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_cell"
+                                          }
+                                        ],
+                                        "type": "table_row"
+                                      },
+                                      {
+                                        "content": [
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_c7bac94e-7b92-186f-13ec-ddcfe70eeab2"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "711",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_cell"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "background": null,
+                                              "colspan": null,
+                                              "colwidth": null,
+                                              "rowspan": null
+                                            },
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_5c10ce13-abbe-eb2f-f460-9edfcfaa6475"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "不明",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "table_cell"
+                                          }
+                                        ],
+                                        "type": "table_row"
+                                      }
+                                    ],
+                                    "type": "table"
+                                  }
+                                ],
+                                "type": "tableFigure"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          }
+        ],
+        "type": "bullet_list"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_bfb86951-a5dc-77e1-6c76-680a13cc8bf0"
+        },
+        "content": [
+          {
+            "text": "　",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "admonition",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_b664a45b-f15e-1ac7-54d2-f5763f911c5f",
+          "tags": [
+            "note",
+            "commentary"
+          ]
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "注記",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              }
+            ],
+            "type": "xrefLabel"
+          },
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "2.4.2.1",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "content": [
+                  {
+                    "text": "の",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "content": [
+                  {
+                    "text": "注記",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              }
+            ],
+            "type": "xrefLabel"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_662c0c30-41f6-8689-6189-643d7e8e6cbc"
+            },
+            "content": [
+              {
+                "text": "コード型（gml:CodeType）とは、取りうる値があらかじめコードとしてリスト化され、その中からコードを選択して記述するデータ型である。コード型の属性を追加する場合は、追加した属性ごとに「コード及びコードに対応する説明のリスト」（コードリスト）が必要となる。",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_8ffb3c9b-2732-3787-b123-f4a4200e2c6a"
+            },
+            "content": [
+              {
+                "text": "CityGMLでは、定義済みの地物型に地物属性を追加するための汎用的な属性が、値の型ごとに用意されている（",
+                "type": "text"
+              },
+              {
+                "attrs": {
+                  "href": "urn:metanorma:doc-part:anchor-id"
+                },
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "text": "1.2",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "span"
+                  }
+                ],
+                "type": "resource_link"
+              },
+              {
+                "text": "参照）が、コード型をとる汎用的な属性の型は用意されていない。コード型は取りうる値をコードリストに定義することでデータの品質管理を容易にする利点があることから、本書では、コード型の属性を追加する場合は、i-URに定義されている拡張属性を採用することとしている。",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_3417ac76-05c9-04c0-f492-998f5f8ac527"
+            },
+            "content": [
+              {
+                "text": "なお、i-UR3.0（標準製品仕様書第3.5版までに対応）では、建築物にのみコード型の属性を追加する拡張属性の仕組みが定義されていたが、i-UR3.1（標準製品仕様書第4.1版に対応）では、道路や土地利用など、様々な地物型にこの拡張属性の仕組みが追加されたことから、本書では、全ての地物型について、コード型の属性を追加する場合は、拡張属性を採用する。",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        ],
+        "type": "admonition"
+      }
+    }
+  ]
+}

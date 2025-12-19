@@ -1,0 +1,2359 @@
+{
+  "title": "6.4.5.4  洪水浸水想定区域のフォルダ構成",
+  "path": "/plateaudocument02/toc5/toc5_04/toc5_04_05/toc5_04_05_04",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "6.4.5.4\t洪水浸水想定区域のフォルダ構成",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_194c308d-0ac6-07db-cd37-4e2ecf1574f3"
+        },
+        "content": [
+          {
+            "text": "洪水浸水想定区域の3D都市モデル",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_075607d9-58c0-426e-9456-81c7afab4c1a"
+            },
+            "type": "anchor"
+          },
+          {
+            "text": "は、洪水浸水想定区域ごとにサブフォルダを作成し、格納する。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_227a8642-5d19-964e-efe6-3b4794a890e9"
+        },
+        "content": [
+          {
+            "text": "洪水浸水想定区域のフォルダ構成及びフォルダ名の命名規則は以下の規則に従う。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "bullet_list",
+      "content": {
+        "content": [
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_b6bc749b-3197-ce2a-8b13-403af33f797a"
+                },
+                "content": [
+                  {
+                    "text": "洪水浸水想定区域を格納するフォルダ（フォルダ名：fld）に、「国」、「都道府県」及び「独自」ごとにサブフォルダを作成する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_ff204521-ab67-579d-9748-9f101f994fa3"
+                        },
+                        "content": [
+                          {
+                            "text": "「国」を示すサブフォルダ名は「natl」とし、「都道府県」を示すサブフォルダ名は「pref」とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_572d6025-f6c1-9b93-ef2e-9d96ab2ff017"
+                        },
+                        "content": [
+                          {
+                            "text": "「独自」を示すサブフォルダは「org」とする。「独自」とは、以下を指す。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_f69ed51b-a157-1884-c288-d0178c779e00"
+                                },
+                                "content": [
+                                  {
+                                    "text": "都道府県が独自に作成した特定の地域を対象とした複数の河川による浸水想定区域図や水位周知河川・洪水予報河川として指定されていない河川の浸水想定区域図",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_ca3c6292-0122-3aea-31cd-89a055794807"
+                                },
+                                "content": [
+                                  {
+                                    "text": "洪水浸水想定区域図を作成する際の途中成果となる破堤点や経過時間ごとの浸水データから作成された災害リスク（浸水）モデル",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_e827c127-a16e-fdbe-8086-47761d807950"
+                },
+                "content": [
+                  {
+                    "text": "「natl」、「pref」及び「org」の各フォルダのサブフォルダとして、洪水浸水想定区域図ごとのフォルダを作成する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_bd711c1f-574d-d9f9-58ef-ac3e82bf75bd"
+                        },
+                        "content": [
+                          {
+                            "text": "「natl」には、国が指定する洪水予報河川又は水位周知河川で作成された洪水浸水想定区域図のフォルダを作成する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_4beb0783-2d59-9cd8-29cd-f0b633456164"
+                        },
+                        "content": [
+                          {
+                            "text": "「pref」には、都道府県が指定する洪水予報河川又は水位周知河川で作成された洪水浸水想定区域図のフォルダを作成する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_4e2bbbc1-9421-7dca-5f78-6092e253dfc0"
+                        },
+                        "content": [
+                          {
+                            "text": "「org」には、国が指定する洪水予報河川又は水位周知河川で作成された洪水浸水想定区域図",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_549901a8-1dc0-d46c-fb6e-e3ce5abdf647"
+                },
+                "content": [
+                  {
+                    "text": "洪水浸水想定区域図ごとに作成するフォルダ名称は",
+                    "type": "text"
+                  },
+                  {
+                    "content": [
+                      {
+                        "text": "[水系名]_[指定河川名]_[番号]",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "code"
+                  },
+                  {
+                    "text": "とする。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2b2b424b-db15-a912-7a97-bcdaa6a5865b"
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "text": "[水系名]",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          },
+                          {
+                            "text": "及び",
+                            "type": "text"
+                          },
+                          {
+                            "content": [
+                              {
+                                "text": "[指定河川名]",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          },
+                          {
+                            "text": "は、水防法に基づき指定された洪水浸水想定区域図の対象となる洪水予報河川又は水位周知河川として示された「水系名」及び「指定河川名」を用いる。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_afe56a7e-8cad-cc30-cec4-1c1fb1277a71"
+                        },
+                        "content": [
+                          {
+                            "text": "「水系名」及び「指定河川名」の表記は英名（全て小文字）とする。英名の表記には、ヘボン式を採用する。表音のローマ字表記に「川」を表す英語の追加や、表音のローマ字表記のうち「川」を表す部分を対応する英語に置き換えたりはしない。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_1d91809f-531e-5575-0bee-e255a01b7bb2"
+                        },
+                        "content": [
+                          {
+                            "text": "ヘボン式の表記は、「地名等の英語表記規程」（平成28年国地達第10号）別紙1　表音のローマ字による表記方法に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_730d38e8-1a0d-2087-8636-81bc29fdaf1c"
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "例",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "1",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "figCaption"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_8ab3f982-5cd3-a4a7-568d-40f5f73105c8"
+                            },
+                            "content": [
+                              {
+                                "text": "「利根川」をtonegawa riverやtone riverとはせず、「tonegawa」とする。",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "paragraph"
+                          }
+                        ],
+                        "type": "example"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_99e63a2c-aa15-bcc5-afed-402a39dd1524"
+                        },
+                        "content": [
+                          {
+                            "text": "一つの洪水浸水想定区域図に、複数の洪水予報河川又は水位周知河川が含まれている場合は、最初の2指定河川の「指定河川名」を列挙し、3指定河川以上が一つの洪水浸水想定区域図に含まれている場合は、最後に「-etc」を付す。指定河川名を列挙する場合の区切り文字には、ハイフン（-）を使用する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_423d1b33-6317-dc51-4be5-180ed02a5b83"
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "例",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "2",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "figCaption"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_2e33cc60-b76b-cdba-8c28-ba34e5477198"
+                            },
+                            "content": [
+                              {
+                                "text": "「淀川水系猪名川・藻川洪水浸水想定区域図」には、「淀川水系猪名川」及び「淀川水系藻川」の二つの洪水予報河川が含まれている。よって、「yodogawa_inagawa-mogawa」とする。",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "paragraph"
+                          }
+                        ],
+                        "type": "example"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f2c97cb0-9cbe-53b0-6f24-28b21c13703f"
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "例",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "3",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "figCaption"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_f8f6f47e-2a63-a91f-a8aa-3226230717c7"
+                            },
+                            "content": [
+                              {
+                                "text": "「菊川水系菊川・牛淵川・下小笠川洪水浸水想定区域図」には洪水予報河川又は水位周知河川として「菊川水系菊川」、「菊川水系牛淵川」及び「菊川水系下小笠川」が含まれている。よって、「kikugawa_kikugawa-ushibuchigawa-etc」とする。",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "paragraph"
+                          }
+                        ],
+                        "type": "example"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a6d47cc3-6517-fc8c-272a-a524e44ef6ee"
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "text": "[番号]",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          },
+                          {
+                            "text": "はオプションとする。前項までの命名規則で名称が同一となるフォルダを識別するために使用する。「1」を開始番号として昇順で付番する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_ffcfd0e3-d010-1a07-0893-1605a6fdd25b"
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "例",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "4",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "figCaption"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_c802b941-10a8-39df-8c07-0215b4cc1149"
+                            },
+                            "content": [
+                              {
+                                "text": "静岡県掛川市が浸水想定区域に含まれる浸水想定区域図として、「太田川水系太田川・原野谷川・敷地川・宇刈川・逆川・ぼう僧川・今ノ浦川洪水浸水想定区域」と「太田川水系太田川・原野谷川・敷地川洪水浸水想定区域」とがある。いずれも3以上の指定河川が含まれるが、最初の二つの指定河川名を使用すると、同じフォルダ名称となる。そのため、",
+                                "type": "text"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "text": "[番号]",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "code"
+                              },
+                              {
+                                "text": "を用いて、以下のように識別する。",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "paragraph"
+                          }
+                        ],
+                        "type": "example"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_286fed83-1009-1996-e8cc-d08f90cd7ca3"
+                        },
+                        "content": [
+                          {
+                            "text": "太田川水系太田川・原野谷川・敷地川・宇刈川・逆川・ぼう僧川・今ノ浦川洪水浸水想定区域は以下のフォルダ名とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_bf2d6768-4715-0297-ed25-67967f76ae80"
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "text": "otagawa_otagawa-haranoyagawa-etc-1",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_eb89c100-10f6-0ed7-b524-104d56173bfe"
+                        },
+                        "content": [
+                          {
+                            "text": "太田川水系太田川・原野谷川・敷地川洪水浸水想定区域は以下のフォルダ名とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_c38102a3-7d82-5d86-bf23-0394b3887242"
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "text": "otagawa_otagawa-haranoyagawa-etc-2",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_aa210f3d-b7d9-f4d2-a6a1-b9c707196b76"
+                },
+                "content": [
+                  {
+                    "text": "都道府県が独自に作成した、特定の地域を対象とした複数の河川による浸水想定区域図や水位周知河川・洪水予報河川として指定されていない河川の浸水想定区域図の場合は、当該浸水想定区域の名称を使用する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_3550018a-c802-95a0-4259-3669c4074da2"
+                        },
+                        "content": [
+                          {
+                            "text": "英名の表記には、ヘボン式を採用する。ヘボン式の表記は、「地名等の英語表記規程」（平成28年国地達第10号）別紙1　表音のローマ字による表記方法に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d22a74a1-1792-a4ab-fc0e-dcffdc55b00d"
+                        },
+                        "content": [
+                          {
+                            "text": "なお、表音のローマ字表記に「川」を表す英語の追加や、表音のローマ字表記のうち「川」を表す部分を対応する英語に置き換えたりはしない。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_45275c84-5e7b-86eb-e688-f2cab2157f15"
+                        },
+                        "content": [
+                          {
+                            "text": "複数の単語から構成される場合は、対象となる範囲を示す語句のみを使用し、単語をハイフン（-）でつなぐ。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_5be7b954-b69a-9f10-74cb-ca5209f1d988"
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "例",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "5",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "figCaption"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_502f271b-7e7c-0f1b-14c9-5b6c8a4ae544"
+                            },
+                            "content": [
+                              {
+                                "text": "「江東内部河川流域浸水予想区域」は、koto-naibuとなる。",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "paragraph"
+                          }
+                        ],
+                        "type": "example"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          }
+        ],
+        "type": "bullet_list"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_ebef83d1-e72b-07ed-4161-66062bf87ba2"
+        },
+        "content": [
+          {
+            "text": "洪水浸水想定区域のフォルダ構成を",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "href": "urn:metanorma:doc-part:tab-5-15"
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "text": "表",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "span"
+                  },
+                  {
+                    "text": "6-29",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              }
+            ],
+            "type": "resource_link"
+          },
+          {
+            "text": "に示す。ルートフォルダ及び洪水浸水想定区域フォルダの名称は、各フォルダの命名規則に従う。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "tableFigure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:tab-5-15"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "表",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "6-29 — 洪水浸水想定区域のフォルダ構成",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "colWidths": [
+                "6%",
+                "6%",
+                "6%",
+                "6%",
+                "6%",
+                "6%",
+                "20%",
+                "44%"
+              ]
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "6",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "フォルダ構成",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "フォルダ名",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "フォルダの説明",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_b9443dba-95e8-b010-73eb-0bf69416afb3"
+                        },
+                        "content": [
+                          {
+                            "attrs": {
+                              "height": "auto",
+                              "src": "data:image/png;base64,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",
+                              "width": "50"
+                            },
+                            "type": "image"
+                          }
+                        ],
+                        "type": "figure"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "4",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_510694da-c6df-a875-5736-20322d3bc063"
+                        },
+                        "content": [
+                          {
+                            "text": "fld",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_e04e667a-9c7c-6a7d-deec-dd80ce08a8ac"
+                        },
+                        "content": [
+                          {
+                            "text": "洪水浸水想定区域図を格納するフォルダ。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_dfe93bb0-be35-ba93-d1ac-3747c6b080fa"
+                        },
+                        "content": [
+                          {
+                            "attrs": {
+                              "height": "auto",
+                              "src": "data:image/png;base64,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",
+                              "width": "50"
+                            },
+                            "type": "image"
+                          }
+                        ],
+                        "type": "figure"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_45756a89-2c10-faa5-8a4c-c70efded6224"
+                        },
+                        "content": [
+                          {
+                            "text": "natl",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_3e2fce60-e49c-36f7-74ec-ee59af9a1844"
+                        },
+                        "content": [
+                          {
+                            "text": "国が指定する洪水予報河川又は水位周知河川で作成された洪水浸水想定区域図を格納するためのフォルダ。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "4",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_5a7dafad-71a5-e6be-d597-e170e55f0dbb"
+                        },
+                        "content": [
+                          {
+                            "attrs": {
+                              "height": "auto",
+                              "src": "data:image/png;base64,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",
+                              "width": "50"
+                            },
+                            "type": "image"
+                          }
+                        ],
+                        "type": "figure"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f97bbf3e-d3fc-ba3e-ef14-6fdd8a0309c4"
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "text": "[水系名]_[指定河川名]_[番号]",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_b44473ad-2c32-68a7-d50d-f16871ab486d"
+                        },
+                        "content": [
+                          {
+                            "text": "洪水浸水想定区域図ごとに作成されたフォルダ。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_57b144a6-ee10-0943-b52b-405bc5892c83"
+                        },
+                        "content": [
+                          {
+                            "attrs": {
+                              "height": "auto",
+                              "src": "data:image/png;base64,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",
+                              "width": "50"
+                            },
+                            "type": "image"
+                          }
+                        ],
+                        "type": "figure"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_461ad83b-90d7-118c-be43-0ce6499de860"
+                        },
+                        "content": [
+                          {
+                            "text": "pref",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_04e69453-5ac2-ee93-8f4e-360785cf6ae0"
+                        },
+                        "content": [
+                          {
+                            "text": "都道府県が指定する洪水予報河川又は水位周知河川で作成された洪水浸水想定区域図を格納するためのフォルダ。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "4",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_8c94e539-b392-6930-488f-6e4afe14139f"
+                        },
+                        "content": [
+                          {
+                            "attrs": {
+                              "height": "auto",
+                              "src": "data:image/png;base64,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",
+                              "width": "50"
+                            },
+                            "type": "image"
+                          }
+                        ],
+                        "type": "figure"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_744070e4-91cc-914a-830f-84eaae29a834"
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "text": "[水系名]_[指定河川名]_[番号]",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_e64cce62-aeb7-d26e-d95a-cfddc62b494d"
+                        },
+                        "content": [
+                          {
+                            "text": "洪水浸水想定区域図ごとに作成されたフォルダ。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_b6e7dca5-ffe5-9d99-3c63-291414219188"
+                        },
+                        "content": [
+                          {
+                            "attrs": {
+                              "height": "auto",
+                              "src": "data:image/png;base64,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",
+                              "width": "50"
+                            },
+                            "type": "image"
+                          }
+                        ],
+                        "type": "figure"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_8c19d99b-42db-cc58-2f78-bc0bdbc6990d"
+                        },
+                        "content": [
+                          {
+                            "text": "org",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_b5fcafb4-7873-a6a9-bcb9-79786c1a692c"
+                        },
+                        "content": [
+                          {
+                            "text": "以下の災害リスク（浸水）モデルを格納するフォルダ",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_3cf10876-3323-e5d0-2a7e-f797cfe50d97"
+                                },
+                                "content": [
+                                  {
+                                    "text": "都道府県が独自に作成した、特定の地域を対象とした複数の河川による浸水想定区域図や水位周知河川・洪水予報河川として指定されていない河川の浸水想定区域図",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_937bbdf4-2ebc-f148-895a-61cb2454a73d"
+                                },
+                                "content": [
+                                  {
+                                    "text": "破堤点や経過時間ごとの浸水面を表現する災害リスク（浸水）モデル",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "4",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_638f27db-d8dd-5479-aebf-2dee677b0bb1"
+                        },
+                        "content": [
+                          {
+                            "attrs": {
+                              "height": "auto",
+                              "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAAA3CAYAAACMwl2GAAAGP0lEQVR4nO1c3WscVRT/3XPv3c80pAENfahPDaVvktK3BlrxJf9A8UFEEHxTH8Q/wIDin+KDIgoKoQ9pkTykKa1a0aQVRGmRmqQQN/sxOzPn+tC525t1d+djd7PZjD8I2eycmXvmN+eec+45dyKMMRiEjY0NCCEAAMaYzmcL3/f7nttLvpfMIFy7dm3g8WkBxQlYooQQsaS58t2fgXhSTzNUUkFm7kl0EvIGySR5eKcBsUSHYYjl5WXa2NhYbrfbupu0tFbb47gA8DuA3xLoO7WIJfrq1avi1q1bH2mtPysWiyNXgIjQbDa3iOgdZn4w8gFOCGKJvnfvnioUCm8IIdBsNkEU69ZTQQgBIroShuFqq9V6r1wuPx7pACcEiYKh7/uGmUdOMvDClRDR66VS6S2kiBvThETMjTtgRYF2hog+APDmWAebEGKtxxgz1rRMCAFmBjNDSvmyMebjMAz/JqLvmBnr6+tHdOl+6HFGcPbs2c65rrydncPGnTAMB+p36dKl5+MNNcoIYJWzhAshXiGi94UQi/Z7N5fPCnsdS3AYhmDmTNeyhuEu5AAMdK0nxh9awiOlX2PmD33f/6Tdbu8rpQQRZZpZT58+PfL3uXPnUC6XaRiSAWB+ft4cHh5WPc/TAAQR1c+cOdOs1WrNXudNnGhjTMcSrJsiIi2EeFtrfUVr/ZcQwrfHslq1Mzs0M88xsySiI1M/Dfb39wFAK6UIAIiIDw4OfiaidwG0u+UnTrRjxR1E07JIREvudE+KXhmSUgrVahXVanVonV3Yhy+lhFJqIQzDl4IgeAIcdXUTJ7of3CBsra7XQ+mGvTlm7syWQqGASqUCKSU8zxu5rnZmBEHA1Wq1cXh42LmHjszIRx0jktZVXDdTqVQwOzsLrfUxaAjv/PnztV4HpoLoNFmHfRhSSszMzKBSqUAp1flu1DDGdGaPMebO6upqJ8qOxXUME6iSXNv9PQjWX1arVZTL5U7aCCBzOpdEP2MMpJSf37hxo+cgQxPdFQwmXnNWSqFUKqFcLgMYH7kWNm4wM7TWO/3GG5poS/Ls7CwKhcLE68tutjFukt3xmPlJo9Fo9osFQ/toKSXm5uZQLBYnTjLwYtV2HCTb8aSUIKJvnj17ttdPLjXRLpnGGCiljiuin1hE97+5sLDQ6ieTmmjXBwshoLUeS/l0WmBz8zAMDwfJDc1QsVjsuRLLC6SUMMb80Gw2fx0kN7RFu8WePJKtlAIz361UKr8MyrhSZx1uAahYLIKIOguB4wpAk4Rb13bye8/zvIHJQGoTtKsg4LnbyBPJwH/3rTQajTqAzbjzUhNtLdqtquWF5G4opUBEf9br9ZvA4JVrZh8dDZJLkq3biKy7Wa/X96SUA2spmfNorfXQ/bZphBv8o3bYj7u7uyZukZQ6GDpdkOzaTjHcXiEzh8aYLxYXF2PbNJnYIqJO6THnCJLursrko5VSKBQK6dU6BbCzOXIhT4wx7SSxKrVZ2iZnlKhnVnhaIaW0JVEw89d7e3sHSc7L5DrySjLwovEb/dwG0LeQ5CJTHp3HbMMFM8P3fTBz/9cdupDJorXWE++kTBKR27hjjHmU9JzURNva80ko8k8KhUIBxpjvAYyP6FKpdKSwlDc4WxnaaYwtddZhl94WeQuKSil4nvcPET1Is50s06rDreDlzYVEHZWHANbHYtF210/efXS0raJ+4cKF/e3tbVy/fn2gfKcpknSAPPrjXvB9H8aYhwA4jbElItqWBPPe7QaAIAiaAL7a2dkJ0xhf4ndYpJS5rW+4YGYPwE9pXzmJJdrZV5ZLop0Ckq1a7tXr9TaQLk7FBkN7MSklgiDIqu/UIgzDI4Qy89fz8/O1RqORyqITZR12oFYrUf3k1CLacH7TGNNKm3XFEn3//n1cvHgRWuux7JY/6XC3I0e9wjbQ/58Q9EMs0bYX1vXWVG5gyVRKIQzDu0T0OG5m93oIsURfvnwZRCT6XSAvKJfL8Dzv2yAIEheSXMQSvbS0FGxubn6ptX61VCrlzqKB54lArVb7A8DtrE3pWKK3trbM2trapysrK1sAFohIA8gV28y8K6V8RETbWa+RKOtYWVlhAGvRoEcvcMq74Xax1g9JZ3g+N2dMAP8TfUz4F9j0GMwRMl1HAAAAAElFTkSuQmCC",
+                              "width": "50"
+                            },
+                            "type": "image"
+                          }
+                        ],
+                        "type": "figure"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_86349ead-314f-d8bb-4ecc-14dd10494df4"
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "text": "[水系名]_[指定河川名]_[番号]",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_15fbb295-985b-b927-4c68-2987616db8aa"
+                        },
+                        "content": [
+                          {
+                            "text": "洪水浸水想定区域図ごとに作成されたフォルダ。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              }
+            ],
+            "type": "table"
+          }
+        ],
+        "type": "tableFigure"
+      }
+    },
+    {
+      "type": "bullet_list",
+      "content": {
+        "content": [
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_f637e095-5c7b-aea7-d619-3386d5e39f0a"
+                },
+                "content": [
+                  {
+                    "text": "洪水浸水想定区域図ごとに作成したフォルダの名称と、このフォルダに格納する洪水浸水想定区域図の名称との対応を",
+                    "type": "text"
+                  },
+                  {
+                    "attrs": {
+                      "href": "urn:metanorma:doc-part:tab-5-16"
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "text": "表",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "span"
+                          },
+                          {
+                            "text": "6-30",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      }
+                    ],
+                    "type": "resource_link"
+                  },
+                  {
+                    "text": "に示す表形式で、都市ごとの拡張製品仕様書において示すこと。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          }
+        ],
+        "type": "bullet_list"
+      }
+    },
+    {
+      "type": "tableFigure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:tab-5-16"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "表",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "6-30 — 拡張製品仕様書に示すべき洪水浸水想定区域フォルダ構成の一覧（テンプレート）",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "colWidths": [
+                "20%",
+                "20%",
+                "60%"
+              ]
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "フォルダ名",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "サブフォルダ名",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "フォルダの説明（洪水浸水想定区域図の名称）",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_5ef67673-4f8f-9098-86ae-2eab711a13d1"
+                        },
+                        "content": [
+                          {
+                            "text": "natl",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_3c7f194f-657f-291d-e527-96d44a6867ce"
+                        },
+                        "content": [
+                          {
+                            "text": "pref",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a23b9d47-d13c-2369-59b7-f595f3427fd0"
+                        },
+                        "content": [
+                          {
+                            "text": "org",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              }
+            ],
+            "type": "table"
+          }
+        ],
+        "type": "tableFigure"
+      }
+    },
+    {
+      "type": "tableFigure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_51513331-b5b3-9b40-0c58-906c3541eceb"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "表",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "6-31 — 拡張製品仕様書に示すべき洪水浸水想定区域フォルダ構成の一覧（記載例）",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "colWidths": [
+                "20%",
+                "20%",
+                "60%"
+              ]
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "フォルダ名",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "サブフォルダ名",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "フォルダの説明（洪水浸水想定区域図の名称）",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_8fd05ff6-cb1a-ea2c-a774-cd5592d40ad9"
+                        },
+                        "content": [
+                          {
+                            "text": "natl",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a0decf73-c61c-b6b6-818f-ab115cf348f0"
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "text": "tenryugawa_tenryugawa",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_c51f4f9d-f858-9617-b4df-0d52cddb0a07"
+                        },
+                        "content": [
+                          {
+                            "text": "天竜川水系天竜川洪水浸水想定区域図",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_8635a2d2-bb51-d0a4-2359-b62c91a940ea"
+                        },
+                        "content": [
+                          {
+                            "text": "pref",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_9a2a3906-5d98-f4d1-accc-5ca311da42b6"
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "text": "tenryugawa_kamigawa-miyagawa",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_efdcf32d-e6d0-d570-95d3-5fd8b45c3a0f"
+                        },
+                        "content": [
+                          {
+                            "text": "天竜川水系上川・宮川洪水浸水想定区域図",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "3",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_fbd6703e-2219-334d-2e7c-71ca7db4c14b",
+                          "tags": [
+                            "note"
+                          ]
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "注記",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              }
+                            ],
+                            "type": "xrefLabel"
+                          },
+                          {
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "6.4.5.4",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "text": "の",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "text": "注記",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              }
+                            ],
+                            "type": "xrefLabel"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_51ede749-87cf-d95d-afcb-0447e38db0b2"
+                            },
+                            "content": [
+                              {
+                                "text": "複数の洪水浸水想定区域がある場合は、行を追加する。",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "paragraph"
+                          }
+                        ],
+                        "type": "admonition"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              }
+            ],
+            "type": "table"
+          }
+        ],
+        "type": "tableFigure"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_df393d85-bcc0-433f-bb0f-b612cee77073"
+        },
+        "content": [
+          {
+            "text": "　",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "admonition",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_26192402-40a6-fe2d-6301-52431a67baf6",
+          "tags": [
+            "note",
+            "commentary"
+          ]
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "注記",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              }
+            ],
+            "type": "xrefLabel"
+          },
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "6.4.5.4",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "content": [
+                  {
+                    "text": "の",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "content": [
+                  {
+                    "text": "注記",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              }
+            ],
+            "type": "xrefLabel"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_03d66ca7-ffa1-79ad-f03b-769fa32d825a"
+            },
+            "content": [
+              {
+                "text": "洪水浸水想定区域は、水防法第14条に基づき、国又は都道府県が、洪水予報河川及び水位周知河川に指定した河川について、想定し得る最大規模の降雨又は基本高水を設定する前提となる降雨（計画規模降雨）により当該河川が氾濫した場合に、浸水が想定される区域として指定された区域である。",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_165adcad-6ba5-da14-cf50-e01890b82fae"
+            },
+            "content": [
+              {
+                "text": "そこで、洪水浸水想定区域を格納するフォルダは、国及び都道府県ごと、かつ、洪水浸水想定区域図ごとに作成する。",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_955c081b-95cf-4be5-ded1-b442fd6108cf"
+            },
+            "content": [
+              {
+                "text": "洪水浸水想定区域図の名称は、作成主体により様々である。そこで、3D都市モデルでは、洪水予報河川及び水位周知河川を一意に識別するため、フォルダ名称として水系名、指定河川名及び番号の組み合わせを使用する。",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_239ac3a8-a0fd-073a-4809-d4d910494a92"
+            },
+            "content": [
+              {
+                "text": "ただし、水防法に基づく洪水予報河川又は水位周知河川に指定された河川以外について浸水想定区域図に準じて浸水範囲を図示した独自の区域図を作成する場合がある。この場合には、当該独自の区域図の名称をフォルダ名として使用する。",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        ],
+        "type": "admonition"
+      }
+    }
+  ]
+}

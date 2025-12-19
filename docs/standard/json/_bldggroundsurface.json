@@ -1,0 +1,2534 @@
+{
+  "title": "4.2.3.1.6  bldg:GroundSurface",
+  "path": "/plateaudocument/toc4/toc4_02/toc4_02_03/toc4_02_03_01/_bldggroundsurface",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "4.2.3.1.6\tbldg:GroundSurface",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "tableFigure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_e57501db-6b0c-e1a4-e456-38841a8db26e"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "表",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "4-33",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "colWidths": [
+                "25%",
+                "25%",
+                "50%"
+              ]
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "型の定義",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_46df4035-1d68-5f47-7b8a-647a4edbb731"
+                        },
+                        "content": [
+                          {
+                            "text": "建築物の立体形状の底面。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "建築物の底面又は建築物の外壁面と地表面との交線を境界とする面を取得する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_fab21bd9-03e4-3d02-2756-d60dd5cfbcf6"
+                        },
+                        "content": [
+                          {
+                            "attrs": {
+                              "height": "auto",
+                              "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAggAAAC2CAIAAAAzweIYAAAgAElEQVR4nO3dd1xTV/sA8OfcJCRhhBlBlloVEFHqFuuuraNVq74466g/tdZqW63a2r5trbZqrbu2vvq+1tmq1arV1tk6UNwDxcESBBSRlRBGCEnu+f1x5DYEpAhIIHm+f/AJNzfJyc2557lnXkIpBYQQQqgEZ+kEIIQQqlswMCCEECoFAwNCCKFSMDAghBAqBQMDQgihUjAwIIQQKgUDA0IIoVIwMCCErBylFCdsPRMMDAgh68SCAaWUEEIIsXRy6hMMDAghAIBdu3YRq8BxnPCA47izZ89a+tDWPwRrWAih27dvh4SEeHp6jh49WqPRCNvraflAKRWJRFKpdNu2bRqN5vbt28HBwZZOVH2CgeFvrMrJHuv1+v3792s0GqlUatlUVRMhhOd5QohWq1UqlYMHDyZYp0YAYJLhExISmjdvLpVKExMTvb29LZ2umhQTE9OiRQtHR8ekpCQPDw/TcxxVAAPDE2Y55uOPP/7mm28smJ6aQsiTn5h9u7lz5y5evBjPDSRISkpq2rQppTQxMbFJkyaWTk7Ni4uLCwwMdHFxSU5OdnJywsxfGWJLJ6CuMM0uy5YtW7p06fjx4+fMmfPgwQMLpqqmEEIaNmy4cuXKpUuXenh4zJ4929IpQpbHLoZeffVVAIiIiGjcuLHZs1D6vKinAgICfv/999dff/2ll16Kjo62dHLqCYpKW7FiBQAMGzbM0gl5LoYNG0YIWbdunaUTguqEgIAAADh9+rSwhed5C6bn+fnll18AoFevXtb6BWuWTQcGo9HIHrC8wvP8gQMHAKBTp05WnHu6dOlCCNm3bx+13lIAVUD40VlO2Llzp2XTU2t+/PFHQsjQIUMx2/8jmw4MAp7neZ4/evQoAISGhrJ/LZ2o54Xn+RYtWgDAkSNHLJ0WZDFjx44FgDVr1lg6IbXq888/B4Dp06db8QleIzAwPHH58mVCiLe3t1artdZMI3yv3NxcV1dXALh165Zlk4RqH8/zkyZNAoBly5ZZa1avwPvvvw8AX3zxhQ1+98qz6cAg1AzS09NZj8v9+/ctnahakpqayr7yw4cPLZ0WVKu+/PJLQsj48eOFktFGikjhfB8xYoQN1paeiU0PV6WUEkJSUlIaNWoEAKmpqb6+vpZOVO2Jj48PCAiQSCQJCQn+/v6WTg6qDStXrpw1a9b48eM3bdpkBSOOqqxfv37Hjh3bvn37qFGjwCoGX9Usmw4MAEApbdKkSUpKyunTp7t160atZYheZVBKz549271795YtW0ZHR7MZDzby3W3TTz/99Oabb/bv3//QoUOWTovltW3bNioq6s8//+zduzfbgvlfYOuBoVOnTpcuXTpw4MDAgQNtKlsIv/uRI0cGDBjQqVOnCxcu2NQRsB3sZ/3zzz9feeWVFi1aRN+MFolFlk6U5en1+hdeeCEtLe3UqVPdunWzdHLqFpsODF26dLlw4cLu3buHDRvGtthmybhx48bJkyf36dPn2LFjlk4Lei4iIyO7du3apEmTxMRES6elDlGr1T4+PlqtNiYmJiAgwDZP/3LZ6OqqlNIpU6acP39+yZIlQlQAm2lEMvN///d/X3/99Z9//vnee+/RkpWKLZ0oVAPY75iQkNCtWzeJRHL16lVLp6hucXFxuX79OqW0Y8eOarWanf6Y+QFscuYzz/PTp08nhCxatMjSaakreJ7/6quvCCHTp0+3dFpQTcrJybG3tyeExMbGWjotdRHP81FRUYQQhUKhUqmoyXRXSyfNkmwxMHz22Wccx02dOlXYYuOZQDB69GhCyNdff40HxDoUFRV5eXkRQq5evWrptNRphw8fJoS0bduWYmlAKbXBwLB582YAGDRoEP78Ztgob7Yu948//mjp5KDq4nk+JCQETKa4Y543ZXY0fv31VwDo06ePpdJTp9hQYOB5fsfPOwCADUDCk+Rp+vfvDwCmS+jgsapHhB+rX79+NrUUUjXxPL927VpCyBtvvGHptFieDQWGiIgIQoi/v39xcbGl01KnFRQUeHt7E0IuXLhg3ctGWSue58eMGUMIWbt2raXTUp/wPD9v3jwAmDt3rqXTYmG2EhiuXr3KcZyXl1dBQYGl01IP6HQ6Ngn84sWLGBjqnUmTJhFC5s+fb+mE1D88z3/22WeEkA8//NDSabEkmwgMCQkJACCTydRqtbBRWHMbmWG1hIyMDJFIRAiJi4uzdIpQZfE8/+233wLAu+++a+m01CemVz88zw8dMpQQ8sMPP9jsVZE1Bwb2owrD9S5fvmzpFNUzly9fBoAGDRoUFhZSkzXIUN1huhAez/OrVq0CgBEjRlg2VfUaO6S9evUihOzevdt0o+2w8pnPRoOxUeNGaWlply5dat++vaWTU/9cunSpc+fOPj4+95Pui8QiilND6ypK6datW996661evXr99ddflk6ONejcufPFixf37NljOgfWRlhzYKCUtmnT5saNG3/99ReL/5ZOUb20f//+IUOGdO7c+fz585ZOCyoHi9YRERE9e/Zs3bp1VFQUxu8qMz10Go2mcePGKpXqzp077N5WYDOr5ljzkhh9+vS5cePGTz/91Lt3b1v4LWscu2h44403tm/ffuHChUGDBlk6RcgcK6dOnz7ds2fP5s2bX7t2zUZKrufE9NApFIp79+45OzsHBwfHx8eX3cGKWVtgECpAY8eOPXHixKpVq0aPHm3ZJNVfwjkwZsyYVatWHTx4cNy4cZZNEoIyi/kkJyf37NkTAE6ePMlxnI2UXLXD1dX16tWrhJDAwMCHDx9aOjm1yBIdG88Xz/NTp04lhHzxxReWTotVmTlzJgDMnj3b0glBf0tPT7e3tweAe/fuCRttraf0eYuMjASAZs2aabVaS6elllhbYOB5ftGiRRzHzZgxw9JpsULvvvsuIWTZsmWWTgiilFK1Ws3u3X3z5k22BUNCzRKOJ4sNLVq0sJEjbFWBgef5H3/8kRAydMhQS6fFar3++usAsHnzZorFkKX16NEDAPbv38/+5U1YNmHWwWwo8IYNGwCgR48eFk1ULbGqwLBx40ZCSM+ePS2dECsXFhYGAHv27KEYGyync+fOAHDgwAFLJ8QmsNiwfv16KJkmYt053xoCA/vNzp49CwAhISHW/YPVEWz0XmRkpKUTYluEvD18+HDTpZAwz9caG5lYbg2BgVLKRg54eXlpNBpLp8UmqNVqDw8PALh69SqWSrXAtI3oww8/JITMmzdPeMqiSbMJpg10kydPBgDrHttiDYEhMTGREEIISU1NtXRabEhqaio77Onp6ZZOi60wGo1z584FANObD2JgqAVmt3WbNm0aAHz33XcWTdRzVI9nPlNKCSEajaZp06bZ2dm3bt0SZieCzcxDqX20ZP4UpTQmJqZly5bu7u6JiYlOTk7CsxTnWD0f//3vf6dMmdKnT5/jx49TSjUaDcc9mYok/CjsjMbjX7NMD69CoQCArl27RkZG/vLLL+Hh4ZZO3XNggWBUc1QqlVKpBIDo6GhLp8UmlL04PXfuHMdx3t7e2Ij3XAm3CiCESCQS04ls7LFIJHJxcZFKpaQMS5Yv9RkhRC6XszBgRiQSSSQSts/KlSup1dXbxLV+tGsGpRQAevfunZmZef369ZCQEFreVWq5G1GVlT2YYWFh165da9OmTd++fSMjI4ULKzzsNUun06nV6qlTpzZp0iQzM7OgoEAkErGnCCGOjo7Jyck///xzjx49evTowW5qL7wWf4uqcXFx2bp1a0pKyvTp0yUSicFg4Hme4zie541Go6Ojo1KpjI2NzcnJsb4MX1+bkiilAwYMOHLkSK9evebOnXvz5k2DwSBUqwHA2dlZp9NptVor+8Eshed5mUwmk8kKCwv1ej071DzPi0Si0NDQb7755uTJk/369Tt06BAe8OeBljQQlS2D2JY7d+6EhISsXr16xowZFkqjFerXr9/x48eNRqOwxfpiQLnqa40hPDz8yJEjAHDy5MmTJ08K29mZY7l02Ypyj/ORI0dGjRq1c+dOiyTJugmFUdlSSail1XaabAPP86b/2kJUgHoaGHJzcydNmvTll19KJBLTYM4qeq6urg8fPmzfvv3o0aO3btl6N+auaU0CVU1QUNDEiRO3bt3622+/de3a9dGjR9Skk5O1ZRsMhvT0dK1WK5fLLZ1ehFDV1cvAoFAo+vXrB0+v1jk4OACAu7u7SCwKCQmp7fRZKaVSSSlt1qyZq6urq6truQefdfZYJHkIoZpSXy+l6T+NycM2pefE9JiXe4TxyCNU39XLGkNlmvmwbKpxZasIT/shbKQdFiFrVV9rDAghhJ4TDAwIIYRKwcCAEEKoFAwMqIqwIwEha4WBASGEUCkYGBBCCJWCgQEhhFApGBhQvWc6Z8Vs/gr7l60kXPaFiYmJO3fsTEpKet4pRKhmlZuly838Zlvi4uJ27tgZHx9f8fvXywluCJky7QYvdwqeMBmbUqrX6+Pi4qKioqKionbt2vXgwQMAuHv3blBQUO2mGqGqM1uAQFh2l5rcR0vYR6/Xx8fHX7169datW9u3b3/06JFYLC4uLq7g/TEwICtkNBjz8vNUKlV+fn5WVlZqampSUlJiYuLt27fv3LlTVFQkXEwRQsRiMa76h+op00iQm5ur0Wjy8vIyMzNTU1MTExNTU1Ojo6Nv3bpVWFgoXB6xG3hUvH44BgZkDfR6/a5du65cuZKenp6UlJScnJyVlWW68i6UXsTJz8+vY8eOrVq16tSpU8+ePWUymY2ss4+sRmFh4b59+65fv56UmPQw7eGDBw8yMzNN6wGmkQAAfHx82rVr16FDh44dO3bt2rXi3I6BAdVplSmvt27dOmvWrOzs7HLvTCCRSLy9vQMCApo2bRoQEBAcHNy2bVsPD49KrvuEUO2rINuzp3766afp06er1Wq20WzlSkKIv79/YGCgj49Pq1atAgICQkNDfX19K58ADAyoTiv3dq1FRUUxMTEnTpw4ffr0+fPns7KyAEAul7/yyitNmzb18vLy8PBwc3NzcXFRKpU+Pj4uLi5m71DurdAQqjvMegu0Wu2dO3dOnz4dERERERHBQoJcLu/Tp09wcLCHh4ezs7O7uzu74Wjjxo1dXV2f9oaVgYEB1Q95eXl//P5H5LnI6OjoCxcu6HQ602cHDRr0v//9T6lUmm40PRNMH5ftqUOoTmGZU61WHzhw4Nq1a5cuXbp27VpxcbFp09CwYcM2bdrk6OhY+fesfAIwMKA6zWgw7v9t/w8//MBu4GpaX/b29g4LC+vfv3/fvn19fHygzDWRUPSzW/uZBgOMCqjO0ul0Bw8eXL9+/V9//WXWQOTr69u+fftBgwa9/PLL/v7+YFL9ZY/LvVtlFbI6BgZUd23YsGHatGk8z7N87+zs3LVr17CwsA4dOrz44otKpfIfy3f2FDtbhKGrpk8hZCnseoU9FrIxy/PCuAkXF5eXXnqpe/fubdu2DQ0NfVrfmFneNlOFrI6BAdVFV69enTVr1pkzZ1hIeOWVV6ZOnTp40GCRWARl2oUsmVCEqsr06p4QcufOnfHjx1+5coVt6dat2+zZswcNGsT+5Xm+Nmu6GBhQ3UIpHT58+J49ewCAEDJy5MglS5b4+/ubdsRhMEDWpLi4eNCgQUePHmX/jhw5cunSpX5+fqb7sChSa31jGBhQXRETE7N169atW7c+fPiQEBIUFLRjx47WrVuX221Q7gxPhOqXqKioHTt2/Pzzz2wG/osvvrh9+/bg4OAKGoWwxoDqBLMJ90/bB8pM04enDDY1LdDZ3+jo6EmTJl2+fJm9SiQSbd+2fcTIEeWeANhVgJ6rihsqK1Mum+1T7ui4S5cuvfvuu0LDkVQq3bxp84iRI8r9UFO1k+ExMKB/IBTEPM9D6YZRs33Kbil7FpU95VauXDlr1iz2b5MmTUaMGDFjxgxvb+8a/hoIVU7Z65uKny1bi61g7iR7vHz58tmzZ7PHL7zwwqhRo+bMmaNQKCq49qplGBhQRUxzfLkhoWLlTiMwNXfu3GXLlgFAp06dli1b9tJLL1UzwQjVGrOrnIrnKrPHRoNxxnsz1q1bBwAdO3ZcuXJlWFhYue9pWRgYUEV4I19QWPD48eOmTZvm5OQAQGRkpFarVavVGRkZarXazs5OJBLl5uY+fvxYJBKJxWKtVpubmysMxVOpVMXFxRzHiUQijUaTn58vkUjEYnFBQcG1a9fy8/MJIWPGjNm2bRv7RNO2Jqgz5wmyEZRSg8GQn5+vVquVSiWbR3ny5El7e/uioiKW58VisUQi0Wg0jx8/Fi6YhHwuFos1Go1Go7GzswOA4uLinJwcjuM4jiOEXLx4Ua1WE0KmTp36/fffV62pqhZgYEDl0Gg0W7Zs2bdvX3R0tEqlEmYSAMDEiRMr+Sam9WJisp6X2USzxYsXf/TRR6avMnuAUI2ouMxVqVQbNmw4fPjwzZs3hTWIWKbt3bs3lLceUSWbfcpm/hUrVrz//vsVdKFZHAYG9ASllDfyDx4+WL9+/eLFi+EpJbtMJiOEGAwGZ2dnhUKh1+t5nre3t3d2djYajQaDQS6XKxQKFksIIT4+Pg4ODnq9Xq/Xe3l5KRQKg8Gg1+vt7e0bNWrUr18/d3d3S35tZDOednkeHx//ww8/rFq1qmzRz/6yxXd5nlcoFA4ODjzPG41GmUzm4uLCOt4AwMXFRSwWA4BOp3N3d/fy8mJ53tHR0cvLi1VE9Hp9UFDQkCFDnJyc6kgAeBoMDDZNOA1SU1OXLVu2fft2lUrFtri4uLz99tvdunVzcHBwdXUNDQ2dMGHCli1bzpw50759e41GI5fLxWKx2fg50/YfXI8I1WXx8fHLli375ZdfhPqBp6fn+PHje/TooVAoXFxcmjdv3qtXr3PnzqWnpysUitzcXLlcLpFIyvacPW0YUv1tF8XAYNMIIcnJyatXr161apWw0dXV9csvv5wxY4awhWVrDw8PjuPYol0KhcL0Tcp9DE9fxg6jBbKghISENWvWfPfdd8IWd3f3+fPnT58+HUyulgghTk5OAKBQKCilzs7OUHqcUtlmT7MJmPV3qk1NBoay39908bJnfZP6eDTrC3Zst2zZ8vHHH6enp7ONAQEBU6ZM6dixY+fOnVmlWGBWIaikfxy0Zx3KncNR7hes/AVmBW+CqmPt2rXffvttSkoKAHAcFxAQMHr06N69e4eFhQmD7ipu+q/CJIP6+DvWTGB4WiY2Xbysglfh0je1SaVSXbx4ccmSJREREaxQa9CgwYcffjhnzhw8+JX3tEHrlWHWwoaH/XnLzs6OjIxcsmTJ+fPn2dH28vL66KOPPvjgA0snrY565pHppoTrR0rpkSNHHj9+LGxkf7Ozs+fMmfPw4cNyX17xicFOntOnTycnJ1cnkUhAKd2yZYuXl9eAAQNOnz4NAP37979582Z6evrcuXPNrmHryESbOos38seOHcvIyBC2sCOWlZU1b9681NTUsi/5xzoTy/MnT55MSUnBaFF9lFK9Xr9lyxZvb+/BgwefP38eAF577bXo6OhHjx5hVKhADQUGnr755psREREAQAhRqVQZGRmUUqPRuHPnTjb+3aygmTNnjouLS3h4+MsvvxwcHNy9e/eRI0d6eXmZjob86aefevXqxVYRQdW0ePFijuMmTJig1+vFYnFYWNiff/75xx9/tGrVynQ3FhJM20mRKeG6h6f8uHHjzp49y7arVKrMzEwAMBgM27ZtE/ozTU2ePNnV1fVf//rXyy+/3LJlyx49eowaNaphw4ameX7VqlV9+vR52rUUqjxK6VdffWVnZ/fWW2+xGQY9evSIioo6ePBgSEiIaXFES1gwtXVNtQKD0CrHiTilUikSidi/X3zxRYcOHQgh7D5zrMHarJ26Xdt2w4cPP336tEQieeeddzw9Pffu3du9e/cePXqw3T799NNx48Zt3779pZdewt+s8soeq8TExNatW3/yySfs3wEDBjx48ODcuXO9e/cu2xiCIaEyCCESicTLy0sulwMApfTTTz/t168fAEilUmdnZ6lUalp1Zg86duz4tDzPdps3b96sWbN27doVFhaGeb6Syj1QUVFRwcHBn3/+Ofs3PDxcrVafOnUqNDSUbSmb5zHbm6qxzmexWCwM6RWJRGxwusFgMBgMwj5qtVoqlbJzaeSokSNHjbxx48a4ceNGjRoVEhJy9uzZLVu2yGSyK1euvPbaaxkZGREREd26dQNshH0WwrE6derUwYMH7927d+jQIb1eDwAffPDBv//9b5w3UB2mWVEkEgk3VJFKpWwECzvUUNIupNFopFIpm/wxefLkyZMnR0VFjR07dvTo0cHBwREREZs2bbK3tz937twrr7yi1WovX77c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",
+                              "width": "400"
+                            },
+                            "type": "image"
+                          },
+                          {
+                            "content": [
+                              {
+                                "text": "bldg:GroundSurface",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "figCaption"
+                          }
+                        ],
+                        "type": "figure"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "上位の型",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_b760cead-fcfd-762c-253f-89b521de3a93"
+                        },
+                        "content": [
+                          {
+                            "text": "bldg:_BoundarySurface",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "ステレオタイプ",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_be6a9ed4-815e-8fe1-84c5-0b69f56321ec"
+                        },
+                        "content": [
+                          {
+                            "text": "\u003c\u003c FeatureType \u003e\u003e",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "3",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "継承する属性",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "属性名",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "属性の型及び多重度",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "定義",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_e91b4782-2fea-fd0b-ab07-9d1ea739f1fe"
+                        },
+                        "content": [
+                          {
+                            "text": "gml:description",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _Feature ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_ddaeed8d-a1d4-2f2b-029f-f4ffaaecb3fd"
+                        },
+                        "content": [
+                          {
+                            "text": "gml:StringOrRefType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_818f80d2-6a9b-c9fa-0602-db1181c52979"
+                        },
+                        "content": [
+                          {
+                            "text": "都市オブジェクトの概要。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_33321a8d-9347-7c92-31ad-5ed774bbff95"
+                        },
+                        "content": [
+                          {
+                            "text": "gml:name",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _Feature ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_081fc24a-200e-0374-bbfa-980254328deb"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::CodeType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_9209d087-db21-1526-7057-7d7b020b7f8d"
+                        },
+                        "content": [
+                          {
+                            "text": "都市オブジェクトを識別する名称。文字列とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_865d7f50-8aa1-e29f-ceb0-38c2ab27d658"
+                        },
+                        "content": [
+                          {
+                            "text": "gml:boundedBy",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _Feature ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_beec4492-7c8d-f83b-b4ef-be3e27560b2f"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::Envelope [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_0cea68ad-44b2-984b-728d-f71f86c8b03c"
+                        },
+                        "content": [
+                          {
+                            "text": "都市オブジェクトの範囲及び適用される空間参照系。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": " CityModelの場合のみ必須とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_11105d4c-bb90-dea4-5549-092f3bf30c4b"
+                        },
+                        "content": [
+                          {
+                            "text": "core:creationDate",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _CityObject ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_10674362-401c-9d9d-b67d-0fd086aecba2"
+                        },
+                        "content": [
+                          {
+                            "text": "xs::date [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_494f5bdd-dbc8-afa4-e46c-95207351f14d"
+                        },
+                        "content": [
+                          {
+                            "text": "データが作成された日。運用上必須とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2e3595f0-7f50-5964-c943-497f7c279f29"
+                        },
+                        "content": [
+                          {
+                            "text": "core:terminationDate",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _CityObject ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_188649b9-2943-debb-0aae-59ccfa52a182"
+                        },
+                        "content": [
+                          {
+                            "text": "xs::date [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_90871876-a3db-8421-5632-9d8474931387"
+                        },
+                        "content": [
+                          {
+                            "text": "データが削除された日。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a013f214-b51d-07ff-cf33-625ef7936d0b"
+                        },
+                        "content": [
+                          {
+                            "text": "core:relativeToTerrain",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _CityObject ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f6bb1304-c801-3710-9a09-071a03e41e5c"
+                        },
+                        "content": [
+                          {
+                            "text": "core::RelativeToTerrainType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2b27b37e-d289-8685-779f-5033d1a1dd31"
+                        },
+                        "content": [
+                          {
+                            "text": "地表面との相対的な位置関係。標準製品仕様書では使用しない。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_0aa3e29d-7907-2cd7-b5a5-70e846dcb8a5"
+                        },
+                        "content": [
+                          {
+                            "text": "core:relativeToWater",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ _CityObject ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_5e875801-7ada-db0b-b808-b7bf1189b2d2"
+                        },
+                        "content": [
+                          {
+                            "text": "core::RelativeToWaterType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_4480d7a8-5143-19b7-c914-2a7bb4a9194d"
+                        },
+                        "content": [
+                          {
+                            "text": "水面との相対的な位置関係。標準製品仕様書では使用しない。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "3",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "継承する関連役割",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "関連役割名",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "関連役割の型及び多重度",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "定義",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_5c147167-8e43-bfb5-4e1e-046576a47ba5"
+                        },
+                        "content": [
+                          {
+                            "text": "core:externalReference",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _CityObject ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_3f98a6ba-0a18-4f0a-d701-fa7187651590"
+                        },
+                        "content": [
+                          {
+                            "text": "core:ExternalReference [0..*]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2d44f666-3ff8-2930-05f0-fccad2665127"
+                        },
+                        "content": [
+                          {
+                            "text": "外部への参照。標準製品仕様書では使用しない。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d07ccb81-740b-7751-771a-e02b29d42b2c"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:dateAttribute",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _CityObject ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_ba6d4831-86f6-c595-12a7-22ecc3524f8e"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:dateAttribute [0..*]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2d050c1e-e5d4-244d-65ee-202df9505b26"
+                        },
+                        "content": [
+                          {
+                            "text": "日付型属性。属性を追加したい場合に使用する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_9424320d-de5a-2d4c-ae0b-8eab2bac60a6"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:doubleAttribute",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _CityObject ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_00861107-3f9b-6001-36c6-71795bd5ff65"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:doubleAttribute [0..*]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2b934e98-63d5-09f3-617f-62a3b34a621e"
+                        },
+                        "content": [
+                          {
+                            "text": "実数型属性。属性を追加したい場合に使用する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_15193be5-b44b-cedf-620a-536ae8670767"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:genericAttributeSet",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _CityObject ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_6fa3803e-f3b6-7de0-1c10-a9c7369c8bfa"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:genericAttributeSet [0..*]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_48748af8-1031-234a-5468-a82268144801"
+                        },
+                        "content": [
+                          {
+                            "text": "汎用属性のセット。属性を追加したい場合に使用する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_7302f524-c85c-07fc-b04f-fbd6a4f45e53"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:intAttribute",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _CityObject ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_11cb201e-cf9e-84ea-c782-fc6faad077fb"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:intAttribute [0..*]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_8789fbdc-62a8-72e0-d72a-3907434cfa5c"
+                        },
+                        "content": [
+                          {
+                            "text": "整数型属性。属性を追加したい場合に使用する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_e19f957f-1e75-401f-d8c9-48f1d415d3b4"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:measureAttribute",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _CityObject ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_c80896a0-c9ea-1c07-0bff-6edbc559d5e0"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:measureAttribute [0..*]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_6554839a-b564-3ec1-31af-77a7ea00623b"
+                        },
+                        "content": [
+                          {
+                            "text": "単位付き数値型属性。属性を追加したい場合に使用する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f33897fd-9bf4-ac44-d657-29941411127d"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:stringAttribute",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _CityObject ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_555a098d-2c28-0ce5-9f3e-5cb13486aa82"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:stringAttribute [0..*]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_bd19bc38-6059-3d87-ce1e-6fa72640c1aa"
+                        },
+                        "content": [
+                          {
+                            "text": "文字列型属性。属性を追加したい場合に使用する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_028773bc-ce55-0807-402b-8799c5906171"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:uriAttribute",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _CityObject ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_7f95bfa1-dcaa-44ce-afc4-64d971082901"
+                        },
+                        "content": [
+                          {
+                            "text": "gen:uriAttribute [0..*]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_3b9f8a74-0289-9d2b-93b0-aff1b3b0bab2"
+                        },
+                        "content": [
+                          {
+                            "text": "URI型属性。属性を追加したい場合に使用する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_94431ca3-a93f-4697-f4d4-ff7ba19ca694"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:pointCloud",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _CityObject ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_303754b1-6f66-89b4-2358-3a5e0f39a900"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:AbstractPointCloud [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_32291032-0cdd-f133-a8f2-92a0ba0e6853"
+                        },
+                        "content": [
+                          {
+                            "text": "ポイントクラウドへの参照。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_68f0f252-577c-a897-2717-5f9425908f8e"
+                        },
+                        "content": [
+                          {
+                            "text": "bldg:lod2MultiSurface",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _BoundarySurface ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f63a3f53-0ef8-3abf-c36b-e4f6680dda3c"
+                        },
+                        "content": [
+                          {
+                            "text": "gml:MultiSurface [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_b5734e33-878c-f3a6-36e7-dc7dd7e693b5"
+                        },
+                        "content": [
+                          {
+                            "text": "建築物モデル（LOD2）において境界面の形状・起伏を再現した面。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "取得基準及び取得方法は、建築物のLOD定義に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_6195e9c6-b553-bdbf-bb86-0a678090842c"
+                        },
+                        "content": [
+                          {
+                            "text": "bldg:lod3MultiSurface",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _BoundarySurface ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_06050b75-d02b-851d-51de-664f059f976d"
+                        },
+                        "content": [
+                          {
+                            "text": "gml:MultiSurface [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_848fdabf-9f6a-8214-5dd6-6ba8f39b4806"
+                        },
+                        "content": [
+                          {
+                            "text": "建築物モデル（LOD3）において境界面の形状・起伏を再現した面。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "取得基準及び取得方法は、建築物のLOD定義に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_db3d7c0b-b725-b907-3cd3-514d99c29c87"
+                        },
+                        "content": [
+                          {
+                            "text": "bldg:lod4MultiSurface",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _BoundarySurface ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_57b697d9-316e-67fd-ba24-bf794a88d5aa"
+                        },
+                        "content": [
+                          {
+                            "text": "gml:MultiSurface [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d0616f08-561e-59eb-c7ac-b48d5543a2ac"
+                        },
+                        "content": [
+                          {
+                            "text": "建築物モデル（LOD4）において境界面の形状・起伏を再現した面。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "取得基準及び取得方法は、建築物のLOD定義に従う。 ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": " bldg:ClosureSurfaceの場合は、BuildingPartと連続する他のBuildingPartとの境界線により囲まれた面又は内壁面、天井面若しくは床面が無いが建築確認申請上部屋として区分されている空間を区切る面。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_0630242a-9318-491f-bb02-fc516ae80083"
+                        },
+                        "content": [
+                          {
+                            "text": "bldg:opening",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _BoundarySurface ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_feae2075-1cc7-71b3-da1a-064b57ad36da"
+                        },
+                        "content": [
+                          {
+                            "text": "bldg:_Opening [0..*]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_9d14c256-02b1-263c-05e1-efefa50b86d1"
+                        },
+                        "content": [
+                          {
+                            "text": "境界面に設置される、窓や扉への参照。LOD3又はLOD4の空間属性。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": " LOD3又はLOD4の空間属性をもつ場合のみ開口部への参照を作成できる。 ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": " bldg:ClosureSurfaceの場合、本関連役割は使用しない。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_317d45a0-59ef-fc65-fa6c-5596f302cc6d"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:ifcBoundarySurfaceAttribute",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _BoundarySurface ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_05be52c8-020b-fd92-70a4-18030fd2d829"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:IfcAttribute [0..*]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_83b0b57d-fbe0-6aef-b2da-213b9e5a8de7"
+                        },
+                        "content": [
+                          {
+                            "text": "IDM・MVDで定義されるIFCのクラス及びプロパティセットに含まれる情報。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_e0a16ac0-1571-cfe7-af1e-1680ed0b6b98"
+                                },
+                                "content": [
+                                  {
+                                    "text": "bldg:RoofSurfaceに付与可能なデータ型は以下とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_757812c3-8347-a78d-55f4-01e31a3ed7fb"
+                                },
+                                "content": [
+                                  {
+                                    "text": "uro:IfcBuildingElement",
+                                    "type": "text"
+                                  },
+                                  {
+                                    "type": "linebreak"
+                                  },
+                                  {
+                                    "text": " uro:IfcRoof",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d705d624-e630-c028-4c37-8ad1877b5535"
+                        },
+                        "content": [
+                          {
+                            "text": "このとき、uro:IfcBuildingElement の属性uro:elementTypeの値はIfcSlab又はIfcRoofとなる。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_15dddb15-5fcb-95b7-9548-7fa843c0439d"
+                                },
+                                "content": [
+                                  {
+                                    "text": "bldg:WallSurfaceに付与可能なデータ型は以下とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_bd4c87b6-f416-05b5-612d-4467c3946ff8"
+                                },
+                                "content": [
+                                  {
+                                    "text": "uro:IfcWall",
+                                    "type": "text"
+                                  },
+                                  {
+                                    "type": "linebreak"
+                                  },
+                                  {
+                                    "text": " uro:IfcWallStandardCase ",
+                                    "type": "text"
+                                  },
+                                  {
+                                    "type": "linebreak"
+                                  },
+                                  {
+                                    "text": " uro:IfcCurtainWall",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_4219aa1c-c8f8-0eb6-9226-b2770a062b13"
+                        },
+                        "content": [
+                          {
+                            "text": "このとき、uro:IfcBuildingElement の属性uro:elementTypeの値はIfcWall、IfcWallStanadrdCase又はIfcCurtainWallとなる。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_d0fbdfc9-e266-899e-1b75-6fb64d32843d"
+                                },
+                                "content": [
+                                  {
+                                    "text": "bldg:GroundSurfaceに付与可能なデータ型は、以下とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_3f96d886-23ed-bf78-34e3-442edad17212"
+                                },
+                                "content": [
+                                  {
+                                    "text": "uro:IfcBuildingElement",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_53487cb3-0b2d-2b3e-c554-70d438580a01"
+                        },
+                        "content": [
+                          {
+                            "text": "このとき、uro:IfcBuildingElement の属性uro:elementTypeの値はIfcSlabとなる。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_a6b75b02-502c-cc47-4352-d74366330493"
+                                },
+                                "content": [
+                                  {
+                                    "text": "bldg:OuterFloorSurface に付与可能なデータ型は以下とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_59c9c004-426d-81d7-4713-0160a729cc1f"
+                                },
+                                "content": [
+                                  {
+                                    "text": "uro:IfcBuildingElement",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_fe24c3c5-4529-4e1c-9107-a9bc1e3bd7b3"
+                        },
+                        "content": [
+                          {
+                            "text": "このとき、uro:IfcBuildingElement の属性uro:elementType の値はIfcSlab となる。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_47215dbe-3657-e6b6-bc44-b31913e9e4c7"
+                                },
+                                "content": [
+                                  {
+                                    "text": "bldg:OuterCeilingSurface、bldg:InteriorWallSurface、bldg:CeilingSurface、bldg:FloorSurface及びbldg:ClosureSurfaceの場合、本関連役割は使用しない。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_e58d8297-3454-2290-c8c2-07b78450c73a"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:indoorBoundarySurfaceAttribute",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "             [ _BoundarySurface ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2223851a-e02d-aad0-6c0b-d81b4ea14e4f"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:IndoorAttribute [0..*]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2bad6359-9906-a919-7020-f68366255111"
+                        },
+                        "content": [
+                          {
+                            "text": "屋内ナビゲーションに必要な情報。以下の地物型で使用する。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": " bldg:InteriorWallSurface ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": " bldg:CeilingSurface ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": " bldg:FloorSurface ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "なお、uro:IndoorAttributeは抽象クラスであるため、それぞれの地物型はこれを継承する具象クラスを使用すること。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              }
+            ],
+            "type": "table"
+          }
+        ],
+        "type": "tableFigure"
+      }
+    }
+  ]
+}

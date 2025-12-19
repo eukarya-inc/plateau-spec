@@ -1,0 +1,1771 @@
+{
+  "title": "6.4.2  ファイル単位とファイルサイズ",
+  "path": "/plateaudocument02/toc5/toc5_04/toc5_04_02",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "6.4.2\tファイル単位とファイルサイズ",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_a38a0c69-1506-7be9-b054-1ed8a8d2b34c"
+        },
+        "content": [
+          {
+            "text": "3D都市モデル",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_03743457-0990-4f7d-a77f-cb18ea29424a"
+            },
+            "type": "anchor"
+          },
+          {
+            "text": "のファイル単位は、「JIS X 0410 地域メッシュコード」に定められた統合地域メッシュ（第2次地域区画、一辺の長さ約10km）又は基準地域メッシュ（第3次地域区画、一辺の長さ約1km）単位を基本とし、",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "href": "urn:metanorma:doc-part:tab-5-5"
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "text": "表",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "span"
+                  },
+                  {
+                    "text": "6-18",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              }
+            ],
+            "type": "resource_link"
+          },
+          {
+            "text": "に示す応用スキーマの単位により分割する。また、一つのファイルには、同一の空間参照系のオブジェクトのみを含む。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_18cbdcc0-fdc4-d4e4-ec31-7d2f02429a83"
+        },
+        "content": [
+          {
+            "text": "ただし、地下埋設物モデルについては、",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "href": "https://www.gsi.go.jp/gijyutukanri/gijyutukanri41018.html"
+            },
+            "content": [
+              {
+                "text": "付録７ 公共測量標準図式",
+                "type": "text"
+              }
+            ],
+            "type": "external_link"
+          },
+          {
+            "text": "　第84条において定められた国土基本図の図郭をファイル単位とする。国土基本図の図郭は、地図情報レベル2500（一辺の長さ南北1.5㎞、東西2㎞）とする。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_3b9962bc-7d26-176f-2884-3711cd1f2c6a"
+        },
+        "content": [
+          {
+            "text": "なお、洪水浸水想定区域、津波浸水想定、高潮浸水想定区域及び内水浸水想定区域は、さらに",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "href": "urn:metanorma:doc-part:tab-5-5"
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "text": "表",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "span"
+                  },
+                  {
+                    "text": "6-18",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              }
+            ],
+            "type": "resource_link"
+          },
+          {
+            "text": "に示す単位にファイルを分割すること。",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_a463b5da-f20e-454a-96ee-bc90d5f4027b"
+            },
+            "type": "anchor"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_68666169-0783-4f37-8288-a56e97fd894b"
+            },
+            "type": "anchor"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "tableFigure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:tab-5-5"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "表",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "6-18 — ファイル単位",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "colWidths": [
+                "33.3333%",
+                "66.6667%"
+              ]
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "応用スキーマ",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "ファイル単位",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_56f08dc5-47ab-104c-e47f-afd220aa78b3"
+                        },
+                        "content": [
+                          {
+                            "text": "建築物",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "13"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_bef72846-7cea-f402-0e1a-213535de8014"
+                        },
+                        "content": [
+                          {
+                            "text": "基準地域メッシュ（第3次地域区画）",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_22d026e9-59a8-093a-7477-47b219e11c97"
+                        },
+                        "content": [
+                          {
+                            "text": "橋梁",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_c85427f6-a28c-9520-861d-264338ffc849"
+                        },
+                        "content": [
+                          {
+                            "text": "トンネル",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_26ef652b-3a02-fb83-71d0-0fcf556b9873"
+                        },
+                        "content": [
+                          {
+                            "text": "その他の構造物",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_af6b65d6-bd95-a667-12ba-4f6c4630a36b"
+                        },
+                        "content": [
+                          {
+                            "text": "地下街",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_bd3772be-3db9-d074-e726-fca588916def"
+                        },
+                        "content": [
+                          {
+                            "text": "都市設備",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_24cbd053-d703-9e90-3494-7d79cc6ba7f5"
+                        },
+                        "content": [
+                          {
+                            "text": "植生",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_7aa021fa-f85f-307c-a277-4ee329bd6faf"
+                        },
+                        "content": [
+                          {
+                            "text": "道路",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d03ad288-179a-bd3c-911f-1f5e448d689d"
+                        },
+                        "content": [
+                          {
+                            "text": "鉄道",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a909978f-d345-979b-00fb-9f039ee85a29"
+                        },
+                        "content": [
+                          {
+                            "text": "徒歩道",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d06f6260-78bb-4b5e-b6db-4b55b0c1c813"
+                        },
+                        "content": [
+                          {
+                            "text": "広場",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_c8c6ab79-7cdb-525e-a481-45e85246336f"
+                        },
+                        "content": [
+                          {
+                            "text": "航路",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_b962237a-9f38-3c3d-a3a1-20256094ffd2"
+                        },
+                        "content": [
+                          {
+                            "text": "汎用都市オブジェクト",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_aac4cda9-0f79-d1cc-c964-8abab59b9cb6"
+                        },
+                        "content": [
+                          {
+                            "text": "地形",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "7"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_69b8d64e-e352-ac88-16cb-ac58e3df79a6"
+                        },
+                        "content": [
+                          {
+                            "text": "統合地域メッシュ（第2次地域区画）",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_7de4dd81-6a06-4c0d-d2af-ccb696d44cf2"
+                        },
+                        "content": [
+                          {
+                            "text": "土地利用",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_efa5deb0-bfd7-30c0-8ebf-09ef48615e2d"
+                        },
+                        "content": [
+                          {
+                            "text": "水部",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_5e729548-dec9-9422-f623-ce388337c1eb"
+                        },
+                        "content": [
+                          {
+                            "text": "土砂災害警戒区域",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_439741a2-81fb-d3ef-120d-2b387dcf499f"
+                        },
+                        "content": [
+                          {
+                            "text": "都市計画決定情報",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_6972fe19-a72f-86ff-97c7-1dae1f978135"
+                        },
+                        "content": [
+                          {
+                            "text": "その他の区域",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_4084ad82-52ee-3528-d7db-2a2239ba9ae1"
+                        },
+                        "content": [
+                          {
+                            "text": "拡張製品仕様書において拡張した地物",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_21d4c81e-b06a-d873-41f4-ad605bf69e8a"
+                        },
+                        "content": [
+                          {
+                            "text": "洪水浸水想定区域",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f82fa071-e2a4-ca5d-735d-b9f0b43b0fb8"
+                        },
+                        "content": [
+                          {
+                            "text": "基準地域メッシュ（第3次地域区画）",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "加えて、同一のメッシュに複数の洪水予報河川や水位周知河川が含まれている場合は、洪水予報河川及び水位周知河川の単位とする。また、「洪水浸水想定（計画規模）」と「洪水浸水想定（想定最大規模）」とはそれぞれファイルを分ける。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d982fb8b-8905-c1d9-f6d2-1cbe89b75091"
+                        },
+                        "content": [
+                          {
+                            "text": "津波浸水想定、高潮浸水想定区域、内水浸水想定区域、ため池ハザードマップ",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_af5e6fd0-618b-f757-8337-0ee8cdc1ba94"
+                        },
+                        "content": [
+                          {
+                            "text": "統合地域メッシュ（第2次地域区画）",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "加えて、計算条件等の設定が複数設定されている場合は、設定毎にファイルを分ける。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              }
+            ],
+            "type": "table"
+          }
+        ],
+        "type": "tableFigure"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_4eba3b3c-bfc5-85cc-bbc9-9d5883361b5b"
+        },
+        "content": [
+          {
+            "text": "作成したファイルをウェブサイトにアップロードしたり、ウェブサイトからダウンロードしたりする際の通信環境や、ソフトウェアでの読み込み時の処理能力を考慮し、1ファイルのデータ量は最大1GBとする。これを超えた場合にはファイルを分割する。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_c847089e-3562-6cfb-abba-b65b98cc6ef4"
+        },
+        "content": [
+          {
+            "text": "ファイル分割は、より細かいメッシュの集合となるように行う。ファイルを分割する場合のルールを",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "href": "urn:metanorma:doc-part:tab-5-6"
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "text": "表",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "span"
+                  },
+                  {
+                    "text": "6-19",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              }
+            ],
+            "type": "resource_link"
+          },
+          {
+            "text": "に示す。分割したファイルは、同じメッシュが重複して含まれないように注意すること。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_d5562800-40a6-3471-b2a6-9472191a76ae"
+        },
+        "content": [
+          {
+            "text": "また、ファイルの境界では地物の分割は行わない。複数のメッシュに跨って存在する地物は、それぞれのメッシュに平面投影した形状が含まれる面積の割合を算出し、この割合が最も大きいメッシュに対応するファイルに含む。ファイル面積は、m2で計算し、小数点2桁（3桁目で四捨五入）で比較する。面積が同じ場合はメッシュ番号の小さい方とする。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "tableFigure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:tab-5-6"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "表",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "6-19 — ファイル分割ルール",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "colWidths": [
+                "22.2222%",
+                "77.7778%"
+              ]
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "基本となるファイル単位",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "分割ルール",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_e6780e65-e2c2-2a28-ace2-fd7a7d375a5f"
+                        },
+                        "content": [
+                          {
+                            "text": "第2次地域区画",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_03577e10-ed1a-abe6-703b-fdaff167d378"
+                        },
+                        "content": [
+                          {
+                            "text": "緯線方向、経線方向に2等分に区切る「4分割」を基本とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_740be683-ce09-2362-b72e-ae7352bfc898"
+                        },
+                        "content": [
+                          {
+                            "attrs": {
+                              "height": "auto",
+                              "src": "data:image/png;base64,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cePGQoi4uDizejk5OUqp06dPJyUl5Vr48OHDhRDffPONXr9jx47+/v6BgYGBgYHFLMwfdYVLlCihFwYEBISEhAQHB7dt29btwxk5cqSUcvr06frHK44z0AYOHCiE6Nu3r3kI5oaehZjHaDIMQ/+rlNK9L57jJzxrkv/qAYUOfQAoxJRSGzduVErt3bu3du3a4uL5opSyW7dumzZtuu2224QQ0iFHjhz57LPPPvXUU24l7NixQ/f/i0sbY/Pq+Pbt2x0Ox6RJk4YMGWK+26RJk+eee+6JJ574+uuv161bt2nTprZt21qLNYvauHFjQEDAli1bTpw4UapUKSHE1q1b161bV6NGjbffftvlcuna6g5wt572CxcuDB06VAhRtWrVy30C5nB6YbnbzRz6YPbwq4un0WaXvlJq/fr1c+bMWbVq1f79+3W3vLi0c0UPgPfz89PrFy9eXBfodrIupdSX56070q/1kAs9BMHtF2d9IS+99U5d5gx+06ZNUspbbrnFuhe3D1wIER0dferUqTJlytSrV8/hcGRkZPzzzz9CCB+f///r7t9//xVC/P77776+vkIIh8Phcrn0odWuVVt36uzbty8lJaVs2bJ169a93OcPFGokABRWuhlYuHDhxIkTQ0NDP/nkE4fDoVtEpZS/v3/t2rW3bNly6tQpIcStt94aFhY2d+5cs+dZq1+/vlIqIiIiLCysc+fO5nKzkatYseKnn37as2dPzwosXrx45cqVGRkZ06dPd0sAJj8/v2+++SY1NVUPxRdCPPnkk0KIpUuX6nQicrvSr5vASZMmCSFef/113d/geexmG2+Ov3NrEc3L2FJKX19ffYK+f//+hQsXRkREpKWl6XfLlCljlmy9yq43KVasmN7dN998k+sxmhWuXbt2VFSUdaBlrkcnpSxevLhbM3/o0KEnnniibdu2U6dOzXXI4ZYtW/76669q1aq99dZbOt9crvtk5cqVQ4YMqVev3qFDh4QQMTEx+qNWl95wKKXs3bu358KYmJjQ0FCl1NSpU+fOnduhQ4fVq1df7sCBQo0EgELJehYYGhq6a9euV155RVhaFOsYLnNlldtN57oprVatmjUBmFs9/PDD1hNWa6vjcDgaNWq0c+fOI0eO5FHVxx57zHw9YsSI06dPd+jQQbdJOa6chYsWZmZmNmnSpFmzZtYqxcbGDhs2zNfX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8RRw2LBherRa165d9S3yeaxsFvXoo4+uWrUqLi5OP25HvxUTExMdHS2E+Ouvvw4cOKAn+LsGusDWrVtfcU09743eRM+Maw6Gv1z9rQeib5ZLSkpKTEzUd/3p8Q26WH0L3759+4QQ77//vhDiiSeeEPlura1OnTrVsmXLmJiYN954o2HDhk899dSTPZ68kHxBP64w/22zvDhbUZ06dQYNGmQuz8zM/PHHHwcNGlSzZk1z4ddff33ixAm3CzRcDkARxkhAFHr6KsDcuXOVUsOGDfN8V1ieWWdt0tzWNE/BPe/607EgOjr6P//5j27+P/jggyVLllyxHdIX4B9++OHvvvsuICBATwJoVmzlypWGYQwfPrx48eJ6IP11uuJ9iQEBAbGxsX/88cexY8cmTZokpdRXCvI+BHOkxYULF6SUkZGRZcqUCQkJKV26tJ45ODU1VR9X/fr109PTly9ffvTo0RdeeEHfZ5jP1tqsxm+//daoUaOYmJinn376/fff79Gjx2effSalfP7559999938FOVZrB4HaoqLi5NSmmMmzHXo/4et0AeAoiAlJWXbtm26W14Iocef6zNFPz+/alWr6WlwGjRo4Ofnl52dbX0gnpQyLS0tKyurTp06xYsXX7x4sb4YbBaum/9169Z17do1LS0tLCzs888/t87Tl0ezcfDgwc6dO0dHR1epUmXr1q0hISHi4pTD6uL9ZvoRhVOnTk1LS9Oz6+efbvJ1V//PP//8119/Pffcc3mcvAYHB0dHRzdp0kS/W65cuQ4PdMjnvqSU1atXnz59usvlysjI0IfsdDqLFSt299136xVat2598ODBxx9/XCn1wQcfmEM08lm+UmrBggXPPvusEKJfv36zZ88WQiilnn766ZIlS3bp0mXUqFEul2vs2LH5rLO4/DRQZk+MW4/CNdx/ARRSJAAUBbNnz1ZK1ahRIzExMTs727zSX6JECX9//6XLlgohfH19ExIS9Ppuc9roEeDr16+XUvr5+rkVri/865b18ccf//TTT93aac8+A71w+vTpL774ohDivvvuW7VqldtNdz/99NPhw4fDw8P9/f2HDRsWERHRqVOnjRs35n2kbmkjKCjI6XRu3rx56pSpS5ctrVevXp8+fXLdUA85zMzMvO222/773/8ePXq0Zs2ao0aNcvo4lWVmHs/jqlOnjpSyX79+iYmJ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",
+                              "width": "300"
+                            },
+                            "type": "image"
+                          },
+                          {
+                            "content": [
+                              {
+                                "text": "4分割の例",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "figCaption"
+                          }
+                        ],
+                        "type": "figure"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f4836650-b8c3-d521-21e3-b5b27f3a7d97"
+                        },
+                        "content": [
+                          {
+                            "text": "4分割したファイルであっても、ファイルサイズが上限を超える場合は、上限を超えるファイルのみを第3次地域区画に分割する。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "第3次地域区画に分割したファイルであっても、ファイルサイズが上限を超える場合は、上限を超えるファイルのみを第3次地域区画をファイル単位とする場合の分割ルールに従い分割する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_fd81dea0-31b7-03c2-1080-903edc5d8a83"
+                        },
+                        "content": [
+                          {
+                            "text": "第3次地域区画",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_ebd81eed-b39b-ff6f-9899-bb0efd372986"
+                        },
+                        "content": [
+                          {
+                            "text": "2分の1地域メッシュ（第3次地域区画を緯線方向、経線方向に2等分してできる区域）に分割することを基本とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_68df5b27-672f-5dd7-268d-fee4d2385841"
+                        },
+                        "content": [
+                          {
+                            "attrs": {
+                              "height": "auto",
+                              "src": "data:image/png;base64,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4O5i6byIIaA4QxgBxVFycnLfvn0ZY0ePHi1VqpQsD8LDw999912z2cwYE0JkZWU1a9Zs+fLlwcHBstyKiIgYO3YstWJoaUsUo9HYt2/fjz76SHbbZIxNmjSpc+fOp06dGjlyZI8ePSpXruz8dlu2bNnff/89Li7uf//3f5988skGDRowxrZv3/7HH39UqlTp8ccfv3z5cnBwsKqqdKw2hfLly//6669JSUk7duxwyJtDgcc51x5rMBio86a8ELpYm80mD2eM7dy584svvmjbtu2AAQOceyrQFjpECPH999/v3bvX5c2X6R88ePDgwYMOFTavvvpq1apVHRKkDLu84Q4ZEEKkpaXRgBH9Po9ZWVl2u710qdJc+W+wIrPhcGPlffhvJY3NTh04OOcWiyU3NzcsLIyiJZ3TARRVCCOgOKpQocL69evLlCkTFhZ24MAB2VlSUZRBgwZFRkb+888/iqK0bNmyXr16QoijR4/Kd3RFUQYOHFiyZMn9+/eHh4e7rGzv3av3888/77CxRo0a33zzzWOPPSaEWLdu3ZAhQ1y+xdatW3fMmDFXrlx58MEHaUu/fv045z///DNVbOgM06hevXpaWtqPP/6o3ajdOTQ0lHMeFRXFNMWw7ANBd4AxZjQaGWMVK1YUQly+fPm777774osvkpKSqFOIyxKd+hjGxsbSp7/99ltiYqK2z4E8qmTJkidOnHjyySd79Ojx2Wefmc1mIYR8469du7bDzg7nysjIGDlyZLt27aiJh65Om6XPP/+cc/76668//vjjzrdIZub48eNt27atWLHin3/+WaZMmdTU1A4dOly/fj0tLc1oNNJ9oMkz4uLijEajzWajnhZhYWG9e/eeOXMm5/zatWt169YNCwtbv359w4YN3Z0OoAhDGAHFEef8iSeeYIw999xzS5cuddkDnzEmhIiIiMjIyHA3jUHbtm1pEIeWEILeVp21atUqIiLCbDYnJia63IEKxSlTpsgMTJw48fz5888//3xcXJwQwmw279y5s3LlyrVq1dL2lFRVdfjw4WfPnh0/frxDd8LFixevWLEiPDy8YsWKhw4dEkL079+fMZaSktKjRw+KURhjdrtdvk9TJcru3bt79+69cuVK6jnRrl27hIQEbeJCiCFDhly5cqV69epHjx5ljM2ZM+fPP/88ffp0jx496CwuhYWFcc6Dg4NjY2OpZ4bLqgXak2kCHSHE6dOn58+f/8033xw7dmzChAkOA0Py8/M/+eQTxtjUqVP12xrKli2bnZ2dlpYWER5BY1APHTrEGOvSpUtWVpYQomTJkgcPHrx+/XpcXFx4eLjFYilRokRGRsaePXuOHz9OvzPR0dEWiyUvL092pgEobhBGQLHWt2/fmJiY8PBw2Qwv++EbDIavv/760qVLw4YNi4mJoXYEOopznpeXN23aNGr+cMldhUFoaGh6enq5cuVcHiUbHejwvXv3Tpw4MSws7KuvvqKPLly40KVLF875uXPnKleuLA/566+/Zs+eXb58+QkTJjikmZCQEB8fr93y7bff0oERERH9+vVTFIVzTh0eqaZk0cJFnPM9e/bs2bOnT58+/fv3b9eu3caNG3///XeH4Rvz58+3Wq0yDtu6devWrVsZY4qi/M///E9WVpb2iugeRkZGWq1WConkLbJYLMHBwfQItNUtspVE3tJGjRrt27fv+eefnzRp0p9//rlkyZLy5cvLdN5++22LxTJ69GjZ1cOdkiVLcs5r165NMR+duk2bNtSphU736quvzp8/Pz4+vmzZsrQxKysrLCyMelxS8BEaGlq6dGm5A0CxIwDgJirn5M+9evWiiEFukTtQadq4cWOX6djtdpeJnzlzhgq8bdu2OZzO2c6dO0NCQhhja9askRup72e5cuW0yebn59NggV27djmnk5qampiYeP78+fT09EcffZQx9vfffyclJSUmJtJrtxAiKCgoLi5u4sSJJUqUkEVy586dc3JyZDo0+9bixYu1iZ89e/bkyZNms/n//b//xxibMmVKenp6YmJibm7uoUOHZHEr/61RowblmXOuvXu1atXq1KnT+fPnHTK/YcMGxtjgwYOdr+ull15ijIWFhW3evJm20HxZYWFhBQUFOjeWJCUlMcZatGhB/7VZbfRf7SN+4YUXGGOnTp2Sj/7MmTOMsZ49e8rdwsLCZJQJUAyhNgLANc556dKlhWb6BG3tguyc6PJY2TogNHUSnPP33nuPMda4ceNWrVo5JOhs48aNeXl5L7/8cteuXeXG8PBwk8kkKzOEEMnJyV27dk1JSXnvvfceeeQR53TKli0r35WDg4MZYw8++GBQUBBNdXDixIn58+fbbLbDhw8fPny4evXqb7zxRuPGjZs3bx4bG1uiRAmZDg00dahHkcMm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li1bJj+idCZOnMg5p9khR48ePW3atA0bNtB0nIVEkzKtXbt2zpw5CQkJXbp0kYuEaUtQijao6n7y5Mkff/wxY6xnz546tRE0xUVMTIzFYun7Ql9LnmX9+vXOE1kKIcxmc0REBOf82WefnTt3bokSJaZPn67dwaF3hXMKR44cGT58+JYtW8LDw5ctW9axY0emKc6nTZtmNBonT578+OOP//jDj7379C5MSW+z26gCRpsH6syhXf2cZtV0eOIAxZoAKGbkTEHbtm1jjLVq1Yq2aGcQoqXDabqFkydPuksqPT2dMdamTZvCn11Og/39999rZzo6e/Zst27dKP54//33nfNMsywYDAaz2ayqam5uLq3vQIMSdaY/kh9dvHixTp068m9/1KhRKSkpQgjqxNCsWTN5Hw4cOMAYe/aZZ7U51CbofMe+//57xtgDDzzAGOOcz5w50yFL+fn5q1at6tChQ7t27WjL8OHDOedTp051mVuyfv16xtjrr79O/6XpMaiMb9269YULF1xeu6qqtD5qRESEuzvjMP2UnHCzU6dOrVq1euyxxzp37kxLkDRq1Khjx46tWrVq3749zczRoUMHeRPCwsKio6Mx/RQUW6iNgOKrXr1669atq127tra7gxBi5MiRM2bMmDJlSqlSpUaMGHH9+nV3/fUSExM55xUqVCj8Sc+fP0/nevDBB2WNxYQJE6jjXnh4+KJFi7TzTRHOeZcuXRhjn332GdUolChRYu7cuf3792/btq1sdHDp7Nmz27ZtW7NmzS+//CKEiIuL69u375AhQ7RTSzHNaAvOudVqZYxZ8izyPZ5+MJvNGzdu7Nq1K9XtFxQUXL16de/evfHx8RRGnDlzpkePHp9++ikN6CgoKDhw4MAff/yxefNmufjInDlzGGMbNmz4/PPPGWPXr18XN9/+r169et999wlNLY6cHpsxtmPHjpYtW9K1f/755wMHDtTmzeFapkyZEhQU1KhRI3dVEfJx038tFkuDBg2Sk5O3bt1KDRmqqsbExJQqVerChQuJiYk0hIdzXqlSJeoqQQcaDAZMPwXFmi9jGABfc3jb3rVrF40geO2114QQVNm+adMm5/3p56VLlzLGHCoPaMlKdzp16sQ5r1ixonbC7J49ezLGmjZtevbsWecTCSFef/119u8KA/q3e/funPOnnnpK54yy1eORRx6hdbYc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",
+                              "width": "300"
+                            },
+                            "type": "image"
+                          },
+                          {
+                            "content": [
+                              {
+                                "text": "2分の1地域メッシュの例",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "figCaption"
+                          }
+                        ],
+                        "type": "figure"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_ab53c07c-e2e7-f251-31e5-c0d0522260c9"
+                        },
+                        "content": [
+                          {
+                            "text": "2分の1地域メッシュに分割したファイルであっても、ファイルサイズが上限を超える場合は、上限を超えるファイルのみを4分の1地域メッシュ（2分の1メッシュを緯線方向、経線方向に2等分してできる区域）に分割する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_11ce2d1c-075d-9deb-211d-6c8d2593a1b8"
+                        },
+                        "content": [
+                          {
+                            "attrs": {
+                              "height": "auto",
+                              "src": "data:image/png;base64,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",
+                              "width": "300"
+                            },
+                            "type": "image"
+                          },
+                          {
+                            "content": [
+                              {
+                                "text": "4分の1地域メッシュの例",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "figCaption"
+                          }
+                        ],
+                        "type": "figure"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_48cafaf7-59c9-a61f-7027-a7e870f95126"
+                        },
+                        "content": [
+                          {
+                            "text": "なお、4分の1地域メッシュに分割してもファイルサイズが上限を超える場合は、ファイル名称の",
+                            "type": "text"
+                          },
+                          {
+                            "content": [
+                              {
+                                "text": "[オプション]",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          },
+                          {
+                            "text": "を使用し、ファイルを分割する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              }
+            ],
+            "type": "table"
+          }
+        ],
+        "type": "tableFigure"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_dc68b9c4-52cb-3d1f-4f12-a9371a3e8a76"
+        },
+        "content": [
+          {
+            "text": "　",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "admonition",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_c78fa105-be08-d0ea-ae7b-ffb4dc43ed0c",
+          "tags": [
+            "note",
+            "commentary"
+          ]
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "注記",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              }
+            ],
+            "type": "xrefLabel"
+          },
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "6.4.2",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "content": [
+                  {
+                    "text": "の",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "content": [
+                  {
+                    "text": "注記",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              }
+            ],
+            "type": "xrefLabel"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_ed9a79d0-d472-6b7d-e491-f769cc123914"
+            },
+            "content": [
+              {
+                "text": "地域メッシュとは、緯度・経度に基づき地域を隙間なく網の目（メッシュ）の区域に分けたものである。ほぼ同一の大きさ及び形状の区画を単位として区分されているため、地域メッシュ相互間の事象の計量的比較が容易となる。また、行政区域の変更等の影響を受けないため、次章の時系列的比較も容易となる。",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_f8857cda-0a15-abfd-07ac-178458e04484"
+            },
+            "content": [
+              {
+                "text": "3D都市モデルのファイル単位に使用する地域メッシュは、昭和48年7月12日行政管理庁告示第143号に基づく「標準地域メッシュ」であり、「JIS X 0410 地域メッシュコード」として日本産業規格に制定されている。",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_fbbe1c94-e449-521f-37b0-489cee906b69"
+            },
+            "content": [
+              {
+                "text": "地域メッシュの区分方法や市区町村別メッシュコード一覧は、総務省統計局のウェブサイト「地域メッシュ統計」（ ",
+                "type": "text"
+              },
+              {
+                "attrs": {
+                  "href": "http://www.stat.go.jp/data/mesh/index.html"
+                },
+                "type": "external_link"
+              },
+              {
+                "text": " ）を参照のこと。",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        ],
+        "type": "admonition"
+      }
+    },
+    {
+      "type": "tableFigure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_att_deliverable_11"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "表",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "6-20 — ",
+                "type": "text"
+              },
+              {
+                "content": [
+                  {
+                    "text": "留意事項",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "58: 地下埋設物モデルの分割",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "colWidths": []
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "ID",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "text": "/att/deliverable/11",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "主題",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "標準作業手順",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "分類",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_req_deliverable"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "要件分類",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "5: 3D都市モデル整備の成果品取りまとめ手順の留意事項",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "条文",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_ccfd8742-c0d5-45d0-8a00-1fa846b7aba7"
+                        },
+                        "content": [
+                          {
+                            "text": "地下埋設物モデルがファイルサイズの上限（1GB）を超える場合は、上限を超えるファイルのみを、国土基本図の図郭（地図情報レベル500）に分割する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              }
+            ],
+            "type": "table"
+          }
+        ],
+        "type": "tableFigure"
+      }
+    }
+  ]
+}

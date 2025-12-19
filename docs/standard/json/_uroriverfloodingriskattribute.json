@@ -1,0 +1,1853 @@
+{
+  "title": "4.2.3.2.4  uro:RiverFloodingRiskAttribute",
+  "path": "/plateaudocument/toc4/toc4_02/toc4_02_03/toc4_02_03_02/_uroriverfloodingriskattribute",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "4.2.3.2.4\turo:RiverFloodingRiskAttribute",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "tableFigure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_8f6a3625-521e-ebee-5c00-497d09d083c6"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "表",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "4-48",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "colWidths": [
+                "25%",
+                "25%",
+                "50%"
+              ]
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "型の定義",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_55805b57-5bda-6828-f448-af854a1ed2b7"
+                        },
+                        "content": [
+                          {
+                            "text": "洪水浸水想定区域内に存在する建築物に、浸水想定区域がもつ属性を与えるための属性型。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "同一の浸水想定区域図において、複数の区域に建築物が跨って存在する場合は、同一浸水ランクを持つ浸水ランクのメッシュを一つの区域とし、その区域と建築物が重なる面積が最も大きい浸水ランクの値を採用する。（面積が等しい場合は、浸水ランクがより危険な区域を採用する） ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "浸水深は採用した浸水ランクを持つ浸水深のメッシュのうち、建築物と重なる面積が最も大きいメッシュの浸水深を採用する。（同じ浸水深を持つメッシュは面積算出の際に合算する） ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "浸水継続時間は採用した浸水深のメッシュと重なる浸水継続時間のメッシュの浸水継続時間を採用する。複数の浸水継続時間のメッシュが重なる場合は最も大きい浸水継続時間の値を採用する。 ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "浸水深の有効桁数は、「浸水想定区域図データ電子化ガイドライン（第4版）」に従い、浸水深の有効桁数は、小数点以下 3 桁まで登録可能とするが、小数点以下 2 桁でもよいとする。 ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "面積の有効桁数は、小数点2桁（3桁目で四捨五入）とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_cda0e5e3-e764-d7bb-4c06-6d0c2939ac78"
+                        },
+                        "content": [
+                          {
+                            "attrs": {
+                              "height": "auto",
+                              "src": "data:image/png;base64,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",
+                              "width": "auto"
+                            },
+                            "type": "image"
+                          }
+                        ],
+                        "type": "figure"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "上位の型",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_0724a9ab-7b00-3dc0-2585-668b0a7c6944"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:FloodingRiskAttribute",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "ステレオタイプ",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_6d04b40b-6c29-f79e-a511-263082b7b86a"
+                        },
+                        "content": [
+                          {
+                            "text": "\u003c\u003c DataType \u003e\u003e",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "3",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "継承する属性",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "属性名",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "属性の型及び多重度",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "定義",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_73bf2f06-2bfe-b0c9-90c8-eb8f2e85de06"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:description",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ DisasterRiskAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d768fd9d-e926-9c02-acf6-03e21e591eef"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::CodeType [1..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_b434ed4e-6168-dfa3-abf5-daa0ab69c260"
+                        },
+                        "content": [
+                          {
+                            "text": "使用する下位のデータ型により以下のように定義する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_c76a24c8-f2ea-7eef-82ec-ee62dda11b39"
+                                },
+                                "content": [
+                                  {
+                                    "text": "洪水浸水想定区域の場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_a4bb04ab-4ff7-ccb9-d7cd-4bf54dd6750f"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "指定河川の名称。コードリスト（RiverFloodingRiskAttribute_description.xml）より選択する。都市ごとにコードリストを作成する。",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": "指定河川の名称には、水防法に基づき指定された洪水浸水想定区域図の対象となる洪水予報河川又は水位周知河川として示された、「水系名」及び「指定河川名」を用いることを基本とする。 ",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": "一つの浸水想定区域図に複数の洪水予報河川又は水位周知河川が含まれている場合は、「指定河川名」を列挙する。指定河川名を列挙する場合の区切り文字は「・」（全角中点）を使用する。また、都道府県が独自に作成している浸水の区域図は、当該浸水想定区域の名称から、対象となる区域を指す名称を用いる。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_85a5d391-38a8-ae84-b6f5-cd3622316f00"
+                                },
+                                "content": [
+                                  {
+                                    "text": "津波浸水想定の場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_75e7029d-37f6-7d2e-18df-c2a764be799a"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "津波浸水想定の属性を付与する元となる図又はデ－タの名称。コードリスト（TsunamiRiskAttribute_description.xml）より選択する。都市ごとにコードリストを作成する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_fb6c28ac-247d-67af-9c5a-b6d2f33c5836"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高潮浸水想定区域の場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_e7d97a1e-0c1b-b597-cf7e-40b6315a3c62"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "高潮浸水想定区域の属性を付与する元となる図又はデ－タ集合の名称。コードリスト（HighTideRiskAttribute_description.xml）より選択する。都市ごとにコードリストを作成する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_8fbfb404-9406-f851-d28b-42b8dc70ae2a"
+                                },
+                                "content": [
+                                  {
+                                    "text": "内水浸水想定区域の場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_303c095c-e71e-864c-c37b-8f883a779057"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "内水浸水想定区域の属性を付与する元となる図又はデ－タの名称。コードリスト（InlandFloodingRiskAttribute_description.xml）より選択する。都市ごとにコードリストを作成する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_9b7bc4f2-f14b-73c1-a5de-db54bcf63379"
+                                },
+                                "content": [
+                                  {
+                                    "text": "ため池ハザードマップの場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_31a88646-305a-d184-05cf-541d83dbeca5"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "ため池ハザードマップの属性を付与する元となる図又はデ－タの名称。コードリスト（ReservoirFloodingRiskAttribute_description.xml）より選択する。都市ごとにコードリストを作成する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_f4728ff1-870b-5f0b-a6f3-bd708a526472"
+                                },
+                                "content": [
+                                  {
+                                    "text": "土砂災害警戒区域の場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_ad5771c1-4208-a12b-88fb-08c402763506"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "発生が想定されている災害の種類。コードリスト（",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "href": "urn:metanorma:doc-part:_landslideriskattribute_description_xml"
+                                            },
+                                            "content": [
+                                              {
+                                                "text": "LandSlideRiskAttribute_description.xml",
+                                                "type": "text"
+                                              }
+                                            ],
+                                            "type": "resource_link"
+                                          },
+                                          {
+                                            "text": "）より選択する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_ae21ac8b-018f-4353-a31d-146c3066b050"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:rank",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ FloodingRiskAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_1eec6994-d9ca-658d-a19a-9702daf382c4"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::CodeType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_8889fb74-e71c-9922-f7a5-d1a6cf491e69"
+                        },
+                        "content": [
+                          {
+                            "text": "浸水深（津波浸水想定の場合は「水位」）に応じた区分。uro:rank又はuro:rankOrgのいずれか一つをもつ。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_1869fae4-85f2-b288-0bec-1c3559ff81dd"
+                                },
+                                "content": [
+                                  {
+                                    "text": "洪水浸水想定区域の場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_488026df-86e2-6674-3552-7e33674591b8"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "コードリスト（",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "href": "urn:metanorma:doc-part:_riverfloodingriskattribute_rank_xml"
+                                            },
+                                            "content": [
+                                              {
+                                                "text": "RiverFloodingRiskAttribute_rank.xml",
+                                                "type": "text"
+                                              }
+                                            ],
+                                            "type": "resource_link"
+                                          },
+                                          {
+                                            "text": "）より選択する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_be0ea14b-ae45-8fb1-b489-67eeaf3e493d"
+                                },
+                                "content": [
+                                  {
+                                    "text": "津波浸水想定の場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_5aaf972c-2c33-74b2-9872-56aa13b21026"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "コードリスト（",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "href": "urn:metanorma:doc-part:_tsunamiriskattribute_rank_xml"
+                                            },
+                                            "content": [
+                                              {
+                                                "text": "TsunamiRiskAttribute_rank.xml",
+                                                "type": "text"
+                                              }
+                                            ],
+                                            "type": "resource_link"
+                                          },
+                                          {
+                                            "text": "）より選択する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_20f806ac-b7df-05da-e7ca-3f224f402e6a"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高潮浸水想定区域の場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_eedb2ac0-12e0-2966-82b1-8ea8eb030ed5"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "コードリスト（",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "href": "urn:metanorma:doc-part:_hightideriskattribute_rank_xml"
+                                            },
+                                            "content": [
+                                              {
+                                                "text": "HighTideRiskAttribute_rank.xml",
+                                                "type": "text"
+                                              }
+                                            ],
+                                            "type": "resource_link"
+                                          },
+                                          {
+                                            "text": "）より選択する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_0c44a7ff-6224-0d99-ab4a-f5b204e11fca"
+                                },
+                                "content": [
+                                  {
+                                    "text": "内水浸水想定区域の場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_0ccc3b9b-f162-3cb9-f560-6b815af4f8a9"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "コードリスト（",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "href": "urn:metanorma:doc-part:_inlandfloodingriskattribute_rank_xml"
+                                            },
+                                            "content": [
+                                              {
+                                                "text": "InlandFloodingRiskAttribute_rank.xml",
+                                                "type": "text"
+                                              }
+                                            ],
+                                            "type": "resource_link"
+                                          },
+                                          {
+                                            "text": "）より選択する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_3d160580-0443-8da3-1eff-a91f058be625"
+                                },
+                                "content": [
+                                  {
+                                    "text": "ため池ハザードマップの場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_12dfbe6a-b52c-689b-2047-65e6cf42f3d4"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "コードリスト（",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "href": "urn:metanorma:doc-part:_reservoirfloodingriskattribute_rank_xml"
+                                            },
+                                            "content": [
+                                              {
+                                                "text": "ReservoirFloodingRiskAttribute_rank.xml",
+                                                "type": "text"
+                                              }
+                                            ],
+                                            "type": "resource_link"
+                                          },
+                                          {
+                                            "text": "）より選択する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a7dc8b9f-dddc-b0cd-969c-61998bd26dfe"
+                        },
+                        "content": [
+                          {
+                            "text": "なお、津波浸水想定の場合の水位は、「津波基準水位」がある場合はこれを採用し、ない場合は「津波浸水想定に定める水深に係る水位」とする。「津波基準水位」とは、「津波浸水想定に定める水深に係る水位に建築物等への衝突による津波の水位の上昇（せき上げ）を考慮して必要と認められる値を加えて定める水位」（『津波浸水想定の設定の手引き』参照）である。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_5a3a85f2-39ec-7ff6-61d5-84c429fc74da"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:rankOrg",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ FloodingRiskAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_62a91c44-02d2-9711-03c0-e2744b0d1d3f"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::CodeType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_32529e3e-fd66-8053-0443-8aa1d9001448"
+                        },
+                        "content": [
+                          {
+                            "text": "市町村等が独自に設定した浸水深（津波浸水想定の場合は「水位」）に応じた区分。uro:rank又はuro:rankOrgのいずれか一つをもつ。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_f5201021-e9a4-8245-c0c1-b86d7bb6107e"
+                                },
+                                "content": [
+                                  {
+                                    "text": "洪水浸水想定区域の場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_b65c8041-9470-49d1-d0b7-f8c698cf032e"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "コードリスト（RiverFloodingRiskAttribute_rankOrg.xml）より選択する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_ed197893-6154-2455-3803-f74d0638f98e"
+                                },
+                                "content": [
+                                  {
+                                    "text": "津波浸水想定の場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_31dc7884-59c9-88bd-d1e3-f14938d25a70"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "コードリスト（TsunamiRiskAttribute_rankOrg.xml）より選択する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_ddf273d2-be9e-9528-bcb4-4a43fcf54140"
+                                },
+                                "content": [
+                                  {
+                                    "text": "高潮浸水想定区域の場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_176fc81e-ebbf-edc4-038f-8bf3cde1e731"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "コードリスト（HighTideRiskAttribute_rankOrg.xml）より選択する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_aedbac65-633f-f56c-c2a5-3beb340e1147"
+                                },
+                                "content": [
+                                  {
+                                    "text": "内水浸水想定区域の場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_0cb88598-66d4-0c16-597a-f1606d787f11"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "コードリスト（InlandFloodingRiskAttribute_rankOrg.xml）より選択する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_061329d4-3ff0-0e70-9e6e-71d382eeb008"
+                                },
+                                "content": [
+                                  {
+                                    "text": "ため池ハザードマップの場合",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_999b3bb5-0a79-c591-55e0-e66ecbdd59b6"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "コードリスト（ReservoirFloodingRiskAttribute_rankOrg.xml）より選択する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "list_item"
+                                  }
+                                ],
+                                "type": "bullet_list"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_16674b61-4942-59ee-0cc2-b95bae885579"
+                        },
+                        "content": [
+                          {
+                            "text": "なお、津波浸水想定の場合の水位は、「津波基準水位」がある場合はこれを採用し、ない場合は「津波浸水想定に定める水深に係る水位」とする。「津波基準水位」とは、「津波浸水想定に定める水深に係る水位に建築物等への衝突による津波の水位の上昇（せき上げ）を考慮して必要と認められる値を加えて定める水位」（『津波浸水想定の設定の手引き』参照）である。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_66932f95-e8d7-f03f-45c2-d03aa24b399f"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:depth",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ FloodingRiskAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_68a166b0-be47-ae2a-39e0-d41ffa85d67c"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::LengthType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_91a39894-5907-d925-64eb-ef3d8e904db3"
+                        },
+                        "content": [
+                          {
+                            "text": "浸水の深さ。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "津波浸水想定、高潮浸水想定、内水浸水想定区域及びため池ハザードマップの場合は、陸上の各地点で水面が最も高い位置にきたときの地面から水面までの高さ。 ",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "単位はm（uom=”m”）とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "3",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "自身に定義された属性",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "属性名",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "属性の型及び多重度",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "定義",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d8343bf2-70be-39b7-20ad-80d24d21583d"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:adminType",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ RiverFloodingRiskAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_c5d9de9b-ddf1-c59c-25bc-e1ff78245d41"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::CodeType [1..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_4065baa8-5596-d1d7-8073-1d25675adade"
+                        },
+                        "content": [
+                          {
+                            "text": "洪水予報河川又は水位周知河川を指定した機関の別。 コードリスト（ ",
+                            "type": "text"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_riverfloodingriskattribute_admintype_xml"
+                            },
+                            "content": [
+                              {
+                                "text": "RiverFloodingRiskAttribute_adminType.xml",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "text": "）より選択する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_8b1b11d8-2b68-54e9-867a-bd2d54345d25"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:scale",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ RiverFloodingRiskAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_753594c6-3979-1154-aee7-ac154889ad15"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::CodeType [1..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_46f886c8-4906-4c61-6006-789513e384e3"
+                        },
+                        "content": [
+                          {
+                            "text": "想定最大規模降雨あるいは計画規模降雨のいずれにより作成されたかの区分。 コードリスト（ ",
+                            "type": "text"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_riverfloodingriskattribute_scale_xml"
+                            },
+                            "content": [
+                              {
+                                "text": "RiverFloodingRiskAttribute_scale.xml",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "text": "）より選択する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_4cfea192-97b1-dc2c-a4f7-93eb4e1dfff4"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:duration",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "     [ RiverFloodingRiskAttribute ]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_71f682aa-1251-da78-d73b-2cc88e417060"
+                        },
+                        "content": [
+                          {
+                            "text": "gml::MeasureType [0..1]",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_c2863ebd-79e6-f5c0-5d27-cc7ac9484396"
+                        },
+                        "content": [
+                          {
+                            "text": "浸水が継続する時間。単位は時間（uom=”hour”）とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              }
+            ],
+            "type": "table"
+          }
+        ],
+        "type": "tableFigure"
+      }
+    }
+  ]
+}

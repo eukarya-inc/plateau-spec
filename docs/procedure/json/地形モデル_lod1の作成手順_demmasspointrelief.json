@@ -1,0 +1,91 @@
+{
+  "title": "S.3.1.2.3  地形モデル（LOD1）の作成手順（dem:MassPointRelief）",
+  "path": "/plateaudocument02/tocS/tocS_03/幾何オブジェクトの作成__13/_lod1_31/地形モデル_lod1の作成手順_demmasspointrelief",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "S.3.1.2.3\t地形モデル（LOD1）の作成手順（dem:MassPointRelief）",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "ordered_list",
+      "content": {
+        "attrs": {
+          "order": 1
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_f3f4d1f4-9ca6-6906-0a7b-0e2d307241c0"
+                },
+                "content": [
+                  {
+                    "text": "原典資料を入手する。",
+                    "type": "text"
+                  },
+                  {
+                    "type": "linebreak"
+                  },
+                  {
+                    "text": "地形モデル（LOD1）は、基盤地図情報（標高モデル）からのデータ変換により作成することを基本とする。 ",
+                    "type": "text"
+                  },
+                  {
+                    "type": "linebreak"
+                  },
+                  {
+                    "text": "ただし、基盤地図情報（標高モデル）の作成時期よりも新しい航空レーザ点群がある場合は、この航空レーザ点群を使用できる。既存の都市オブジェクトがある場合には、その都市オブジェクトの底面の高さは既存の地形モデルに依存しているため、新しい航空レーザ点群で作成される地形モデルと整合しない（既存の都市オブジェクトが、新しい航空レーザから作成された地形モデルから浮かんだり、沈んだりする）場合があることに留意する。 ",
+                    "type": "text"
+                  },
+                  {
+                    "type": "linebreak"
+                  },
+                  {
+                    "text": "また、水部以外で基盤地図情報（標高モデル）や航空レーザ点群のデータがない場所は、航空写真の三次元図化で取得したブレークライン（傾斜が急激に変化する地点で高さを取得し、この地点をつないで作成した折れ線）を用いて欠落した範囲のDEMを作成し、既存データと合成する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_10bb65f7-7662-d3c6-df77-24a560d1263f"
+                },
+                "content": [
+                  {
+                    "text": "地形の外形を多角形で取得する。",
+                    "type": "text"
+                  },
+                  {
+                    "type": "linebreak"
+                  },
+                  {
+                    "text": "ランダム点群の場合、点の集合から地形モデルの範囲を正確に取得できない。そのため地形の外側の境界（dem:extentのexterior）を必ず作成する。地形の内空の境界（dem:extentのinterior）は任意で取得する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          }
+        ],
+        "type": "ordered_list"
+      }
+    }
+  ]
+}

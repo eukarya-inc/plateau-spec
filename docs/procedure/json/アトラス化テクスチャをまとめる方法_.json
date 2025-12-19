@@ -1,0 +1,48 @@
+{
+  "title": "V.2.4.4  アトラス化（テクスチャをまとめる）方法",
+  "path": "/plateaudocument02/tocV/tocV_02/建築物モデルのテクスチャ作成における留意事項_/アトラス化テクスチャをまとめる方法_",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "V.2.4.4\tアトラス化（テクスチャをまとめる）方法",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_bb58c5e6-ffb7-b10a-8aac-0182714716a4"
+        },
+        "content": [
+          {
+            "text": "アトラス化を行う場合は、元画像のテクスチャを回転や拡縮を行わずに規定サイズ内の長方形に詰め込み、テクスチャのUV座標を詰め込み後の画像のUV座標に置き換える手法とする。詰め込みは画像の左隅を起点（左上または左下）とする。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_7dab9996-e84c-6b73-ecf2-0756d4f3e792"
+        },
+        "content": [
+          {
+            "text": "画像の背景色は、黒（R,G,B:0,0,0）とすることを基本とする。ただし、建築物モデルの色調を考慮し、灰色（R,G,B:90,90,90等）を設定してもよい。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    }
+  ]
+}

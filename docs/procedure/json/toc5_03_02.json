@@ -1,0 +1,3063 @@
+{
+  "title": "6.3.2  JMP2.0形式メタデータの作成手順",
+  "path": "/plateaudocument02/toc5/toc5_03/toc5_03_02",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "6.3.2\tJMP2.0形式メタデータの作成手順",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_30bbc70e-1074-fc32-2346-4ad0a1c7967f"
+        },
+        "content": [
+          {
+            "text": "3D都市モデル",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_24df91ca-c0d2-480e-806a-24e35d923b43"
+            },
+            "type": "anchor"
+          },
+          {
+            "text": "を説明するための情報として、メタデータを作成する。メタデータの仕様は、国土地理院が定めた「JMP2.0」を使用する。JMP2.0は、JPGISに準拠したメタデータ記述形式である。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_ada5ba82-1c89-4bfa-f6e9-b372428d9e44"
+        },
+        "content": [
+          {
+            "text": "メタデータの作成には、国土地理院が提供するメタデータエディタを使用する。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "bullet_list",
+      "content": {
+        "content": [
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_ab2f5ac5-b35c-17ad-45ec-884ad27e8b97"
+                },
+                "content": [
+                  {
+                    "text": "【手順】",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_2025233e-e981-b3b7-d60e-46123c18396c"
+                },
+                "content": [
+                  {
+                    "text": "手順1．メタデータエディタをインストールする。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a9443818-3e9c-4b98-b5f4-3151367f1daa"
+                        },
+                        "content": [
+                          {
+                            "attrs": {
+                              "href": "https://www.gsi.go.jp/gijyutukanri/gijyutukanri41027.html"
+                            },
+                            "type": "external_link"
+                          },
+                          {
+                            "text": " より入手可能",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_61bed958-7d17-8eb3-cc53-5c622338c04a"
+                },
+                "content": [
+                  {
+                    "text": "手順2．メタデータエディタの詳細入力モードを使用し、各項目を入力する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_6ad876f5-3c5b-8dac-bfab-6fdcb1a5bec4"
+                        },
+                        "content": [
+                          {
+                            "text": "入力する必須項目を",
+                            "type": "text"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:table-5-1"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "text": "表",
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "type": "span"
+                                  },
+                                  {
+                                    "text": "6-5",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "text": "に示す。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:table-5-1"
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "表",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "6-5 — 作成すべきメタデータ項目",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "figCaption"
+                          },
+                          {
+                            "attrs": {
+                              "colWidths": [
+                                "22%",
+                                "56%",
+                                "22%"
+                              ]
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": ""
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "メタデータ項目",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_header"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": ""
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "記述する内容",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_header"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": ""
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "記述例",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_header"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_b323a3de-ca5f-d19c-d67d-ea3cfe05e5eb"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "メタデータ\u003eファイル識別子",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_2223aed6-7524-952c-92f1-9d9aa72abc8c"
+                                        },
+                                        "content": [
+                                          {
+                                            "content": [
+                                              {
+                                                "text": "udx_[都市コード]_[整備年度]_[地物型]_[オプション]",
+                                                "type": "text"
+                                              }
+                                            ],
+                                            "type": "code"
+                                          },
+                                          {
+                                            "text": "とする。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      },
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_7fe2267f-03a5-5053-9220-d6f98a0fad1b"
+                                        },
+                                        "content": [
+                                          {
+                                            "content": [
+                                              {
+                                                "text": "[都市コード]",
+                                                "type": "text"
+                                              }
+                                            ],
+                                            "type": "code"
+                                          },
+                                          {
+                                            "text": "及び",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "content": [
+                                              {
+                                                "text": "[整備年度]",
+                                                "type": "text"
+                                              }
+                                            ],
+                                            "type": "code"
+                                          },
+                                          {
+                                            "text": "成果品のフォルダ名称に一致する。",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": " ",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "content": [
+                                              {
+                                                "text": "[地物型]",
+                                                "type": "text"
+                                              }
+                                            ],
+                                            "type": "code"
+                                          },
+                                          {
+                                            "text": "は、地物型またはモジュールを示す接頭辞（3文字又は4文字のアルファベット）とする。",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": "なお、 ",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "content": [
+                                              {
+                                                "text": "_[地物型]",
+                                                "type": "text"
+                                              }
+                                            ],
+                                            "type": "code"
+                                          },
+                                          {
+                                            "text": "は、メタデータを地物型又はモジュールごとに作成せず、まとめて作成した場合は省略する。",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": " ",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "content": [
+                                              {
+                                                "text": "[オプション]",
+                                                "type": "text"
+                                              }
+                                            ],
+                                            "type": "code"
+                                          },
+                                          {
+                                            "text": "は、成果品が複数種類作成される場合に、これらを識別するために使用する任意の文字列とする。半角英数字のみを使用可とする。成果品を格納するルートフォルダに使用する",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "content": [
+                                              {
+                                                "text": "[オプション]",
+                                                "type": "text"
+                                              }
+                                            ],
+                                            "type": "code"
+                                          },
+                                          {
+                                            "text": "の文字列に一致させること。成果品が1種類の場合は省略する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_9164bec8-1356-42ca-6210-776ee8ceec07"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "udx_27100_city_2020_fld",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_7a76444c-d238-c858-5a08-050b7c6d3f00"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "メタデータ\u003e言語",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_b886ed2a-4ece-956a-c92f-424cb7d4c1e6"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "メタデータの記述に使用する言語。日本語とする。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_e6fe3ed7-30f7-a8d5-0b5a-d8283f960c34"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "jpn　（固定値）",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_45e31981-6a51-f784-c18e-22c760da7967"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "メタデータ\u003e文字集合",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_9fd58949-853e-a137-2bdf-a4b4a8dba64a"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "メタデータに使用する文字コード。UTF-8とする。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_1f1eb113-2e06-b248-c942-7519c6db6455"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "004　（固定値）",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_c0eb174b-2530-3bf9-e45d-05ec778e6094"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "メタデータ\u003e階層レベル",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_a9fd28dc-c0f9-4e79-1555-82b18e9ba580"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "メタデータの作成対象。データ集合とする。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_895798f6-00a0-2558-a5e3-2b029c550ede"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "005　（固定値）",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_ff9fe6c4-98c6-1e7d-0492-02922966b311"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "メタデータ\u003e問い合わせ先",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_d0e5cd2e-d737-b790-9e63-55a647b8dd10"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "発注者の問合せ先を記述する。役割、組織名、電話番号、オンライン情報源（Project PLATEAUのURL等）を記述する。",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": "役割は「010（刊行者）」とする。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_f0bea626-8ef0-c55b-483b-3187dd061a60"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "010（固定値）",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": "国土交通省都市局",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": " 03-5253-8397 ",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": " ",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "href": "https://www.mlit.go.jp/plateau/"
+                                            },
+                                            "content": [
+                                              {
+                                                "text": "www.mlit.go.jp/plateau/",
+                                                "type": "text"
+                                              }
+                                            ],
+                                            "type": "external_link"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_bb040a66-1b3e-d9ee-19d7-250e54f2bb22"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "メタデータ\u003e日付",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_03e1cd41-1da9-e527-2749-1ca9ea1cd8e2"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "メタデータの作成日付をYYYY-MM-DDにより記述する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_85b7f65d-6c89-695f-2384-47f30e6169a9"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "2021-02-25",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_74adc206-fee7-395f-51f2-3f5d20c798f2"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "メタデータ\u003e規格の名称",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_19f2f31b-dc76-c35d-6f2f-36969162706e"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "メタデータの仕様。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_88f44dd5-18fa-80ff-3594-691a963718cf"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "JMP　（固定値）",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_534e5b1f-e772-c36c-2f1f-f4e73bfdad5a"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "メタデータ\u003e規格の版",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_e8d65f05-7369-75d0-a8cb-285450b68118"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "メタデータの版。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_9759a793-997a-4f09-5e2b-6eb5f95243d8"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "2.0　（固定値）",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_e9ccb2fd-4eaa-2387-13d6-e1bcb6bd4719"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "参照系情報",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_b6776a31-9827-5b63-a33d-5bac0ef2f8bf"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "データ集合に適用される空間参照系の識別子。製品仕様書で指定された空間参照系の識別子を記述する。識別子は、JMP2.0を参照する。",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": " 「日本測地系2011における経緯度座標系と東京湾平均海面を基準とする標高の複合座標参照系」の場合は、JGD2011,TP/（B,L）,Hとなる。 ",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": " 「日本測地系2011における平面直角座標系と東京湾平均海面を基準とする標高の複合座標参照系」の場合は、JGD2011,TP/n（X,Y）,Hとなる。 ",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": "ここでは、平面直角座標系の系番号であり、拡張製品仕様書に使用する系番号を明記する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_7fd6830e-8fbb-7791-1e31-be44eb1dd053"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "JGD2011,TP/（B,L）,H",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_afa037c6-548a-7c12-df7e-75198c44a19d"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "識別情報\u003e題名",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_b7e93313-4994-47bd-59d2-3f2a40584485"
+                                        },
+                                        "content": [
+                                          {
+                                            "content": [
+                                              {
+                                                "text": "3D都市モデル_[都市コード]_[提供者区分]_[整備年度]_[オプション]",
+                                                "type": "text"
+                                              }
+                                            ],
+                                            "type": "code"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      },
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_d1026e8b-ffa2-7dc0-4b3f-736102ac0501"
+                                        },
+                                        "content": [
+                                          {
+                                            "content": [
+                                              {
+                                                "text": "[都市コード]",
+                                                "type": "text"
+                                              }
+                                            ],
+                                            "type": "code"
+                                          },
+                                          {
+                                            "text": "、",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "content": [
+                                              {
+                                                "text": "[提供者区分]",
+                                                "type": "text"
+                                              }
+                                            ],
+                                            "type": "code"
+                                          },
+                                          {
+                                            "text": "、",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "content": [
+                                              {
+                                                "text": "[整備年度]",
+                                                "type": "text"
+                                              }
+                                            ],
+                                            "type": "code"
+                                          },
+                                          {
+                                            "text": "及び",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "content": [
+                                              {
+                                                "text": "[オプション]",
+                                                "type": "text"
+                                              }
+                                            ],
+                                            "type": "code"
+                                          },
+                                          {
+                                            "text": "は、成果品のフォルダ名称に一致する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_4103789d-4f85-93c7-1d03-bdac99ddcf08"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "3D都市モデル_27100_city_2020",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_9b9db895-61d2-dbc0-ba6a-77da9e39d3ad"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "識別情報\u003e日付及び日付型",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_3a126388-417b-810e-fd09-b54783604ec0"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "データの作成日付及び日付型を記述する。",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": "作成日付はYYYY-MM-DDにより記述する。 ",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": "日付型は以下より選択する。 ",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": " 001：作成日、002：刊行日、003：改訂日",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_b6ee1c30-0e47-f8d0-770f-11d94d60c717"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "2021-02-25, 003",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_c3a94fa8-5203-d8a0-e928-c1f21fead60d"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "識別情報\u003e要約",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_0193157d-81ac-41cb-c7d5-89087793a27a"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "3D都市モデルの概要を記載する。",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": "以下の文章を入れる。 ",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": " 「3D都市モデルとは、都市空間に存在する建物や街路といったオブジェクトに名称や用途、建設年といった都市活動情報を付与することで、都市空間そのものを再現する3D都市空間情報プラットフォームです。様々な都市活動データが3D都市モデルに統合され、フィジカル空間とサイバー空間の高度な融合が実現します。これにより、都市計画立案の高度化や、都市活動のシミュレーション、分析等を行うことが可能となります。」 ",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": "また、データ集合に含まれる地物やそのLOD、作成に使用した原典資料、作成方法を示す。また、以下に示すデータの利用上の注意事項を入れること。 ",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": " 「ただし、原典資料の位置の正しさの違いや、作成された時期の違いにより、現状を正確に反映していない場合があることにご注意ください。」 ",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": "また、同一の地物型について、複数のモデル整備事業者がモデルを作成した場合は、ファイル名のオプションに使用する文字列の説明を記載すること。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_dd6ee3ca-4871-a15c-261b-ca7d6a503340"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "複数のモデル整備事業者がモデルを作成した場合の記載例：",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      },
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_391e273d-bc3d-ac24-73cd-4fa2a35e8c95"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "本データに含まれる建築物モデルのうち、オプション値にpscとあるものは令和5年度に株式会社パスコが、aacとあるものは令和5年度に朝日航洋株式会社が作成したデータを意味します。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_a003d491-1f76-303c-1df1-f914e4da9c36"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "識別情報\u003e目的",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_13dc54dd-a88c-56d2-b859-7b637cc4b932"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "各都市において想定される3D都市モデルのユースケースを記述する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_daa38aa1-1137-499b-e7df-fb5e5c6c5b83"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "災害リスクの３次元可視化",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_51097c84-1647-128e-01e6-09497cea8590"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "識別情報\u003e状態",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_38341e46-08ba-de17-89be-f152ef51153a"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "「完成」を示す固定値とする。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_fa6d6801-bf9c-300e-81da-d515b74caa63"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "001　（固定値）",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": "2"
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_1e42f6da-9ec5-741b-37bf-4276d8832221"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "識別情報\u003e問い合わせ先",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_acb8600b-e1a5-06c6-b52f-41d0e337ba47"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "発注者の問合せ先を記述する。役割、組織名、電話番号、オンライン情報源（Project PLATEAUのURL等）を記述する。",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": "役割は「010（刊行者）」とする。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_a03810de-439b-2960-727e-e9023d97c8cd"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "010（固定値）",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": "国土交通省都市局",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": " 03-5253-8397 ",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": " ",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "attrs": {
+                                              "href": "https://www.mlit.go.jp/plateau/"
+                                            },
+                                            "content": [
+                                              {
+                                                "text": "www.mlit.go.jp/plateau/",
+                                                "type": "text"
+                                              }
+                                            ],
+                                            "type": "external_link"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_53fe2dc6-91ca-46eb-8fb3-d2c5ce43ad9d"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "作成者の問合せ情報を記述する。",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": "役割名は「060（創作者）」とする。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_3abc6704-3690-6d34-bd7d-aaff25af1968"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "060（固定値）",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": " ○○株式会社",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": " www.sample.co.jp",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_1441c9f3-9904-0190-038f-d8b6b11e6fe3"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "識別情報\u003e記述的キーワード",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_21d03cab-7786-1910-0431-a6d4e719139f"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "キーワードを、複数グループ化して記述する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      },
+                                      {
+                                        "content": [
+                                          {
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_65e7ed7d-84cc-2a5b-934e-be233b765b54"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "「type=002」として、データ製品に含まれる都市の名称を入れる。",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "list_item"
+                                          },
+                                          {
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_f42ed8dd-f8e4-0b07-8905-d6fd25b5d7bd"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "「type=005」として、データ製品に含まれる地物型の名称を入れる。",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "list_item"
+                                          },
+                                          {
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_ea2d76af-de08-4b0a-caba-5103a271f9c9"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "「type=005」として、データ製品に含まれるLODのレベルを入れる。",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "list_item"
+                                          },
+                                          {
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_cac6b014-9991-408c-deb3-52ade324d590"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "「type=005」として、データ製品に想定されるユースケースを入れる。",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "list_item"
+                                          },
+                                          {
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_f7e5de44-1763-18a5-7eed-c682d46114de"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "「type=005」として、データ製品の作成に使用した原典資料の名称を入れる。",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "list_item"
+                                          }
+                                        ],
+                                        "type": "bullet_list"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_0b627d94-2775-460a-9aee-34f35893d23e"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "東京23区, 002",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": "建築物, 005 ",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": " LOD1, 005 ",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": "景観シミュレーション, 005 ",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": "都市計画基本図, 005",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_abd4682c-f81d-746f-634a-9a14640d20af"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "識別情報\u003e利用制限",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_7a75e7bb-96b3-ea15-c8f3-77512b25bb3f"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "固定値とし、「Licensed under CC BY 4.0」を記述する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_8aa765de-4ed7-c9f2-71a5-7c7602087fea"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "Licensed under CC BY 4.0（固定値）",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_1f0c483a-7b19-443a-dc62-f405d63d5be5"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "識別情報\u003e空間表現型",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_b80d4a0a-23a7-d79c-b71c-aeee1aba6815"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "ベクトルを意味する固定値「001」を入力する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_68a5a366-f000-9b88-3eb7-a4469adb645d"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "001　（固定値）",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_9fd25777-3ca7-b334-aace-a8255e7ab015"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "識別情報\u003e空間解像度",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_8a750149-f428-57ab-546d-935e026186bb"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "等価縮尺の分母にデータ集合に適用する地図情報レベルを入力する。",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": "複数のレベルが混在する場合は、それぞれ記述する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_c80b06ee-e224-1c71-ae59-d834ec33d376"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "2500",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_15c0ec5d-f576-a303-7b7e-8276cf4aa62e"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "識別情報\u003e言語",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_07843197-ee09-aa0a-e9cc-cc6517df9183"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "メタデータの記述に使用する言語。日本語とする。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_12a53cc4-a833-b0b9-8be1-677bccd4882e"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "jpn　（固定値）",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_cbaa7a10-0742-4099-1044-77fda269bdf2"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "識別情報\u003e文字集合",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_f4b19047-1eb2-3da5-373d-416804fbb360"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "メタデータに使用する文字コード。UTF-8とする。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_8936a0b7-fbae-ebde-303a-36488bf7202a"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "004　（固定値）",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_f968a1d7-576e-0764-eed6-ece431756880"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "識別情報\u003e主題分類",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_f05fbea8-5b0c-53c4-5300-822a307c70f5"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "構造物を意味する「017」を入力する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_697f04dc-d339-8822-161b-8dbedcde4e77"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "017　（固定値）",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_0a9ea4de-dc17-3021-280c-844e70b1db7c"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "識別情報\u003e範囲",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "content": [
+                                          {
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_837bd0f6-0e9b-4650-afe3-4cbbeb093f40"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "作成範囲を包含する最小の矩形を、東西の経度、南北の緯度により記述する。",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "list_item"
+                                          },
+                                          {
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_a269c0df-18d2-a69b-7d75-c3ce4008a136"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "地物やLODにより整備範囲が異なる場合は、作成範囲の違いを自由記述により明記する。",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "list_item"
+                                          },
+                                          {
+                                            "content": [
+                                              {
+                                                "attrs": {
+                                                  "resourceID": "urn:metanorma:doc-part:_72c4f94f-6283-0a52-b566-0dea07abae5e"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "text": "地理記述には、都道府県及び市区町村名を記述する。",
+                                                    "type": "text"
+                                                  }
+                                                ],
+                                                "type": "paragraph"
+                                              }
+                                            ],
+                                            "type": "list_item"
+                                          }
+                                        ],
+                                        "type": "bullet_list"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_1342b527-21c0-9712-0df3-1aab14fd9e61"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "LOD1の作成範囲は●●市全域、LOD2の作成範囲は、△△駅を中心とする半径約300m内。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_1f7658a6-ab88-1f33-6567-ba77e57ad745"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "配布情報\u003e配布書式",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_71f9a620-f205-d39b-a55a-c9e0f3edde4f"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "固定値「CityGML 2.0」及び「i-UR 3.2」を",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": "それぞれ書式情報として入れる。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_655c9095-3429-fb21-d965-0963be9dcbda"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "CityGML 2.0",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": " i-UR 3.2",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_6eb2eb1d-dae8-85e4-cbdf-a2ad5debbc99"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "配布情報\u003eオンライン",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_5287b196-b09d-38d5-27b9-2f4944222944"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "G空間情報センターのURLを記述する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_93362dbe-e7d4-caf6-a3e8-c318da359b6f"
+                                        },
+                                        "content": [
+                                          {
+                                            "attrs": {
+                                              "href": "https://front.geospatial.jp/"
+                                            },
+                                            "type": "external_link"
+                                          },
+                                          {
+                                            "text": " （固定値）",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_895df0bc-9a01-86ad-989e-a090b2b58e2a"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "データ品質情報\u003eデータ品質",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_e6a27e6c-b694-8b1f-a7cd-563ef8296a9a"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "製品仕様書に示す品質要求の各項目について品質評価結果を記述する。",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": "系譜(データが作成されるまでの過去の記録や履歴、原典資料の概要)には、主題属性の作成方法や図形と属性のアンマッチへの対処方法等、データ品質に記載できないが、データ製品の利用にあたり注意が必要となるデータの品質に係る事項を記述する。 ",
+                                            "type": "text"
+                                          },
+                                          {
+                                            "type": "linebreak"
+                                          },
+                                          {
+                                            "text": "また、公共測量成果の対象となる建築物モデル、交通モデル、橋梁モデル、トンネルモデル、その他の構造物モデル、植生モデル、地形モデル及び水部モデルについて、公共測量成果ではない都市オブジェクトが含まれている場合は、該当しない理由を記載する。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  },
+                                  {
+                                    "attrs": {
+                                      "background": null,
+                                      "colspan": null,
+                                      "colwidth": null,
+                                      "rowspan": null
+                                    },
+                                    "content": [
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_8f234a4b-cbee-9bac-b81e-8c2002aeb9fb"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "（系譜の例）",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      },
+                                      {
+                                        "attrs": {
+                                          "resourceID": "urn:metanorma:doc-part:_54319590-5a28-47ba-02f3-89ab8439a55a"
+                                        },
+                                        "content": [
+                                          {
+                                            "text": "一部の橋梁モデルは、厚みを推定で作成しているため、公共測量成果ではありません。",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "paragraph"
+                                      }
+                                    ],
+                                    "type": "table_cell"
+                                  }
+                                ],
+                                "type": "table_row"
+                              }
+                            ],
+                            "type": "table"
+                          }
+                        ],
+                        "type": "tableFigure"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          }
+        ],
+        "type": "bullet_list"
+      }
+    },
+    {
+      "type": "bullet_list",
+      "content": {
+        "content": [
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_e8acb4de-53e3-ade1-a0c4-7d14a1deeef0"
+                },
+                "content": [
+                  {
+                    "text": "手順3．メタデータエディタを用いてJMP2.0形式にて出力する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_4612f96d-7df5-4cb3-f12e-659de58de222"
+                        },
+                        "content": [
+                          {
+                            "text": "ファイル名称は、",
+                            "type": "text"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:toc5_04_04"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "6.4.4",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "text": "に従う。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": ""
+                },
+                "content": [
+                  {
+                    "text": " ",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_2e003657-8c98-c5d5-ab62-c284c4c70687",
+                  "tags": [
+                    "note",
+                    "commentary"
+                  ]
+                },
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "text": "注記",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      }
+                    ],
+                    "type": "xrefLabel"
+                  },
+                  {
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "text": "6.3.2",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      },
+                      {
+                        "content": [
+                          {
+                            "text": "の",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      },
+                      {
+                        "content": [
+                          {
+                            "text": "注記",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      }
+                    ],
+                    "type": "xrefLabel"
+                  },
+                  {
+                    "attrs": {
+                      "resourceID": "urn:metanorma:doc-part:_1f5d9d4c-5baa-f3b3-b4e3-14da578131d8"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "href": "urn:metanorma:doc-part:table-5-1"
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "表",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "6-5",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "span"
+                          }
+                        ],
+                        "type": "resource_link"
+                      },
+                      {
+                        "text": "に示す項目は、3D都市モデルの利用者がメタデータにより3D都市モデルの概要を得ようとした場合に、利用者が想定したユースケースに適合したデータであるか否かを判断する重要な情報である。そのため、必須項目とする。",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "paragraph"
+                  },
+                  {
+                    "attrs": {
+                      "resourceID": "urn:metanorma:doc-part:_480ee4c0-2d51-aa06-01a4-d502fbc308eb"
+                    },
+                    "content": [
+                      {
+                        "text": "メタデータは、3D都市モデルを再利用する場合に、3D都市モデルの概要を把握するために必要な情報である。メタデータを充実させることでより価値の高いデータ製品となり、様々な人に使ってもらえるようになる。そのため、必須としない項目についても、可能な限り記述することが望ましい。",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "paragraph"
+                  }
+                ],
+                "type": "admonition"
+              }
+            ],
+            "type": "list_item"
+          }
+        ],
+        "type": "bullet_list"
+      }
+    }
+  ]
+}

@@ -1,0 +1,500 @@
+{
+  "title": "J.3.2.4  原典資料の異常値や欠損値の取り扱い",
+  "path": "/plateaudocument02/tocJ/tocJ_03/作成上の留意事項__2/原典資料の異常値や欠損値の取り扱い_",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "J.3.2.4\t原典資料の異常値や欠損値の取り扱い",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_aaa789b6-6046-f2b4-f0b8-821391fb7e61"
+        },
+        "content": [
+          {
+            "text": "原典資料となる浸水想定区域データに異常値（0やマイナス値）が含まれていた場合、データ提供元に問い合わせ、対処方法（正しいデータの再提供依頼、異常値の削除、異常値を近傍の浸水深に置換等）を確認する。データ提供元の確認なく、原典資料を加工してはならない。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_5409011c-1663-1405-367f-9b2c6782d37c"
+        },
+        "content": [
+          {
+            "text": "原典資料に地盤高や浸水深など、必要なデータが入っていない場合、データ提供元に問い合わせし、修正データの再提供を依頼することを原則とする。そのうえで、修正データが入手できない場合は、3D都市モデルの整備主体と対処方法を協議し決定する。必要なデータが得られない場合の災害リスク（浸水）モデルの作成可否と対処方法を",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "href": "urn:metanorma:doc-part:tab-J-4"
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "text": "表",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "span"
+                  },
+                  {
+                    "text": "J-6",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              }
+            ],
+            "type": "resource_link"
+          },
+          {
+            "text": "に示す。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "tableFigure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:tab-J-4"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "表",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "J-6 — 必要なデータが得られない場合の対処方法",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "colWidths": [
+                "14%",
+                "14%",
+                "72%"
+              ]
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "必要なデータ",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": "2"
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "災害リスク（浸水）モデルの作成可否と対処方法",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "浸水深",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "地盤高",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_611325a4-4ca7-6069-cbe5-2748c156029e"
+                        },
+                        "content": [
+                          {
+                            "text": "有",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f2a67dac-f5c4-96ac-1b21-f333d063d878"
+                        },
+                        "content": [
+                          {
+                            "text": "無",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_a769fcf7-f957-28e2-fffe-6cf4933229ee"
+                                },
+                                "content": [
+                                  {
+                                    "text": "地盤高の代替として、地形モデル又はその他の標高データ（例：DEM）を得られる場合に、災害リスク（浸水）モデルを作成できる。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_67fe3c9e-e747-1f7c-bb60-1ae961d553c4"
+                                },
+                                "content": [
+                                  {
+                                    "text": "ただし、浸水深の計算に用いた地盤高と代替するデータの標高に差異がある場合は、作成した浸水面の高さに差異が生じることを3D都市モデルの整備主体と合意する必要がある。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_7f45bfa4-b2e8-a92e-fb08-fcbb44cb7c8b"
+                        },
+                        "content": [
+                          {
+                            "text": "無",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_6afd9ea6-f41a-eb6d-7472-a14840fdb31d"
+                        },
+                        "content": [
+                          {
+                            "text": "有",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_39c1775d-e203-244b-883e-ba2ce3db75ab"
+                                },
+                                "content": [
+                                  {
+                                    "text": "災害リスク（浸水）モデルを作成できない。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_3890d984-5648-fd44-6e44-6e681dea5635"
+                        },
+                        "content": [
+                          {
+                            "text": "無",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_62dae301-4172-4b14-8381-2ef0cb83bd92"
+                        },
+                        "content": [
+                          {
+                            "text": "無",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_12829a34-4ce7-4cdb-e01f-899b493ee427"
+                                },
+                                "content": [
+                                  {
+                                    "text": "災害リスク（浸水）モデルを作成できない。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              }
+            ],
+            "type": "table"
+          }
+        ],
+        "type": "tableFigure"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_d01417b7-61d2-23e3-d286-32434b1eeaa2"
+        },
+        "content": [
+          {
+            "text": "原典資料に「浸水深」が存在しない場合は、高さをもった浸水面を表現することはできないため、災害リスク（浸水）モデルの作成対象外とする。「浸水深」が存在しない浸水想定区域は、汎用都市オブジェクト（gen:GenericCityObject）を用いて、高さのない区域のデータとして作成できる。また、「地盤高」がなく、地形モデル等で地盤高の代替を行わない場合であっても、浸水深がある場合や浸水ランクがある場合は、建築物（bldg:Building）に災害リスク属性として、浸水深や浸水ランクを付与することができる。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "title": "L.3  brid:BridgePart",
+  "path": "/plateaudocument02/tocL/tocL_03",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "L.3\tbrid:BridgePart",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_b9b6300e-9e27-9f56-06e7-fabfd755d96a"
+        },
+        "content": [
+          {
+            "text": "brid:BridgePartは、橋梁の一部であり、橋梁モデル（LOD2）以上において、一つの橋梁を複数の部分に分けて記述するために用いる。一つの橋梁を複数の部分に分けて記述する場合とは、以下をいう。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "bullet_list",
+      "content": {
+        "content": [
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_46c523c7-40a5-5091-b619-6081cda05cb6"
+                },
+                "content": [
+                  {
+                    "text": "一つの橋梁を、主題属性の異なる複数の部分に分ける場合",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          }
+        ],
+        "type": "bullet_list"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_ad1954a2-2285-0352-9ccd-9e91a82344f2"
+        },
+        "content": [
+          {
+            "text": "例えば、一つの橋梁が、構造の異なる複数の区間から構成されている場合、それぞれをbrid:BridgePartとして作成し、それらを束ねたbrid:Bridgeを作成することで、一つの橋梁として表現できる。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_af4bcf55-881b-b893-95cf-fdde8216c841"
+        },
+        "content": [
+          {
+            "text": "また、一つの橋梁を構成する区間ごとに異なる原典資料を使用し、品質が異なるデータとなっている場合には、それぞれをbrid:BridgePartとして作成し、brid:BridgePartごとに使用した原典資料や地図情報レベルを属性として記録することができる。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    }
+  ]
+}

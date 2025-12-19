@@ -1,0 +1,187 @@
+{
+  "title": "C.3.2.4  建築物の住所（bldg:address）",
+  "path": "/plateaudocument02/tocC/tocC_03/tocC_03_02/tocC_03_02_04",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "C.3.2.4\t建築物の住所（bldg:address）",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_c8936c3e-e3d2-0f66-5773-db88a1e6ed98"
+        },
+        "content": [
+          {
+            "text": "標準製品仕様書では、建築物の主題属性として住所（bldg:address）を定義している。住所は、概ねの場所を検索・特定するために使用できる有益な情報である。そのため、全ての建築物には可能な限り住所を付与することが望ましい。",
+            "type": "text"
+          },
+          {
+            "type": "linebreak"
+          },
+          {
+            "text": "原典資料としては、国勢調査（町丁・字等別境界データ）、 ",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "href": "https://nlftp.mlit.go.jp"
+            },
+            "content": [
+              {
+                "text": "国土数値情報（公共施設データ）",
+                "type": "text"
+              }
+            ],
+            "type": "external_link"
+          },
+          {
+            "text": "及び基礎自治体から入手した主要な公共施設リスト等がある。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_c201e6ab-e3c8-92a7-1b80-8f7d9b546844"
+        },
+        "content": [
+          {
+            "text": "なお、CityGMLでは、住所の記述についてXMLに関する標準化団体であるOASIS（Organization for the Advancement of Structured Information Standards）により策定されたextensible Address Language （xAL）を参照している。住所を構造化して記述する場合には、xALの構造に従う。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_c3ea5968-5e40-a47f-2982-bde742e2520b"
+        },
+        "content": [
+          {
+            "text": "建築物の住所は、建築物の場所を特定する地理識別子として利用されるだけではなく、建築物とこれに関連する様々な情報とを連携するキーとして利用されることが想定される。そのため、この属性を用いて、住所の地名辞典を整備更新できるよう、構造化して記述することを推奨する。構造化して記述する場合の記述例を以下に示す。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "example",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_b1b6b002-f18e-fc2f-9f1e-b584a9967f71"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "例",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "1 — 構造化する場合の記述例",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_7e7a0fd1-be46-d7f6-d2ca-acd8d64c0c0a"
+            },
+            "content": [
+              {
+                "attrs": {
+                  "formattedSource": "\u003cbody\u003e\u0026lt;core:Address\u0026gt;\n  \u0026lt;core:xalAddress\u0026gt;\n    \u0026lt;xAL:AddressDetails\u0026gt;\n      \u0026lt;xAL:Country\u0026gt;\n        \u0026lt;xAL:CountryName\u0026gt;日本\u0026lt;/xAL:CountryName\u0026gt;\n        \u0026lt;xAL:Locality\u0026gt;\n          \u0026lt;xAL:LocalityName Type=\"prefecture\"\u0026gt;東京都\u0026lt;/xAL:LocalityName\u0026gt;\n          \u0026lt;xAL:LocalityName Type=\"city\"\u0026gt;渋谷区\u0026lt;/xAL:LocalityName\u0026gt;\n          \u0026lt;xAL:DependentLocality Type=\"district\"\u0026gt;\n            \u0026lt;xAL:DependentLocalityName\u0026gt;神宮前\u0026lt;/xAL:DependentLocalityName\u0026gt;\n            \u0026lt;xAL:DependentLocalityNumber\u0026gt;2-2-3\u0026lt;/xAL:DependentLocalityNumber\u0026gt;\n          \u0026lt;/xAL:DependentLocality\u0026gt;\n        \u0026lt;/xAL:Locality\u0026gt;\n      \u0026lt;/xAL:Country\u0026gt;\n    \u0026lt;/xAL:AddressDetails\u0026gt;\n  \u0026lt;/core:xalAddress\u0026gt;\n\u0026lt;/core:Address\u0026gt;\u003c/body\u003e"
+                },
+                "type": "source_listing"
+              }
+            ],
+            "type": "figure"
+          }
+        ],
+        "type": "example"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_5a088bfe-3599-f748-b47c-0a0425841a05"
+        },
+        "content": [
+          {
+            "text": "なお、構造化せずに略式（1行の住所文字列）で記述する場合は、以下のように記載する。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "example",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_8079c1fb-59f3-b75d-eb41-6871ccda28a7"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "例",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "2 — 住所の記述例",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_56e79b9a-36da-b59e-3848-310dc18237e6"
+            },
+            "content": [
+              {
+                "attrs": {
+                  "formattedSource": "\u003cbody\u003e\u0026lt;core:Address\u0026gt;\n  \u0026lt;core:xalAddress\u0026gt;\n    \u0026lt;xAL:AddressDetails\u0026gt;\n      \u0026lt;xAL:Country\u0026gt;\n        \u0026lt;xAL:CountryName\u0026gt;日本\u0026lt;/xAL:CountryName\u0026gt;\n        \u0026lt;xAL:Locality\u0026gt;\n          \u0026lt;xAL:LocalityName Type=“town”\u0026gt;東京都渋谷区神宮前2-2-3\u0026lt;/xAL:LocalityName\u0026gt;\n        \u0026lt;/xAL:Locality\u0026gt;\n      \u0026lt;/xAL:Country\u0026gt;\n    \u0026lt;/xAL:AddressDetails\u0026gt;\n  \u0026lt;/core:xalAddress\u0026gt;\n\u0026lt;/core:Address\u0026gt;\u003c/body\u003e"
+                },
+                "type": "source_listing"
+              }
+            ],
+            "type": "figure"
+          }
+        ],
+        "type": "example"
+      }
+    }
+  ]
+}

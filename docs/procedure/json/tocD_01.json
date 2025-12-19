@@ -1,0 +1,630 @@
+{
+  "title": "D.1  概要",
+  "path": "/plateaudocument02/tocD/tocD_01",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "D.1\t概要",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_24621494-c312-8d74-fcf5-7b47a653f0b5"
+        },
+        "content": [
+          {
+            "text": "本付属書では、「3D都市モデル標準製品仕様書」（以下、「標準製品仕様書」という）に適合したデータ製品について、妥当な交通（道路）オブジェクトの要件と、妥当な交通（道路）オブジェクトを作成するための標準的な作業手順を示す。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_51a04045-765b-3158-3040-9942047903ae"
+        },
+        "content": [
+          {
+            "text": "本付属書が対象とする交通（道路）モデルのLODは、LOD0からLOD3までとする。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "tableFigure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_req_tran"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "表",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "D-1 — ",
+                "type": "text"
+              },
+              {
+                "content": [
+                  {
+                    "text": "要件分類",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "D-1: 妥当な交通（道路）オブジェクト",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "colWidths": []
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "ID",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "text": "/req/tran",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "対象の種類",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "妥当な交通（道路）オブジェクトの要件",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "説明",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_aa875bc5-f4c6-927b-a8c1-56c6df6a1c5c"
+                        },
+                        "content": [
+                          {
+                            "text": "道路の説明とLODの要件",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "規定",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_15a1ec20-378f-9b9d-367d-9cb7ebb7a96d"
+                            },
+                            "type": "anchor"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_req_tran_1"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "要件",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "D-1: 道路記述のLOD対応条件",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_9f08cae6-f306-fe16-3276-e1101cb2a207"
+                            },
+                            "type": "anchor"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_req_tran_2"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "要件",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "D-2: 道路3Dモデルの幾何オブジェクト要件",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_0b5a557a-fa3c-fd51-8303-07d488871370"
+                            },
+                            "type": "anchor"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_req_tran_3"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "要件",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "D-3: tran:Roadの幾何座標一致条件",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_e123d22b-b658-8dda-d499-f99450d2f53c"
+                            },
+                            "type": "anchor"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_req_tran_4"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "要件",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "D-4: LOD0 tran:Roadの交差禁止条件",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_50f4b5f6-63cd-1da5-9a6a-00d9ed982e54"
+                            },
+                            "type": "anchor"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_req_tran_5"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "要件",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "D-5: tran:Roadオブジェクトの区切り位置",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_05d1a021-dbaa-e223-28e0-a9c0a76d2a5b"
+                            },
+                            "type": "anchor"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_req_tran_6"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "要件",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "D-6: LOD2 tran:Roadの空間属性一致条件",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_1627ba0c-f525-2bfa-3060-44197c9a4061"
+                            },
+                            "type": "anchor"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_req_tran_7"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "要件",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "D-7: LOD3 tran:Roadの空間属性一致条件",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_70227bc3-b225-e767-45df-d7b337e72fb1"
+                            },
+                            "type": "anchor"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_req_tran_8"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "要件",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "D-8: 交通領域の区分方法",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_fdbe3274-69a6-357c-ebf1-bfde25db4172"
+                            },
+                            "type": "anchor"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_req_tran_9"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "要件",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "D-9: tran:TrafficAreaの重なり禁止条件",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_5f426cf8-f6ab-d306-6962-4a98dbc50f9f"
+                            },
+                            "type": "anchor"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_req_tran_10"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "要件",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "D-10: 交通補助領域の区分方法",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_a3c3cf28-1957-875c-bfa6-d1f7b210f3ff"
+                            },
+                            "type": "anchor"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_req_tran_11"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "要件",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "D-11: tran:AuxiliaryTrafficAreaの重なり禁止条件",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              }
+            ],
+            "type": "table"
+          }
+        ],
+        "type": "tableFigure"
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "title": "O.2.4.4.1  施設分類属性（uro:FacilityTypeAttribute）",
+  "path": "/plateaudocument02/tocO/tocO_02/都市設備の主題属性_/施設管理のための属性__6/施設分類属性_urofacilitytypeattribute_6",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "O.2.4.4.1\t施設分類属性（uro:FacilityTypeAttribute）",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_6435d1f3-31e2-546c-409c-6bb08d2f1e09"
+        },
+        "content": [
+          {
+            "text": "uro:FacilityTypeAttributeは、各分野で定める施設の区分を記述するためのデータ型である。CityGMLは、地物型を物体としての性質に着目して定義し、機能や用途は属性で区分している。例えば、「都市設備（frn:CityFurniture）」という地物型を定義し、bldg:functionにより「照明施設」や「交通信号機」などを区分している。これにより、都市に存在する様々な地物を、分野を問わず網羅的に、かつ、矛盾が無く表現することを目指している。一方、各分野には独自の施設の区分がある。この区分は当該分野での施設管理に必要な情報であるが、CityGMLの地物型の区分とは一致しない。そこで、これらの地物型に分野独自の区分を付与するためにこのデータ型を用いる。uro:FacilityTypeAttributeは、二つの属性をもつ。uro:classは分野を特定するための属性である。またuro:functionは、uro:classにより特定した分野における施設の区分を示す。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_f5dd0e49-0d52-a13f-ea1e-75992b9b1ea3"
+        },
+        "content": [
+          {
+            "text": "標準製品仕様書では、港湾施設、漁港施設及び公園施設については標準製品仕様書においてuro:functionの区分が示されている。その他の区分についてはuro:classへの分野の追加も含め、拡張製品仕様書において拡張できる。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    }
+  ]
+}

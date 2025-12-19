@@ -1,0 +1,788 @@
+{
+  "title": "6.1  概要",
+  "path": "/plateaudocument02/toc5/toc5_01",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "6.1\t概要",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_55c83551-cded-4c6c-3b22-67b5f9d49641"
+        },
+        "content": [
+          {
+            "text": "3D都市モデル",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_b88d672c-85e9-45ee-9bd1-3ead570754ca"
+            },
+            "type": "anchor"
+          },
+          {
+            "text": "は、特定のユースケースだけではなく、様々な分野で活用されることで新たな価値を創出することが期待されている。そのため、3D都市モデルを幅広く公開（オープンデータ",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_5a71a5d7-5277-4eaa-8cce-e4c9324b35a8"
+            },
+            "type": "anchor"
+          },
+          {
+            "text": "化）することが望ましい。一方、ユースケースによっては、整備した3D都市モデルに個人情報保護の観点等からオープンデータとして適切ではない情報が含まれている可能性がある。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_6d25ff03-66cb-0ee1-b711-caca2ca1f356"
+        },
+        "content": [
+          {
+            "attrs": {
+              "href": "urn:metanorma:doc-part:fig-5-1"
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "text": "図",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "span"
+                  },
+                  {
+                    "text": "6-1",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              }
+            ],
+            "type": "resource_link"
+          },
+          {
+            "text": "に成果品とりまとめの手順を示す。そこで、3D都市モデル整備の成果品には、前章までに整備した3D都市モデルに加え、これらからオープンデータ化可能な項目のみを抽出した、3D都市モデルオープンデータを含めるべきである。また、成果品としては、3D都市モデルに加え、メタデータ、拡張製品仕様書等も必要である。本章では、これらを成果品として取りまとめる手順を示す。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "figure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:fig-5-1"
+        },
+        "content": [
+          {
+            "attrs": {
+              "height": "auto",
+              "src": "data:image/png;base64,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",
+              "width": "200"
+            },
+            "type": "image"
+          },
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "図",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "6-1 — 成果品のとりまとめ手順",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          }
+        ],
+        "type": "figure"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_d6c5a0aa-b489-bd82-bc8c-6ece91214d57"
+        },
+        "content": [
+          {
+            "text": "3D都市モデル整備の成果品取りまとめ手順の要件は下表のとおりである（各規定の詳細は各規定の表を参照のこと）。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "tableFigure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_req_deliverable"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "表",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "6-1 — ",
+                "type": "text"
+              },
+              {
+                "content": [
+                  {
+                    "text": "要件分類",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "5: 3D都市モデル整備の成果品取りまとめ手順の留意事項",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "colWidths": []
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "ID",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "text": "/req/deliverable",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "対象の種類",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "標準作業手順",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "説明",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_7476c694-7fb6-73ee-1db8-1219811f2c94"
+                        },
+                        "content": [
+                          {
+                            "text": "3D都市モデル整備の成果品取りまとめ手順の留意事項",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "規定",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_5828fe5e-eb77-94b1-b2fd-53185124d3d1"
+                            },
+                            "type": "anchor"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_att_deliverable_1"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "留意事項",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "48: 拡張地物のメタデータ一括作成",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_327a157c-934d-7e42-3ab6-a4b45aed38b5"
+                            },
+                            "type": "anchor"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_att_deliverable_2"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "留意事項",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "49: 3D都市モデルのメタデータ分割ルール",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_00670a82-aaea-b31d-16e6-981e351b2ef6"
+                            },
+                            "type": "anchor"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_att_deliverable_3"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "留意事項",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "50: 3D都市モデル関連データのメタデータ作成ルール",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_4773b29b-9c2b-cf4d-f458-d2f5bcb708cf"
+                            },
+                            "type": "anchor"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_att_deliverable_4"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "留意事項",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "51: 異なる原典資料の地物属性は行を分ける",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_da1f1720-cc41-83f6-c60e-2428f96e586e"
+                            },
+                            "type": "anchor"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_att_deliverable_5"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "留意事項",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "52: 複数値の列挙は、他項目が同一の場合のみ",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_e0cf2c67-224d-b89c-fb52-4562263f6525"
+                            },
+                            "type": "anchor"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_att_deliverable_6"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "留意事項",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "53: 都道府県データセットは市区町村データセットと分ける",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_11864954-9d85-c20f-87df-1907be5248e6"
+                            },
+                            "type": "anchor"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_att_deliverable_7"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "留意事項",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "54: 行政界跨る都市オブジェクトは重複含む",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_a71eee42-4dbc-46d2-603d-0597a39f6c84"
+                            },
+                            "type": "anchor"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_att_deliverable_8"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "留意事項",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "55: 行政界跨ぎ地物の振り分け基準",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_32985c2f-1e17-7ae3-bd10-9b016b62efe5"
+                            },
+                            "type": "anchor"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_att_deliverable_9"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "留意事項",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "56: 境界未確定部の取り扱いは基本通り",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_b298a399-b57d-aa5c-6fbd-608f8fe93943"
+                            },
+                            "type": "anchor"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_att_deliverable_10"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "留意事項",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "57: 市区町村内複数主体の3Dモデル統合",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_f3c74071-efa3-6895-86b7-1510dd2796c9"
+                            },
+                            "type": "anchor"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_att_deliverable_11"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "留意事項",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "58: 地下埋設物モデルの分割",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_15e910e3-b390-84da-b46f-a43ae5407dc7"
+                            },
+                            "type": "anchor"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_att_deliverable_12"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "留意事項",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "59: 英名表記は基本規程に従う",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_bacf61bd-6028-5bf0-2222-67937cb8833f"
+                            },
+                            "type": "anchor"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:_att_deliverable_13"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "留意事項",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "60: フォルダ名は接頭辞に一致",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "resource_link"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              }
+            ],
+            "type": "table"
+          }
+        ],
+        "type": "tableFigure"
+      }
+    }
+  ]
+}

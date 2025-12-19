@@ -1,0 +1,447 @@
+{
+  "title": "2.4.2.3  i-UR又はCityGMLに存在する地物型等を追加する場合",
+  "path": "/plateaudocument02/toc1/toc1_04/toc1_04_02/toc1_04_02_03",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "2.4.2.3\ti-UR又はCityGMLに存在する地物型等を追加する場合",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_9fdc7634-9789-c265-8912-2e51f8f31069"
+        },
+        "content": [
+          {
+            "text": "標準製品仕様書",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_06ce0bb1-817d-4386-94bc-29aea7c2b80b"
+            },
+            "type": "anchor"
+          },
+          {
+            "text": "に定義されていないが、i-UR",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_0abd44c5-0e3d-4d50-8772-837029b94985"
+            },
+            "type": "anchor"
+          },
+          {
+            "text": "又はCityGML",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_ffbbba73-5313-4b2d-bd6f-4f2e3f060e40"
+            },
+            "type": "anchor"
+          },
+          {
+            "text": "のいずれかに定義されている地物型等を追加する場合には、以下の手順により拡張する。",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_ce61a573-e3db-455b-a7b2-2ebe285038a7"
+            },
+            "type": "anchor"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_051c9359-5f1b-444b-a75e-58503300c7de"
+            },
+            "type": "anchor"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "bullet_list",
+      "content": {
+        "content": [
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_2772a98b-8fed-5107-b110-d10460b04dcd"
+                },
+                "content": [
+                  {
+                    "text": "【手順】",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_a356594f-3fd4-dce2-398d-01a491c9afd3"
+                },
+                "content": [
+                  {
+                    "text": "手順1．追加したい地物型等について、応用スキーマクラス図及び応用スキーマ文書を作成する。応用スキーマクラス図は、i-UR及びCityGMLの仕様（",
+                    "type": "text"
+                  },
+                  {
+                    "attrs": {
+                      "href": "urn:metanorma:doc-part:anchor-id"
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "text": "1.2",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      }
+                    ],
+                    "type": "resource_link"
+                  },
+                  {
+                    "text": "参照）に従う。また、応用スキーマ文書の作成には、",
+                    "type": "text"
+                  },
+                  {
+                    "attrs": {
+                      "href": "urn:metanorma:doc-part:tocA_03_04"
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "text": "A.3.4",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      }
+                    ],
+                    "type": "resource_link"
+                  },
+                  {
+                    "text": "に示す様式を用いる。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_8b7d480d-30a0-5399-8516-5ea5a2b14884"
+                },
+                "content": [
+                  {
+                    "text": "応用スキーマ文書は、以下の事項を守り作成すること。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2148100e-2a21-c58d-fdfa-5407f2880d3f"
+                        },
+                        "content": [
+                          {
+                            "text": "地物型等の名称には、i-URやCityGMLで定義された名称を使用する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_064f6873-d11c-96e2-63f8-724384361e22"
+                                },
+                                "content": [
+                                  {
+                                    "text": "ただし、i-URで定義された地物型のうち、拡張可能な地物型は、幾何型がgml:MultiSurfaceである地物型のみとする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_5e43352c-cc29-74a9-534d-f545daaf54a0"
+                        },
+                        "content": [
+                          {
+                            "text": "多重度や地物属性/地物関連の型はi-UR及びCityGMLの定義を変更してはならない。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_44976c73-df60-43b9-e1d2-423875f650f6"
+                                },
+                                "content": [
+                                  {
+                                    "text": "より厳密にしたい場合には注釈にその内容を記述する。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_55cb2c60-f704-4b29-f09f-19210e1b541d"
+                                },
+                                "content": [
+                                  {
+                                    "text": "コード型属性を追加する場合、コードリストの名称は、",
+                                    "type": "text"
+                                  },
+                                  {
+                                    "content": [
+                                      {
+                                        "text": "[地物型名称]_[属性名称]",
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "type": "code"
+                                  },
+                                  {
+                                    "text": "（拡張子を含めると",
+                                    "type": "text"
+                                  },
+                                  {
+                                    "content": [
+                                      {
+                                        "text": "[地物型名称]_[属性名称].xml",
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "type": "code"
+                                  },
+                                  {
+                                    "text": "）とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_292f7d68-d14b-03ff-7141-dfd168039f4d"
+                                },
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "text": "[地物型名称]",
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "type": "code"
+                                  },
+                                  {
+                                    "text": "は応用スキーマクラス図に記載された地物型の名称（接頭辞は除く）とし、",
+                                    "type": "text"
+                                  },
+                                  {
+                                    "content": [
+                                      {
+                                        "text": "[属性名称]",
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "type": "code"
+                                  },
+                                  {
+                                    "text": "は応用スキーマクラス図に記載された属性名称（接頭辞は除く）とする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": ""
+                },
+                "content": [
+                  {
+                    "text": " ",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_9d938839-bcf6-318c-9eb2-7fbe19186500",
+                  "tags": [
+                    "note",
+                    "commentary"
+                  ]
+                },
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "text": "注記",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      }
+                    ],
+                    "type": "xrefLabel"
+                  },
+                  {
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "text": "2.4.2.3",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      },
+                      {
+                        "content": [
+                          {
+                            "text": "の",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      },
+                      {
+                        "content": [
+                          {
+                            "text": "注記",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      }
+                    ],
+                    "type": "xrefLabel"
+                  },
+                  {
+                    "attrs": {
+                      "resourceID": "urn:metanorma:doc-part:_dca04e63-bb9e-e9e9-ead3-32c256b4980d"
+                    },
+                    "content": [
+                      {
+                        "text": "追加したい地物型等が、i-UR又はCityGMLに存在する場合には、これらから矛盾なく引用しなければならない。属性の型や多重度は原則として変更できないが、より制限を強めることはできる。例えば、多重度が[0..1]となっている地物属性を[1]としてもよい。また、文字列型となっている属性の定義域を「全角10文字以内」というように制限してもよい。ただし、i-URやCityGMLそのものを変更することはできないため、符号化仕様（XMLSchema）についても修正は行えない。よって、符号化仕様を使った妥当性の検証ができないことに注意すること。",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "paragraph"
+                  },
+                  {
+                    "attrs": {
+                      "resourceID": "urn:metanorma:doc-part:_673515b3-cf78-68af-3565-621481826ed6"
+                    },
+                    "content": [
+                      {
+                        "text": "例：多重度が[0..1]となっている属性を、応用スキーマ文書で[1]にした場合であっても、符号化仕様では、[0..1]のままとなるため、当該属性が記述されていなくてもエラーとしては検出されない。別途検証ツールを作成する必要がある。",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "paragraph"
+                  },
+                  {
+                    "attrs": {
+                      "resourceID": "urn:metanorma:doc-part:_9b7d8523-bbbe-d579-645d-b02699366692"
+                    },
+                    "content": [
+                      {
+                        "text": "本書では、3D都市モデルが様々な用途・ソフトウェア上で利用され、より普及していくことを目指し、複数の選択肢がある場合には、より実装例の多い選択肢の使用を推奨している。",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "paragraph"
+                  }
+                ],
+                "type": "admonition"
+              }
+            ],
+            "type": "list_item"
+          }
+        ],
+        "type": "bullet_list"
+      }
+    }
+  ]
+}

@@ -1,0 +1,4491 @@
+{
+  "documentType": "procedure",
+  "title": "3D都市モデル標準作業手順書",
+  "generatedAt": "2025-12-19T10:15:01Z",
+  "chapters": [
+    {
+      "path": "はじめに標準製品仕様書拡張製品仕様書_citygmli_ur",
+      "title": "はじめに"
+    },
+    {
+      "path": "toc_05",
+      "title": "改訂履歴"
+    },
+    {
+      "path": "概要_",
+      "title": "1  概　要",
+      "children": [
+        {
+          "path": "本書の目的_",
+          "title": "1.1  本書の目的"
+        },
+        {
+          "path": "anchor-id",
+          "title": "1.2  引用規格等"
+        },
+        {
+          "path": "toc0_03",
+          "title": "1.3  作業工程"
+        },
+        {
+          "path": "toc0_04",
+          "title": "1.4  本書で使用する用語",
+          "children": [
+            {
+              "path": "用語と定義_",
+              "title": "1.4.1  用語と定義"
+            },
+            {
+              "path": "用語の利用例_",
+              "title": "1.4.2  用語の利用例"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "toc1",
+      "title": "2  製品仕様の決定",
+      "children": [
+        {
+          "path": "toc1_01",
+          "title": "2.1  概要"
+        },
+        {
+          "path": "toc1_02",
+          "title": "2.2  標準製品仕様書との比較"
+        },
+        {
+          "path": "toc1_03",
+          "title": "2.3  標準製品仕様書の使用"
+        },
+        {
+          "path": "toc1_04",
+          "title": "2.4  標準製品仕様書の拡張",
+          "children": [
+            {
+              "path": "toc1_04_01",
+              "title": "2.4.1  製品仕様の拡張パターン"
+            },
+            {
+              "path": "toc1_04_02",
+              "title": "2.4.2  製品仕様の拡張手順",
+              "children": [
+                {
+                  "path": "toc1_04_02_01",
+                  "title": "2.4.2.1  コード型の地物属性を追加する場合"
+                },
+                {
+                  "path": "toc1_04_02_02",
+                  "title": "2.4.2.2  コード型以外の地物属性又は地物関連を追加する場合"
+                },
+                {
+                  "path": "toc1_04_02_03",
+                  "title": "2.4.2.3  i-UR又はCityGMLに存在する地物型等を追加する場合"
+                },
+                {
+                  "path": "toc1_04_02_04",
+                  "title": "2.4.2.4  i-URやCityGMLに存在しない地物型を追加する場合"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "toc1_05",
+          "title": "2.5  拡張製品仕様書の作成",
+          "children": [
+            {
+              "path": "toc1_05_01",
+              "title": "2.5.1  データ品質の決定"
+            },
+            {
+              "path": "toc1_05_02",
+              "title": "2.5.2  製品仕様の作成"
+            },
+            {
+              "path": "toc1_05_03",
+              "title": "2.5.3  作成制限施設の確認"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "toc2",
+      "title": "3  作成計画の立案",
+      "children": [
+        {
+          "path": "toc2_01",
+          "title": "3.1  概要"
+        },
+        {
+          "path": "toc2_02",
+          "title": "3.2  既存資料の把握"
+        },
+        {
+          "path": "toc2_03",
+          "title": "3.3  作成方法の検討",
+          "children": [
+            {
+              "path": "toc2_03_01",
+              "title": "3.3.1  作成方法と作成手順",
+              "children": [
+                {
+                  "path": "_lod1lod1の立体立体の作成手順_",
+                  "title": "3.3.1.1  LOD1 の立体 の作成手順"
+                },
+                {
+                  "path": "_lod2lod2及び_lod3の立体立体の作成手順_",
+                  "title": "3.3.1.2  LOD2 及びLOD3の立体 の作成手順"
+                },
+                {
+                  "path": "_lod4の立体立体の作成手順_",
+                  "title": "3.3.1.3  LOD4の立体 の作成手順"
+                }
+              ]
+            },
+            {
+              "path": "toc2_03_02",
+              "title": "3.3.2  作成方法及び作業手順の決定"
+            }
+          ]
+        },
+        {
+          "path": "toc2_04",
+          "title": "3.4  作成計画の立案"
+        }
+      ]
+    },
+    {
+      "path": "toc3",
+      "title": "4  原典資料の収集",
+      "children": [
+        {
+          "path": "toc3_01",
+          "title": "4.1  概要"
+        },
+        {
+          "path": "toc3_02",
+          "title": "4.2  既存資料の収集"
+        },
+        {
+          "path": "toc3_03",
+          "title": "4.3  新規データの取得"
+        }
+      ]
+    },
+    {
+      "path": "toc4",
+      "title": "5  3D都市モデル作成と品質評価",
+      "children": [
+        {
+          "path": "toc4_01",
+          "title": "5.1  概要"
+        },
+        {
+          "path": "toc4_02",
+          "title": "5.2  幾何オブジェクトの作成と品質評価",
+          "children": [
+            {
+              "path": "toc4_02_01",
+              "title": "5.2.1  幾何オブジェクトの作成",
+              "children": [
+                {
+                  "path": "_lod1lod1の_gmlsolidの作成_",
+                  "title": "5.2.1.1  LOD1 のgml:Solidの作成"
+                },
+                {
+                  "path": "_lod2lod2の_gmlsolidの作成_",
+                  "title": "5.2.1.2  LOD2 のgml:Solidの作成"
+                },
+                {
+                  "path": "_lod3の_gmlsolidの作成_",
+                  "title": "5.2.1.3  LOD3のgml:Solidの作成"
+                },
+                {
+                  "path": "_lod4の_gmlsolidの作成_",
+                  "title": "5.2.1.4  LOD4のgml:Solidの作成"
+                }
+              ]
+            },
+            {
+              "path": "toc4_02_02",
+              "title": "5.2.2  作業上の留意事項"
+            },
+            {
+              "path": "toc4_02_03",
+              "title": "5.2.3  実施すべき品質評価"
+            }
+          ]
+        },
+        {
+          "path": "toc4_03",
+          "title": "5.3  属性追加と品質評価",
+          "children": [
+            {
+              "path": "toc4_03_01",
+              "title": "5.3.1  属性の追加"
+            },
+            {
+              "path": "toc4_03_02",
+              "title": "5.3.2  作業上の留意事項"
+            },
+            {
+              "path": "toc4_03_03",
+              "title": "5.3.3  実施すべき品質評価"
+            }
+          ]
+        },
+        {
+          "path": "toc4_04",
+          "title": "5.4  データ出力と品質評価",
+          "children": [
+            {
+              "path": "toc4_04_01",
+              "title": "5.4.1  データ出力"
+            },
+            {
+              "path": "toc4_04_02",
+              "title": "5.4.2  作業上の留意事項"
+            },
+            {
+              "path": "toc4_04_03",
+              "title": "5.4.3  実施すべき品質評価"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "toc5",
+      "title": "6  成果品とりまとめ",
+      "children": [
+        {
+          "path": "toc5_01",
+          "title": "6.1  概要"
+        },
+        {
+          "path": "toc5_02",
+          "title": "6.2  オープンデータの作成"
+        },
+        {
+          "path": "toc5_03",
+          "title": "6.3  メタデータの作成",
+          "children": [
+            {
+              "path": "toc5_03_01",
+              "title": "6.3.1  メタデータの作成単位"
+            },
+            {
+              "path": "toc5_03_02",
+              "title": "6.3.2  JMP2.0形式メタデータの作成手順"
+            },
+            {
+              "path": "toc5_03_03",
+              "title": "6.3.3  READMEファイルの作成手順",
+              "children": [
+                {
+                  "path": "_readmeの仕様_",
+                  "title": "6.3.3.1  READMEの仕様"
+                },
+                {
+                  "path": "作成手順_",
+                  "title": "6.3.3.2  作成手順"
+                }
+              ]
+            },
+            {
+              "path": "toc5_03_04",
+              "title": "6.3.4  原典資料リストの作成手順",
+              "children": [
+                {
+                  "path": "原典資料リストの仕様_",
+                  "title": "6.3.4.1  原典資料リストの仕様"
+                },
+                {
+                  "path": "作成手順__2",
+                  "title": "6.3.4.2  作成手順"
+                }
+              ]
+            },
+            {
+              "path": "toc5_03_05",
+              "title": "6.3.5  索引図",
+              "children": [
+                {
+                  "path": "索引図の仕様_",
+                  "title": "6.3.5.1  索引図の仕様"
+                },
+                {
+                  "path": "作成手順__3",
+                  "title": "6.3.5.2  作成手順"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "toc5_04",
+          "title": "6.4  成果品のとりまとめ",
+          "children": [
+            {
+              "path": "toc5_04_01",
+              "title": "6.4.1  成果品の範囲",
+              "children": [
+                {
+                  "path": "成果品に含めるべきファイル_",
+                  "title": "6.4.1.1  成果品に含めるべきファイル"
+                },
+                {
+                  "path": "成果品の単位_",
+                  "title": "6.4.1.2  成果品の単位"
+                },
+                {
+                  "path": "成果品の空間範囲_",
+                  "title": "6.4.1.3  成果品の空間範囲"
+                }
+              ]
+            },
+            {
+              "path": "toc5_04_02",
+              "title": "6.4.2  ファイル単位とファイルサイズ"
+            },
+            {
+              "path": "toc5_04_03",
+              "title": "6.4.3  ファイル形式"
+            },
+            {
+              "path": "toc5_04_04",
+              "title": "6.4.4  ファイル名称",
+              "children": [
+                {
+                  "path": "toc5_04_04_01",
+                  "title": "6.4.4.1  3D都市モデルのファイル名称",
+                  "children": [
+                    {
+                      "path": "洪水浸水想定区域のファイル名称_",
+                      "title": "6.4.4.1.1  洪水浸水想定区域のファイル名称"
+                    },
+                    {
+                      "path": "都市計画決定情報のファイル名称_",
+                      "title": "6.4.4.1.2  都市計画決定情報のファイル名称"
+                    },
+                    {
+                      "path": "高精度な地形モデルのファイル名称_",
+                      "title": "6.4.4.1.3  高精度な地形モデルのファイル名称"
+                    },
+                    {
+                      "path": "拡張製品仕様書で追加した地物のファイル名称_",
+                      "title": "6.4.4.1.4  拡張製品仕様書で追加した地物のファイル名称"
+                    },
+                    {
+                      "path": "拡張製品仕様書での任意のオプション文字列の追加_",
+                      "title": "6.4.4.1.5  拡張製品仕様書での任意のオプション文字列の追加"
+                    },
+                    {
+                      "path": "複数のオプション文字列を組み合わせる場合_",
+                      "title": "6.4.4.1.6  複数のオプション文字列を組み合わせる場合"
+                    },
+                    {
+                      "path": "オープンデータのファイル名称_",
+                      "title": "6.4.4.1.7  オープンデータのファイル名称"
+                    }
+                  ]
+                },
+                {
+                  "path": "toc5_04_04_02",
+                  "title": "6.4.4.2  コードリストのファイル名称"
+                },
+                {
+                  "path": "toc5_04_04_03",
+                  "title": "6.4.4.3  メタデータのファイル名称"
+                },
+                {
+                  "path": "toc5_04_04_04",
+                  "title": "6.4.4.4  製品仕様のファイル名称"
+                },
+                {
+                  "path": "toc5_04_04_05",
+                  "title": "6.4.4.5  索引図のファイル名称"
+                },
+                {
+                  "path": "toc5_04_04_06",
+                  "title": "6.4.4.6  画像のファイル名称"
+                },
+                {
+                  "path": "toc5_04_04_07",
+                  "title": "6.4.4.7  三次元点群データのファイル名称"
+                }
+              ]
+            },
+            {
+              "path": "toc5_04_05",
+              "title": "6.4.5  フォルダ構成とフォルダ名称",
+              "children": [
+                {
+                  "path": "toc5_04_05_01",
+                  "title": "6.4.5.1  成果品のフォルダ構成"
+                },
+                {
+                  "path": "toc5_04_05_02",
+                  "title": "6.4.5.2  ルートフォルダの命名規則",
+                  "children": [
+                    {
+                      "path": "都市コード_",
+                      "title": "6.4.5.2.1  [都市コード]"
+                    },
+                    {
+                      "path": "都市名英名_",
+                      "title": "6.4.5.2.2  [都市名英名]"
+                    },
+                    {
+                      "path": "提供者区分_",
+                      "title": "6.4.5.2.3  [提供者区分]"
+                    },
+                    {
+                      "path": "整備年度_",
+                      "title": "6.4.5.2.4  [整備年度]"
+                    },
+                    {
+                      "path": "更新回数_",
+                      "title": "6.4.5.2.5  [更新回数]"
+                    },
+                    {
+                      "path": "オプション_",
+                      "title": "6.4.5.2.6  [オプション]"
+                    }
+                  ]
+                },
+                {
+                  "path": "toc5_04_05_03",
+                  "title": "6.4.5.3  オープンデータのフォルダ構成"
+                },
+                {
+                  "path": "toc5_04_05_04",
+                  "title": "6.4.5.4  洪水浸水想定区域のフォルダ構成"
+                },
+                {
+                  "path": "toc5_04_05_05",
+                  "title": "6.4.5.5  津波浸水想定、高潮浸水想定区域及び内水浸水想定区域のフォルダ構成"
+                },
+                {
+                  "path": "toc5_04_05_06",
+                  "title": "6.4.5.6  テクスチャのフォルダ構成"
+                },
+                {
+                  "path": "toc5_04_05_07",
+                  "title": "6.4.5.7  三次元点群データのフォルダ構成"
+                },
+                {
+                  "path": "toc5_04_05_08",
+                  "title": "6.4.5.8  標準製品仕様書を拡張し、地物型等を追加した場合のフォルダ構成"
+                }
+              ]
+            },
+            {
+              "path": "toc5_04_06",
+              "title": "6.4.6  データの圧縮"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "tocA",
+      "title": "附属書A  拡張製品仕様のための様式",
+      "children": [
+        {
+          "path": "tocA_01",
+          "title": "A.1  概要"
+        },
+        {
+          "path": "tocA_02",
+          "title": "A.2  様式の公開"
+        },
+        {
+          "path": "tocA_03",
+          "title": "A.3  様式",
+          "children": [
+            {
+              "path": "tocA_03_01",
+              "title": "A.3.1  取得項目一覧"
+            },
+            {
+              "path": "tocA_03_02",
+              "title": "A.3.2  拡張コードリスト"
+            },
+            {
+              "path": "tocA_03_03",
+              "title": "A.3.3  建築物の拡張属性リスト"
+            },
+            {
+              "path": "tocA_03_04",
+              "title": "A.3.4  拡張地物定義"
+            },
+            {
+              "path": "tocA_03_05",
+              "title": "A.3.5  汎用都市オブジェクト"
+            },
+            {
+              "path": "tocA_03_06",
+              "title": "A.3.6  汎用属性"
+            },
+            {
+              "path": "tocA_03_07",
+              "title": "A.3.7  拡張品質要求"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "tocB",
+      "title": "附属書B  妥当な幾何オブジェクト",
+      "children": [
+        {
+          "path": "tocB_01",
+          "title": "B.1  概要"
+        },
+        {
+          "path": "tocB_02",
+          "title": "B.2  空間参照系"
+        },
+        {
+          "path": "tocB_03",
+          "title": "B.3  幾何オブジェクト",
+          "children": [
+            {
+              "path": "tocB_03_01",
+              "title": "B.3.1  gml:pos, gml:posList"
+            },
+            {
+              "path": "tocB_03_02",
+              "title": "B.3.2  gml:Point"
+            },
+            {
+              "path": "tocB_03_03",
+              "title": "B.3.3  gml:MultiPoint"
+            },
+            {
+              "path": "tocB_03_04",
+              "title": "B.3.4  gml:_Curve, gml:LineString"
+            },
+            {
+              "path": "tocB_03_05",
+              "title": "B.3.5  gml:LinearRing"
+            },
+            {
+              "path": "tocB_03_06",
+              "title": "B.3.6  gml:_Surface, gml:Polygon"
+            },
+            {
+              "path": "tocB_03_07",
+              "title": "B.3.7  gml:OrientableSurface"
+            },
+            {
+              "path": "tocB_03_08",
+              "title": "B.3.8  gml:MultiSurface"
+            },
+            {
+              "path": "tocB_03_09",
+              "title": "B.3.9  gml:CompositeSurface"
+            },
+            {
+              "path": "tocB_03_10",
+              "title": "B.3.10  gml:Solid"
+            },
+            {
+              "path": "tocB_03_11",
+              "title": "B.3.11  gml:Triangle"
+            },
+            {
+              "path": "tocB_03_12",
+              "title": "B.3.12  gml:TriangulatedSurface"
+            },
+            {
+              "path": "tocB_03_13",
+              "title": "B.3.13  gml:Tin"
+            }
+          ]
+        },
+        {
+          "path": "tocB_04",
+          "title": "B.4  CityGMLにおける2次元の空間参照系の取り扱い",
+          "children": [
+            {
+              "path": "tocB_04_1",
+              "title": "B.4.1  空間参照系"
+            },
+            {
+              "path": "tocB_04_2",
+              "title": "B.4.2  座標値の記述"
+            },
+            {
+              "path": "tocB_04_3",
+              "title": "B.4.3  留意事項"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "tocC",
+      "title": "附属書C  妥当な建築物オブジェクト",
+      "children": [
+        {
+          "path": "tocC_01",
+          "title": "C.1  概要"
+        },
+        {
+          "path": "tocC_02",
+          "title": "C.2  建築物の記述とLOD",
+          "children": [
+            {
+              "path": "tocC_02_01",
+              "title": "C.2.1  建築物モデル"
+            },
+            {
+              "path": "tocC_02_02",
+              "title": "C.2.2  使用可能な地物型とLOD"
+            },
+            {
+              "path": "_3d都市モデルに含むべき建築物の_lod",
+              "title": "C.2.3  3D都市モデルに含むべき建築物のLOD"
+            }
+          ]
+        },
+        {
+          "path": "tocC_03",
+          "title": "C.3  bldg:Building",
+          "children": [
+            {
+              "path": "tocC_03_01",
+              "title": "C.3.1  建築物の空間属性",
+              "children": [
+                {
+                  "path": "tocC_03_01_01",
+                  "title": "C.3.1.1  LOD0"
+                },
+                {
+                  "path": "tocC_03_01_02",
+                  "title": "C.3.1.2  LOD1"
+                },
+                {
+                  "path": "tocC_03_01_03",
+                  "title": "C.3.1.3  LOD2"
+                },
+                {
+                  "path": "tocC_03_01_04",
+                  "title": "C.3.1.4  LOD3"
+                },
+                {
+                  "path": "tocC_03_01_05",
+                  "title": "C.3.1.5  LOD4"
+                }
+              ]
+            },
+            {
+              "path": "tocC_03_02",
+              "title": "C.3.2  建築物の主題属性",
+              "children": [
+                {
+                  "path": "tocC_03_02_01",
+                  "title": "C.3.2.1  名称（gml:name）"
+                },
+                {
+                  "path": "tocC_03_02_02",
+                  "title": "C.3.2.2  用途（bldg:usage）"
+                },
+                {
+                  "path": "tocC_03_02_03",
+                  "title": "C.3.2.3  計測高さ（bldg:measuredHeight）"
+                },
+                {
+                  "path": "tocC_03_02_04",
+                  "title": "C.3.2.4  建築物の住所（bldg:address）"
+                },
+                {
+                  "path": "tocC_03_02_05",
+                  "title": "C.3.2.5  建築物の識別属性（uro:BuildingIDAttribute）"
+                },
+                {
+                  "path": "tocC_03_02_06",
+                  "title": "C.3.2.6  都市計画基礎調査のための属性"
+                },
+                {
+                  "path": "tocC_03_02_07",
+                  "title": "C.3.2.7  都市独自の建物用途（uro:majorUsage、uro:orgUsage、uro:detailedUsage）"
+                },
+                {
+                  "path": "tocC_03_02_08",
+                  "title": "C.3.2.8  構造種別（uro:buildingStructureType）"
+                },
+                {
+                  "path": "tocC_03_02_09",
+                  "title": "C.3.2.9  建築物の災害リスク属性（uro:DisasterRiskAttribute）",
+                  "children": [
+                    {
+                      "path": "tocC_03_02_09_01",
+                      "title": "C.3.2.9.1  一つの建築物が複数の区域に跨る場合の属性付与の方法"
+                    },
+                    {
+                      "path": "tocC_03_02_09_02",
+                      "title": "C.3.2.9.2  洪水浸水想定区域の指定河川名称"
+                    }
+                  ]
+                },
+                {
+                  "path": "tocC_03_02_10",
+                  "title": "C.3.2.10  建築物のデータ品質属性（uro:DataQualityAttribute）"
+                },
+                {
+                  "path": "tocC_03_02_11",
+                  "title": "C.3.2.11  LOD1の押し出しに使用する建築物の高さ"
+                },
+                {
+                  "path": "tocC_03_02_12",
+                  "title": "C.3.2.12  施設管理のための属性",
+                  "children": [
+                    {
+                      "path": "tocC_03_02_12_01",
+                      "title": "C.3.2.12.1  施設分類属性（uro:FacilityTypeAttribute）"
+                    },
+                    {
+                      "path": "tocC_03_02_12_02",
+                      "title": "C.3.2.12.2  施設識別属性（uro:FacilityIdAttribute）"
+                    },
+                    {
+                      "path": "tocC_03_02_12_03",
+                      "title": "C.3.2.12.3  施設詳細属性（uro:FacilityAttribute）"
+                    }
+                  ]
+                },
+                {
+                  "path": "tocC_03_02_13",
+                  "title": "C.3.2.13  数値地形図属性（uro:bldgDmAttribute）"
+                },
+                {
+                  "path": "tocC_03_02_14",
+                  "title": "C.3.2.14  不動産ID属性（uro:bldgRealEstateIDAttribute）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "tocC_04",
+          "title": "C.4  bldg:BuildingPart"
+        },
+        {
+          "path": "tocC_05",
+          "title": "C.5  bldg:_BoundarySurface",
+          "children": [
+            {
+              "path": "tocC_05_01",
+              "title": "C.5.1  境界面の空間属性"
+            },
+            {
+              "path": "tocC_05_02",
+              "title": "C.5.2  境界面の下位型",
+              "children": [
+                {
+                  "path": "tocC_05_02_01",
+                  "title": "C.5.2.1  bldg:RoofSurface"
+                },
+                {
+                  "path": "tocC_05_02_02",
+                  "title": "C.5.2.2  bldg:WallSurface"
+                },
+                {
+                  "path": "tocC_05_02_03",
+                  "title": "C.5.2.3  bldg:GroundSurface"
+                },
+                {
+                  "path": "tocC_05_02_04",
+                  "title": "C.5.2.4  bldg:OuterFloorSurface"
+                },
+                {
+                  "path": "tocC_05_02_05",
+                  "title": "C.5.2.5  bldg:OuterCeillingSurface"
+                },
+                {
+                  "path": "tocC_05_02_06",
+                  "title": "C.5.2.6  bldg:ClosureSurface"
+                },
+                {
+                  "path": "tocC_05_02_07",
+                  "title": "C.5.2.7  bldg:CeilingSurface"
+                },
+                {
+                  "path": "tocC_05_02_08",
+                  "title": "C.5.2.8  bldg:FloorSurface"
+                },
+                {
+                  "path": "tocC_05_02_09",
+                  "title": "C.5.2.9  bldg:InteriorWallSurface"
+                },
+                {
+                  "path": "tocC_05_02_10",
+                  "title": "C.5.2.10  境界面の区分"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "tocC_06",
+          "title": "C.6  bldg:_Opening",
+          "children": [
+            {
+              "path": "tocC_06_01",
+              "title": "C.6.1  開口部の空間属性"
+            },
+            {
+              "path": "tocC_06_02",
+              "title": "C.6.2  開口部の下位型",
+              "children": [
+                {
+                  "path": "tocC_06_02_01",
+                  "title": "C.6.2.1  bldg:Window"
+                },
+                {
+                  "path": "tocC_06_02_02",
+                  "title": "C.6.2.2  bldg:Door"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "tocC_07",
+          "title": "C.7  bldg:Room",
+          "children": [
+            {
+              "path": "tocC_07_01",
+              "title": "C.7.1  部屋の空間属性"
+            },
+            {
+              "path": "tocC_07_02",
+              "title": "C.7.2  部屋の主題属性"
+            }
+          ]
+        },
+        {
+          "path": "tocC_08",
+          "title": "C.8  bldg:BuildingInstallation",
+          "children": [
+            {
+              "path": "tocC_08_01",
+              "title": "C.8.1  建築物付属物の空間属性"
+            },
+            {
+              "path": "tocC_08_02",
+              "title": "C.8.2  建築物付属物の主題属性"
+            }
+          ]
+        },
+        {
+          "path": "tocC_09",
+          "title": "C.9  bldg:IntBuildingInstallation",
+          "children": [
+            {
+              "path": "tocC_09_01",
+              "title": "C.9.1  建築物屋内付属物の空間属性"
+            },
+            {
+              "path": "tocC_09_02",
+              "title": "C.9.2  建築物屋内付属物の主題属性"
+            }
+          ]
+        },
+        {
+          "path": "tocC_10",
+          "title": "C.10  bldg:BuildingFurniture",
+          "children": [
+            {
+              "path": "tocC_10_01",
+              "title": "C.10.1  家具の空間属性"
+            }
+          ]
+        },
+        {
+          "path": "tocC_11",
+          "title": "C.11  標準的な作業手順",
+          "children": [
+            {
+              "path": "tocC_11_01",
+              "title": "C.11.1  幾何オブジェクトの作成",
+              "children": [
+                {
+                  "path": "tocC_11_01_01",
+                  "title": "C.11.1.1  LOD0",
+                  "children": [
+                    {
+                      "path": "tocC_11_01_01_01",
+                      "title": "C.11.1.1.1  原典資料"
+                    },
+                    {
+                      "path": "tocC_11_01_01_02",
+                      "title": "C.11.1.1.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "tocC_11_01_02",
+                  "title": "C.11.1.2  LOD1",
+                  "children": [
+                    {
+                      "path": "tocC_11_01_02_01",
+                      "title": "C.11.1.2.1  原典資料"
+                    },
+                    {
+                      "path": "tocC_11_01_02_02",
+                      "title": "C.11.1.2.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "tocC_11_01_03",
+                  "title": "C.11.1.3  LOD2",
+                  "children": [
+                    {
+                      "path": "tocC_11_01_03_01",
+                      "title": "C.11.1.3.1  原典資料"
+                    },
+                    {
+                      "path": "tocC_11_01_03_02",
+                      "title": "C.11.1.3.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "tocC_11_01_04",
+                  "title": "C.11.1.4  LOD3",
+                  "children": [
+                    {
+                      "path": "tocC_11_01_04_01",
+                      "title": "C.11.1.4.1  原典資料"
+                    },
+                    {
+                      "path": "tocC_11_01_04_02",
+                      "title": "C.11.1.4.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "tocC_11_01_05",
+                  "title": "C.11.1.5  LOD4",
+                  "children": [
+                    {
+                      "path": "tocC_11_01_05_01",
+                      "title": "C.11.1.5.1  原典資料"
+                    },
+                    {
+                      "path": "tocC_11_01_05_02",
+                      "title": "C.11.1.5.2  作業手順（BIMモデルからの変換により作成する場合）"
+                    },
+                    {
+                      "path": "tocC_11_01_05_03",
+                      "title": "C.11.1.5.3  作業手順（測量により作成する場合）"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "tocC_11_02",
+              "title": "C.11.2  作業上の留意事項",
+              "children": [
+                {
+                  "path": "tocC_11_02_01",
+                  "title": "C.11.2.1  道路と建築物の間の表現"
+                },
+                {
+                  "path": "tocC_11_02_02",
+                  "title": "C.11.2.2  バルコニーとベランダの区分"
+                },
+                {
+                  "path": "tocC_11_02_03",
+                  "title": "C.11.2.3  普通無壁舎の表現"
+                },
+                {
+                  "path": "tocC_11_02_04",
+                  "title": "C.11.2.4  全面が窓や扉となる壁面の表現"
+                },
+                {
+                  "path": "tocC_11_02_05",
+                  "title": "C.11.2.5  建築物の一部が計測できない場合の対応"
+                },
+                {
+                  "path": "tocC_11_02_06",
+                  "title": "C.11.2.6  都市計画基礎調査（建物利用現況）の付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "tocC_12",
+          "title": "C.12  bldg:BuildingサンプルXML"
+        }
+      ]
+    },
+    {
+      "path": "tocD",
+      "title": "附属書D  妥当な道路オブジェクト",
+      "children": [
+        {
+          "path": "tocD_01",
+          "title": "D.1  概要"
+        },
+        {
+          "path": "tocD_02",
+          "title": "D.2  道路の記述とLOD",
+          "children": [
+            {
+              "path": "tocD_02_01",
+              "title": "D.2.1  使用可能な地物型とLOD"
+            },
+            {
+              "path": "交通道路モデルの_lod",
+              "title": "D.2.2  交通（道路）モデルのLOD"
+            },
+            {
+              "path": "_3d都市モデルに含むべき道路の_lod",
+              "title": "D.2.3  3D都市モデルに含むべき道路のLOD"
+            }
+          ]
+        },
+        {
+          "path": "tocD_03",
+          "title": "D.3  tran:Road",
+          "children": [
+            {
+              "path": "道路の空間属性_",
+              "title": "D.3.1  道路の空間属性",
+              "children": [
+                {
+                  "path": "_lod0",
+                  "title": "D.3.1.1  LOD0"
+                },
+                {
+                  "path": "_lod1",
+                  "title": "D.3.1.2  LOD1",
+                  "children": [
+                    {
+                      "path": "交差部四差路多差路及び三差路での道路の区切り方_",
+                      "title": "D.3.1.2.1  交差部（四差路、多差路及び三差路）での道路の区切り方"
+                    },
+                    {
+                      "path": "道路構造の変化点トンネル橋梁での道路の区切り方_",
+                      "title": "D.3.1.2.2  道路構造の変化点（トンネル、橋梁）での道路の区切り方"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod2",
+                  "title": "D.3.1.3  LOD2"
+                },
+                {
+                  "path": "_lod3",
+                  "title": "D.3.1.4  LOD3"
+                }
+              ]
+            },
+            {
+              "path": "道路の主題属性_",
+              "title": "D.3.2  道路の主題属性",
+              "children": [
+                {
+                  "path": "名称_gmlname",
+                  "title": "D.3.2.1  名称（gml:name）"
+                },
+                {
+                  "path": "機能_tranfunction",
+                  "title": "D.3.2.2  機能（tran:function）"
+                },
+                {
+                  "path": "用途_tranusage",
+                  "title": "D.3.2.3  用途（tran:usage）"
+                },
+                {
+                  "path": "道路の幅員_urowidthtypeurowidth",
+                  "title": "D.3.2.4  道路の幅員（uro:widthType、uro:width）"
+                },
+                {
+                  "path": "車線数_",
+                  "title": "D.3.2.5  車線数"
+                },
+                {
+                  "path": "道路構造種別_",
+                  "title": "D.3.2.6  道路構造種別"
+                },
+                {
+                  "path": "交通量_urotrafficvolumeattribute",
+                  "title": "D.3.2.7  交通量（uro:TrafficVolumeAttribute）"
+                },
+                {
+                  "path": "tocD_03_02_08",
+                  "title": "D.3.2.8  道路のデータ品質属性（uro:tranDataQualityAttribute）"
+                },
+                {
+                  "path": "施設管理のための属性_",
+                  "title": "D.3.2.9  施設管理のための属性",
+                  "children": [
+                    {
+                      "path": "施設分類属性_urofacilitytypeattribute",
+                      "title": "D.3.2.9.1  施設分類属性（uro:FacilityTypeAttribute）"
+                    },
+                    {
+                      "path": "施設識別属性_urofacilityidattribute",
+                      "title": "D.3.2.9.2  施設識別属性（uro:FacilityIdAttribute）"
+                    },
+                    {
+                      "path": "施設詳細属性_urofacilityattribute",
+                      "title": "D.3.2.9.3  施設詳細属性（uro:FacilityAttribute）"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "tocD_04",
+          "title": "D.4  tran:TrafficArea",
+          "children": [
+            {
+              "path": "交通領域の空間属性_",
+              "title": "D.4.1  交通領域の空間属性"
+            },
+            {
+              "path": "交通領域の主題属性_",
+              "title": "D.4.2  交通領域の主題属性",
+              "children": [
+                {
+                  "path": "機能_tranfunction_2",
+                  "title": "D.4.2.1  機能（tran:function）"
+                },
+                {
+                  "path": "表面材質_transurfacematerial",
+                  "title": "D.4.2.2  表面材質（tran:surfaceMaterial）"
+                },
+                {
+                  "path": "車線数_uronumberoflanesinarea",
+                  "title": "D.4.2.3  車線数（uro:numberOfLanesInArea）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "tocD_05",
+          "title": "D.5  tran:AuxiliarlyTrafficArea",
+          "children": [
+            {
+              "path": "交通補助領域の空間属性_",
+              "title": "D.5.1  交通補助領域の空間属性"
+            },
+            {
+              "path": "交通補助領域の主題属性_",
+              "title": "D.5.2  交通補助領域の主題属性"
+            }
+          ]
+        },
+        {
+          "path": "tocD_06",
+          "title": "D.6  標準的な作業手順",
+          "children": [
+            {
+              "path": "幾何オブジェクトの作成_",
+              "title": "D.6.1  幾何オブジェクトの作成",
+              "children": [
+                {
+                  "path": "_lod0_2",
+                  "title": "D.6.1.1  LOD0",
+                  "children": [
+                    {
+                      "path": "原典資料_",
+                      "title": "D.6.1.1.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順_",
+                      "title": "D.6.1.1.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod1_2",
+                  "title": "D.6.1.2  LOD1",
+                  "children": [
+                    {
+                      "path": "原典資料__2",
+                      "title": "D.6.1.2.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__2",
+                      "title": "D.6.1.2.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod2_2",
+                  "title": "D.6.1.3  LOD2",
+                  "children": [
+                    {
+                      "path": "原典資料__3",
+                      "title": "D.6.1.3.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__3",
+                      "title": "D.6.1.3.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_0",
+                  "title": "D.6.1.4  LOD3.0",
+                  "children": [
+                    {
+                      "path": "原典資料__4",
+                      "title": "D.6.1.4.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__4",
+                      "title": "D.6.1.4.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_1",
+                  "title": "D.6.1.5  LOD3.1",
+                  "children": [
+                    {
+                      "path": "原典資料__5",
+                      "title": "D.6.1.5.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__5",
+                      "title": "D.6.1.5.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_2",
+                  "title": "D.6.1.6  LOD3.2",
+                  "children": [
+                    {
+                      "path": "原典資料__6",
+                      "title": "D.6.1.6.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__6",
+                      "title": "D.6.1.6.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_3",
+                  "title": "D.6.1.7  LOD3.3",
+                  "children": [
+                    {
+                      "path": "原典資料__7",
+                      "title": "D.6.1.7.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__7",
+                      "title": "D.6.1.7.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_4",
+                  "title": "D.6.1.8  LOD3.4",
+                  "children": [
+                    {
+                      "path": "原典資料__8",
+                      "title": "D.6.1.8.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__8",
+                      "title": "D.6.1.8.2  作業手順"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "作業上の留意事項_",
+              "title": "D.6.2  作業上の留意事項",
+              "children": [
+                {
+                  "path": "道路と建築物の間の表現_",
+                  "title": "D.6.2.1  道路と建築物の間の表現"
+                },
+                {
+                  "path": "道路の立体交差の表現_",
+                  "title": "D.6.2.2  道路の立体交差の表現"
+                },
+                {
+                  "path": "_urosectiontype道路構造の種別の入力基準_",
+                  "title": "D.6.2.3  uro:sectionType（道路構造の種別）の入力基準"
+                },
+                {
+                  "path": "道路と徒歩道の接合部の表現_",
+                  "title": "D.6.2.4  道路と徒歩道の接合部の表現"
+                },
+                {
+                  "path": "車道交差部と歩道部の機能を両方もつ場合の交通領域の機能の入力の優先順位_",
+                  "title": "D.6.2.5  車道交差部と歩道部の機能を両方もつ場合の交通領域の機能の入力の優先順位"
+                },
+                {
+                  "path": "_trafficareaauxiliarytrafficareaを構成する_multisurfaceの作成単位_",
+                  "title": "D.6.2.6  TrafficArea、AuxiliaryTrafficAreaを構成するMultiSurfaceの作成単位"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "tocE",
+      "title": "附属書E  妥当な交通 （ 鉄道 ） オブジェクト",
+      "children": [
+        {
+          "path": "tocE_01",
+          "title": "E.1  概要"
+        },
+        {
+          "path": "tocE_02",
+          "title": "E.2  鉄道の記述とLOD",
+          "children": [
+            {
+              "path": "交通鉄道モデル_",
+              "title": "E.2.1  交通（鉄道）モデル"
+            },
+            {
+              "path": "使用可能な地物型と_lod",
+              "title": "E.2.2  使用可能な地物型とLOD"
+            },
+            {
+              "path": "鉄道の空間属性_",
+              "title": "E.2.3  鉄道の空間属性",
+              "children": [
+                {
+                  "path": "_lod0_3",
+                  "title": "E.2.3.1  LOD0"
+                },
+                {
+                  "path": "_lod1_3",
+                  "title": "E.2.3.2  LOD1"
+                },
+                {
+                  "path": "_lod2_3",
+                  "title": "E.2.3.3  LOD2"
+                },
+                {
+                  "path": "_lod3_5",
+                  "title": "E.2.3.4  LOD3"
+                }
+              ]
+            },
+            {
+              "path": "鉄道の主題属性_",
+              "title": "E.2.4  鉄道の主題属性",
+              "children": [
+                {
+                  "path": "データ品質属性_urodataqualityattribute",
+                  "title": "E.2.4.1  データ品質属性（uro:DataQualityAttribute）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "tocE_03",
+          "title": "E.3  標準的な作業手順",
+          "children": [
+            {
+              "path": "幾何オブジェクトの作成__2",
+              "title": "E.3.1  幾何オブジェクトの作成",
+              "children": [
+                {
+                  "path": "_lod0_4",
+                  "title": "E.3.1.1  LOD0",
+                  "children": [
+                    {
+                      "path": "原典資料__9",
+                      "title": "E.3.1.1.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順ネットワークを採用する場合_",
+                      "title": "E.3.1.1.2  作業手順（ネットワークを採用する場合）"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod1_4",
+                  "title": "E.3.1.2  LOD1",
+                  "children": [
+                    {
+                      "path": "原典資料__10",
+                      "title": "E.3.1.2.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__9",
+                      "title": "E.3.1.2.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod2_4",
+                  "title": "E.3.1.3  LOD2",
+                  "children": [
+                    {
+                      "path": "原典資料__11",
+                      "title": "E.3.1.3.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順軌道中心線_",
+                      "title": "E.3.1.3.2  作業手順（軌道中心線）"
+                    },
+                    {
+                      "path": "作業手順_trafficarea",
+                      "title": "E.3.1.3.3  作業手順（TrafficArea）"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_0_2",
+                  "title": "E.3.1.4  LOD3.0",
+                  "children": [
+                    {
+                      "path": "原典資料__12",
+                      "title": "E.3.1.4.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__10",
+                      "title": "E.3.1.4.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_1_2",
+                  "title": "E.3.1.5  LOD3.1",
+                  "children": [
+                    {
+                      "path": "原典資料__13",
+                      "title": "E.3.1.5.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__11",
+                      "title": "E.3.1.5.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_2_2",
+                  "title": "E.3.1.6  LOD3.2",
+                  "children": [
+                    {
+                      "path": "原典資料__14",
+                      "title": "E.3.1.6.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__12",
+                      "title": "E.3.1.6.2  作業手順"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "作業上の留意事項__2",
+              "title": "E.3.2  作業上の留意事項",
+              "children": [
+                {
+                  "path": "複数の路線間にある道床の取得_",
+                  "title": "E.3.2.1  複数の路線間にある道床の取得"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "tocF",
+      "title": "附属書F  妥当な交通 （ 徒歩道 ） オブジェクト",
+      "children": [
+        {
+          "path": "tocF_01",
+          "title": "F.1  概要"
+        },
+        {
+          "path": "tocF_02",
+          "title": "F.2  徒歩道の記述とLOD",
+          "children": [
+            {
+              "path": "交通徒歩道モデル_",
+              "title": "F.2.1  交通（徒歩道）モデル"
+            },
+            {
+              "path": "使用可能な地物型と_lod_2",
+              "title": "F.2.2  使用可能な地物型とLOD"
+            },
+            {
+              "path": "徒歩道の空間属性_",
+              "title": "F.2.3  徒歩道の空間属性",
+              "children": [
+                {
+                  "path": "_lod0_5",
+                  "title": "F.2.3.1  LOD0"
+                },
+                {
+                  "path": "_lod1_5",
+                  "title": "F.2.3.2  LOD1"
+                },
+                {
+                  "path": "_lod2_5",
+                  "title": "F.2.3.3  LOD2"
+                },
+                {
+                  "path": "_lod3_6",
+                  "title": "F.2.3.4  LOD3"
+                }
+              ]
+            },
+            {
+              "path": "徒歩道の主題属性_",
+              "title": "F.2.4  徒歩道の主題属性",
+              "children": [
+                {
+                  "path": "データ品質属性_urodataqualityattribute_2",
+                  "title": "F.2.4.1  データ品質属性（uro:DataQualityAttribute）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "tocF_03",
+          "title": "F.3  標準的な作業手順",
+          "children": [
+            {
+              "path": "tocF_03_01",
+              "title": "F.3.1  幾何オブジェクトの作成",
+              "children": [
+                {
+                  "path": "_lod0_6",
+                  "title": "F.3.1.1  LOD0",
+                  "children": [
+                    {
+                      "path": "原典資料__15",
+                      "title": "F.3.1.1.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__13",
+                      "title": "F.3.1.1.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod1_6",
+                  "title": "F.3.1.2  LOD1",
+                  "children": [
+                    {
+                      "path": "原典資料__16",
+                      "title": "F.3.1.2.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__14",
+                      "title": "F.3.1.2.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod2_6",
+                  "title": "F.3.1.3  LOD2",
+                  "children": [
+                    {
+                      "path": "原典資料__17",
+                      "title": "F.3.1.3.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__15",
+                      "title": "F.3.1.3.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_0_3",
+                  "title": "F.3.1.4  LOD3.0",
+                  "children": [
+                    {
+                      "path": "原典資料__18",
+                      "title": "F.3.1.4.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__16",
+                      "title": "F.3.1.4.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_1_3",
+                  "title": "F.3.1.5  LOD3.1",
+                  "children": [
+                    {
+                      "path": "原典資料__19",
+                      "title": "F.3.1.5.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__17",
+                      "title": "F.3.1.5.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_2_3",
+                  "title": "F.3.1.6  LOD3.2",
+                  "children": [
+                    {
+                      "path": "原典資料__20",
+                      "title": "F.3.1.6.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__18",
+                      "title": "F.3.1.6.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_3_2",
+                  "title": "F.3.1.7  LOD3.3",
+                  "children": [
+                    {
+                      "path": "原典資料__21",
+                      "title": "F.3.1.7.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__19",
+                      "title": "F.3.1.7.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_4_2",
+                  "title": "F.3.1.8  LOD3.4",
+                  "children": [
+                    {
+                      "path": "原典資料__22",
+                      "title": "F.3.1.8.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__20",
+                      "title": "F.3.1.8.2  作業手順"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "tocF_03_02",
+              "title": "F.3.2  作業上の留意事項",
+              "children": [
+                {
+                  "path": "道路と徒歩道の接合部の表現__2",
+                  "title": "F.3.2.1  道路と徒歩道の接合部の表現"
+                },
+                {
+                  "path": "車道交差部と歩道部の機能を両方もつ場合の交通領域の機能の入力の優先順位__2",
+                  "title": "F.3.2.2  車道交差部と歩道部の機能を両方もつ場合の交通領域の機能の入力の優先順位"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "tocG",
+      "title": "附属書G  妥当な交通 （ 広場 ） オブジェクト",
+      "children": [
+        {
+          "path": "tocG_01",
+          "title": "G.1  概要"
+        },
+        {
+          "path": "tocG_02",
+          "title": "G.2  広場の記述とLOD",
+          "children": [
+            {
+              "path": "交通広場モデル_",
+              "title": "G.2.1  交通（広場）モデル"
+            },
+            {
+              "path": "使用可能な地物型と_lod_3",
+              "title": "G.2.2  使用可能な地物型とLOD"
+            },
+            {
+              "path": "広場の空間属性_",
+              "title": "G.2.3  広場の空間属性",
+              "children": [
+                {
+                  "path": "_lod0_7",
+                  "title": "G.2.3.1  LOD0"
+                },
+                {
+                  "path": "_lod1_7",
+                  "title": "G.2.3.2  LOD1"
+                },
+                {
+                  "path": "_lod2_7",
+                  "title": "G.2.3.3  LOD2"
+                },
+                {
+                  "path": "_lod3_7",
+                  "title": "G.2.3.4  LOD3"
+                }
+              ]
+            },
+            {
+              "path": "広場の主題属性_",
+              "title": "G.2.4  広場の主題属性",
+              "children": [
+                {
+                  "path": "データ品質属性_urodataqualityattribute_3",
+                  "title": "G.2.4.1  データ品質属性（uro:DataQualityAttribute）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "tocG_03",
+          "title": "G.3  標準的な作業手順",
+          "children": [
+            {
+              "path": "幾何オブジェクトの作成__3",
+              "title": "G.3.1  幾何オブジェクトの作成",
+              "children": [
+                {
+                  "path": "_lod0_8",
+                  "title": "G.3.1.1  LOD0",
+                  "children": [
+                    {
+                      "path": "原典資料__23",
+                      "title": "G.3.1.1.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__21",
+                      "title": "G.3.1.1.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod1_8",
+                  "title": "G.3.1.2  LOD1",
+                  "children": [
+                    {
+                      "path": "原典資料__24",
+                      "title": "G.3.1.2.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__22",
+                      "title": "G.3.1.2.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod2_8",
+                  "title": "G.3.1.3  LOD2",
+                  "children": [
+                    {
+                      "path": "原典資料__25",
+                      "title": "G.3.1.3.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__23",
+                      "title": "G.3.1.3.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_0_4",
+                  "title": "G.3.1.4  LOD3.0",
+                  "children": [
+                    {
+                      "path": "原典資料__26",
+                      "title": "G.3.1.4.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__24",
+                      "title": "G.3.1.4.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_1_4",
+                  "title": "G.3.1.5  LOD3.1",
+                  "children": [
+                    {
+                      "path": "原典資料__27",
+                      "title": "G.3.1.5.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__25",
+                      "title": "G.3.1.5.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_2_4",
+                  "title": "G.3.1.6  LOD3.2",
+                  "children": [
+                    {
+                      "path": "原典資料__28",
+                      "title": "G.3.1.6.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__26",
+                      "title": "G.3.1.6.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_3_3",
+                  "title": "G.3.1.7  LOD3.3",
+                  "children": [
+                    {
+                      "path": "原典資料__29",
+                      "title": "G.3.1.7.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__27",
+                      "title": "G.3.1.7.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_4_3",
+                  "title": "G.3.1.8  LOD3.4",
+                  "children": [
+                    {
+                      "path": "原典資料__30",
+                      "title": "G.3.1.8.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__28",
+                      "title": "G.3.1.8.2  作業手順"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "tocH",
+      "title": "附属書H  妥当な航路オブジェクト",
+      "children": [
+        {
+          "path": "tocH_01",
+          "title": "H.1  概要"
+        },
+        {
+          "path": "tocH_02",
+          "title": "H.2  航路の記述とLOD",
+          "children": [
+            {
+              "path": "使用可能な地物型と_lod_4",
+              "title": "H.2.1  使用可能な地物型とLOD"
+            },
+            {
+              "path": "交通航路モデルの_lod",
+              "title": "H.2.2  交通（航路）モデルのLOD"
+            },
+            {
+              "path": "航路の空間属性_",
+              "title": "H.2.3  航路の空間属性",
+              "children": [
+                {
+                  "path": "_lod0_9",
+                  "title": "H.2.3.1  LOD0"
+                },
+                {
+                  "path": "_lod1_9",
+                  "title": "H.2.3.2  LOD1"
+                },
+                {
+                  "path": "_lod2_9",
+                  "title": "H.2.3.3  LOD2"
+                }
+              ]
+            },
+            {
+              "path": "航路の主題属性_",
+              "title": "H.2.4  航路の主題属性",
+              "children": [
+                {
+                  "path": "航路詳細属性_urowaterweydetailattribute",
+                  "title": "H.2.4.1  航路詳細属性（uro:waterweyDetailAttribute）"
+                },
+                {
+                  "path": "データ品質属性_urodataqualityattribute_4",
+                  "title": "H.2.4.2  データ品質属性（uro:DataQualityAttribute）"
+                },
+                {
+                  "path": "施設管理のための属性__2",
+                  "title": "H.2.4.3  施設管理のための属性",
+                  "children": [
+                    {
+                      "path": "施設分類属性_urofacilitytypeattribute_2",
+                      "title": "H.2.4.3.1  施設分類属性（uro:FacilityTypeAttribute）"
+                    },
+                    {
+                      "path": "施設識別属性_urofacilityidattribute_2",
+                      "title": "H.2.4.3.2  施設識別属性（uro:FacilityIdAttribute）"
+                    },
+                    {
+                      "path": "施設詳細属性_urofacilityattribute_2",
+                      "title": "H.2.4.3.3  施設詳細属性（uro:FacilityAttribute）"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "tocH_03",
+          "title": "H.3  標準的な作業手順",
+          "children": [
+            {
+              "path": "幾何オブジェクトの作成__4",
+              "title": "H.3.1  幾何オブジェクトの作成",
+              "children": [
+                {
+                  "path": "_lod0_10",
+                  "title": "H.3.1.1  LOD0",
+                  "children": [
+                    {
+                      "path": "原典資料__31",
+                      "title": "H.3.1.1.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__29",
+                      "title": "H.3.1.1.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod1_10",
+                  "title": "H.3.1.2  LOD1",
+                  "children": [
+                    {
+                      "path": "原典資料__32",
+                      "title": "H.3.1.2.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__30",
+                      "title": "H.3.1.2.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod2_10",
+                  "title": "H.3.1.3  LOD2",
+                  "children": [
+                    {
+                      "path": "原典資料__33",
+                      "title": "H.3.1.3.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__31",
+                      "title": "H.3.1.3.2  作業手順"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "作成上の留意事項_",
+              "title": "H.3.2  作成上の留意事項",
+              "children": [
+                {
+                  "path": "国土数値情報の航路データの利用について_",
+                  "title": "H.3.2.1  国土数値情報の航路データの利用について"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "tocI",
+      "title": "附属書I  妥当な土地利用オブジェクト",
+      "children": [
+        {
+          "path": "tocI_01",
+          "title": "I.1  概要"
+        },
+        {
+          "path": "tocI_02",
+          "title": "I.2  土地利用の記述とLOD",
+          "children": [
+            {
+              "path": "使用可能な地物型と_lod_5",
+              "title": "I.2.1  使用可能な地物型とLOD"
+            },
+            {
+              "path": "土地利用モデルの_lod",
+              "title": "I.2.2  土地利用モデルのLOD"
+            },
+            {
+              "path": "土地利用の空間属性_",
+              "title": "I.2.3  土地利用の空間属性",
+              "children": [
+                {
+                  "path": "_lod1_11",
+                  "title": "I.2.3.1  LOD1"
+                }
+              ]
+            },
+            {
+              "path": "土地利用の主題属性_",
+              "title": "I.2.4  土地利用の主題属性",
+              "children": [
+                {
+                  "path": "土地利用分類_luseclass",
+                  "title": "I.2.4.1  土地利用分類（luse:class）"
+                },
+                {
+                  "path": "土地利用詳細属性_urolandusedetailattribute",
+                  "title": "I.2.4.2  土地利用詳細属性（uro:landUseDetailAttribute）"
+                },
+                {
+                  "path": "データ品質属性_urodataqualityattribute_5",
+                  "title": "I.2.4.3  データ品質属性（uro:DataQualityAttribute）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "tocI_03",
+          "title": "I.3  標準的な作業手順",
+          "children": [
+            {
+              "path": "tocI_03_01",
+              "title": "I.3.1  幾何オブジェクトの作成",
+              "children": [
+                {
+                  "path": "_lod1_12",
+                  "title": "I.3.1.1  LOD1"
+                }
+              ]
+            },
+            {
+              "path": "tocI_03_02",
+              "title": "I.3.2  作成上の留意事項",
+              "children": [
+                {
+                  "path": "tocI_03_02_01",
+                  "title": "I.3.2.1  ジオメトリエラーへの対応"
+                },
+                {
+                  "path": "tocI_03_02_02",
+                  "title": "I.3.2.2  都市計画基礎調査の調査区と都市計画基本図の行政界との差異"
+                },
+                {
+                  "path": "tocI_03_02_03",
+                  "title": "I.3.2.3  幾何オブジェクトの区切り"
+                },
+                {
+                  "path": "コードリストの拡張_",
+                  "title": "I.3.2.4  コードリストの拡張"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "tocJ",
+      "title": "附属書J  妥当な災害リスクオブジェクト",
+      "children": [
+        {
+          "path": "tocJ_01",
+          "title": "J.1  概要"
+        },
+        {
+          "path": "tocJ_02",
+          "title": "J.2  災害リスクの記述とLOD",
+          "children": [
+            {
+              "path": "災害リスクモデル_",
+              "title": "J.2.1  災害リスクモデル"
+            },
+            {
+              "path": "使用可能な地物型と_lod_6",
+              "title": "J.2.2  使用可能な地物型とLOD"
+            },
+            {
+              "path": "災害リスクモデルの空間属性_",
+              "title": "J.2.3  災害リスクモデルの空間属性",
+              "children": [
+                {
+                  "path": "_lod1_13",
+                  "title": "J.2.3.1  LOD1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "tocJ_03",
+          "title": "J.3  標準的な作業手順",
+          "children": [
+            {
+              "path": "幾何オブジェクトの作成__5",
+              "title": "J.3.1  幾何オブジェクトの作成",
+              "children": [
+                {
+                  "path": "_lod1_14",
+                  "title": "J.3.1.1  LOD1"
+                }
+              ]
+            },
+            {
+              "path": "作成上の留意事項__2",
+              "title": "J.3.2  作成上の留意事項",
+              "children": [
+                {
+                  "path": "微小ポリゴンへの対応_",
+                  "title": "J.3.2.1  微小ポリゴンへの対応"
+                },
+                {
+                  "path": "成果品データの空間範囲_",
+                  "title": "J.3.2.2  成果品データの空間範囲"
+                },
+                {
+                  "path": "災害リスク浸水モデルの浸水面の高さ_",
+                  "title": "J.3.2.3  災害リスク（浸水）モデルの浸水面の高さ"
+                },
+                {
+                  "path": "原典資料の異常値や欠損値の取り扱い_",
+                  "title": "J.3.2.4  原典資料の異常値や欠損値の取り扱い"
+                },
+                {
+                  "path": "災害リスク浸水モデルの_gmlnameについて_",
+                  "title": "J.3.2.5  災害リスク（浸水）モデルのgml:nameについて"
+                },
+                {
+                  "path": "小数点の丸め方_",
+                  "title": "J.3.2.6  小数点の丸め方"
+                },
+                {
+                  "path": "災害リスク浸水モデルのフォルダ構成_",
+                  "title": "J.3.2.7  災害リスク（浸水）モデルのフォルダ構成"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "tocK",
+      "title": "附属書K  妥当な都市計画決定情報オブジェクト",
+      "children": [
+        {
+          "path": "tocK_01",
+          "title": "K.1  概要"
+        },
+        {
+          "path": "tocK_02",
+          "title": "K.2  都市計画決定情報の記述とLOD",
+          "children": [
+            {
+              "path": "都市計画決定情報モデル_",
+              "title": "K.2.1  都市計画決定情報モデル"
+            },
+            {
+              "path": "使用可能な地物型と_lod_7",
+              "title": "K.2.2  使用可能な地物型とLOD"
+            },
+            {
+              "path": "都市計画決定情報の空間属性_",
+              "title": "K.2.3  都市計画決定情報の空間属性"
+            },
+            {
+              "path": "都市計画決定情報の主題属性_",
+              "title": "K.2.4  都市計画決定情報の主題属性",
+              "children": [
+                {
+                  "path": "外部ファイルの参照_",
+                  "title": "K.2.4.1  外部ファイルの参照"
+                },
+                {
+                  "path": "都市計画の当初決定年月日及び告示番号と最終最新決定年月日及び告示番号_",
+                  "title": "K.2.4.2  都市計画の当初決定年月日及び告示番号と最終（最新）決定年月日及び告示番号"
+                },
+                {
+                  "path": "tocK_02_04_03",
+                  "title": "K.2.4.3  都市計画決定情報の変遷の表現"
+                },
+                {
+                  "path": "構造化された属性の使用_",
+                  "title": "K.2.4.4  構造化された属性の使用"
+                }
+              ]
+            },
+            {
+              "path": "都市計画決定情報の階層構造_",
+              "title": "K.2.5  都市計画決定情報の階層構造"
+            }
+          ]
+        },
+        {
+          "path": "tocK_03",
+          "title": "K.3  urf:Boundary",
+          "children": [
+            {
+              "path": "_urfboundaryの空間属性_",
+              "title": "K.3.1  urf:Boundaryの空間属性"
+            },
+            {
+              "path": "_urfboundaryの主題属性_",
+              "title": "K.3.2  urf:Boundaryの主題属性"
+            }
+          ]
+        },
+        {
+          "path": "tocK_04",
+          "title": "K.4  標準的な作業手順",
+          "children": [
+            {
+              "path": "幾何オブジェクトの作成__6",
+              "title": "K.4.1  幾何オブジェクトの作成",
+              "children": [
+                {
+                  "path": "_lod1_15",
+                  "title": "K.4.1.1  LOD1",
+                  "children": [
+                    {
+                      "path": "_gisデータの変換により作成する方法_",
+                      "title": "K.4.1.1.1  GISデータの変換により作成する方法"
+                    },
+                    {
+                      "path": "既成図数値化により幾何オブジェクトを作成する方法_",
+                      "title": "K.4.1.1.2  既成図数値化により幾何オブジェクトを作成する方法"
+                    },
+                    {
+                      "path": "新規に幾何オブジェクトを作成する方法_",
+                      "title": "K.4.1.1.3  新規に幾何オブジェクトを作成する方法"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "作業上の留意事項__3",
+              "title": "K.4.2  作業上の留意事項",
+              "children": [
+                {
+                  "path": "都市計画の変更に伴う区域の考え方_",
+                  "title": "K.4.2.1  都市計画の変更に伴う区域の考え方"
+                },
+                {
+                  "path": "tocK_04_02_02",
+                  "title": "K.4.2.2  原典資料が得られない場合の対応",
+                  "children": [
+                    {
+                      "path": "tocK_04_02_02_01",
+                      "title": "K.4.2.2.1  最新（最終）の都市計画のみが明らかな場合"
+                    },
+                    {
+                      "path": "tocK_04_02_02_02",
+                      "title": "K.4.2.2.2  当初と最新（最終）のみ明らかな場合"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "tocL",
+      "title": "附属書L  妥当な橋梁オブジェクト",
+      "children": [
+        {
+          "path": "tocL_01",
+          "title": "L.1  概要"
+        },
+        {
+          "path": "tocL_02",
+          "title": "L.2  橋梁の記述とLOD",
+          "children": [
+            {
+              "path": "tocL_02_01",
+              "title": "L.2.1  橋梁モデル"
+            },
+            {
+              "path": "tocL_02_02",
+              "title": "L.2.2  使用可能な地物型とLOD"
+            },
+            {
+              "path": "橋梁の空間属性_",
+              "title": "L.2.3  橋梁の空間属性",
+              "children": [
+                {
+                  "path": "_lod0_11",
+                  "title": "L.2.3.1  LOD0"
+                },
+                {
+                  "path": "_lod1_16",
+                  "title": "L.2.3.2  LOD1"
+                },
+                {
+                  "path": "_lod2_11",
+                  "title": "L.2.3.3  LOD2"
+                },
+                {
+                  "path": "_lod3_8",
+                  "title": "L.2.3.4  LOD3"
+                }
+              ]
+            },
+            {
+              "path": "橋梁の主題属性_",
+              "title": "L.2.4  橋梁の主題属性",
+              "children": [
+                {
+                  "path": "構造物管理属性_urobridbaseattribute",
+                  "title": "L.2.4.1  構造物管理属性（uro:bridBaseAttribute）"
+                },
+                {
+                  "path": "構造物構造属性_urobridstructureattribute",
+                  "title": "L.2.4.2  構造物構造属性（uro:bridStructureAttribute）"
+                },
+                {
+                  "path": "構造物機能属性_urobridfunctionalattribute",
+                  "title": "L.2.4.3  構造物機能属性（uro:bridFunctionalAttribute）"
+                },
+                {
+                  "path": "構造物損傷属性_urobridriskassessmentattribute",
+                  "title": "L.2.4.4  構造物損傷属性（uro:bridRiskAssessmentAttribute）"
+                },
+                {
+                  "path": "災害リスク属性_urobriddisasterriskattribute",
+                  "title": "L.2.4.5  災害リスク属性（uro:bridDisasterRiskAttribute）"
+                },
+                {
+                  "path": "施設管理のための属性__3",
+                  "title": "L.2.4.6  施設管理のための属性",
+                  "children": [
+                    {
+                      "path": "施設分類属性_urofacilitytypeattribute_3",
+                      "title": "L.2.4.6.1  施設分類属性（uro:FacilityTypeAttribute）"
+                    },
+                    {
+                      "path": "施設識別属性_urofacilityidattribute_3",
+                      "title": "L.2.4.6.2  施設識別属性（uro:FacilityIdAttribute）"
+                    },
+                    {
+                      "path": "施設詳細属性_urofacilityattribute_3",
+                      "title": "L.2.4.6.3  施設詳細属性（uro:FacilityAttribute）"
+                    }
+                  ]
+                },
+                {
+                  "path": "数値地形図属性_urobriddmattribute",
+                  "title": "L.2.4.7  数値地形図属性（uro:bridDmAttribute）"
+                },
+                {
+                  "path": "品質属性_urodataqualityattribute",
+                  "title": "L.2.4.8  品質属性（uro:DataQualityAttribute）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "tocL_03",
+          "title": "L.3  brid:BridgePart",
+          "children": [
+            {
+              "path": "橋梁部分の空間属性_",
+              "title": "L.3.1  橋梁部分の空間属性"
+            },
+            {
+              "path": "橋梁部分の主題属性_",
+              "title": "L.3.2  橋梁部分の主題属性"
+            }
+          ]
+        },
+        {
+          "path": "tocL_04",
+          "title": "L.4  brid:BridgeRoom",
+          "children": [
+            {
+              "path": "橋梁内部空間の空間属性_",
+              "title": "L.4.1  橋梁内部空間の空間属性"
+            }
+          ]
+        },
+        {
+          "path": "tocL_05",
+          "title": "L.5  brid:BridgeInstallation",
+          "children": [
+            {
+              "path": "橋梁付属物の空間属性_",
+              "title": "L.5.1  橋梁付属物の空間属性"
+            }
+          ]
+        },
+        {
+          "path": "tocL_06",
+          "title": "L.6  brid:IntBridgeInstallation",
+          "children": [
+            {
+              "path": "橋梁内部付属物の空間属性_",
+              "title": "L.6.1  橋梁内部付属物の空間属性"
+            }
+          ]
+        },
+        {
+          "path": "tocL_07",
+          "title": "L.7  brid:BridgeFurniture",
+          "children": [
+            {
+              "path": "可動設備の空間属性_",
+              "title": "L.7.1  可動設備の空間属性"
+            }
+          ]
+        },
+        {
+          "path": "tocL_08",
+          "title": "L.8  brid:_BoundarySurface",
+          "children": [
+            {
+              "path": "境界面の下位型_",
+              "title": "L.8.1  境界面の下位型",
+              "children": [
+                {
+                  "path": "_bridroofsurface",
+                  "title": "L.8.1.1  brid:RoofSurface"
+                },
+                {
+                  "path": "_bridwallsurface",
+                  "title": "L.8.1.2  brid:WallSurface"
+                },
+                {
+                  "path": "_bridgroundsurface",
+                  "title": "L.8.1.3  brid:GroundSurface"
+                },
+                {
+                  "path": "_bridouterfloorsurface",
+                  "title": "L.8.1.4  brid:OuterFloorSurface"
+                },
+                {
+                  "path": "_bridclosuresurface",
+                  "title": "L.8.1.5  brid:ClosureSurface"
+                },
+                {
+                  "path": "_bridouterceilingsurface",
+                  "title": "L.8.1.6  brid:OuterCeilingSurface"
+                },
+                {
+                  "path": "_bridceilingsurface",
+                  "title": "L.8.1.7  brid:CeilingSurface"
+                },
+                {
+                  "path": "_bridinteriorwallsurface",
+                  "title": "L.8.1.8  brid:InteriorWallSurface"
+                },
+                {
+                  "path": "_bridfloorsurface",
+                  "title": "L.8.1.9  brid:FloorSurface"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "tocL_09",
+          "title": "L.9  brid:_Opening",
+          "children": [
+            {
+              "path": "開口部の空間属性_",
+              "title": "L.9.1  開口部の空間属性"
+            },
+            {
+              "path": "開口部の下位型_",
+              "title": "L.9.2  開口部の下位型",
+              "children": [
+                {
+                  "path": "_bridwindow",
+                  "title": "L.9.2.1  brid:Window"
+                },
+                {
+                  "path": "_briddoor",
+                  "title": "L.9.2.2  brid:Door"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "tocL_10",
+          "title": "L.10  標準的な作業手順",
+          "children": [
+            {
+              "path": "幾何オブジェクトの作成__7",
+              "title": "L.10.1  幾何オブジェクトの作成",
+              "children": [
+                {
+                  "path": "_lod0_12",
+                  "title": "L.10.1.1  LOD0",
+                  "children": [
+                    {
+                      "path": "原典資料__34",
+                      "title": "L.10.1.1.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__32",
+                      "title": "L.10.1.1.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod1_17",
+                  "title": "L.10.1.2  LOD1",
+                  "children": [
+                    {
+                      "path": "原典資料__35",
+                      "title": "L.10.1.2.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__33",
+                      "title": "L.10.1.2.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod2_0",
+                  "title": "L.10.1.3  LOD2.0",
+                  "children": [
+                    {
+                      "path": "原典資料__36",
+                      "title": "L.10.1.3.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__34",
+                      "title": "L.10.1.3.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod2_1",
+                  "title": "L.10.1.4  LOD2.1",
+                  "children": [
+                    {
+                      "path": "原典資料__37",
+                      "title": "L.10.1.4.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__35",
+                      "title": "L.10.1.4.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_9",
+                  "title": "L.10.1.5  LOD3",
+                  "children": [
+                    {
+                      "path": "原典資料__38",
+                      "title": "L.10.1.5.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__36",
+                      "title": "L.10.1.5.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod4",
+                  "title": "L.10.1.6  LOD4",
+                  "children": [
+                    {
+                      "path": "原典資料__39",
+                      "title": "L.10.1.6.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__37",
+                      "title": "L.10.1.6.2  作業手順"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "作成上の留意事項__3",
+              "title": "L.10.2  作成上の留意事項",
+              "children": [
+                {
+                  "path": "延長の長い橋梁モデルの取り扱い_",
+                  "title": "L.10.2.1  延長の長い橋梁モデルの取り扱い"
+                },
+                {
+                  "path": "行政界を跨ぐ橋梁モデルの取り扱い_",
+                  "title": "L.10.2.2  行政界を跨ぐ橋梁モデルの取り扱い"
+                },
+                {
+                  "path": "見かけ上地覆と床版が一体である橋梁モデルの取り扱い_",
+                  "title": "L.10.2.3  見かけ上、地覆と床版が一体である橋梁モデルの取り扱い"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "tocM",
+      "title": "附属書M  妥当なトンネルオブジェクト",
+      "children": [
+        {
+          "path": "tocM_01",
+          "title": "M.1  概要"
+        },
+        {
+          "path": "tocM_02",
+          "title": "M.2  トンネルの記述とLOD",
+          "children": [
+            {
+              "path": "トンネルモデル_",
+              "title": "M.2.1  トンネルモデル"
+            },
+            {
+              "path": "使用可能な地物型と_lod_8",
+              "title": "M.2.2  使用可能な地物型とLOD"
+            },
+            {
+              "path": "トンネルの空間属性_",
+              "title": "M.2.3  トンネルの空間属性",
+              "children": [
+                {
+                  "path": "_lod0_13",
+                  "title": "M.2.3.1  LOD0"
+                },
+                {
+                  "path": "_lod1_18",
+                  "title": "M.2.3.2  LOD1"
+                },
+                {
+                  "path": "_lod2_12",
+                  "title": "M.2.3.3  LOD2"
+                },
+                {
+                  "path": "_lod3_10",
+                  "title": "M.2.3.4  LOD3"
+                },
+                {
+                  "path": "_lod4_2",
+                  "title": "M.2.3.5  LOD4"
+                }
+              ]
+            },
+            {
+              "path": "トンネルの主題属性_",
+              "title": "M.2.4  トンネルの主題属性",
+              "children": [
+                {
+                  "path": "構造物管理属性_urotunbaseattribute",
+                  "title": "M.2.4.1  構造物管理属性（uro:tunBaseAttribute）"
+                },
+                {
+                  "path": "構造物構造属性_urotunstructureattribute",
+                  "title": "M.2.4.2  構造物構造属性（uro:tunStructureAttribute）"
+                },
+                {
+                  "path": "構造物機能属性_urotunfunctionalattribute",
+                  "title": "M.2.4.3  構造物機能属性（uro:tunFunctionalAttribute）"
+                },
+                {
+                  "path": "構造物損傷属性_urotunriskassessmentattribute",
+                  "title": "M.2.4.4  構造物損傷属性（uro:tunRiskAssessmentAttribute）"
+                },
+                {
+                  "path": "災害リスク属性_urotundisasterriskattribute",
+                  "title": "M.2.4.5  災害リスク属性（uro:tunDisasterRiskAttribute）"
+                },
+                {
+                  "path": "施設管理のための属性__4",
+                  "title": "M.2.4.6  施設管理のための属性",
+                  "children": [
+                    {
+                      "path": "施設分類属性_urofacilitytypeattribute_4",
+                      "title": "M.2.4.6.1  施設分類属性（uro:FacilityTypeAttribute）"
+                    },
+                    {
+                      "path": "施設識別属性_urofacilityidattribute_4",
+                      "title": "M.2.4.6.2  施設識別属性（uro:FacilityIdAttribute）"
+                    },
+                    {
+                      "path": "施設詳細属性_urofacilityattribute_4",
+                      "title": "M.2.4.6.3  施設詳細属性（uro:FacilityAttribute）"
+                    }
+                  ]
+                },
+                {
+                  "path": "数値地形図属性_urotundmattribute",
+                  "title": "M.2.4.7  数値地形図属性（uro:tunDmAttribute）"
+                },
+                {
+                  "path": "品質属性_urodataqualityattribute_2",
+                  "title": "M.2.4.8  品質属性（uro:DataQualityAttribute）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "tocM_03",
+          "title": "M.3  tun:TunnelPart",
+          "children": [
+            {
+              "path": "トンネル部分の空間属性_",
+              "title": "M.3.1  トンネル部分の空間属性"
+            },
+            {
+              "path": "トンネル部分の主題属性_",
+              "title": "M.3.2  トンネル部分の主題属性"
+            }
+          ]
+        },
+        {
+          "path": "tocM_04",
+          "title": "M.4  tun:HollowSpace",
+          "children": [
+            {
+              "path": "トンネル内部空間の空間属性_",
+              "title": "M.4.1  トンネル内部空間の空間属性"
+            }
+          ]
+        },
+        {
+          "path": "tocM_05",
+          "title": "M.5  tun:TunnelInstallation",
+          "children": [
+            {
+              "path": "トンネル付属物の空間属性_",
+              "title": "M.5.1  トンネル付属物の空間属性"
+            }
+          ]
+        },
+        {
+          "path": "tocM_06",
+          "title": "M.6  tun:IntTunnelInstallation",
+          "children": [
+            {
+              "path": "トンネル内部付属物の空間属性_",
+              "title": "M.6.1  トンネル内部付属物の空間属性"
+            }
+          ]
+        },
+        {
+          "path": "tocM_07",
+          "title": "M.7  tun:TunnelFurniture",
+          "children": [
+            {
+              "path": "トンネル内部の可動設備の空間属性_",
+              "title": "M.7.1  トンネル内部の可動設備の空間属性"
+            }
+          ]
+        },
+        {
+          "path": "tocM_08",
+          "title": "M.8  tun:_BoundarySurface",
+          "children": [
+            {
+              "path": "境界面の空間属性_",
+              "title": "M.8.1  境界面の空間属性"
+            },
+            {
+              "path": "境界面の下位型__2",
+              "title": "M.8.2  境界面の下位型",
+              "children": [
+                {
+                  "path": "_tunroofsurface",
+                  "title": "M.8.2.1  tun:RoofSurface"
+                },
+                {
+                  "path": "_tunwallsurface",
+                  "title": "M.8.2.2  tun:WallSurface"
+                },
+                {
+                  "path": "_tungroundsurface",
+                  "title": "M.8.2.3  tun:GroundSurface"
+                },
+                {
+                  "path": "_tunouterfloorsurface",
+                  "title": "M.8.2.4  tun:OuterFloorSurface"
+                },
+                {
+                  "path": "_tunclosuresurface",
+                  "title": "M.8.2.5  tun:ClosureSurface"
+                },
+                {
+                  "path": "_tunouterceilingsurface",
+                  "title": "M.8.2.6  tun:OuterCeilingSurface"
+                },
+                {
+                  "path": "_tunceilingsurface",
+                  "title": "M.8.2.7  tun:CeilingSurface"
+                },
+                {
+                  "path": "_tuninteriorwallsurface",
+                  "title": "M.8.2.8  tun:InteriorWallSurface"
+                },
+                {
+                  "path": "_tunfloorsurface",
+                  "title": "M.8.2.9  tun:FloorSurface"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "tocM_09",
+          "title": "M.9  tun:_Opening",
+          "children": [
+            {
+              "path": "開口部の空間属性__2",
+              "title": "M.9.1  開口部の空間属性"
+            },
+            {
+              "path": "開口部の下位型__2",
+              "title": "M.9.2  開口部の下位型",
+              "children": [
+                {
+                  "path": "_tunwindow",
+                  "title": "M.9.2.1  tun:Window"
+                },
+                {
+                  "path": "_tundoor",
+                  "title": "M.9.2.2  tun:Door"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "tocM_10",
+          "title": "M.10  標準的な作業手順",
+          "children": [
+            {
+              "path": "幾何オブジェクトの作成__8",
+              "title": "M.10.1  幾何オブジェクトの作成",
+              "children": [
+                {
+                  "path": "_lod0_14",
+                  "title": "M.10.1.1  LOD0",
+                  "children": [
+                    {
+                      "path": "原典資料__40",
+                      "title": "M.10.1.1.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__38",
+                      "title": "M.10.1.1.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod1_19",
+                  "title": "M.10.1.2  LOD1",
+                  "children": [
+                    {
+                      "path": "原典資料__41",
+                      "title": "M.10.1.2.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順トンネルカルバートシェッドシェルター_",
+                      "title": "M.10.1.2.2  作業手順（トンネル、カルバート、シェッド、シェルター）"
+                    },
+                    {
+                      "path": "作業手順地下横断歩道_",
+                      "title": "M.10.1.2.3  作業手順（地下横断歩道）"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod2_13",
+                  "title": "M.10.1.3  LOD2",
+                  "children": [
+                    {
+                      "path": "原典資料__42",
+                      "title": "M.10.1.3.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順トンネルカルバートシェッドシェルター__2",
+                      "title": "M.10.1.3.2  作業手順（トンネル、カルバート、シェッド、シェルター）"
+                    },
+                    {
+                      "path": "作業手順地下横断歩道__2",
+                      "title": "M.10.1.3.3  作業手順（地下横断歩道）"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_11",
+                  "title": "M.10.1.4  LOD3",
+                  "children": [
+                    {
+                      "path": "原典資料__43",
+                      "title": "M.10.1.4.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順トンネルカルバートシェッドシェルター__3",
+                      "title": "M.10.1.4.2  作業手順（トンネル、カルバート、シェッド、シェルター）"
+                    },
+                    {
+                      "path": "作業手順地下横断歩道__3",
+                      "title": "M.10.1.4.3  作業手順（地下横断歩道）"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod4_0",
+                  "title": "M.10.1.5  LOD4.0",
+                  "children": [
+                    {
+                      "path": "原典資料__44",
+                      "title": "M.10.1.5.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順トンネルカルバートシェッドシェルター__4",
+                      "title": "M.10.1.5.2  作業手順（トンネル、カルバート、シェッド、シェルター）"
+                    },
+                    {
+                      "path": "作業手順地下横断歩道__4",
+                      "title": "M.10.1.5.3  作業手順（地下横断歩道）"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod4_1",
+                  "title": "M.10.1.6  LOD4.1",
+                  "children": [
+                    {
+                      "path": "原典資料__45",
+                      "title": "M.10.1.6.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順トンネルカルバートシェッドシェルター__5",
+                      "title": "M.10.1.6.2  作業手順（トンネル、カルバート、シェッド、シェルター）"
+                    },
+                    {
+                      "path": "作業手順地下横断歩道__5",
+                      "title": "M.10.1.6.3  作業手順（地下横断歩道）"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod4_2_2",
+                  "title": "M.10.1.7  LOD4.2",
+                  "children": [
+                    {
+                      "path": "原典資料__46",
+                      "title": "M.10.1.7.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順トンネルカルバートシェッドシェルター__6",
+                      "title": "M.10.1.7.2  作業手順（トンネル、カルバート、シェッド、シェルター）"
+                    },
+                    {
+                      "path": "作業手順地下横断歩道__6",
+                      "title": "M.10.1.7.3  作業手順（地下横断歩道）"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "作成上の留意事項__4",
+              "title": "M.10.2  作成上の留意事項",
+              "children": [
+                {
+                  "path": "延長の長いトンネルモデルの取り扱い_",
+                  "title": "M.10.2.1  延長の長いトンネルモデルの取り扱い"
+                },
+                {
+                  "path": "行政界を跨ぐトンネルモデルの取り扱い_",
+                  "title": "M.10.2.2  行政界を跨ぐトンネルモデルの取り扱い"
+                },
+                {
+                  "path": "曲面を平面分割する場合の境界面のオブジェクトの単位_",
+                  "title": "M.10.2.3  曲面を平面分割する場合の境界面のオブジェクトの単位"
+                },
+                {
+                  "path": "外形の推定_",
+                  "title": "M.10.2.4  外形の推定"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "tocN",
+      "title": "附属書N  妥当なその他の構造物オブジェクト",
+      "children": [
+        {
+          "path": "tocN_01",
+          "title": "N.1  概要"
+        },
+        {
+          "path": "tocN_02",
+          "title": "N.2  その他の構造物の記述とLOD",
+          "children": [
+            {
+              "path": "その他の構造物モデル_",
+              "title": "N.2.1  その他の構造物モデル"
+            },
+            {
+              "path": "使用可能な地物型と_lod_9",
+              "title": "N.2.2  使用可能な地物型とLOD"
+            },
+            {
+              "path": "その他の構造物の空間属性_",
+              "title": "N.2.3  その他の構造物の空間属性",
+              "children": [
+                {
+                  "path": "_lod0_15",
+                  "title": "N.2.3.1  LOD0"
+                },
+                {
+                  "path": "_lod1_20",
+                  "title": "N.2.3.2  LOD1"
+                },
+                {
+                  "path": "_lod2_14",
+                  "title": "N.2.3.3  LOD2"
+                },
+                {
+                  "path": "_lod3_12",
+                  "title": "N.2.3.4  LOD3"
+                }
+              ]
+            },
+            {
+              "path": "その他の構造物の主題属性_",
+              "title": "N.2.4  その他の構造物の主題属性",
+              "children": [
+                {
+                  "path": "分類_uroclass機能_urofunction",
+                  "title": "N.2.4.1  分類（uro:class）、機能（uro:function）"
+                },
+                {
+                  "path": "構造物基本属性_uroconsbaseattribute",
+                  "title": "N.2.4.2  構造物基本属性（uro:consBaseAttribute）"
+                },
+                {
+                  "path": "構造物構造属性_uroconsstructureattribute",
+                  "title": "N.2.4.3  構造物構造属性（uro:consStructureAttribute）"
+                },
+                {
+                  "path": "施設管理のための属性__5",
+                  "title": "N.2.4.4  施設管理のための属性",
+                  "children": [
+                    {
+                      "path": "施設分類属性_urofacilitytypeattribute_5",
+                      "title": "N.2.4.4.1  施設分類属性（uro:FacilityTypeAttribute）"
+                    },
+                    {
+                      "path": "施設識別属性_urofacilityidattribute_5",
+                      "title": "N.2.4.4.2  施設識別属性（uro:FacilityIdAttribute）"
+                    },
+                    {
+                      "path": "施設詳細属性_urofacilityattribute_5",
+                      "title": "N.2.4.4.3  施設詳細属性（uro:FacilityAttribute）"
+                    }
+                  ]
+                },
+                {
+                  "path": "数値地形図属性_uroconsdmattribute",
+                  "title": "N.2.4.5  数値地形図属性（uro:consDmAttribute）"
+                },
+                {
+                  "path": "品質属性_urodataqualityattribute_3",
+                  "title": "N.2.4.6  品質属性（uro:DataQualityAttribute）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "tocN_03",
+          "title": "N.3  標準的な作業手順",
+          "children": [
+            {
+              "path": "幾何オブジェクトの作成__9",
+              "title": "N.3.1  幾何オブジェクトの作成",
+              "children": [
+                {
+                  "path": "_lod0_16",
+                  "title": "N.3.1.1  LOD0",
+                  "children": [
+                    {
+                      "path": "原典資料__47",
+                      "title": "N.3.1.1.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__39",
+                      "title": "N.3.1.1.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod1_21",
+                  "title": "N.3.1.2  LOD1",
+                  "children": [
+                    {
+                      "path": "原典資料__48",
+                      "title": "N.3.1.2.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__40",
+                      "title": "N.3.1.2.2  作業手順",
+                      "children": [
+                        {
+                          "path": "護岸堰ダム水門閘門陸門樋門樋管_",
+                          "title": "N.3.1.2.2.1  護岸・堰・ダム・水門・閘門・陸門・樋門・樋管"
+                        },
+                        {
+                          "path": "堤防_",
+                          "title": "N.3.1.2.2.2  堤防"
+                        },
+                        {
+                          "path": "水制床止め_",
+                          "title": "N.3.1.2.2.3  水制・床止め"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod2_15",
+                  "title": "N.3.1.3  LOD2",
+                  "children": [
+                    {
+                      "path": "原典資料__49",
+                      "title": "N.3.1.3.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__41",
+                      "title": "N.3.1.3.2  作業手順",
+                      "children": [
+                        {
+                          "path": "護岸堰水門閘門陸門樋門樋管伏せ越し_",
+                          "title": "N.3.1.3.2.1  護岸・堰・水門・閘門・陸門・樋門・樋管・伏せ越し"
+                        },
+                        {
+                          "path": "堤防__2",
+                          "title": "N.3.1.3.2.2  堤防"
+                        },
+                        {
+                          "path": "水制床止め__2",
+                          "title": "N.3.1.3.2.3  水制・床止め"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_0_5",
+                  "title": "N.3.1.4  LOD3.0",
+                  "children": [
+                    {
+                      "path": "原典資料__50",
+                      "title": "N.3.1.4.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__42",
+                      "title": "N.3.1.4.2  作業手順",
+                      "children": [
+                        {
+                          "path": "護岸堰水門閘門陸門樋門樋管伏せ越し__2",
+                          "title": "N.3.1.4.2.1  護岸・堰・水門・閘門・陸門・樋門・樋管・伏せ越し"
+                        },
+                        {
+                          "path": "堤防__3",
+                          "title": "N.3.1.4.2.2  堤防"
+                        },
+                        {
+                          "path": "水制床止め__3",
+                          "title": "N.3.1.4.2.3  水制・床止め"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_1_5",
+                  "title": "N.3.1.5  LOD3.1",
+                  "children": [
+                    {
+                      "path": "原典資料__51",
+                      "title": "N.3.1.5.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__43",
+                      "title": "N.3.1.5.2  作業手順",
+                      "children": [
+                        {
+                          "path": "護岸堰水門閘門陸門樋門樋管伏せ越し__3",
+                          "title": "N.3.1.5.2.1  護岸・堰・水門・閘門・陸門・樋門・樋管・伏せ越し"
+                        },
+                        {
+                          "path": "堤防__4",
+                          "title": "N.3.1.5.2.2  堤防"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "作成上の留意事項__5",
+              "title": "N.3.2  作成上の留意事項",
+              "children": [
+                {
+                  "path": "行政界を跨ぐその他の構造物モデルの取り扱い_",
+                  "title": "N.3.2.1  行政界を跨ぐその他の構造物モデルの取り扱い"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "tocO",
+      "title": "附属書O  妥当な都市設備オブジェクト",
+      "children": [
+        {
+          "path": "tocO_01",
+          "title": "O.1  概要"
+        },
+        {
+          "path": "tocO_02",
+          "title": "O.2  都市設備の記述とLOD",
+          "children": [
+            {
+              "path": "都市設備モデル_",
+              "title": "O.2.1  都市設備モデル"
+            },
+            {
+              "path": "使用可能な地物型と_lod_10",
+              "title": "O.2.2  使用可能な地物型とLOD"
+            },
+            {
+              "path": "都市設備の空間属性_",
+              "title": "O.2.3  都市設備の空間属性",
+              "children": [
+                {
+                  "path": "_lod0_17",
+                  "title": "O.2.3.1  LOD0"
+                },
+                {
+                  "path": "_lod1_22",
+                  "title": "O.2.3.2  LOD1"
+                },
+                {
+                  "path": "tocO_02_03_03",
+                  "title": "O.2.3.3  LOD2"
+                },
+                {
+                  "path": "_lod3_13",
+                  "title": "O.2.3.4  LOD3"
+                }
+              ]
+            },
+            {
+              "path": "都市設備の主題属性_",
+              "title": "O.2.4  都市設備の主題属性",
+              "children": [
+                {
+                  "path": "_frnfunction",
+                  "title": "O.2.4.1  frn:function"
+                },
+                {
+                  "path": "_urofacilitytype",
+                  "title": "O.2.4.2  uro:facilityType"
+                },
+                {
+                  "path": "_urodescription",
+                  "title": "O.2.4.3  uro:description"
+                },
+                {
+                  "path": "施設管理のための属性__6",
+                  "title": "O.2.4.4  施設管理のための属性",
+                  "children": [
+                    {
+                      "path": "施設分類属性_urofacilitytypeattribute_6",
+                      "title": "O.2.4.4.1  施設分類属性（uro:FacilityTypeAttribute）"
+                    },
+                    {
+                      "path": "施設識別属性_urofacilityidattribute_6",
+                      "title": "O.2.4.4.2  施設識別属性（uro:FacilityIdAttribute）"
+                    },
+                    {
+                      "path": "施設詳細属性_urofacilityattribute_6",
+                      "title": "O.2.4.4.3  施設詳細属性（uro:FacilityAttribute）"
+                    }
+                  ]
+                },
+                {
+                  "path": "数値地形図属性_uroconsdmattribute_2",
+                  "title": "O.2.4.5  数値地形図属性（uro:consDmAttribute）"
+                },
+                {
+                  "path": "データ品質属性_urodataqualityattribute_6",
+                  "title": "O.2.4.6  データ品質属性（uro:DataQualityAttribute）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "tocO_03",
+          "title": "O.3  標準的な作業手順",
+          "children": [
+            {
+              "path": "tocO_03_01",
+              "title": "O.3.1  幾何オブジェクトの作成",
+              "children": [
+                {
+                  "path": "_lod0_18",
+                  "title": "O.3.1.1  LOD0",
+                  "children": [
+                    {
+                      "path": "原典資料__52",
+                      "title": "O.3.1.1.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__44",
+                      "title": "O.3.1.1.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod1_23",
+                  "title": "O.3.1.2  LOD1",
+                  "children": [
+                    {
+                      "path": "原典資料__53",
+                      "title": "O.3.1.2.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順立体の場合_",
+                      "title": "O.3.1.2.2  作業手順（立体の場合）"
+                    },
+                    {
+                      "path": "作業手順面の場合_",
+                      "title": "O.3.1.2.3  作業手順（面の場合）"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod2_16",
+                  "title": "O.3.1.3  LOD2",
+                  "children": [
+                    {
+                      "path": "原典資料一覧_",
+                      "title": "O.3.1.3.1  原典資料一覧"
+                    },
+                    {
+                      "path": "作業手順立体の場合__2",
+                      "title": "O.3.1.3.2  作業手順（立体の場合）"
+                    },
+                    {
+                      "path": "作業手順面の場合__2",
+                      "title": "O.3.1.3.3  作業手順（面の場合）"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_14",
+                  "title": "O.3.1.4  LOD3",
+                  "children": [
+                    {
+                      "path": "原典資料__54",
+                      "title": "O.3.1.4.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順立体の場合__3",
+                      "title": "O.3.1.4.2  作業手順（立体の場合）"
+                    },
+                    {
+                      "path": "作業手順面の場合__3",
+                      "title": "O.3.1.4.3  作業手順（面の場合）"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "tocO_03_02",
+              "title": "O.3.2  作業上の留意事項",
+              "children": [
+                {
+                  "path": "tocO_03_02_01",
+                  "title": "O.3.2.1  都市設備の区分"
+                },
+                {
+                  "path": "_lodによる形状の再現性の違い_",
+                  "title": "O.3.2.2  LODによる形状の再現性の違い"
+                },
+                {
+                  "path": "複合的な都市設備の取得_",
+                  "title": "O.3.2.3  複合的な都市設備の取得"
+                },
+                {
+                  "path": "点字ブロックの取得_",
+                  "title": "O.3.2.4  点字ブロックの取得"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "tocP",
+      "title": "附属書P  妥当な地下埋設物オブジェクト",
+      "children": [
+        {
+          "path": "tocP_01",
+          "title": "P.1  概要"
+        },
+        {
+          "path": "tocP_02",
+          "title": "P.2  地下埋設物の記述とLOD",
+          "children": [
+            {
+              "path": "地下埋設物モデル_",
+              "title": "P.2.1  地下埋設物モデル"
+            },
+            {
+              "path": "使用可能な地物型と_lod_11",
+              "title": "P.2.2  使用可能な地物型とLOD"
+            },
+            {
+              "path": "地下埋設物の空間属性_",
+              "title": "P.2.3  地下埋設物の空間属性",
+              "children": [
+                {
+                  "path": "_lod0_19",
+                  "title": "P.2.3.1  LOD0"
+                },
+                {
+                  "path": "_lod1_24",
+                  "title": "P.2.3.2  LOD1"
+                },
+                {
+                  "path": "_lod2_17",
+                  "title": "P.2.3.3  LOD2"
+                },
+                {
+                  "path": "_lod3_15",
+                  "title": "P.2.3.4  LOD3"
+                },
+                {
+                  "path": "_lod4_3",
+                  "title": "P.2.3.5  LOD4"
+                }
+              ]
+            },
+            {
+              "path": "地下埋設物の主題属性_",
+              "title": "P.2.4  地下埋設物の主題属性",
+              "children": [
+                {
+                  "path": "データ品質属性_urodataqualityattribute_7",
+                  "title": "P.2.4.1  データ品質属性（uro:DataQualityAttribute）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "tocP_03",
+          "title": "P.3  リンクとなる地物型"
+        },
+        {
+          "path": "tocP_04",
+          "title": "P.4  ノードとなる地物型"
+        },
+        {
+          "path": "tocP_05",
+          "title": "P.5  繰り返しオブジェクト",
+          "children": [
+            {
+              "path": "繰り返しオブジェクトの座標の単位_",
+              "title": "P.5.1  繰り返しオブジェクトの座標の単位"
+            },
+            {
+              "path": "繰り返しオブジェクトの指定_",
+              "title": "P.5.2  繰り返しオブジェクトの指定"
+            },
+            {
+              "path": "繰り返しオブジェクトの実装例_",
+              "title": "P.5.3  繰り返しオブジェクトの実装例"
+            }
+          ]
+        },
+        {
+          "path": "tocP_06",
+          "title": "P.6  標準的な作業手順",
+          "children": [
+            {
+              "path": "幾何オブジェクトの作成__10",
+              "title": "P.6.1  幾何オブジェクトの作成",
+              "children": [
+                {
+                  "path": "_lod0_20",
+                  "title": "P.6.1.1  LOD0",
+                  "children": [
+                    {
+                      "path": "原典資料__55",
+                      "title": "P.6.1.1.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__45",
+                      "title": "P.6.1.1.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod1_25",
+                  "title": "P.6.1.2  LOD1",
+                  "children": [
+                    {
+                      "path": "原典資料__56",
+                      "title": "P.6.1.2.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__46",
+                      "title": "P.6.1.2.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod2_18",
+                  "title": "P.6.1.3  LOD2",
+                  "children": [
+                    {
+                      "path": "原典資料__57",
+                      "title": "P.6.1.3.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__47",
+                      "title": "P.6.1.3.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_16",
+                  "title": "P.6.1.4  LOD3",
+                  "children": [
+                    {
+                      "path": "原典資料__58",
+                      "title": "P.6.1.4.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__48",
+                      "title": "P.6.1.4.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod4_4",
+                  "title": "P.6.1.5  LOD4",
+                  "children": [
+                    {
+                      "path": "原典資料__59",
+                      "title": "P.6.1.5.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__49",
+                      "title": "P.6.1.5.2  作業手順"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "作成上の留意事項__6",
+              "title": "P.6.2  作成上の留意事項",
+              "children": [
+                {
+                  "path": "地下埋設物モデルの空間参照系_",
+                  "title": "P.6.2.1  地下埋設物モデルの空間参照系"
+                },
+                {
+                  "path": "埋設物同士の交差について_",
+                  "title": "P.6.2.2  埋設物同士の交差について"
+                },
+                {
+                  "path": "tocP_06_02_03",
+                  "title": "P.6.2.3  地下埋設物（管路）モデルの主題図形"
+                },
+                {
+                  "path": "地下埋設物マンホールモデルの主題図形_",
+                  "title": "P.6.2.4  地下埋設物（マンホール）モデルの主題図形"
+                },
+                {
+                  "path": "管路とマンホールとの接続部について_",
+                  "title": "P.6.2.5  管路とマンホールとの接続部について"
+                },
+                {
+                  "path": "tocP_06_02_06",
+                  "title": "P.6.2.6  管路及び函渠の外径の推定について"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "tocQ",
+      "title": "附属書Q  妥当な地下街オブジェクト",
+      "children": [
+        {
+          "path": "tocQ_01",
+          "title": "Q.1  概要"
+        },
+        {
+          "path": "tocQ_02",
+          "title": "Q.2  地下街の記述とLOD",
+          "children": [
+            {
+              "path": "地下街モデル_",
+              "title": "Q.2.1  地下街モデル"
+            },
+            {
+              "path": "使用可能な地物型と_lod_12",
+              "title": "Q.2.2  使用可能な地物型とLOD"
+            },
+            {
+              "path": "地下街の空間属性_lod0",
+              "title": "Q.2.3  地下街の空間属性LOD0",
+              "children": [
+                {
+                  "path": "_lod1_26",
+                  "title": "Q.2.3.1  LOD1"
+                },
+                {
+                  "path": "_lod2_19",
+                  "title": "Q.2.3.2  LOD2"
+                },
+                {
+                  "path": "_lod3_17",
+                  "title": "Q.2.3.3  LOD3"
+                },
+                {
+                  "path": "_lod4_5",
+                  "title": "Q.2.3.4  LOD4"
+                }
+              ]
+            },
+            {
+              "path": "地下街の主題属性_",
+              "title": "Q.2.4  地下街の主題属性"
+            }
+          ]
+        },
+        {
+          "path": "tocQ_03",
+          "title": "Q.3  標準的な作業手順",
+          "children": [
+            {
+              "path": "幾何オブジェクトの作成__11",
+              "title": "Q.3.1  幾何オブジェクトの作成",
+              "children": [
+                {
+                  "path": "_lod0_21",
+                  "title": "Q.3.1.1  LOD0",
+                  "children": [
+                    {
+                      "path": "原典資料__60",
+                      "title": "Q.3.1.1.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__50",
+                      "title": "Q.3.1.1.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod1_27",
+                  "title": "Q.3.1.2  LOD1",
+                  "children": [
+                    {
+                      "path": "原典資料__61",
+                      "title": "Q.3.1.2.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__51",
+                      "title": "Q.3.1.2.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod2_20",
+                  "title": "Q.3.1.3  LOD2",
+                  "children": [
+                    {
+                      "path": "原典資料__62",
+                      "title": "Q.3.1.3.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__52",
+                      "title": "Q.3.1.3.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_18",
+                  "title": "Q.3.1.4  LOD3",
+                  "children": [
+                    {
+                      "path": "原典資料__63",
+                      "title": "Q.3.1.4.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__53",
+                      "title": "Q.3.1.4.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod4_0_2",
+                  "title": "Q.3.1.5  LOD4.0",
+                  "children": [
+                    {
+                      "path": "原典資料__64",
+                      "title": "Q.3.1.5.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順測量により作成する場合_",
+                      "title": "Q.3.1.5.2  作業手順（測量により作成する場合）"
+                    },
+                    {
+                      "path": "作業手順_bimモデルからの変換により作成する場合_",
+                      "title": "Q.3.1.5.3  作業手順（BIMモデルからの変換により作成する場合）"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod4_1_2",
+                  "title": "Q.3.1.6  LOD4.1",
+                  "children": [
+                    {
+                      "path": "原典資料__65",
+                      "title": "Q.3.1.6.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順測量により作成する場合__2",
+                      "title": "Q.3.1.6.2  作業手順（測量により作成する場合）"
+                    },
+                    {
+                      "path": "作業手順_bimモデルからの変換により作成する場合__2",
+                      "title": "Q.3.1.6.3  作業手順（BIMモデルからの変換により作成する場合）"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod4_2_3",
+                  "title": "Q.3.1.7  LOD4.2",
+                  "children": [
+                    {
+                      "path": "原典資料__66",
+                      "title": "Q.3.1.7.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順測量により作成する場合__3",
+                      "title": "Q.3.1.7.2  作業手順（測量により作成する場合）"
+                    },
+                    {
+                      "path": "作業手順_bimモデルからの変換により作成する場合__3",
+                      "title": "Q.3.1.7.3  作業手順（BIMモデルからの変換により作成する場合）"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "作業上の留意事項__4",
+              "title": "Q.3.2  作業上の留意事項",
+              "children": [
+                {
+                  "path": "外形の推定__2",
+                  "title": "Q.3.2.1  外形の推定"
+                },
+                {
+                  "path": "地上部へ続く階段及びエスカレーターの取得方法_",
+                  "title": "Q.3.2.2  地上部へ続く階段及びエスカレーターの取得方法"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "tocR",
+      "title": "附属書R  妥当な植生オブジェクト",
+      "children": [
+        {
+          "path": "tocR_01",
+          "title": "R.1  概要"
+        },
+        {
+          "path": "tocR_02",
+          "title": "R.2  植生の記述とLOD",
+          "children": [
+            {
+              "path": "植生モデル_",
+              "title": "R.2.1  植生モデル"
+            },
+            {
+              "path": "使用可能な地物型と_lod_13",
+              "title": "R.2.2  使用可能な地物型とLOD"
+            },
+            {
+              "path": "植生の空間属性_",
+              "title": "R.2.3  植生の空間属性",
+              "children": [
+                {
+                  "path": "_lod0_22",
+                  "title": "R.2.3.1  LOD0"
+                },
+                {
+                  "path": "_lod1_28",
+                  "title": "R.2.3.2  LOD1"
+                },
+                {
+                  "path": "_lod2_21",
+                  "title": "R.2.3.3  LOD2"
+                },
+                {
+                  "path": "_lod3_19",
+                  "title": "R.2.3.4  LOD3"
+                }
+              ]
+            },
+            {
+              "path": "植生の主題属性_",
+              "title": "R.2.4  植生の主題属性",
+              "children": [
+                {
+                  "path": "_gmlname",
+                  "title": "R.2.4.1  gml:name"
+                },
+                {
+                  "path": "データ品質属性_urodataqualityattribute_8",
+                  "title": "R.2.4.2  データ品質属性（uro:DataQualityAttribute）"
+                },
+                {
+                  "path": "形状から算出可能な主題属性_",
+                  "title": "R.2.4.3  形状から算出可能な主題属性"
+                },
+                {
+                  "path": "施設管理のための属性__7",
+                  "title": "R.2.4.4  施設管理のための属性",
+                  "children": [
+                    {
+                      "path": "施設分類属性_urofacilitytypeattribute_7",
+                      "title": "R.2.4.4.1  施設分類属性（uro:FacilityTypeAttribute）"
+                    },
+                    {
+                      "path": "施設識別属性_urofacilityidattribute_7",
+                      "title": "R.2.4.4.2  施設識別属性（uro:FacilityIdAttribute）"
+                    },
+                    {
+                      "path": "施設詳細属性_urofacilityattribute_7",
+                      "title": "R.2.4.4.3  施設詳細属性（uro:FacilityAttribute）"
+                    }
+                  ]
+                },
+                {
+                  "path": "数値地形図属性_urovegdmattribute",
+                  "title": "R.2.4.5  数値地形図属性（uro:vegDmAttribute）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "tocR_03",
+          "title": "R.3  標準的な作業手順",
+          "children": [
+            {
+              "path": "幾何オブジェクトの作成__12",
+              "title": "R.3.1  幾何オブジェクトの作成",
+              "children": [
+                {
+                  "path": "_lod0_23",
+                  "title": "R.3.1.1  LOD0",
+                  "children": [
+                    {
+                      "path": "原典資料__67",
+                      "title": "R.3.1.1.1  原典資料"
+                    },
+                    {
+                      "path": "植生モデル_lod0の作成手順_",
+                      "title": "R.3.1.1.2  植生モデル（LOD0）の作成手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod1_29",
+                  "title": "R.3.1.2  LOD1",
+                  "children": [
+                    {
+                      "path": "原典資料__68",
+                      "title": "R.3.1.2.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__54",
+                      "title": "R.3.1.2.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod2_22",
+                  "title": "R.3.1.3  LOD2",
+                  "children": [
+                    {
+                      "path": "原典資料__69",
+                      "title": "R.3.1.3.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順単独木_",
+                      "title": "R.3.1.3.2  作業手順（単独木）"
+                    },
+                    {
+                      "path": "作業手順植被_",
+                      "title": "R.3.1.3.3  作業手順（植被）"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_20",
+                  "title": "R.3.1.4  LOD3",
+                  "children": [
+                    {
+                      "path": "原典資料__70",
+                      "title": "R.3.1.4.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順単独木__2",
+                      "title": "R.3.1.4.2  作業手順（単独木）"
+                    },
+                    {
+                      "path": "作業手順植被__2",
+                      "title": "R.3.1.4.3  作業手順（植被）"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "tocS",
+      "title": "附属書S  妥当な地形オブジェクト",
+      "children": [
+        {
+          "path": "tocS_01",
+          "title": "S.1  概要"
+        },
+        {
+          "path": "tocS_02",
+          "title": "S.2  地形の記述とLOD",
+          "children": [
+            {
+              "path": "地形モデル_",
+              "title": "S.2.1  地形モデル"
+            },
+            {
+              "path": "使用可能な地物型と_lod_14",
+              "title": "S.2.2  使用可能な地物型とLOD"
+            },
+            {
+              "path": "地形の空間属性_",
+              "title": "S.2.3  地形の空間属性",
+              "children": [
+                {
+                  "path": "_lod0_24",
+                  "title": "S.2.3.1  LOD0"
+                },
+                {
+                  "path": "_lod1_30",
+                  "title": "S.2.3.2  LOD1"
+                },
+                {
+                  "path": "_lod2_23",
+                  "title": "S.2.3.3  LOD2"
+                },
+                {
+                  "path": "_lod3_21",
+                  "title": "S.2.3.4  LOD3"
+                }
+              ]
+            },
+            {
+              "path": "地形の主題属性_",
+              "title": "S.2.4  地形の主題属性",
+              "children": [
+                {
+                  "path": "データ品質属性_urodataqualityattribute_9",
+                  "title": "S.2.4.1  データ品質属性（uro:DataQualityAttribute）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "tocS_03",
+          "title": "S.3  標準的な作業手順",
+          "children": [
+            {
+              "path": "幾何オブジェクトの作成__13",
+              "title": "S.3.1  幾何オブジェクトの作成",
+              "children": [
+                {
+                  "path": "_lod0_25",
+                  "title": "S.3.1.1  LOD0",
+                  "children": [
+                    {
+                      "path": "地形モデル_lodの原典資料_",
+                      "title": "S.3.1.1.1  地形モデル（LOD）の原典資料"
+                    },
+                    {
+                      "path": "地形モデル_lod0の作成手順_",
+                      "title": "S.3.1.1.2  地形モデル（LOD0）の作成手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod1_31",
+                  "title": "S.3.1.2  LOD1",
+                  "children": [
+                    {
+                      "path": "地形モデル_lod1の原典資料_",
+                      "title": "S.3.1.2.1  地形モデル（LOD1）の原典資料"
+                    },
+                    {
+                      "path": "地形モデル_lod1の作成手順_demtinrelief",
+                      "title": "S.3.1.2.2  地形モデル（LOD1）の作成手順（dem:TINRelief）"
+                    },
+                    {
+                      "path": "地形モデル_lod1の作成手順_demmasspointrelief",
+                      "title": "S.3.1.2.3  地形モデル（LOD1）の作成手順（dem:MassPointRelief）"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod2_24",
+                  "title": "S.3.1.3  LOD2",
+                  "children": [
+                    {
+                      "path": "地形モデル_lod2の原典資料_",
+                      "title": "S.3.1.3.1  地形モデル（LOD2）の原典資料"
+                    },
+                    {
+                      "path": "地形モデル_lod2の作成手順_demtinrelief",
+                      "title": "S.3.1.3.2  地形モデル（LOD2）の作成手順（dem:TINRelief）"
+                    },
+                    {
+                      "path": "地形モデル_lod2の作成手順_demmasspointrelief",
+                      "title": "S.3.1.3.3  地形モデル（LOD2）の作成手順（dem:MassPointRelief）"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_22",
+                  "title": "S.3.1.4  LOD3",
+                  "children": [
+                    {
+                      "path": "地形モデル_lod3の原典資料_",
+                      "title": "S.3.1.4.1  地形モデル（LOD3）の原典資料"
+                    },
+                    {
+                      "path": "地形モデル_lod3の作成手順_",
+                      "title": "S.3.1.4.2  地形モデル（LOD3）の作成手順"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "作業上の留意事項__5",
+              "title": "S.3.2  作業上の留意事項",
+              "children": [
+                {
+                  "path": "微小ポリゴンについて_",
+                  "title": "S.3.2.1  微小ポリゴンについて"
+                },
+                {
+                  "path": "_tinの作成_",
+                  "title": "S.3.2.2  TINの作成"
+                },
+                {
+                  "path": "高密度点群データによる地形の表現_",
+                  "title": "S.3.2.3  高密度点群データによる地形の表現"
+                },
+                {
+                  "path": "ファイルの分割_",
+                  "title": "S.3.2.4  ファイルの分割"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "tocT",
+      "title": "附属書T  妥当な水部オブジェクト",
+      "children": [
+        {
+          "path": "tocT_01",
+          "title": "T.1  概要"
+        },
+        {
+          "path": "tocT_02",
+          "title": "T.2  水部の記述とLOD",
+          "children": [
+            {
+              "path": "水部モデル_",
+              "title": "T.2.1  水部モデル"
+            },
+            {
+              "path": "使用可能な地物型と_lod_15",
+              "title": "T.2.2  使用可能な地物型とLOD"
+            },
+            {
+              "path": "水部の空間属性_",
+              "title": "T.2.3  水部の空間属性",
+              "children": [
+                {
+                  "path": "_lod0_26",
+                  "title": "T.2.3.1  LOD0"
+                },
+                {
+                  "path": "_lod1_32",
+                  "title": "T.2.3.2  LOD1"
+                },
+                {
+                  "path": "_lod2_25",
+                  "title": "T.2.3.3  LOD2"
+                },
+                {
+                  "path": "_lod3_23",
+                  "title": "T.2.3.4  LOD3"
+                }
+              ]
+            },
+            {
+              "path": "水部の主題属性_",
+              "title": "T.2.4  水部の主題属性",
+              "children": [
+                {
+                  "path": "データ品質属性_urodataqualityattribute_10",
+                  "title": "T.2.4.1  データ品質属性（uro:DataQualityAttribute）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "tocT_03",
+          "title": "T.3  標準的な作業手順",
+          "children": [
+            {
+              "path": "幾何オブジェクトの作成__14",
+              "title": "T.3.1  幾何オブジェクトの作成",
+              "children": [
+                {
+                  "path": "_lod0_27",
+                  "title": "T.3.1.1  LOD0",
+                  "children": [
+                    {
+                      "path": "原典資料__71",
+                      "title": "T.3.1.1.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__55",
+                      "title": "T.3.1.1.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod1_33",
+                  "title": "T.3.1.2  LOD1",
+                  "children": [
+                    {
+                      "path": "原典資料__72",
+                      "title": "T.3.1.2.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__56",
+                      "title": "T.3.1.2.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod2_26",
+                  "title": "T.3.1.3  LOD2",
+                  "children": [
+                    {
+                      "path": "原典資料__73",
+                      "title": "T.3.1.3.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__57",
+                      "title": "T.3.1.3.2  作業手順"
+                    }
+                  ]
+                },
+                {
+                  "path": "_lod3_24",
+                  "title": "T.3.1.4  LOD3",
+                  "children": [
+                    {
+                      "path": "原典資料__74",
+                      "title": "T.3.1.4.1  原典資料"
+                    },
+                    {
+                      "path": "作業手順__58",
+                      "title": "T.3.1.4.2  作業手順"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "作業上の留意事項__6",
+              "title": "T.3.2  作業上の留意事項",
+              "children": [
+                {
+                  "path": "水部を構成する境界面の作成単位_",
+                  "title": "T.3.2.1  水部を構成する境界面の作成単位"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "tocU",
+      "title": "附属書U  妥当な区域オブジェクト",
+      "children": [
+        {
+          "path": "tocU_01",
+          "title": "U.1  概要"
+        },
+        {
+          "path": "tocU_02",
+          "title": "U.2  区域モデルの記述とLOD",
+          "children": [
+            {
+              "path": "使用可能な地物型と_lod_16",
+              "title": "U.2.1  使用可能な地物型とLOD"
+            },
+            {
+              "path": "区域モデルの_lod",
+              "title": "U.2.2  区域モデルのLOD",
+              "children": [
+                {
+                  "path": "区域モデル_lod1",
+                  "title": "U.2.2.1  区域モデル（LOD1）"
+                }
+              ]
+            },
+            {
+              "path": "区域の空間属性_",
+              "title": "U.2.3  区域の空間属性",
+              "children": [
+                {
+                  "path": "_lod1_34",
+                  "title": "U.2.3.1  LOD1"
+                }
+              ]
+            },
+            {
+              "path": "区域の主題属性_",
+              "title": "U.2.4  区域の主題属性",
+              "children": [
+                {
+                  "path": "_urffunction",
+                  "title": "U.2.4.1  urf:function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "tocU_03",
+          "title": "U.3  urf:Boundary",
+          "children": [
+            {
+              "path": "_urfboundaryの空間属性__2",
+              "title": "U.3.1  urf:Boundaryの空間属性"
+            },
+            {
+              "path": "_urfboundaryの主題属性__2",
+              "title": "U.3.2  urf:Boundaryの主題属性"
+            }
+          ]
+        },
+        {
+          "path": "tocU_04",
+          "title": "U.4  標準的な作業手順",
+          "children": [
+            {
+              "path": "幾何オブジェクトの作成__15",
+              "title": "U.4.1  幾何オブジェクトの作成",
+              "children": [
+                {
+                  "path": "_lod1_35",
+                  "title": "U.4.1.1  LOD1"
+                }
+              ]
+            },
+            {
+              "path": "主題属性の作成_",
+              "title": "U.4.2  主題属性の作成"
+            },
+            {
+              "path": "作業上の留意事項__7",
+              "title": "U.4.3  作業上の留意事項"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "tocV",
+      "title": "附属書V  詳細な 3D 都市モデルのための CityGML プロファイル",
+      "children": [
+        {
+          "path": "tocV_01",
+          "title": "V.1  概要"
+        },
+        {
+          "path": "tocV_02",
+          "title": "V.2  テクスチャマッピングのためのプロファイル",
+          "children": [
+            {
+              "path": "アピアランスモデル_",
+              "title": "V.2.1  アピアランスモデル"
+            },
+            {
+              "path": "テクスチャの記述_",
+              "title": "V.2.2  テクスチャの記述"
+            },
+            {
+              "path": "_appearanceモジュール利用上の留意事項_",
+              "title": "V.2.3  Appearanceモジュール利用上の留意事項"
+            },
+            {
+              "path": "建築物モデルのテクスチャ作成における留意事項_",
+              "title": "V.2.4  建築物モデルのテクスチャ作成における留意事項",
+              "children": [
+                {
+                  "path": "テクスチャのマージン_",
+                  "title": "V.2.4.1  テクスチャのマージン"
+                },
+                {
+                  "path": "テクスチャのサイズ制限_",
+                  "title": "V.2.4.2  テクスチャのサイズ制限"
+                },
+                {
+                  "path": "テクスチャのファイル単位_",
+                  "title": "V.2.4.3  テクスチャのファイル単位"
+                },
+                {
+                  "path": "アトラス化テクスチャをまとめる方法_",
+                  "title": "V.2.4.4  アトラス化（テクスチャをまとめる）方法"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "tocV_03",
+          "title": "V.3  ポイントクラウドマッピングのための拡張プロファイル",
+          "children": [
+            {
+              "path": "tocV_03_01",
+              "title": "V.3.1  ポイントクラウドモデル"
+            },
+            {
+              "path": "tocV_03_02",
+              "title": "V.3.2  ポイントクラウドの記述"
+            },
+            {
+              "path": "tocV_03_03",
+              "title": "V.3.3  ポイントクラウドモジュール利用上の留意事項"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "tocW",
+      "title": "附属書W  品質評価におけるオ ー プンソ ー スソフトウェアの活用",
+      "children": [
+        {
+          "path": "tocW_01",
+          "title": "W.1  概要"
+        },
+        {
+          "path": "tocW_02",
+          "title": "W.2  オープンソースソフトウェアが対象とする品質要求の項目"
+        }
+      ]
+    },
+    {
+      "path": "toc_03",
+      "title": "参考文献"
+    },
+    {
+      "path": "toc_04",
+      "title": "索　引"
+    }
+  ]
+}

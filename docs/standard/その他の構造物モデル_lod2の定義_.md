@@ -1,0 +1,18 @@
+# 4.13.1.3.2 その他の構造物モデル（LOD2）の定義
+
+## 4.13.1.3.2 その他の構造物モデル（LOD2）の定義
+
+その他の構造物モデル（LOD2）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+**表 4-612**
+
+| LOD |  | 地物型 | 空間属性の型 | 取得基準 | 取得方法 | 補足 |
+| --- | --- | --- | --- | --- | --- | --- |
+| LOD2 | ● | OtherConstruction | Solid | ダム、堤防、床止め、堰、水門・閘門・陸閘、樋門・樋管、伏せ越し及び水制 | 屋根面（RoofSurface）、外壁面（WallSurface）、底面（GroundSurface）、及び閉鎖面（ClosureSurface）を境界面とする立体を作成する。 | 上空から見下ろした形状を取得する。 |
+| LOD2 | ● | RoofSurface | MultiSurface |  | 屋根の上方からの正射影の外周を取得し、棟及び谷で区切る。区切った面の各頂点に屋根の高さを与える。 |  |
+| LOD2 | ● | GroundSurface | MultiSurface |  | 構造物の上方からの正射影の外周を取得する。各頂点に水面（陸上の構造物の場合は地面）の高さを与える。 |  |
+| LOD2 | ● | WallSurface | MultiSurface |  | 底面と屋根面を垂直に結んだ面を側面とする。 |  |
+| LOD2 | ■ | ClosureSurface | MultiSurface | 行政界で地物を区切る場合 | 屋根面（RoofSurface）、底面（GroundSurface）及び壁面（WallSurface）を、行政で区切る境界線により囲まれた範囲を取得する。 |  |
+| LOD2 |  | ConstructionInstallation |  |  |  | 対象外 |
+| ●：必須■：条件付必須〇：任意（ユースケースに応じて要否を決定してよい） | ← | ← | ← | ← | ← | ← |
+

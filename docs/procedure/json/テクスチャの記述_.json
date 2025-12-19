@@ -1,0 +1,264 @@
+{
+  "title": "V.2.2  テクスチャの記述",
+  "path": "/plateaudocument02/tocV/tocV_02/テクスチャの記述_",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "V.2.2\tテクスチャの記述",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_552d62b4-7013-1b85-7ec4-9725968c8467"
+        },
+        "content": [
+          {
+            "text": "アピアランスモデルより記述されるテクスチャマッピングの情報は、3D都市モデルの一部としてCityGML形式で記述する。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "figure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_8f528a94-2671-71ed-d194-35e78900b958"
+        },
+        "content": [
+          {
+            "attrs": {
+              "formattedSource": "\u003cbody\u003e\u0026lt;app:ParameterizedTexture\u0026gt;\n  \u0026lt;app:imageURI\u0026gt;[テクスチャ画像への相対パス]\u0026lt;/app:imageURI\u0026gt;\n  \u0026lt;app:mimeType\u0026gt;[テクスチャ画像のファイルタイプ]\u0026lt;/app:mimeType\u0026gt;\n  \u0026lt;app:target uri=\"[テクスチャ画像を貼る対象となる面への参照\"\u0026gt;\n    \u0026lt;app:TexCoordList\u0026gt;\n      \u0026lt;app:textureCoordinates ring=\"[テクスチャ画像を貼る対象となる面の外周への参照\"\u0026gt;[面の外周に対応するテクスチャ画像の座標]\u0026lt;/app:textureCoordinates\u0026gt;\n    \u0026lt;/app:TexCoordList\u0026gt;\n  \u0026lt;/app:target\u0026gt;\n\u0026lt;/app:ParameterizedTexture\u0026gt;\u003c/body\u003e"
+            },
+            "type": "source_listing"
+          },
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "図",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "V-2",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          }
+        ],
+        "type": "figure"
+      }
+    },
+    {
+      "type": "bullet_list",
+      "content": {
+        "content": [
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_16cb3ada-25c5-b4eb-672b-36195db65fd7"
+                },
+                "content": [
+                  {
+                    "text": "app:imageURIには、参照するテクスチャ画像データのファイルの所在を、3D都市モデルファイルからの相対パスにより記述する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_8bd1f504-0336-e07f-9b70-6947a03c8b0a"
+                        },
+                        "content": [
+                          {
+                            "text": "テクスチャ画像のファイルの格納については",
+                            "type": "text"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:toc5_04_05"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "6.4.5",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "text": "フォルダ構成とフォルダ名称",
+                            "type": "text"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:toc5_04_05_06"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "6.4.5.6",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "text": "テクスチャのフォルダ構成を参照すること。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_217b871e-aad8-bb4c-cebf-75a3452ebd1c"
+                        },
+                        "content": [
+                          {
+                            "text": "テクスチャ画像のパスにフォルダを複数階層、含んでもよいこととする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_f02cabbf-6f85-13be-6b63-01dcc3d2ddab"
+                },
+                "content": [
+                  {
+                    "text": "app:mimeTypeには、テクスチャ画像のファイルタイプを指定する。image/png又は、image/jpegのいずれかとなる。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_5541226a-6bc0-0087-dbec-40f2ec9779f0"
+                },
+                "content": [
+                  {
+                    "text": "app:targetの属性uriには、テクスチャ画像を貼る対象となる面（gml:Polygon）のgml:idへの参照を記述する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_48a83c07-1c70-4ebc-64c9-35211136b432"
+                },
+                "content": [
+                  {
+                    "text": "app:textureCoordinatesの属性ringには、テクスチャ画像を貼る対象となる面の外周（gml:LinearRing）のgml:idへの参照を記述する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_370806bc-16a1-59f3-1ad4-35a116308f23"
+                },
+                "content": [
+                  {
+                    "text": "app:textureCoordinatesの値には、gml:LinearRingを構成する各座標に対応するテクスチャ画像の座標を列挙する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_e559cf5c-7c6f-4066-a381-20949e87e1a0"
+                        },
+                        "content": [
+                          {
+                            "text": "テクスチャ画像の座標として用いるUV座標は横方向をU軸、縦方向をV軸として、座標値は0から1の小数値を用いる。UV座標の定義は面ごとにU値、V値の順に、面の頂点定義の順に定義する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          }
+        ],
+        "type": "bullet_list"
+      }
+    }
+  ]
+}

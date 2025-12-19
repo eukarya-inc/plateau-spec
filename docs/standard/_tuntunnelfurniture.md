@@ -1,0 +1,39 @@
+# 4.12.3.1.17 tun:TunnelFurniture
+
+## 4.12.3.1.17 tun:TunnelFurniture
+
+**表 4-578**
+
+| 型の定義 | トンネル内部の区画に配置された、可動設備。 tun:IntTunnelInstallationが、トンネル内部に設置された恒久的かつ固定的な設備であることと対照的に、tun:TunnelFurnitureは椅子や机のような、動かすことができる（位置が固定されない）設備である。 以下の設備のうち、固定されていない設備を対象とする。 受変電設備、予備電源設備、排水設備、換気設備、排水設備、監視制御設備、通報装置、非常用警報装置、消火設備、避難誘導設備、その他。 ただし、ユースケースの要求に応じて、取得対象とする可動設備を限定してよい。 | ← |
+| --- | --- | --- |
+| 上位の型 | core:_CityObject | ← |
+| ステレオタイプ | << FeatureType >> | ← |
+| 継承する属性 | ← | ← |
+| 属性名 | 属性の型及び多重度 | 定義 |
+| gml:description     [ _Feature ] | gml:StringOrRefType [0..1] | 都市オブジェクトの概要。 |
+| gml:name     [ _Feature ] | gml::CodeType [0..1] | 都市オブジェクトを識別する名称。文字列とする。 |
+| gml:boundedBy     [ _Feature ] | gml::Envelope [0..1] | 都市オブジェクトの範囲及び適用される空間参照系。 CityModelの場合のみ必須とする。 |
+| core:creationDate     [ _CityObject ] | xs::date [0..1] | データが作成された日。運用上必須とする。 |
+| core:terminationDate     [ _CityObject ] | xs::date [0..1] | データが削除された日。 |
+| core:relativeToTerrain     [ _CityObject ] | core::RelativeToTerrainType [0..1] | 地表面との相対的な位置関係。標準製品仕様書では使用しない。 |
+| core:relativeToWater     [ _CityObject ] | core::RelativeToWaterType [0..1] | 水面との相対的な位置関係。標準製品仕様書では使用しない。 |
+| 自身に定義された属性 | ← | ← |
+| 属性名 | 属性の型及び多重度 | 定義 |
+| tun:class     [ TunnelFurniture ] | gml::CodeType [0..1] | 可動設備の形態による区分。標準製品仕様書では使用しない。 |
+| tun:function     [ TunnelFurniture ] | gml::CodeType [0..*] | 可動設備の主たる働き。コードリスト（TunnelInstallation_function.xml）より選択する。 |
+| tun:usage     [ TunnelFurniture ] | gml::CodeType [0..*] | 可動設備の主な使い道。標準製品仕様書では使用しない。 |
+| 継承する関連役割 | ← | ← |
+| 関連役割名 | 関連役割の型及び多重度 | 定義 |
+| core:externalReference             [ _CityObject ] | core:ExternalReference [0..*] | 外部への参照。標準製品仕様書では使用しない。 |
+| gen:dateAttribute             [ _CityObject ] | gen:dateAttribute [0..*] | 日付型属性。属性を追加したい場合に使用する。 |
+| gen:doubleAttribute             [ _CityObject ] | gen:doubleAttribute [0..*] | 実数型属性。属性を追加したい場合に使用する。 |
+| gen:genericAttributeSet             [ _CityObject ] | gen:genericAttributeSet [0..*] | 汎用属性のセット。属性を追加したい場合に使用する。 |
+| gen:intAttribute             [ _CityObject ] | gen:intAttribute [0..*] | 整数型属性。属性を追加したい場合に使用する。 |
+| gen:measureAttribute             [ _CityObject ] | gen:measureAttribute [0..*] | 単位付き数値型属性。属性を追加したい場合に使用する。 |
+| gen:stringAttribute             [ _CityObject ] | gen:stringAttribute [0..*] | 文字列型属性。属性を追加したい場合に使用する。 |
+| gen:uriAttribute             [ _CityObject ] | gen:uriAttribute [0..*] | URI型属性。属性を追加したい場合に使用する。 |
+| uro:pointCloud             [ _CityObject ] | uro:AbstractPointCloud [0..1] | ポイントクラウドへの参照。 |
+| 自身に定義された関連役割 | ← | ← |
+| 関連役割名 | 関連役割の型及び多重度 | 定義 |
+| tun:lod4Geometry             [ TunnelFurniture ] | gml:_Geometry [0..1] | 可動設備のLOD4の形状。gml:MultiSurfaceにより記述することを基本とする。 |
+

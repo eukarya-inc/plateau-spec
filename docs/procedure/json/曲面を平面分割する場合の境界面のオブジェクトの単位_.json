@@ -1,0 +1,48 @@
+{
+  "title": "M.10.2.3  曲面を平面分割する場合の境界面のオブジェクトの単位",
+  "path": "/plateaudocument02/tocM/tocM_10/作成上の留意事項__4/曲面を平面分割する場合の境界面のオブジェクトの単位_",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "M.10.2.3\t曲面を平面分割する場合の境界面のオブジェクトの単位",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_6d76cf06-1404-fc9c-7841-0118297eae2c"
+        },
+        "content": [
+          {
+            "text": "トンネルの壁面は曲面として構成されていることが多いが、3D都市モデルは平面（gml:Polygon）のみを対象とするため、tun:WallSurface等の境界面は、データセットが採用する地図情報レベルの水平及び高さの誤差の標準偏差に収まるよう、平⾯に分割しなければならない。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_524cfe80-72c3-1b6e-b6a8-f4aa56d1733c"
+        },
+        "content": [
+          {
+            "text": "このとき、分割した各平面をtun:WallSurface等の境界面にするのではなく、分割後の複数の平面を集約し、元の曲面を近似した単一のtun:WallSurface等の境界面として記述すること。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    }
+  ]
+}

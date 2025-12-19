@@ -1,0 +1,48 @@
+{
+  "title": "J.2.3.1  LOD1",
+  "path": "/plateaudocument02/tocJ/tocJ_02/災害リスクモデルの空間属性_/_lod1_13",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "J.2.3.1\tLOD1",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_3835585d-7fbd-99eb-d435-bbdb7b4f82f5"
+        },
+        "content": [
+          {
+            "text": "災害リスク（浸水）モデル（LOD1）では、浸水面の形状を、高さをもつ面として表現する。高さをもつ面の記述にはgml:MultiSurfaceを使用する。gml:MultiSurfaceに含まれる隣接する面はその頂点を共有し、連続的な浸水面として表現しなければならなない。また、各頂点の高さは、標高に水位を加えた高さとなる。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_76f65f9e-740f-0aed-e8c6-f897eea7b06e"
+        },
+        "content": [
+          {
+            "text": "災害リスク（土砂災害）モデル（LOD1）では、区域の形状を、高さをもたない面として表現する。高さをもたない面の記述にはgml:MultiSurfaceを使用する。このときの面の形状は、土砂災害警戒区域又は土砂災害特別警戒区域の形状と一致し、各頂点の高さは0となる。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    }
+  ]
+}

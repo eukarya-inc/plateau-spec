@@ -1,0 +1,803 @@
+{
+  "title": "V.3.2  ポイントクラウドの記述",
+  "path": "/plateaudocument02/tocV/tocV_03/tocV_03_02",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "V.3.2\tポイントクラウドの記述",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_3a81dbb9-4c8d-efcb-90d3-e6367882d78f"
+        },
+        "content": [
+          {
+            "text": "ポイントクラウドモデルにより記述されるポイントクラウドマッピングの情報は、3D都市モデルの一部としてCityGML形式で記述する。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_512dcc4f-9c80-e527-8ac5-ff117f1cb394"
+        },
+        "content": [
+          {
+            "text": "なお、三次元点群データの座標値の情報は、CityGMLファイル内に直接記述するインライン記述と、外部ファイル参照先を記述する外部ファイル参照の2種類がある。ポイントクラウドは対応する都市オブジェクトのインスタンス内に記述する。PointCloudのgml:idは pcl_[UUID]とする。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "figure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_c144c940-fdde-9bd0-f490-1d680eb4b1d9"
+        },
+        "content": [
+          {
+            "attrs": {
+              "formattedSource": "\u003cbody\u003eインライン記述\n  \u0026lt;uro:pointCloud\u0026gt;\n    \u0026lt;uro:PointCloud gml:id=pcl_[UUID]\u0026gt;\n      \u0026lt;uro:pointFileSrsName\u0026gt;[三次元点群データの座標参照系] \u0026lt;/uro:pointFileSrsName\u0026gt;\n      \u0026lt;uro:pointCloudSpecAttribute\u0026gt;\n        \u0026lt;uro:PointCloudSpecAttribute\u0026gt;\n          \u0026lt;uro:class codeSpace=\"../../codelists/PointCloudSpecAttribute_class.xml\"\u0026gt;1\u0026lt;/uro:class\u0026gt;\n          \u0026lt;uro:function codeSpace=\"../../codelists/PointCloudSpecAttribute_function.xml\"\u0026gt;2\u0026lt;/uro:function\u0026gt;\n          \u0026lt;uro:srcScale codeSpace=\"../../codelists/PointCloudSpecAttribute_srcScale.xml\"\u0026gt;2500\u0026lt;/uro:srcScale\u0026gt;\n          \u0026lt;uro:srcHorizontalAccuracy uom=\"m\"\u0026gt;0.5\u0026lt;/uro:srcHorizontalAccuracy\u0026gt;\n          \u0026lt;uro:srcVerticalAccuracy uom=\"m\"\u0026gt;1.0\u0026lt;/uro:srcVerticalAccuracy\u0026gt;\n          \u0026lt;uro:srcRequiredPointDensity uom=\"点/m2\"\u0026gt;400\u0026lt;/uro:srcRequiredPointDensity\u0026gt;\n          \u0026lt;uro:srcFilteringCriteria codeSpace=\"../../codelists/PointCloudSpecAttribute_srcFilteringCriteria.xml\"\u0026gt;1\u0026lt;/uro:srcFilteringCriteria\u0026gt;\n          \u0026lt;uro:srcGridInterval uom=\"m\"\u0026gt;1\u0026lt;/uro:srcGridInterval\u0026gt;\n          \u0026lt;uro:pointCloudAssociationMethod codeSpace=\"../../codelists/PointCloudSpecAttribute_pointCloudAssociationMethod.xml\"\u0026gt;1\u0026lt;/uro:pointCloudAssociationMethod\u0026gt;\n          \u0026lt;uro:pointSubsamplingInfo codeSpace=\"../../codelists/PointCloudSpecAttribute_pointSubsamplingInfo.xml\"\u0026gt;1\u0026lt;/uro:pointSubsamplingInfo\u0026gt;\n        \u0026lt;/uro:PointCloudSpecAttribute\u0026gt;\n      \u0026lt;/uro:pointCloudSpecAttribute\u0026gt;\n      \u0026lt;uro:points\u0026gt;[三次元点群データの座標値]\u0026lt;/uro:points\u0026gt;\n    \u0026lt;/uro:PointCloud\u0026gt;\n  \u0026lt;/uro:pointCloud\u0026gt;\n\n外部ファイル参照\n  \u0026lt;uro:pointCloud\u0026gt;\n    \u0026lt;uro:PointCloud gml:id=pcl_[UUID]\u0026gt;\n      \u0026lt;uro:mimeType\u0026gt;[三次元点群データのファイルタイプ]\u0026lt;/uro:mimeType\u0026gt;\n      \u0026lt;uro:pointFile\u0026gt;[三次元点群データへの相対パス]\u0026lt;/uro:pointFile\u0026gt;\n      \u0026lt;uro:pointFileSrsName\u0026gt;[三次元点群データの座標参照系] \u0026lt;/uro:pointFileSrsName\u0026gt;\n      \u0026lt;uro:pointCloudSpecAttribute\u0026gt;\n        \u0026lt;uro:PointCloudSpecAttribute\u0026gt;\n          \u0026lt;uro:class codeSpace=\"../../codelists/PointCloudSpecAttribute_class.xml\"\u0026gt;1\u0026lt;/uro:class\u0026gt;\n          \u0026lt;uro:function codeSpace=\"../../codelists/PointCloudSpecAttribute_function.xml\"\u0026gt;2\u0026lt;/uro:function\u0026gt;\n          \u0026lt;uro:srcScale codeSpace=\"../../codelists/PointCloudSpecAttribute_srcScale.xml\"\u0026gt;2500\u0026lt;/uro:srcScale\u0026gt;\n          \u0026lt;uro:srcHorizontalAccuracy uom=\"m\"\u0026gt;0.5\u0026lt;/uro:srcHorizontalAccuracy\u0026gt;\n          \u0026lt;uro:srcVerticalAccuracy uom=\"m\"\u0026gt;1.0\u0026lt;/uro:srcVerticalAccuracy\u0026gt;\n          \u0026lt;uro:srcRequiredPointDensity uom=\"点/m2\"\u0026gt;400\u0026lt;/uro:srcRequiredPointDensity\u0026gt;\n          \u0026lt;uro:srcFilteringCriteria codeSpace=\"../../codelists/PointCloudSpecAttribute_srcFilteringCriteria.xml\"\u0026gt;1\u0026lt;/uro:srcFilteringCriteria\u0026gt;\n          \u0026lt;uro:srcGridInterval uom=\"m\"\u0026gt;1\u0026lt;/uro:srcGridInterval\u0026gt;\n          \u0026lt;uro:isIntensity\u0026gt;1\u0026lt;/uro:isIntensity\u0026gt;\n          \u0026lt;uro:spectralBandSet\u0026gt;1\u0026lt;/uro:spectralBandSet\u0026gt;\n          \u0026lt;uro:isReturnInfo\u0026gt;0\u0026lt;/uro:isReturnInfo\u0026gt;\n          \u0026lt;uro:isStandardClassification\u0026gt;0\u0026lt;/uro:isStandardClassification\u0026gt;\n          \u0026lt;uro:customClassificationType\u0026gt;0\u0026lt;/uro:customClassificationType\u0026gt;\n          \u0026lt;uro:pointCloudAssociationMethod codeSpace=\"../../codelists/PointCloudSpecAttribute_pointCloudAssociationMethod.xml\"\u0026gt;1\u0026lt;/uro:pointCloudAssociationMethod\u0026gt;\n          \u0026lt;uro:pointSubsamplingInfo codeSpace=\"../../codelists/PointCloudSpecAttribute_pointSubsamplingInfo.xml\"\u0026gt;1\u0026lt;/uro:pointSubsamplingInfo\u0026gt;\n        \u0026lt;/uro:PointCloudSpecAttribute\u0026gt;\n      \u0026lt;/uro:pointCloudSpecAttribute\u0026gt;\n    \u0026lt;/uro:PointCloud\u0026gt;\n  \u0026lt;/uro:pointCloud\u0026gt;\u003c/body\u003e"
+            },
+            "type": "source_listing"
+          },
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "図",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "V-6",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          }
+        ],
+        "type": "figure"
+      }
+    },
+    {
+      "type": "bullet_list",
+      "content": {
+        "content": [
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_0508ebfb-3e77-d65f-ab81-a689c4ab7d8a"
+                },
+                "content": [
+                  {
+                    "text": "uro:pointFileには、外部参照する三次元点群データのファイルの所在を、3D都市モデルファイルからの相対パスにより記述する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a66c78b0-96fc-08f4-4fa9-9d5beddedb7b"
+                        },
+                        "content": [
+                          {
+                            "text": "三次元点群データのファイルの格納については ",
+                            "type": "text"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:toc5_04_05_07"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "6.4.5.7",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "text": "を参照すること。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_1d5644b9-b3ac-3324-2b19-a7d7b294eece"
+                        },
+                        "content": [
+                          {
+                            "text": "三次元点群データのパスにフォルダを複数階層、含んでもよいこととする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_d2e5a8fd-056b-2eb0-f4c2-1d5635598981"
+                },
+                "content": [
+                  {
+                    "text": "uro:mimeTypeには、外部ファイル参照先の三次元点群データのファイルタイプを指定する。application/vnd.las又は、application/vnd.laszipのいずれかとなる。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_05061443-af3e-72ce-06fe-8b50eee4003b"
+                },
+                "content": [
+                  {
+                    "text": "uro:pointFileSrsNameには、三次元点群データの座標参照系を記述する。記述方法はEPSG:[EPSGコード]とする。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_98321fb1-a8c9-8d0b-bce0-0ba2a8cfff22"
+                        },
+                        "content": [
+                          {
+                            "text": "[EPSGコード]は、EPSGにより指定された半角数字の組合せによる識別子であり、6697とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_c8d8aa1a-8c18-e2b8-613d-01a9ee157055"
+                },
+                "content": [
+                  {
+                    "text": "uro:pointsには、インライン記述する三次元点群データの座標値を記述する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_0aee270b-6143-cdb1-8576-43a140bc46e0"
+                        },
+                        "content": [
+                          {
+                            "text": "座標値は、日本測地系2011 における経緯度座標系と東京湾平均海面を基準とする標高の複合座標参照系（EPSG:6697）を用い、gml:MultiPointにて記述する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_32732611-52f8-a2f4-30d8-d377d11dc28d"
+                },
+                "content": [
+                  {
+                    "text": "uro:classには、三次元点群データの種類を記述する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_67f96a88-7a02-dc30-f98b-80def4102ea5"
+                        },
+                        "content": [
+                          {
+                            "text": "三次元点群データの種類は、生成データ、計測データの識別をするための属性であり、コードリスト（PointCloudSpecAttribute_class.xml）から選択する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_0ba5584f-2bdb-a349-d61c-6b7a40d5b8f9"
+                },
+                "content": [
+                  {
+                    "text": "uro:functionには、三次元点群データの計測方法を記述する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_1295e4e7-1eba-bb06-351f-6d41a486cb6f"
+                        },
+                        "content": [
+                          {
+                            "text": "uro:classが計測データの場合に記述することができ、コードリスト（PointCloudSpecAttribute_function.xml）から選択する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_45866011-5132-4518-2a74-5eb6fc89b2e2"
+                },
+                "content": [
+                  {
+                    "text": "uro:srcScaleには、原典の三次元点群データの地図情報レベルを記述する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_f8268824-e46f-5e83-00ec-1c9ce79b9f62"
+                },
+                "content": [
+                  {
+                    "text": "uro:srcHorizontalAccuracyには、原典の三次元点群データの水平精度を記述する。単位はｍとする。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_47824ab0-e82a-3d40-e065-2a2b1b67f0ef"
+                },
+                "content": [
+                  {
+                    "text": "uro:srcVerticalAccuracyには、原典の三次元点群データの垂直精度を記述する。単位はｍとする。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_12366a87-527f-ae72-d396-39c16b17e94f"
+                },
+                "content": [
+                  {
+                    "text": "uro:srcRequiredPointDensityには、原典の三次元点群データの要求点密度を記述する。単位は点/m2とする。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_3c0f6c73-8ce6-359d-23b1-7bbf8c580136"
+                        },
+                        "content": [
+                          {
+                            "text": "要求点密度とは、作成時に満たすべき点密度を指し、原典の三次元点群データの作成時",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_96dff279-e85e-ada6-46ff-863d11ec7776"
+                },
+                "content": [
+                  {
+                    "text": "uro:srcFilteringCriteriaには、原典の三次元点群データのフィルタリングの状況を記述する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_45de55d4-cb88-5966-351c-4ba7cb727ca9"
+                        },
+                        "content": [
+                          {
+                            "text": "フィルタリングした項目をコードリスト（PointCloudSpecAttribute_srcFilteringCriteria.xml）から複数選択する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_32dbba55-47a4-fed2-c42c-be64d54a7822"
+                },
+                "content": [
+                  {
+                    "text": "uro:srcGridIntervalには、原典の三次元点群データの格子間隔を記述する。単位はm又はdegとする。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_9e95707b-ad27-e04c-5240-ac9e5ef35d09"
+                        },
+                        "content": [
+                          {
+                            "text": "原典の三次元点群データがグリッドデータの場合にその格子間隔を記述する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_aaf82900-60f6-50c5-c039-d73083f6cf5d"
+                },
+                "content": [
+                  {
+                    "text": "uro:isIntensityには、三次元点群データにIntensity（反射強度）の情報が含まれているか否かを記述する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_9508f589-2f40-5077-9e08-c73348ef21c9"
+                        },
+                        "content": [
+                          {
+                            "text": "三次元点群データを外部参照する場合に記述することができる。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_0ec66210-e737-cbd7-2f9b-b8175a4b5949"
+                },
+                "content": [
+                  {
+                    "text": "uro:spectralBandSetには、三次元点群データに含まれる波長スペクトル情報（RGBやNIR等）を示すコードを記述する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_cedd055f-b8a5-e832-3790-01cce64caa8b"
+                        },
+                        "content": [
+                          {
+                            "text": "三次元点群データを外部参照する場合に記述することができる。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_17e8c7c4-f278-32d3-9059-6abcf2546a64"
+                },
+                "content": [
+                  {
+                    "text": "uro:isReturnInfoには、三次元点群データにReturnNumber及びNumber of Returns（反射番号、総反射回数）の情報が含まれているか否かを記述する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_8ddefdee-3734-e7d4-2e10-a21f241d6e5d"
+                        },
+                        "content": [
+                          {
+                            "text": "三次元点群データを外部参照する場合に記述することができる。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_42f23e1e-0b08-26d9-68e8-bb5886e56e51"
+                },
+                "content": [
+                  {
+                    "text": "uro:isStandardClassificationには、三次元点群データがASPRS（American Society for Photogrammetry and Remote Sensing）の定義したクラス分類に適合している否かを記述する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_2317bae1-2b02-f66a-935a-a70ccb68cca0"
+                        },
+                        "content": [
+                          {
+                            "text": "三次元点群データを外部参照する場合に記述することができる。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_f8bbc4a8-64c7-85fe-f70d-6f141d01bb6c"
+                },
+                "content": [
+                  {
+                    "text": "uro:customClassificationTypeには、三次元点群データを独自にクラス分類している場合に使用しているクラス分類コードをコードリスト（PointCloudSpecAttribute_customClassificationType.xml）として作成し選択する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_b53bd7f4-9b50-bf9c-724a-7518e02ded96"
+                        },
+                        "content": [
+                          {
+                            "text": "三次元点群データを外部参照する場合に記述することができる。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_68f563bf-246b-6aba-f73b-a449e9b154a1"
+                },
+                "content": [
+                  {
+                    "text": "uro:pointCloudAssociationMethodには、三次元点群データと都市オブジェクトの対応づけの方法をコードリスト（PointCloudSpecAttribute_pointCloudAssociationMethod.xml）から選択する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_3d93b89d-806a-221b-a378-8e68698c4b4e"
+                        },
+                        "content": [
+                          {
+                            "text": "対応づけの方法は、",
+                            "type": "text"
+                          },
+                          {
+                            "attrs": {
+                              "href": "urn:metanorma:doc-part:tocV_03_03"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "V.3.3",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              }
+                            ],
+                            "type": "resource_link"
+                          },
+                          {
+                            "text": "の三次元点群データの抽出手法のメリットデメリットを確認し、ユースケースに適する手法を選択する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_5e94647c-cbd2-8a16-a46c-583fe1baf9fd"
+                },
+                "content": [
+                  {
+                    "text": "uro:pointSubsamplingInfoには、三次元点群データの間引きの情報を記述する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_98e8e108-4168-3a76-d2ae-f2a5d68cb591"
+                        },
+                        "content": [
+                          {
+                            "text": "コードリスト（PointCloudSpecAttribute_pointSubsamplingInfo.xml）から選択する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          }
+        ],
+        "type": "bullet_list"
+      }
+    }
+  ]
+}

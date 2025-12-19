@@ -1,0 +1,803 @@
+{
+  "title": "6.4.5.6  テクスチャのフォルダ構成",
+  "path": "/plateaudocument02/toc5/toc5_04/toc5_04_05/toc5_04_05_06",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "6.4.5.6\tテクスチャのフォルダ構成",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_4c55cb74-692d-d449-45e5-a350fb7c4b7b"
+        },
+        "content": [
+          {
+            "text": "地形以外の地物に貼るテクスチャは、地物を格納するフォルダの直下にサブフォルダを作成し、その中に格納する。",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_b0032c37-2fa3-4b9a-9458-8f106195af6e"
+            },
+            "type": "anchor"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_a56fc616-baa8-4abf-b207-c416ae32cdd9"
+            },
+            "type": "anchor"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "bullet_list",
+      "content": {
+        "content": [
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_dd857bc0-22d8-013e-de36-670034dd97e2"
+                },
+                "content": [
+                  {
+                    "text": "建築物の壁面・屋根面や道路の路面等の面に貼るためのテクスチャは、それぞれの地物を格納する3D都市モデルのファイルを格納するフォルダ（例：建築物の場合は、「bldg」）の直下にサブフォルダを作成し、その中に格納する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_8bd0cd99-263e-2754-c777-c5cef984d7fd"
+                },
+                "content": [
+                  {
+                    "text": "サブフォルダは、3D都市モデルのファイル単位に作成する。3D都市モデルのファイルから参照する全ての画像は、このファイルに対応するサブフォルダに格納すること。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_e6183097-2b13-11a4-df00-74e849a4fb72"
+                },
+                "content": [
+                  {
+                    "text": "サブフォルダの名称は、",
+                    "type": "text"
+                  },
+                  {
+                    "content": [
+                      {
+                        "text": "[メッシュコード]_[地物型]_[CRS]_[オプション]_appearance",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "code"
+                  },
+                  {
+                    "text": "とする。",
+                    "type": "text"
+                  },
+                  {
+                    "content": [
+                      {
+                        "text": "[メッシュコード]",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "code"
+                  },
+                  {
+                    "text": "、",
+                    "type": "text"
+                  },
+                  {
+                    "content": [
+                      {
+                        "text": "[地物型]",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "code"
+                  },
+                  {
+                    "text": "、",
+                    "type": "text"
+                  },
+                  {
+                    "content": [
+                      {
+                        "text": "[CRS]",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "code"
+                  },
+                  {
+                    "text": "及び",
+                    "type": "text"
+                  },
+                  {
+                    "content": [
+                      {
+                        "text": "[オプション]",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "code"
+                  },
+                  {
+                    "text": "は、これに対応する3D都市モデルのファイル名と一致させる。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_645b1ef8-4848-f17b-b0ef-19b65ec7e062"
+                        },
+                        "content": [
+                          {
+                            "text": "3D都市モデルのファイル名に",
+                            "type": "text"
+                          },
+                          {
+                            "content": [
+                              {
+                                "text": "[オプション]",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          },
+                          {
+                            "text": "が含まれない場合は、",
+                            "type": "text"
+                          },
+                          {
+                            "content": [
+                              {
+                                "text": "_[オプション]",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          },
+                          {
+                            "text": "は、省略する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_baedc851-2574-ba0c-04f0-f233b739f5cd"
+                        },
+                        "content": [
+                          {
+                            "text": "なお、オープンデータ用3D都市モデルのテクスチャを格納するサブフォルダの名称に、_opは不要とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_41c4656d-f151-5574-1685-7a542d22389e"
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "例",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "1",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "figCaption"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_ba7eda20-c411-a668-1eed-2d96e96acdc9"
+                            },
+                            "content": [
+                              {
+                                "text": "市町村用3D都市モデルのファイル（",
+                                "type": "text"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "text": "53394610_bldg_6697.gml",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "code"
+                              },
+                              {
+                                "text": "）に対応するテクスチャのサブフォルダ名称の例",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "paragraph"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_583bea96-cd1d-a6fc-0de4-2177d797ae4d"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "53394610_bldg_6697_appearance",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "code"
+                              }
+                            ],
+                            "type": "paragraph"
+                          }
+                        ],
+                        "type": "example"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_5cd8a388-7b7f-d480-595d-529d4184ef1e"
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "例",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "2",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "figCaption"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_278ee795-09d3-d6a6-5550-fbc3403a603e"
+                            },
+                            "content": [
+                              {
+                                "text": "オープンデータ用3D都市モデルのファイル（",
+                                "type": "text"
+                              },
+                              {
+                                "content": [
+                                  {
+                                    "text": "53394610_bldg_6697_op.gml",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "code"
+                              },
+                              {
+                                "text": "）に対応するテクスチャのサブフォルダ名称の例",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "paragraph"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_a23a1c91-7566-3732-dbf2-34097154b0e3"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "53394610_bldg_6697_appearance",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "code"
+                              }
+                            ],
+                            "type": "paragraph"
+                          }
+                        ],
+                        "type": "example"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_27fbdc97-9a36-3f2f-64e9-09e41998fcb3"
+                },
+                "content": [
+                  {
+                    "text": "テクスチャの記述は、",
+                    "type": "text"
+                  },
+                  {
+                    "attrs": {
+                      "href": "urn:metanorma:doc-part:tocV_02"
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "text": "V.2",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      }
+                    ],
+                    "type": "resource_link"
+                  },
+                  {
+                    "text": "テクスチャマッピングのためのプロファイルに従い、相対パスで記述すること。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_7f5a143c-3f4e-6614-fd5a-9f6462f13d4c"
+                },
+                "content": [
+                  {
+                    "text": "3D都市モデルのファイルから、これに対応するテクスチャを格納するフォルダ以外のフォルダ（ファイル名に含まれるメッシュコードが異なるフォルダ）に格納したテクスチャを参照してはならない。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          }
+        ],
+        "type": "bullet_list"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_3fa6bd87-f079-b175-3adf-23619ea9749e"
+        },
+        "content": [
+          {
+            "text": "テクスチャを格納するためのフォルダ構成の例を",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "href": "urn:metanorma:doc-part:tab-5-23"
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "text": "表",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "span"
+                  },
+                  {
+                    "text": "6-37",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              }
+            ],
+            "type": "resource_link"
+          },
+          {
+            "text": "に示す。",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "href": "urn:metanorma:doc-part:tab-5-23"
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "text": "表",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "span"
+                  },
+                  {
+                    "text": "6-37",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              }
+            ],
+            "type": "resource_link"
+          },
+          {
+            "text": "は、建築物に使用するテクスチャのフォルダ構成である。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "tableFigure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:tab-5-23"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "表",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "6-37 — テクスチャのためのフォルダ構成（建築物の場合）",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "colWidths": [
+                "9.8901%",
+                "9.8901%",
+                "9.8901%",
+                "26.3736%",
+                "43.9561%"
+              ]
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "3",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "フォルダ構成",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "フォルダ名",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "フォルダの説明",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d6858a30-1b61-f37e-87d7-d9d5585f055a"
+                        },
+                        "content": [
+                          {
+                            "attrs": {
+                              "height": "auto",
+                              "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAAA3CAYAAACMwl2GAAAGP0lEQVR4nO1c3WscVRT/3XPv3c80pAENfahPDaVvktK3BlrxJf9A8UFEEHxTH8Q/wIDin+KDIgoKoQ9pkTykKa1a0aQVRGmRmqQQN/sxOzPn+tC525t1d+djd7PZjD8I2eycmXvmN+eec+45dyKMMRiEjY0NCCEAAMaYzmcL3/f7nttLvpfMIFy7dm3g8WkBxQlYooQQsaS58t2fgXhSTzNUUkFm7kl0EvIGySR5eKcBsUSHYYjl5WXa2NhYbrfbupu0tFbb47gA8DuA3xLoO7WIJfrq1avi1q1bH2mtPysWiyNXgIjQbDa3iOgdZn4w8gFOCGKJvnfvnioUCm8IIdBsNkEU69ZTQQgBIroShuFqq9V6r1wuPx7pACcEiYKh7/uGmUdOMvDClRDR66VS6S2kiBvThETMjTtgRYF2hog+APDmWAebEGKtxxgz1rRMCAFmBjNDSvmyMebjMAz/JqLvmBnr6+tHdOl+6HFGcPbs2c65rrydncPGnTAMB+p36dKl5+MNNcoIYJWzhAshXiGi94UQi/Z7N5fPCnsdS3AYhmDmTNeyhuEu5AAMdK0nxh9awiOlX2PmD33f/6Tdbu8rpQQRZZpZT58+PfL3uXPnUC6XaRiSAWB+ft4cHh5WPc/TAAQR1c+cOdOs1WrNXudNnGhjTMcSrJsiIi2EeFtrfUVr/ZcQwrfHslq1Mzs0M88xsySiI1M/Dfb39wFAK6UIAIiIDw4OfiaidwG0u+UnTrRjxR1E07JIREvudE+KXhmSUgrVahXVanVonV3Yhy+lhFJqIQzDl4IgeAIcdXUTJ7of3CBsra7XQ+mGvTlm7syWQqGASqUCKSU8zxu5rnZmBEHA1Wq1cXh42LmHjszIRx0jktZVXDdTqVQwOzsLrfUxaAjv/PnztV4HpoLoNFmHfRhSSszMzKBSqUAp1flu1DDGdGaPMebO6upqJ8qOxXUME6iSXNv9PQjWX1arVZTL5U7aCCBzOpdEP2MMpJSf37hxo+cgQxPdFQwmXnNWSqFUKqFcLgMYH7kWNm4wM7TWO/3GG5poS/Ls7CwKhcLE68tutjFukt3xmPlJo9Fo9osFQ/toKSXm5uZQLBYnTjLwYtV2HCTb8aSUIKJvnj17ttdPLjXRLpnGGCiljiuin1hE97+5sLDQ6ieTmmjXBwshoLUeS/l0WmBz8zAMDwfJDc1QsVjsuRLLC6SUMMb80Gw2fx0kN7RFu8WePJKtlAIz361UKr8MyrhSZx1uAahYLIKIOguB4wpAk4Rb13bye8/zvIHJQGoTtKsg4LnbyBPJwH/3rTQajTqAzbjzUhNtLdqtquWF5G4opUBEf9br9ZvA4JVrZh8dDZJLkq3biKy7Wa/X96SUA2spmfNorfXQ/bZphBv8o3bYj7u7uyZukZQ6GDpdkOzaTjHcXiEzh8aYLxYXF2PbNJnYIqJO6THnCJLursrko5VSKBQK6dU6BbCzOXIhT4wx7SSxKrVZ2iZnlKhnVnhaIaW0JVEw89d7e3sHSc7L5DrySjLwovEb/dwG0LeQ5CJTHp3HbMMFM8P3fTBz/9cdupDJorXWE++kTBKR27hjjHmU9JzURNva80ko8k8KhUIBxpjvAYyP6FKpdKSwlDc4WxnaaYwtddZhl94WeQuKSil4nvcPET1Is50s06rDreDlzYVEHZWHANbHYtF210/efXS0raJ+4cKF/e3tbVy/fn2gfKcpknSAPPrjXvB9H8aYhwA4jbElItqWBPPe7QaAIAiaAL7a2dkJ0xhf4ndYpJS5rW+4YGYPwE9pXzmJJdrZV5ZLop0Ckq1a7tXr9TaQLk7FBkN7MSklgiDIqu/UIgzDI4Qy89fz8/O1RqORyqITZR12oFYrUf3k1CLacH7TGNNKm3XFEn3//n1cvHgRWuux7JY/6XC3I0e9wjbQ/58Q9EMs0bYX1vXWVG5gyVRKIQzDu0T0OG5m93oIsURfvnwZRCT6XSAvKJfL8Dzv2yAIEheSXMQSvbS0FGxubn6ptX61VCrlzqKB54lArVb7A8DtrE3pWKK3trbM2trapysrK1sAFohIA8gV28y8K6V8RETbWa+RKOtYWVlhAGvRoEcvcMq74Xax1g9JZ3g+N2dMAP8TfUz4F9j0GMwRMl1HAAAAAElFTkSuQmCC",
+                              "width": "50"
+                            },
+                            "type": "image"
+                          }
+                        ],
+                        "type": "figure"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f71e4350-f870-0682-9c4f-d3d962bdafd6"
+                        },
+                        "content": [
+                          {
+                            "text": "bldg",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_7ca48302-e348-f60f-a4f4-4eba9faf5090"
+                        },
+                        "content": [
+                          {
+                            "text": "建築物、建築物部分、建築物付属物及びこれらの境界面を格納するフォルダ。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "建築物等のファイルは、基準地域メッシュ（第3次地域区画、一辺の長さ約1km）単位に作成される。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f0a01f70-04f0-e087-1703-41ca6443a805"
+                        },
+                        "content": [
+                          {
+                            "attrs": {
+                              "height": "auto",
+                              "src": "data:image/png;base64,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",
+                              "width": "50"
+                            },
+                            "type": "image"
+                          }
+                        ],
+                        "type": "figure"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_587cc2fa-0dbb-777d-46e9-a470bc9005d6"
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "text": "[メッシュコード]_[地物型]_[CRS]_[オプション]_appearance",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_e9717f75-fc0b-154d-acaf-5dcf763a6327"
+                        },
+                        "content": [
+                          {
+                            "text": "建築物等のファイルごとに作成される、テクスチャの格納フォルダ。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              }
+            ],
+            "type": "table"
+          }
+        ],
+        "type": "tableFigure"
+      }
+    }
+  ]
+}

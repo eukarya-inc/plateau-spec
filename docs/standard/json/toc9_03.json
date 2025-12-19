@@ -1,0 +1,207 @@
+{
+  "title": "9.3  XMLSchemaの多重度と運用上の多重度についての留意事項",
+  "path": "/plateaudocument/toc9/toc9_03",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "9.3\tXMLSchemaの多重度と運用上の多重度についての留意事項",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_626ab3c3-fdee-0371-2fda-70911d0b2c42"
+        },
+        "content": [
+          {
+            "text": "3D都市モデルの符号化仕様として、CityGML及びi-URにおいて策定されたXMLSchemaを採用している。そのため、これらのXMLSchemaに定義されたタグ及びその多重度に従う必要がある。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_97de1a8c-e9b3-fd8b-c9de-8977a2db8b12"
+        },
+        "content": [
+          {
+            "text": "この時、CityGMLは汎用的な利用が想定されていることから、全ての地物あるいは属性に対応するタグの出現回数が、XMLSchema上では全て",
+            "type": "text"
+          },
+          {
+            "content": [
+              {
+                "text": "[0..1]",
+                "type": "text"
+              }
+            ],
+            "type": "code"
+          },
+          {
+            "text": "又は",
+            "type": "text"
+          },
+          {
+            "content": [
+              {
+                "text": "[0..\\*]",
+                "type": "text"
+              }
+            ],
+            "type": "code"
+          },
+          {
+            "text": "というように設定されている。これは、いずれの地物あるいは属性を示すタグがデータ集合に出現してもしなくてもよいことを意味する。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_e471467e-4d85-f836-96d8-2b8aa0698321"
+        },
+        "content": [
+          {
+            "text": "しかしながら、3D都市モデルの整備や利用を推進するにあたり、その運用上、特定のタグの出現を必須（多重度",
+            "type": "text"
+          },
+          {
+            "content": [
+              {
+                "text": "[1]",
+                "type": "text"
+              }
+            ],
+            "type": "code"
+          },
+          {
+            "text": "）としたり、あるいは出現を禁止（多重度",
+            "type": "text"
+          },
+          {
+            "content": [
+              {
+                "text": "[0]",
+                "type": "text"
+              }
+            ],
+            "type": "code"
+          },
+          {
+            "text": "）としたり、出現回数を制限したい場合がある。例えば、bldg:Building（建築物）のuro:buildingIDAttribute（建築物識別属性）は、XMLSchema上は多重度が",
+            "type": "text"
+          },
+          {
+            "content": [
+              {
+                "text": "[0..*]",
+                "type": "text"
+              }
+            ],
+            "type": "code"
+          },
+          {
+            "text": "となるが、3D都市モデル上で建築物を識別するための情報となるため、多重度を",
+            "type": "text"
+          },
+          {
+            "content": [
+              {
+                "text": "[1]",
+                "type": "text"
+              }
+            ],
+            "type": "code"
+          },
+          {
+            "text": "としたい場合がこれに該当する。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_ca22b97a-bf7b-9228-abd7-6c8939ef55da"
+        },
+        "content": [
+          {
+            "text": "標準製品仕様に示す応用スキーマ（UMLクラス図及び定義文書）では、3D都市モデルとして必要な",
+            "type": "text"
+          },
+          {
+            "content": [
+              {
+                "text": "運用上の",
+                "type": "text"
+              }
+            ],
+            "type": "underline"
+          },
+          {
+            "text": "多重度を示している。データ製品の実装においては、応用スキーマとの一致（運用上の多重度との一致）が必要となることに留意すること。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_5bd3e2ea-cafd-627c-c900-3807be825edf"
+        },
+        "content": [
+          {
+            "text": "なお、応用スキーマの多重度とXMLSchemaに定義された多重度との一覧を別表「応用スキーマとXMLSchemaとの多重度の対応」",
+            "type": "text"
+          },
+          {
+            "type": "linebreak"
+          },
+          {
+            "text": " （  ",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "href": "https://www.mlit.go.jp/plateau/file/libraries/doc/specification_attachedTable1.xlsx"
+            },
+            "content": [
+              {
+                "text": "https://www.mlit.go.jp/plateau/file/libraries/doc/specification_attachedTable1.xlsx",
+                "type": "text"
+              }
+            ],
+            "type": "external_link"
+          },
+          {
+            "text": " ）に示す。両者に差異がある場合には、併せてその内容を留意事項として示す。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    }
+  ]
+}

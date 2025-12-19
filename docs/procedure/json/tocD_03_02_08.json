@@ -1,0 +1,78 @@
+{
+  "title": "D.3.2.8  道路のデータ品質属性（uro:tranDataQualityAttribute）",
+  "path": "/plateaudocument02/tocD/tocD_03/道路の主題属性_/tocD_03_02_08",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "D.3.2.8\t道路のデータ品質属性（uro:tranDataQualityAttribute）",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_95fd908b-1e38-b79d-cad1-dd95ff73d396"
+        },
+        "content": [
+          {
+            "text": "道路の3D都市モデルを作成する場合、既存のGISデータの変換、航空写真からの図化又はMMS等により取得した点群からの図化等、様々な手法が想定される。都市の大部分は航空写真測量によりデータ作成を行うが、高架橋の下部等、航空測量では取得できない場所をMMS測量により補完する又は航空測量では取得できない場所は既存の図面から推定するというように、一つの3D都市モデルの中に複数の手法が混在する可能性がある。また、同じ手法であっても元となる航空写真やレーザ点群の時点が異なる可能性もある。手法や原典資料が異なれば、データの品質も異なる。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_6f593969-425d-0b9b-cc9f-1b478faff372"
+        },
+        "content": [
+          {
+            "text": "3D都市モデルでは、データ集合全体としての品質はメタデータに記録する。しかしながら、メタデータでは、個々の都市オブジェクトに対して位置正確度や適用したLOD等の品質を記述することが困難である。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_b94509e5-f0c8-173d-2f47-1918a0642ddb"
+        },
+        "content": [
+          {
+            "text": "そこで、標準製品仕様書では、個々の都市オブジェクトに対してデータ品質に関する情報を記述するための属性として、「データ品質属性」（uro:DataQualityAttribute）を定義している。データ品質属性は、属性としてデータ作成に使用した原典資料の地図情報レベル、その他原典資料の諸元及び精緻化したLODをもつ。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_5567c1d0-71f6-63ad-b3f9-b050599ac5bf"
+        },
+        "content": [
+          {
+            "text": "3D都市モデルに含まれる全ての交通（道路）オブジェクトは、このデータ品質属性を必ず作成しなければならない。ただし、道路（tran:Road）に対してデータ品質属性を付与することはできるが、これを構成する交通領域（tran:TrafficArea）や交通補助領域（tran:AuxiliaryTrafficArea）にデータ品質属性を付与することはできない。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    }
+  ]
+}

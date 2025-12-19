@@ -1,0 +1,21 @@
+# 4.20.3.1.2 urf:Boundary
+
+## 4.20.3.1.2 urf:Boundary
+
+**表 4-816**
+
+| 型の定義 | 区域の境界線。都市計画決定された区域を区分する境界線。都市計画決定された区域の境界に確定根拠等の情報を付与したい場合に作成する。 | ← |
+| --- | --- | --- |
+| 上位の型 | — | ← |
+| ステレオタイプ | << DataType >> | ← |
+| 自身に定義された属性 | ← | ← |
+| 属性名 | 属性の型及び多重度 | 定義 |
+| urf:class     [ Boundary ] | gml::CodeType [0..1] | 境界線の区分。標準製品仕様書では使用しない。 |
+| urf:function     [ Boundary ] | gml::CodeType [0..*] | 境界線の種類。コードリスト（Boundary_function.xml）より選択する。 |
+| urf:usage     [ Boundary ] | gml::CodeType [0..*] | 境界が区切る区域の種類。コードリスト（UrbanPlan_areaType.xml）より選択する。都市計画の区域を区分する境界の場合に、区域の種類を特定する。 |
+| urf:offset     [ Boundary ] | gml::LengthType [0..1] | オフセットされている場合の量。単位はm（uom=”m”）とする。 |
+| urf:offsetDirection     [ Boundary ] | xs::string [0..1] | 基準となる線に対するオフセットの方向。 |
+| 自身に定義された関連役割 | ← | ← |
+| 関連役割名 | 関連役割の型及び多重度 | 定義 |
+| urf:location             [ Boundary ] | gml:MultiCurve [0..1] | 境界線の位置。高さを0とする。 |
+

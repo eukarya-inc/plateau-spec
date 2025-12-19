@@ -1,0 +1,58 @@
+{
+  "title": "6.4.4.1.3  高精度な地形モデルのファイル名称",
+  "path": "/plateaudocument02/toc5/toc5_04/toc5_04_04/toc5_04_04_01/高精度な地形モデルのファイル名称_",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "6.4.4.1.3\t高精度な地形モデルのファイル名称",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_fa4f2d4e-7cbc-ab4c-f73b-64dfca36df45"
+        },
+        "content": [
+          {
+            "text": "3D都市モデル",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_40ff000c-ac83-40bd-8b62-ff3d5adf77e4"
+            },
+            "type": "anchor"
+          },
+          {
+            "text": "では、同一の都市オブジェクトの幾何を、異なるLODを用いて一つの地物インスタンスとして記述することが基本となる。ただし、地形モデルの場合は地物の単位が基準地域メッシュとなり、同一の地物インスタンスに複数のLODを格納することでデータ量が膨大となり、操作性が低下する懸念がある。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_1d4f804c-3d40-d196-af46-1974a78718de"
+        },
+        "content": [
+          {
+            "text": "そこで、地形モデル（LOD3）は、ファイル名のオプション（lod3）を用いてファイルを分けてもよい。このとき、gml:nameには対象となる基準地域メッシュのメッシュ番号が記載されるため、これを用いて同一の都市オブジェクトとして扱うことができる。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    }
+  ]
+}

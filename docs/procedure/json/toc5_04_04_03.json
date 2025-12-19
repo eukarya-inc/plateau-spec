@@ -1,0 +1,471 @@
+{
+  "title": "6.4.4.3  メタデータのファイル名称",
+  "path": "/plateaudocument02/toc5/toc5_04/toc5_04_04/toc5_04_04_03",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "6.4.4.3\tメタデータのファイル名称",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_b4febf21-7098-ffe7-9eee-bfb39c6fa792"
+        },
+        "content": [
+          {
+            "text": "3D都市モデル",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_ed55fc66-3940-4387-ba60-deacf967d15f"
+            },
+            "type": "anchor"
+          },
+          {
+            "text": "のメタデータファイルの名称は、",
+            "type": "text"
+          },
+          {
+            "content": [
+              {
+                "text": "udx_[都市コード]_[整備年度]_[地物型]_[オプション]",
+                "type": "text"
+              }
+            ],
+            "type": "code"
+          },
+          {
+            "text": "とする。",
+            "type": "text"
+          },
+          {
+            "type": "linebreak"
+          },
+          {
+            "text": " ",
+            "type": "text"
+          },
+          {
+            "content": [
+              {
+                "text": "[都市コード]",
+                "type": "text"
+              }
+            ],
+            "type": "code"
+          },
+          {
+            "text": "及び",
+            "type": "text"
+          },
+          {
+            "content": [
+              {
+                "text": "[整備年度]",
+                "type": "text"
+              }
+            ],
+            "type": "code"
+          },
+          {
+            "text": "の命名規則は、ルートフォルダの命名規則（",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "href": "urn:metanorma:doc-part:toc5_04_05_02"
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "6.4.5.2",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              }
+            ],
+            "type": "resource_link"
+          },
+          {
+            "text": "）に従う。",
+            "type": "text"
+          },
+          {
+            "type": "linebreak"
+          },
+          {
+            "text": " ",
+            "type": "text"
+          },
+          {
+            "content": [
+              {
+                "text": "[地物型]",
+                "type": "text"
+              }
+            ],
+            "type": "code"
+          },
+          {
+            "text": "は地物型を識別する接頭辞（",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "href": "urn:metanorma:doc-part:tab-5-9"
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "text": "表",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "span"
+                  },
+                  {
+                    "text": "6-23",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              }
+            ],
+            "type": "resource_link"
+          },
+          {
+            "text": "）とする。",
+            "type": "text"
+          },
+          {
+            "type": "linebreak"
+          },
+          {
+            "text": " ",
+            "type": "text"
+          },
+          {
+            "content": [
+              {
+                "text": "[オプション]",
+                "type": "text"
+              }
+            ],
+            "type": "code"
+          },
+          {
+            "text": "は、メタデータを分けたい場合（",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "href": "urn:metanorma:doc-part:toc5_03_01"
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "6.3.1",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              }
+            ],
+            "type": "resource_link"
+          },
+          {
+            "text": "）に、それぞれのメタデータを識別するために使用する任意の半角英数字とする。",
+            "type": "text"
+          },
+          {
+            "type": "linebreak"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "example",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_e27a26e1-5a80-fe7d-2560-c679aa130613"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "例",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "1 — 地物型ごとにメタデータを作成する場合のファイル名称の例",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_6450cf19-e6fb-c766-15b0-aabc1fcdb5ee"
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "udx_23100_2020_fld",
+                    "type": "text"
+                  }
+                ],
+                "type": "code"
+              },
+              {
+                "text": " （拡張子を含めると、 ",
+                "type": "text"
+              },
+              {
+                "content": [
+                  {
+                    "text": "udx_23100_2020_fld.xml",
+                    "type": "text"
+                  }
+                ],
+                "type": "code"
+              },
+              {
+                "text": "）",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        ],
+        "type": "example"
+      }
+    },
+    {
+      "type": "example",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_57387a23-156e-a898-e173-77cb4bf92060"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "例",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "2 — 地物型をまとめてメタデータを作成する場合のファイル名称の例",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_6e6a1545-2e3b-6088-0bc4-913baefd4659"
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "udx_23100_2020",
+                    "type": "text"
+                  }
+                ],
+                "type": "code"
+              },
+              {
+                "text": " （拡張子を含めると、 ",
+                "type": "text"
+              },
+              {
+                "content": [
+                  {
+                    "text": "udx_23100_2020.xml",
+                    "type": "text"
+                  }
+                ],
+                "type": "code"
+              },
+              {
+                "text": "）",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        ],
+        "type": "example"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_18c426da-34a2-beaa-fbed-2ed0087f80a3"
+        },
+        "content": [
+          {
+            "text": "なお、オープンデータのメタデータには、末尾に_opが付く。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "example",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_f7537eb2-f4e8-178a-ef31-9110eaedf446"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "例",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "3 — 地物型ごとにオープンデータのメタデータを作成する場合のファイル名称の例",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_03e00e91-1d7a-4794-37a6-64bde526f04f"
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "udx_23100_2020_fld_op",
+                    "type": "text"
+                  }
+                ],
+                "type": "code"
+              },
+              {
+                "text": " （拡張子を含めると、 ",
+                "type": "text"
+              },
+              {
+                "content": [
+                  {
+                    "text": "udx_23100_2020_fld_op.xml",
+                    "type": "text"
+                  }
+                ],
+                "type": "code"
+              },
+              {
+                "text": "）",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        ],
+        "type": "example"
+      }
+    },
+    {
+      "type": "example",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_4472a22d-66e4-d8bd-78b4-89edfba0115e"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "例",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "4 — 地物型をまとめてオープンデータのメタデータを作成する場合のファイル名称の例",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_425a0514-25c1-852c-f133-82eccdd56e9b"
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "udx_23100_2020_op",
+                    "type": "text"
+                  }
+                ],
+                "type": "code"
+              },
+              {
+                "text": " （拡張子を含めると、 ",
+                "type": "text"
+              },
+              {
+                "content": [
+                  {
+                    "text": "udx_23100_2020_op.xml",
+                    "type": "text"
+                  }
+                ],
+                "type": "code"
+              },
+              {
+                "text": "）",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        ],
+        "type": "example"
+      }
+    }
+  ]
+}

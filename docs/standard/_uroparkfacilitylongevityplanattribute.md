@@ -1,0 +1,35 @@
+# 4.26.3.6.1 uro:ParkFacilityLongevityPlanAttribute
+
+## 4.26.3.6.1 uro:ParkFacilityLongevityPlanAttribute
+
+**表 4-892**
+
+| 型の定義 | 公園施設長寿命化計画に関する情報を定義したデータ型。公園施設とは、都市公園法第２条第２項、都市公園法施行令第５条で定義する施設のうち、建物又は工作物に係る全ての施設を指す（公園施設長寿命化計画策定指針（案）【改定版】（平成30年10月））。 属性facilityIdは、工事・点検の対象となる施設の識別子とし、 公園施設を一意に識別するコード（施設コード）を記述する。 識別子は、公園施設の種類を表す3文字と、4桁の通し番号を公園施設の識別子とする。[記述例] BEN0001   ENR：園路広場、SYU：修景施設、KYU：休養施設、YUG：遊戯施設、 UND：運動施設、KYO：教養施設、BEN：便益施設、KAN：管理施設、 SNO：その他施設なお、都市公園内の植生は、植生の種類を表す3文字と、4桁の通し番号を識別子とする。  GRN：植生 | ← |
+| --- | --- | --- |
+| 上位の型 | uro:FacilityAttribute | ← |
+| ステレオタイプ | << DataType >> | ← |
+| 継承する属性 | ← | ← |
+| 属性名 | 属性の型及び多重度 | 定義 |
+| uro:facilityId     [ FacilityAttribute ] | xs::string [0..1] | 施設の用途や区分ごとに付与された管理番号。 |
+| 自身に定義された属性 | ← | ← |
+| 属性名 | 属性の型及び多重度 | 定義 |
+| uro:parkCode     [ ParkFacilityLongevityPlanAttribute ] | gml::CodeType [1..1] | 国営公園を一意に識別するコード。コードリスト（ Common_parkCode.xml）より選択する。国営公園以外の都市公園を追加する場合は、Common_parkCode.xmlを拡張する。 |
+| uro:parkName     [ ParkFacilityLongevityPlanAttribute ] | gml::CodeType [1..1] | 国営公園の名称。コードリスト（ Common_parkName.xml）より選択する。国営公園以外の都市公園を追加する場合は、Common_parkCode.xmlを拡張する。 |
+| uro:parkType     [ ParkFacilityLongevityPlanAttribute ] | gml::CodeType [1..1] | 都市公園の種別。コードリスト（ Common_parkType.xml）より選択する。 |
+| uro:facilityName     [ ParkFacilityLongevityPlanAttribute ] | gml::CodeType [0..1] | 公園施設長寿命化計画策定指針（案）【改定版】（平成30年10月）が示す公園施設の名称。コードリスト（ Common_parkFacilityName.xml）より選択する。 |
+| uro:facilityNameOptional     [ ParkFacilityLongevityPlanAttribute ] | xs::string [0..1] | 公園施設の任意の名称。 |
+| uro:specificFacilityName     [ ParkFacilityLongevityPlanAttribute ] | xs::string [1..1] | 公園施設の具体的な名称。 |
+| uro:numberOfFacilities     [ ParkFacilityLongevityPlanAttribute ] | NumberOfFacilities [0..1] | 公園施設の数量。 |
+| uro:size     [ ParkFacilityLongevityPlanAttribute ] | xs::string [0..1] | 公園施設の数量以外に、規模を示す任意の情報。例：公園施設が占める面積など。 [記述例] 228.95m2、16m、1基、1式など。 |
+| uro:mainMaterial     [ ParkFacilityLongevityPlanAttribute ] | gml::CodeType [0..1] | 公園施設の主要部材。コードリスト（ Common_parkFacilityMainMaterial.xml）より選択する。 |
+| uro:mainMaterialOptional     [ ParkFacilityLongevityPlanAttribute ] | xs::string [0..1] | 公園施設のその他の主要部材。 |
+| uro:installationYear     [ ParkFacilityLongevityPlanAttribute ] | xs::gYear [1..1] | 公園施設の設置年度。 |
+| uro:disposalLimitPeriod     [ ParkFacilityLongevityPlanAttribute ] | xs::integer [0..1] | 処分制限期間。補助金などに係る予算の執行の適正化に関する法律(昭和30 年法律第179 号)第22 条に基づく制限を受ける期間のこと。 |
+| uro:expectedUsagePeriod     [ ParkFacilityLongevityPlanAttribute ] | xs::integer [0..1] | 使用見込み期間。公園施設ごとのライフサイクルコストを算定するため、実際に使用が可能と想定される使用期間の目安として設定する期間。 |
+| uro:repairsBeforeParkHealthAssessment     [ ParkFacilityLongevityPlanAttribute ] | RepairsBeforeParkHealthAssessment [0..1] | 健全度調査以前に実施した補修の記録。 |
+| uro:parkHealthAssessment     [ ParkFacilityLongevityPlanAttribute ] | ParkHealthAssessment [0..*] | 現地において、公園施設の構造材及び消耗材などの劣化や損傷の状況を目視等により健全度を確認調査した結果。 |
+| uro:managementType     [ ParkFacilityLongevityPlanAttribute ] | gml::CodeType [0..1] | 公園の計画的な管理の手法。コードリスト（ Common_parkFacilityManagementType.xml）より選択する。 |
+| uro:expectedRenewalYearWithMeasures     [ ParkFacilityLongevityPlanAttribute ] | xs::gYear [0..1] | 対策を踏まえた更新見込み年度。 |
+| uro:longevityMeasures     [ ParkFacilityLongevityPlanAttribute ] | LongevityMeasures [0..*] | 予防保全型管理において、公園施設の使用見込み期間の延伸及びライフサイクルコストの縮減に寄与する定期的な健全度調査や補修を含む長寿命化対策。 |
+| uro:noteForLongevity     [ ParkFacilityLongevityPlanAttribute ] | xs::string [0..1] | 長寿命化に向けた特記事項。 |
+

@@ -1,0 +1,63 @@
+{
+  "title": "F.2.4.1  データ品質属性（uro:DataQualityAttribute）",
+  "path": "/plateaudocument02/tocF/tocF_02/徒歩道の主題属性_/データ品質属性_urodataqualityattribute_2",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "F.2.4.1\tデータ品質属性（uro:DataQualityAttribute）",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_145b6146-4c60-cd86-e9e1-1b290d301fd7"
+        },
+        "content": [
+          {
+            "text": "3D都市モデルでは、データ集合全体としての品質はメタデータに記録する。しかしながら、メタデータでは、個々のデータに対して位置正確度や適用したLOD等の品質を記述することが困難である。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_240a1a40-b664-e33f-0b5d-505bd78a66a9"
+        },
+        "content": [
+          {
+            "text": "そこで、標準製品仕様書では、個々のデータに対してデータ品質に関する情報を記述するための属性として、「データ品質属性」（uro:DataQualityAttribute）を定義している。データ品質属性は、属性としてデータ作成に使用した原典資料の地図情報レベル、その他原典資料の諸元及び精緻化したLODをもつ。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_25cfc84d-1848-77fe-9cfa-ae5a099b41de"
+        },
+        "content": [
+          {
+            "text": "3D都市モデルに含まれる全ての交通（徒歩道）オブジェクトは、このデータ品質属性を必ず作成しなければならない。ただし、徒歩道（tran::Track）に対してデータ品質属性を付与することはできるが、これを構成する交通領域（tran:TrafficArea）や交通補助領域（tran:AuxiliaryTrafficArea）にデータ品質属性を付与することはできない。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    }
+  ]
+}

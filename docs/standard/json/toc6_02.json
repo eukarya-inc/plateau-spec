@@ -1,0 +1,410 @@
+{
+  "title": "6.2  品質評価手順に関する共通事項",
+  "path": "/plateaudocument/toc6/toc6_02",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "6.2\t品質評価手順に関する共通事項",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_003215ea-5625-c8d2-0bfc-3d9ae1de5478"
+        },
+        "content": [
+          {
+            "text": "標準製品仕様では、品質評価手法を以下の2種類に大別する。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "bullet_list",
+      "content": {
+        "content": [
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_9ed32dd2-d4b6-984f-04e6-7d7543f1845f"
+                },
+                "content": [
+                  {
+                    "text": "全数・自動検査",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_306b0586-22df-d7bf-3bea-d599ff7e65a9"
+                },
+                "content": [
+                  {
+                    "text": "抜取・目視検査",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          }
+        ],
+        "type": "bullet_list"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_5ad8e0f0-5379-6930-1be9-24872f6e4ec6"
+        },
+        "content": [
+          {
+            "text": "このうち、抜取検査を実施する場合、標準製品仕様書では、抜取方法と合否判定を「",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "href": "https://www.gsi.go.jp/common/000259076.pdf"
+            },
+            "content": [
+              {
+                "text": "地図情報レベル2500数値地形図データ作成のための標準製品仕様書（案）",
+                "type": "text"
+              }
+            ],
+            "type": "external_link"
+          },
+          {
+            "text": "」を参考に、以下のとおり設定する。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "ordered_list",
+      "content": {
+        "attrs": {
+          "order": 1
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_b0818e56-e875-be9c-a787-6f638dd6f80e"
+                },
+                "content": [
+                  {
+                    "text": "検査ロット",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_50b9cd46-c5eb-b724-c9dd-18aba1fd920f"
+                },
+                "content": [
+                  {
+                    "text": "3D都市モデル整備対象となる全域",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_5a9d591b-f9d2-dda9-5bda-f4a614a028b5"
+                },
+                "content": [
+                  {
+                    "text": "検査量",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_7294af53-0afa-9c8d-5a7d-13fe5de7616b"
+                },
+                "content": [
+                  {
+                    "text": "総面積の2%",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_525a7beb-d4a9-9bed-b9c0-1c89c05763a7"
+                },
+                "content": [
+                  {
+                    "text": "検査単位の抽出方法",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_31899f2d-23ca-fb9b-c8b2-8e2190e21358"
+                },
+                "content": [
+                  {
+                    "text": "「4分の1地域メッシュ（分割地域メッシュ）」を検査単位とする。",
+                    "type": "text"
+                  },
+                  {
+                    "type": "linebreak"
+                  },
+                  {
+                    "text": " 「4分の1地域メッシュ」とは、基準地域メッシュ（第3次地域区画）を経線方向緯線方向に四分割したメッシュである。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part-unstable:p-882c1ab9-8f86-41af-961c-c72673804bc1"
+                },
+                "content": [
+                  {
+                    "text": "［出典： ",
+                    "type": "text"
+                  },
+                  {
+                    "attrs": {
+                      "href": "https://www.stat.go.jp/data/mesh/m_tuite.html"
+                    },
+                    "content": [
+                      {
+                        "text": "[19]",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "external_link"
+                  },
+                  {
+                    "text": "]",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_db493a33-6628-6a0d-f68f-0de58e5def16"
+                },
+                "content": [
+                  {
+                    "text": "検査量2%のうち、1%は監督員による任意抽出とし、残りの1%は無作為抽出により抽出する。無作為抽出の結果、監督員が既に抽出した検査単位、検査の対象が含まれない検査単位、市町村境界の外側や海などの白部が含まれる地区が抽出された場合には、隣接する検査単位を選択する。白部が含まれない検査単位を抽出することが困難な場合には、出来る限り白部の比率が小さい検査単位を選択する。最小検査単位数は16とする。同一の成果に対しては、異なる品質評価項目に対しても原則として同一の検査単位を使用する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_9e05e690-e1a7-c1d7-a922-0d6e4205f694"
+                },
+                "content": [
+                  {
+                    "text": "アイテム（品質評価の対象）の定義",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_5a78c242-7a62-06ec-11aa-e0360b04ef49"
+                },
+                "content": [
+                  {
+                    "text": "個別に規定する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_3d9e42fd-ac13-3bd7-6808-5ab0564bb37d"
+                },
+                "content": [
+                  {
+                    "text": "抜取率（母集団からサンプルを抽出する割合）",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_ad30f739-4c8b-b8d1-9272-e8e899753834"
+                },
+                "content": [
+                  {
+                    "text": "検査単位内の全数を対象とする。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_cf242d3e-c468-1071-fa57-b1e3ad462a49"
+                },
+                "content": [
+                  {
+                    "text": "各検査単位を10×10サブメッシュ（品質評価手順によっては2×2）に分割し、サブメッシュ毎に全数を点検する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_0809dfd7-f03a-efb3-3cde-0fcd8698717a"
+                },
+                "content": [
+                  {
+                    "text": "検査方法",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_825e73a4-c271-af1b-16ec-f23c535f30ab"
+                },
+                "content": [
+                  {
+                    "text": "個別に規定する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_aed1c61d-04b8-610b-08f4-db330f3f7a1a"
+                },
+                "content": [
+                  {
+                    "text": "合否判定",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_6f65b1ce-b2e2-38f7-c094-929a317cf328"
+                },
+                "content": [
+                  {
+                    "text": "次式により検査単位ごとに誤率を求める。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_43fcf1a9-18da-a09b-26d1-eeb6d5192849"
+                },
+                "content": [
+                  {
+                    "text": "式：誤率（%） = (エラーが一つでも含まれるサブメッシュ数 / 検査単位ごとの全サブメッシュ数) x 100",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_58cb9c2c-cc09-feca-780c-f951f594de3e"
+                },
+                "content": [
+                  {
+                    "text": "検査単位ごとの全サブメッシュ数は100に等しく、検査単位の一部に白部が含まれる場合にも100として誤率を計算する。",
+                    "type": "text"
+                  },
+                  {
+                    "type": "linebreak"
+                  },
+                  {
+                    "text": "一つ以上の検査単位で誤率が適合品質水準を超えたら「不合格」とする。不合格となった場合、全般について再点検を行う。再点検が終了したら、3%の面積に相当する検査単位の抽出を行うものとし、その結果不適合が認められた場合には、さらに4%の追加実施を行うか、再作業を行う。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          }
+        ],
+        "type": "ordered_list"
+      }
+    }
+  ]
+}

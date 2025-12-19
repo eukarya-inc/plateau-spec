@@ -1,0 +1,41 @@
+# 4.2.4.2.23 IfcUnitEnum
+
+## 4.2.4.2.23 IfcUnitEnum
+
+**表 4-128**
+
+| 列挙型 | IfcUnitEnum |
+| --- | --- |
+| 値 | 説明 |
+| ABSORBEDDOSEUNIT | 吸収線量 |
+| AMOUNTOFSUBSTANCEUNIT | 物質量 |
+| AREAUNIT | 面積 |
+| DOSEEQUIVALENTUNIT | 線量当量 |
+| ELECTRICCAPACITANCEUNIT | 電気容量 |
+| ELECTRICCHARGEUNIT | 電荷 |
+| ELECTRICCONDUCTANCEUNIT | 電気伝導度 |
+| ELECTRICCURRENTUNIT | 電流 |
+| ELECTRICRESISTANCEUNIT | 電気抵抗 |
+| ELECTRICVOLTAGEUNIT | 電圧 |
+| ENERGYUNIT | エネルギー |
+| FORCEUNIT | 力 |
+| FREQUENCYUNIT | 周波数 |
+| ILLUMINANCEUNIT | 照度 |
+| INDUCTANCEUNIT | インダクタンス |
+| LENGTHUNIT | 長さ |
+| LUMINOUSFLUXUNIT | 光束 |
+| LUMINOUSINTENSITYUNIT | 光度 |
+| MAGNETICFLUXDENSITYUNIT | 磁束密度 |
+| MAGNETICFLUXUNIT | 磁力線 |
+| MASSUNIT | 質量 |
+| PLANEANGLEUNIT | 平面角 |
+| POWERUNIT | 動力 |
+| PRESSUREUNIT | 圧力 |
+| RADIOACTIVITYUNIT | 放射能 |
+| SOLIDANGLEUNIT | 立体角 |
+| THERMODYNAMICTEMPERATUREUNIT | 熱力学温度 |
+| TIMEUNIT | 時間 |
+| VOLUMEUNIT | 体積 |
+| USERDEFINED | 利用者定義 |
+| 出典： [IFC2x3 CV2.0](https://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/FINAL/HTML/) | ← |
+

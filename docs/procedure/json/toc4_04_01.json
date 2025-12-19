@@ -1,0 +1,571 @@
+{
+  "title": "5.4.1  データ出力",
+  "path": "/plateaudocument02/toc4/toc4_04/toc4_04_01",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "5.4.1\tデータ出力",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_70132b45-e8c4-d917-31b6-86af28c750fc"
+        },
+        "content": [
+          {
+            "text": "前項までで作成した3D都市モデル",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_2cb8679c-ee78-4404-bccb-879146e1f0f6"
+            },
+            "type": "anchor"
+          },
+          {
+            "text": "を、製品仕様に示された符号化仕様に従うデータに変換する。",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_23556571-0546-42fc-93d2-a4dc0c86799c"
+            },
+            "type": "anchor"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_bf3e1122-6e0c-466c-9fed-6e144acbf04a"
+            },
+            "type": "anchor"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_11d09c06-1d96-420a-ba26-2967a2b59796"
+            },
+            "type": "anchor"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_c1f81bb6-6949-4b53-bf96-a89674326347"
+            },
+            "type": "anchor"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "bullet_list",
+      "content": {
+        "content": [
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_aff78109-2162-6246-e52a-0de09a0a22b6"
+                },
+                "content": [
+                  {
+                    "text": "【手順】",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_3fe52878-779e-b626-2932-6bc905829f9d"
+                },
+                "content": [
+                  {
+                    "text": "手順1．指定されたファイル単位に分割する。",
+                    "type": "text"
+                  },
+                  {
+                    "type": "linebreak"
+                  },
+                  {
+                    "text": "標準製品仕様書で地物型ごとに指定されたファイル単位（ ",
+                    "type": "text"
+                  },
+                  {
+                    "attrs": {
+                      "href": "urn:metanorma:doc-part:toc5_04_02"
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "text": "6.4.2",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      }
+                    ],
+                    "type": "resource_link"
+                  },
+                  {
+                    "text": "）に従い、分割する。分割は、メッシュコードに紐づく空間範囲ごとに実施する。ただし、空間範囲の境界線上に存在する地物は区切らず、それぞれのメッシュに平面投影した形状が含まれる面積の割合を算出し、この割合が最も大きいメッシュに対応するファイルに含む。m2で面積を計算し、小数点2桁（3桁目で四捨五入）で比較する。面積が同じ場合はメッシュ番号の小さい方とする。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_bc50104d-b295-03d8-72b3-fa5b18e3c377"
+                },
+                "content": [
+                  {
+                    "text": "手順2．分割したファイル単位にデータを変換・出力する。",
+                    "type": "text"
+                  },
+                  {
+                    "type": "linebreak"
+                  },
+                  {
+                    "text": "符号化仕様に定義されたタグ及びタグの構造（階層、出現順序、データ型、出現回数等）に従い、プログラム等により分割したデータをCityGML及びi-URによるGML形式に変換する。i-UR及びCityGMLに定義された地物型等には、それぞれi-UR及びCityGMLで推奨された接頭辞を使用する。 ",
+                    "type": "text"
+                  },
+                  {
+                    "type": "linebreak"
+                  },
+                  {
+                    "text": "出力においては、成果品となる3D都市モデルの構造（5.4に示すファイル名やフォルダ構成）を考慮すること。 ",
+                    "type": "text"
+                  },
+                  {
+                    "type": "linebreak"
+                  },
+                  {
+                    "text": " CityGML及びi-URの符号化仕様は以下より取得できる。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_4f860230-ec82-ed9f-27ee-c0663f8eafe1"
+                        },
+                        "content": [
+                          {
+                            "text": "CityGML：",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_4e25fff4-6fa7-e743-5ef4-db3c46060eee"
+                                },
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "href": "http://schemas.opengis.net/citygml/"
+                                    },
+                                    "type": "external_link"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_4454bc16-894a-fb80-7bf7-fd6d56478631"
+                        },
+                        "content": [
+                          {
+                            "text": "i-UR：",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_a8fc64fb-0ed9-517f-a4a8-1ad519f5457c"
+                                },
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "href": "https://www.geospatial.jp/iur/schemas/uro/3.2/urbanObject.xsd"
+                                    },
+                                    "type": "external_link"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_450e8a8e-c11d-385c-f209-c9ba5095be30"
+                                },
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "href": "https://www.geospatial.jp/iur/schemas/urf/3.2/urbanFunction.xsd"
+                                    },
+                                    "type": "external_link"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          },
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_98e412a7-b3a2-2f34-4daf-946117576d76"
+                                },
+                                "content": [
+                                  {
+                                    "text": "なお、符号化仕様は最新のものであることをversion属性により確認すること。version属性は、符号化仕様内のxs:schemaタグに記載されている（以下のフラグメントの太字部分）。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              },
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_691df5de-b53e-8f19-cfab-44bcdcb248aa"
+                                },
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "formattedSource": "\u003cbody\u003e\u0026lt;?xml version=\"1.0\" encoding=\"UTF-8\"?\u0026gt;\n\u0026lt;xs:schema\n  xmlns:urf=\"https://www.geospatial.jp/iur/urf/3.2\"\n  xmlns:core=\"http://www.opengis.net/citygml/2.0\"\n  xmlns:xs=\"http://www.w3.org/2001/XMLSchema\"\n  xmlns:gml=\"http://www.opengis.net/gml\"\n  xmlns:uro=\"https://www.geospatial.jp/iur/uro/3.2\"\n  targetNamespace=\"https://www.geospatial.jp/iur/urf/3.2\"\n  elementFormDefault=\"qualified\"\n  attributeFormDefault=\"unqualified\"\n  version=\"3.1.0\"\u0026gt;\u003c/body\u003e"
+                                    },
+                                    "type": "source_listing"
+                                  },
+                                  {
+                                    "content": [
+                                      {
+                                        "content": [
+                                          {
+                                            "text": "図",
+                                            "type": "text"
+                                          }
+                                        ],
+                                        "type": "span"
+                                      },
+                                      {
+                                        "text": "5-7",
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "type": "figCaption"
+                                  }
+                                ],
+                                "type": "figure"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_57c53cd6-dba5-ad13-762e-289262924df4"
+                },
+                "content": [
+                  {
+                    "text": "手順3．コード型に対応するコードリストをXML形式に変換・出力する。XMLの形式は、GML 3.1.1 simple dictionary profileを使用する。",
+                    "type": "text"
+                  },
+                  {
+                    "type": "linebreak"
+                  },
+                  {
+                    "text": " GML 3.1.1 simple dictionary profileは、もともとは辞書として利用されることを想定したXML形式であり、名前（gml:name）とその説明（gml:description）の対の集まりから構成される。CityGMLでは、コードリストの符号化仕様としてこのGML 3.1.1 simple dictionary profileを使用していることから、標準製品仕様においてもコードリストの符号化仕様としてGML 3.1.1 simple dictionary profileを採用する。 ",
+                    "type": "text"
+                  },
+                  {
+                    "type": "linebreak"
+                  },
+                  {
+                    "text": " GML 3.1.1 simple dictionary profileに従ったXML形式のコードリスト例を以下に示す。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_c9316dc0-44bf-1511-d98d-b9bfd0c7efb5"
+                },
+                "content": [
+                  {
+                    "attrs": {
+                      "formattedSource": "\u003cbody\u003e\u0026lt;?xml version=\"1.0\" encoding=\"UTF-8\"?\u0026gt;\n\u0026lt;gml:Dictionary\n  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n  xmlns:gml=\"http://www.opengis.net/gml\"\n  xsi:schemaLocation=\"http://www.opengis.net/gml http://schemas.opengis.net/gml/3.1.1/profiles/SimpleDictionary/1.0.0/gmlSimpleDictionaryProfile.xsd\"\n  gml:id=\"cl_f649301c-8e10-11ec-b909-0242ac120002\"\u0026gt;\n  \u0026lt;gml:name\u0026gt;Building_class\u0026lt;/gml:name\u0026gt;\n  \u0026lt;gml:dictionaryEntry\u0026gt;\n    \u0026lt;gml:Definition gml:id=\"id1\"\u0026gt;\n      \u0026lt;gml:description\u0026gt;普通建物\u0026lt;/gml:description\u0026gt;\n      \u0026lt;gml:name\u0026gt;3001\u0026lt;/gml:name\u0026gt;\n    \u0026lt;/gml:Definition\u0026gt;\n  \u0026lt;/gml:dictionaryEntry\u0026gt;\n  \u0026lt;!-- …略… --\u0026gt;\n  \u0026lt;gml:dictionaryEntry\u0026gt;\n    \u0026lt;gml:Definition gml:id=\"id5\"\u0026gt;\n      \u0026lt;gml:description\u0026gt;分類しない建物\u0026lt;/gml:description\u0026gt;\n      \u0026lt;gml:name\u0026gt;3000\u0026lt;/gml:name\u0026gt;\n    \u0026lt;/gml:Definition\u0026gt;\n  \u0026lt;/gml:dictionaryEntry\u0026gt;\n\u0026lt;/gml:Dictionary\u0026gt;\u003c/body\u003e"
+                    },
+                    "type": "source_listing"
+                  },
+                  {
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "text": "図",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      },
+                      {
+                        "text": "5-8",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "figCaption"
+                  }
+                ],
+                "type": "figure"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_8043e6ba-3c1c-87fd-67a0-486e3d3ec498"
+                        },
+                        "content": [
+                          {
+                            "text": "gml:Dictionaryのgml:idは、",
+                            "type": "text"
+                          },
+                          {
+                            "content": [
+                              {
+                                "text": "[接頭辞]_[UUID]",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          },
+                          {
+                            "text": "とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_233853c5-cd0c-d2d8-5a52-d79d7d21d042"
+                                },
+                                "content": [
+                                  {
+                                    "content": [
+                                      {
+                                        "text": "[接頭辞]",
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "type": "code"
+                                  },
+                                  {
+                                    "text": "は、clとする。",
+                                    "type": "text"
+                                  },
+                                  {
+                                    "content": [
+                                      {
+                                        "text": "[UUID]",
+                                        "type": "text"
+                                      }
+                                    ],
+                                    "type": "code"
+                                  },
+                                  {
+                                    "text": "は、Universally Unique Identifierとする。",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "list_item"
+                          }
+                        ],
+                        "type": "bullet_list"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_21473216-bc8b-0cba-cc3f-ae353e5dd75c"
+                        },
+                        "content": [
+                          {
+                            "text": "gml:nameには、当該3D都市モデルにおけるコードリストを識別する名称として、地物型名と属性名との組み合わせとする。地物型名と属性名とは_（アンダースコア）でつなぐ。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_28e694a7-ada0-3436-191d-9dc62bfbc4d2"
+                        },
+                        "content": [
+                          {
+                            "text": "コードとその説明を、gml:Definitionにより対として記述する。gml:Definitionの子要素となるgml:descriptionには説明を、gml:nameにはコードを示す。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_a09328b5-495c-a16e-a59a-b3f57e805822"
+                        },
+                        "content": [
+                          {
+                            "text": "標準製品仕様書に定義されたコードリストのXMLは以下より取得できる。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "attrs": {
+                              "href": "https://www.geospatial.jp/iur/codelists"
+                            },
+                            "type": "external_link"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_6f642057-6449-ca7e-05f3-8797e4909bdf"
+                },
+                "content": [
+                  {
+                    "text": "手順4．品質評価を実施する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_7f472542-d520-743c-1687-373c3bc37199"
+                        },
+                        "content": [
+                          {
+                            "text": "論理一貫性（L03）の品質評価は、拡張製品仕様書において作成対象とした地物及び属性に対して行うこと。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          }
+        ],
+        "type": "bullet_list"
+      }
+    }
+  ]
+}

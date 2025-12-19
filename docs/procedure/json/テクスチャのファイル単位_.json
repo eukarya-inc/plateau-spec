@@ -1,0 +1,63 @@
+{
+  "title": "V.2.4.3  テクスチャのファイル単位",
+  "path": "/plateaudocument02/tocV/tocV_02/建築物モデルのテクスチャ作成における留意事項_/テクスチャのファイル単位_",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "V.2.4.3\tテクスチャのファイル単位",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_0754c5be-defd-f05f-8b99-d67800150438"
+        },
+        "content": [
+          {
+            "text": "テクスチャの作成に当たっては、描画性能の観点から複数の地物のテクスチャを一つの画像ファイルにまとめること（アトラス化）を推奨する。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_035b3da1-abdc-5c33-aeda-5e7b80936395"
+        },
+        "content": [
+          {
+            "text": "アトラス化の範囲は、一つのCityGMLファイルを上限とする。アトラス化後の画像サイズは一辺2048ピクセル以下（辺長サイズは2の累乗）を推奨とし、一辺4096ピクセルを上限とする。ただし、大規模な地物などで、一つの地物でアトラス化をした際にアトラス化後のテクスチャサイズが画像サイズの上限（一辺4096ピクセル）を超える場合は、その地物の画像ファイルを分割してアトラス化してもよい。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_f8a73374-2a1d-62cf-d12d-632e7692dc10"
+        },
+        "content": [
+          {
+            "text": "複数の地物のテクスチャを一つの画像ファイルにまとめる場合は、地理的に近接した地物単位でまとめる。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    }
+  ]
+}

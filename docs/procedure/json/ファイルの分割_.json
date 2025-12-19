@@ -1,0 +1,63 @@
+{
+  "title": "S.3.2.4  ファイルの分割",
+  "path": "/plateaudocument02/tocS/tocS_03/作業上の留意事項__5/ファイルの分割_",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "S.3.2.4\tファイルの分割",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_70e104f2-d6e0-f965-b039-e186f23668d3"
+        },
+        "content": [
+          {
+            "text": "3D都市モデルでは、一つの地物インスタンスに異なるLODの幾何オブジェクトを含めることで、同一の都市オブジェクトをマルチスケールで表現することが可能である。しかしながら、地形モデルの場合はインスタンスの単位が基準地域メッシュとなるため、一つの地物インスタンスに複数のLODの幾何オブジェクトを含めることでデータ量が膨大となり、操作性が低下する懸念がある。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_525b2220-677e-4f1a-c039-d12311934e33"
+        },
+        "content": [
+          {
+            "text": "そこで、地形モデルの中で最も詳細な地形表現が可能となる地形モデル（LOD3）は、ファイルを分けることを許容する。このとき、ファイル名にはオプションの文字列として、lod3を使用する。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_2454b770-f913-7cf0-4cfa-6ca0ebc96dfc"
+        },
+        "content": [
+          {
+            "text": "なお、分割されたファイルに含まれるそれぞれの地物インスタンスのgml:nameには同じ基準地域メッシュのメッシュ番号が記載されるため、必要に応じて利用者側で一つの地物インスタンスに統合することが可能である。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    }
+  ]
+}

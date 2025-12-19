@@ -1,0 +1,48 @@
+{
+  "title": "I.2.4.2  土地利用詳細属性（uro:landUseDetailAttribute）",
+  "path": "/plateaudocument02/tocI/tocI_02/土地利用の主題属性_/土地利用詳細属性_urolandusedetailattribute",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "I.2.4.2\t土地利用詳細属性（uro:landUseDetailAttribute）",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_ec6099bf-27d2-6eba-3562-f4ff78580733"
+        },
+        "content": [
+          {
+            "text": "都市計画基礎調査の土地利用現況として記録された情報を格納するための属性である。属性の型であるuro:LandUseDetailAttributeには都市独自の土地利用の区分（uro:orgLandUse）の他、面積（uro:nominalArea）や建ぺい率（uro:buildingCoverageRate）など、様々な属性の箱が用意されている。都市計画基礎調査でこれらの情報が収集されている場合には、定義済みの属性を使用する。また、該当する属性が無い場合には、汎用属性を使用して拡張できる。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_c25af29d-c26e-907c-2dd7-b6c909fa491d"
+        },
+        "content": [
+          {
+            "text": "なお、都市独自の土地利用の区分（uro:orgLandUse）を作成する場合には、区分を示すコードリスト（LandUseDetailAttribute_orgLandUse.xml）を作成しなければならない。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    }
+  ]
+}

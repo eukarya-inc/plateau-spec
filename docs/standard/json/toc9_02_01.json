@@ -1,0 +1,539 @@
+{
+  "title": "9.2.1  拡張規則",
+  "path": "/plateaudocument/toc9/toc9_02/toc9_02_01",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "9.2.1\t拡張規則",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_5bf3383c-3113-e670-c27f-d0d985849403"
+        },
+        "content": [
+          {
+            "text": "標準製品仕様に定義されていない地物や地物属性・地物関連役割を用いたい場合は、以下に示す規則に従う。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_94b397f9-b151-bfe9-fd57-62b15f1b59a9"
+        },
+        "content": [
+          {
+            "text": "規則1：標準製品仕様に定義されておらず、i-URに定義されている地物又は地物属性・地物関連を使用したい場合は、i-URから必要な要素を抽出し、i-URの定義と矛盾なく使用する。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_7a661a57-7186-3bdd-89d4-0c77efe7fe07"
+        },
+        "content": [
+          {
+            "text": "規則2：標準製品仕様に定義されておらず、CityGMLに定義されている地物又は地物属性・地物関連を使用したい場合は、CityGMLから必要な要素を抽出し、CityGMLの定義と矛盾なく使用する。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_b7a6d80d-34cc-f250-e1f8-3c6958ca1475"
+        },
+        "content": [
+          {
+            "text": "規則3：標準製品仕様に定義されておらず、i-UR及びCityGMLのいずれにも定義されていない地物を使用したい場合には、CityGMLに定義されたgen:GenericCityObjectを使用して、地物を追加する。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "admonition",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_3731f882-df08-d522-9d5e-4de6c6e38957",
+          "tags": [
+            "note"
+          ]
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "注記",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "1",
+                "type": "text"
+              }
+            ],
+            "type": "xrefLabel"
+          },
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "9.2.1",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "content": [
+                  {
+                    "text": "の",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "content": [
+                  {
+                    "text": "注記",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "1",
+                "type": "text"
+              }
+            ],
+            "type": "xrefLabel"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_5e89a178-7918-422e-1f43-c8925582bdb6"
+            },
+            "content": [
+              {
+                "text": "i-UR又はCityGMLに該当する地物が存在する場合には、gen:GenericCityObjectを使用してはならない。",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        ],
+        "type": "admonition"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_7049a4ee-d135-e0c7-a710-c6b3cafd45c2"
+        },
+        "content": [
+          {
+            "text": "規則4：標準製品仕様、i-UR、又はCityGMLのいずれにも定義されていない地物属性を使用したい場合には、CityGMLに定義されたgen:_genericAttributeの下位型を使用して、これを該当する地物に追加する。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "admonition",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_5cd9f4f8-c079-d2a6-6ea8-cc40142b4ecb",
+          "tags": [
+            "note"
+          ]
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "注記",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "2",
+                "type": "text"
+              }
+            ],
+            "type": "xrefLabel"
+          },
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "9.2.1",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "content": [
+                  {
+                    "text": "の",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "content": [
+                  {
+                    "text": "注記",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "2",
+                "type": "text"
+              }
+            ],
+            "type": "xrefLabel"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_f5163696-0fc8-41ed-3f20-71cb8f012425"
+            },
+            "content": [
+              {
+                "text": "標準製品仕様、i-UR又はCityGMLに該当する属性が存在する場合には、gen:_genericAttributeを使用してはならない。",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        ],
+        "type": "admonition"
+      }
+    },
+    {
+      "type": "admonition",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_548a4e5e-47e0-7415-f3d2-5553edb486d2",
+          "tags": [
+            "note"
+          ]
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "注記",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "3",
+                "type": "text"
+              }
+            ],
+            "type": "xrefLabel"
+          },
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "9.2.1",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "content": [
+                  {
+                    "text": "の",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "content": [
+                  {
+                    "text": "注記",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "3",
+                "type": "text"
+              }
+            ],
+            "type": "xrefLabel"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_a5d3502b-fb4b-a6a3-e24e-719abbeab448"
+            },
+            "content": [
+              {
+                "text": "「建築物」にコード型の地物属性を追加したい場合には、「建築物」に定義された「拡張属性」の仕組みを利用し、コード型の地物属性を追加する。",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        ],
+        "type": "admonition"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_694a6f61-c1f7-4e1f-0690-2a8681c65dd5"
+        },
+        "content": [
+          {
+            "text": "規則5：規則1、2又は規則4に従い、地物属性を追加する場合において、コード型の属性を定義する場合には、必ず、参照すべきコードリストを作成しなければならない。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "admonition",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_e1957510-abfa-be0c-e455-18bbb2878fb9",
+          "tags": [
+            "note"
+          ]
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "注記",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "4",
+                "type": "text"
+              }
+            ],
+            "type": "xrefLabel"
+          },
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "9.2.1",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "content": [
+                  {
+                    "text": "の",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "content": [
+                  {
+                    "text": "注記",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "4",
+                "type": "text"
+              }
+            ],
+            "type": "xrefLabel"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_ba6d3864-2e35-ae40-7604-f4fd2d0fcb4a"
+            },
+            "content": [
+              {
+                "text": "コードリストの形式は、GML3.1.1 simple dictionary profile(1.0.0)に従う。",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        ],
+        "type": "admonition"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_a79213b5-c48b-5019-4c8e-17e05d3b5418"
+        },
+        "content": [
+          {
+            "text": "規則6：規則1から規則5までに示す拡張規則に従い、標準製品仕様を拡張する場合には、拡張の内容を示す製品仕様を作成しなければならない。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "admonition",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_c47284f6-5de2-83f4-5118-1f0726985b3d",
+          "tags": [
+            "note"
+          ]
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "注記",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "5",
+                "type": "text"
+              }
+            ],
+            "type": "xrefLabel"
+          },
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "9.2.1",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "content": [
+                  {
+                    "text": "の",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "content": [
+                  {
+                    "text": "注記",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "5",
+                "type": "text"
+              }
+            ],
+            "type": "xrefLabel"
+          },
+          {
+            "attrs": {
+              "resourceID": "urn:metanorma:doc-part:_5cb3cc5a-a456-acb6-a3ce-df34118c8735"
+            },
+            "content": [
+              {
+                "text": "製品仕様の作成においては、",
+                "type": "text"
+              },
+              {
+                "attrs": {
+                  "href": "https://www.gsi.go.jp/common/000250810.pdf"
+                },
+                "content": [
+                  {
+                    "text": "地理空間データ製品仕様書作成マニュアル",
+                    "type": "text"
+                  }
+                ],
+                "type": "external_link"
+              },
+              {
+                "text": "に従うこと。",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        ],
+        "type": "admonition"
+      }
+    }
+  ]
+}

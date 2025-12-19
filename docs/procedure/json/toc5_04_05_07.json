@@ -1,0 +1,687 @@
+{
+  "title": "6.4.5.7  三次元点群データのフォルダ構成",
+  "path": "/plateaudocument02/toc5/toc5_04/toc5_04_05/toc5_04_05_07",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "6.4.5.7\t三次元点群データのフォルダ構成",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_1dd378e5-b1ff-43dd-7d41-f3d27ffb1085"
+        },
+        "content": [
+          {
+            "text": "三次元点群データは、地物を格納するフォルダの直下にサブフォルダを作成し、その中に格納する。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "bullet_list",
+      "content": {
+        "content": [
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_f8976607-262b-0ad9-b2b8-99bc1fe265a7"
+                },
+                "content": [
+                  {
+                    "text": "建築物の壁面・屋根面や建築物、道路等に対応する三次元点群データは、それぞれの地物を格納する3D都市モデルのファイルを格納するフォルダ（例：建築物の場合は、「bldg」）の直下にサブフォルダを作成し、その中に格納する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_8fbdc9d2-464a-02e6-374f-86d15a103aa3"
+                },
+                "content": [
+                  {
+                    "text": "サブフォルダは、3D都市モデルのファイル単位に作成する。3D都市モデルのファイルから参照する全ての三次元点群データは、このファイルに対応するサブフォルダに格納すること。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_f1bf2128-5045-cb15-c7af-214a6c509195"
+                },
+                "content": [
+                  {
+                    "text": "サブフォルダの名称は、",
+                    "type": "text"
+                  },
+                  {
+                    "content": [
+                      {
+                        "text": "[メッシュコード]_[地物型]_[CRS]_[オプション]_pointcloud",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "code"
+                  },
+                  {
+                    "text": "とする。 [メッシュコード]、[地物型]、[CRS]及び[オプション]は、これに対応する3D都市モデルのファイル名と一致させる。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_d79aef14-935d-df2c-88da-0deda1bfe492"
+                        },
+                        "content": [
+                          {
+                            "text": "3D都市モデルのファイル名に[オプション]が含まれない場合は、_[オプション]は、省略する。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "list_item"
+                  },
+                  {
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_e155e382-809c-ce06-6016-86796dc9208a"
+                        },
+                        "content": [
+                          {
+                            "text": "なお、オープンデータ用3D都市モデルの三次元点群データを格納するサブフォルダの名称に、_opは不要とする。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_4985dc9b-dd97-f279-cece-e7c1aa47b573"
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "例",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "1",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "figCaption"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_f3f0deb9-bce3-ab7c-e4c5-3299ce6162d5"
+                            },
+                            "content": [
+                              {
+                                "text": "市町村用3D都市モデルのファイル（53394610_bldg_6697.gml）に対応する三次元点群データのサブフォルダ名称の例",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "paragraph"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_1ccef027-f2c2-ff74-d5b0-26f7aafb7f77"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "53394610_bldg_6697_ pointcloud",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "code"
+                              }
+                            ],
+                            "type": "paragraph"
+                          }
+                        ],
+                        "type": "example"
+                      },
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_6cae8dc0-6243-f4ce-0cfd-89827eafc826"
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "例",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "span"
+                              },
+                              {
+                                "text": "2",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "figCaption"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_461f50bc-1d87-9f34-8b92-42dd59877d2e"
+                            },
+                            "content": [
+                              {
+                                "text": "オープンデータ用3D都市モデルのファイル（53394610_bldg_6697_op.gml）に対応する三次元点群データのサブフォルダ名称の例",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "paragraph"
+                          },
+                          {
+                            "attrs": {
+                              "resourceID": "urn:metanorma:doc-part:_6bf62eb9-32c0-2f8b-4bf7-9c0bdb21d751"
+                            },
+                            "content": [
+                              {
+                                "content": [
+                                  {
+                                    "text": "53394610_bldg_6697_ pointcloud",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "code"
+                              }
+                            ],
+                            "type": "paragraph"
+                          }
+                        ],
+                        "type": "example"
+                      }
+                    ],
+                    "type": "list_item"
+                  }
+                ],
+                "type": "bullet_list"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_00dd8d12-e4b5-e5c7-91ab-31f4047c2d81"
+                },
+                "content": [
+                  {
+                    "text": "ポイントクラウドの記述は、",
+                    "type": "text"
+                  },
+                  {
+                    "attrs": {
+                      "href": "urn:metanorma:doc-part:tocV_03"
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "text": "V.3",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      }
+                    ],
+                    "type": "resource_link"
+                  },
+                  {
+                    "text": "ポイントクラウドマッピングのための拡張プロファイルに従い、相対パスで記述すること。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_fe2b6088-ce5a-7f0e-27c0-4a497f0536ac"
+                },
+                "content": [
+                  {
+                    "text": "3D都市モデルのファイルから、これに対応する三次元点群データを格納するフォルダ以外のフォルダ（ファイル名に含まれるメッシュコードが異なるフォルダ）に格納した三次元点群データを参照してはならない。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          }
+        ],
+        "type": "bullet_list"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_805b64c2-4436-0037-37d7-73eece30e254"
+        },
+        "content": [
+          {
+            "text": "三次元点群データを格納するためのフォルダ構成の例を",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "href": "urn:metanorma:doc-part:tab-5-24"
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "text": "表",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "span"
+                  },
+                  {
+                    "text": "6-38",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              }
+            ],
+            "type": "resource_link"
+          },
+          {
+            "text": "に示す。",
+            "type": "text"
+          },
+          {
+            "attrs": {
+              "href": "urn:metanorma:doc-part:tab-5-24"
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "text": "表",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "span"
+                  },
+                  {
+                    "text": "6-38",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              }
+            ],
+            "type": "resource_link"
+          },
+          {
+            "text": "は、建築物に使用する三次元点群データのフォルダ構成である。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "tableFigure",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:tab-5-24"
+        },
+        "content": [
+          {
+            "content": [
+              {
+                "content": [
+                  {
+                    "text": "表",
+                    "type": "text"
+                  }
+                ],
+                "type": "span"
+              },
+              {
+                "text": "6-38 — 三次元点群データのためのフォルダ構成（建築物の場合）",
+                "type": "text"
+              }
+            ],
+            "type": "figCaption"
+          },
+          {
+            "attrs": {
+              "colWidths": [
+                "9.8901%",
+                "9.8901%",
+                "9.8901%",
+                "26.3736%",
+                "43.9561%"
+              ]
+            },
+            "content": [
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "3",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "フォルダ構成",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "フォルダ名",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": ""
+                        },
+                        "content": [
+                          {
+                            "text": "フォルダの説明",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_header"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_8f2e4511-c492-16ed-6b40-4f26e6a902de"
+                        },
+                        "content": [
+                          {
+                            "attrs": {
+                              "height": "auto",
+                              "src": "data:image/png;base64,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",
+                              "width": "50"
+                            },
+                            "type": "image"
+                          }
+                        ],
+                        "type": "figure"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_fd37be3f-435c-5427-3aa5-026c623a5c78"
+                        },
+                        "content": [
+                          {
+                            "text": "bldg",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_9f121fb0-405b-3e38-b1da-0479b21d338a"
+                        },
+                        "content": [
+                          {
+                            "text": "建築物、建築物部分、建築物付属物及びこれらの境界面を格納するフォルダ。",
+                            "type": "text"
+                          },
+                          {
+                            "type": "linebreak"
+                          },
+                          {
+                            "text": "建築物等のファイルは、基準地域メッシュ（第3次地域区画、一辺の長さ約1km）単位に作成される。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              },
+              {
+                "content": [
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": "2",
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_f83458ac-395c-e995-22b1-51a7b434cbcc"
+                        },
+                        "content": [
+                          {
+                            "attrs": {
+                              "height": "auto",
+                              "src": "data:image/png;base64,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",
+                              "width": "50"
+                            },
+                            "type": "image"
+                          }
+                        ],
+                        "type": "figure"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_e970dbba-478a-3b2d-827b-2811e73ef8bd"
+                        },
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "text": "[メッシュコード]_[地物型]_[CRS]_[オプション]_pointcloud",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "code"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  },
+                  {
+                    "attrs": {
+                      "background": null,
+                      "colspan": null,
+                      "colwidth": null,
+                      "rowspan": null
+                    },
+                    "content": [
+                      {
+                        "attrs": {
+                          "resourceID": "urn:metanorma:doc-part:_5536a4ae-841d-b2ec-20ce-db8d08e3c4ab"
+                        },
+                        "content": [
+                          {
+                            "text": "建築物等のファイルごとに作成される、三次元点群データの格納フォルダ。",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "paragraph"
+                      }
+                    ],
+                    "type": "table_cell"
+                  }
+                ],
+                "type": "table_row"
+              }
+            ],
+            "type": "table"
+          }
+        ],
+        "type": "tableFigure"
+      }
+    }
+  ]
+}

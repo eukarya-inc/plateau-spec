@@ -1,0 +1,433 @@
+{
+  "title": "7.1.2.4.2  インスタンス変換規則",
+  "path": "/plateaudocument/toc7/toc7_01/toc7_01_02/変換規則_/インスタンス変換規則_",
+  "content": [
+    {
+      "type": "title",
+      "content": {
+        "content": [
+          {
+            "text": "7.1.2.4.2\tインスタンス変換規則",
+            "type": "text"
+          }
+        ],
+        "type": "title"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "attrs": {
+          "resourceID": "urn:metanorma:doc-part:_0324e4f0-6952-eca7-cd35-3aba176b6a4a"
+        },
+        "content": [
+          {
+            "text": "GMLに準拠する。",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    },
+    {
+      "type": "bullet_list",
+      "content": {
+        "content": [
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_e65cfeb7-f87a-3c15-ba28-30d50c1ac4bc"
+                },
+                "content": [
+                  {
+                    "text": "オブジェクト識別子（gml:id）",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_77e42b32-6527-72fb-ac6b-edb1a313025f"
+                },
+                "content": [
+                  {
+                    "text": "データ製品に含まれる全ての地物には、gml:idによる識別可能な値を与えることとし、その値には",
+                    "type": "text"
+                  },
+                  {
+                    "content": [
+                      {
+                        "text": "[接頭辞]_[UUID]",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "code"
+                  },
+                  {
+                    "text": "を使用する。",
+                    "type": "text"
+                  },
+                  {
+                    "type": "linebreak"
+                  },
+                  {
+                    "text": " ",
+                    "type": "text"
+                  },
+                  {
+                    "content": [
+                      {
+                        "text": "[接頭辞]",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "code"
+                  },
+                  {
+                    "text": "は、CityGML及びi-URの各パッケージに与えられた接頭辞（",
+                    "type": "text"
+                  },
+                  {
+                    "attrs": {
+                      "href": "urn:metanorma:doc-part:tab-7-4"
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "content": [
+                              {
+                                "text": "表",
+                                "type": "text"
+                              }
+                            ],
+                            "type": "span"
+                          },
+                          {
+                            "text": "7-5",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      }
+                    ],
+                    "type": "resource_link"
+                  },
+                  {
+                    "text": "）を使用する。",
+                    "type": "text"
+                  },
+                  {
+                    "type": "linebreak"
+                  },
+                  {
+                    "text": " ",
+                    "type": "text"
+                  },
+                  {
+                    "content": [
+                      {
+                        "text": "[UUID]",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "code"
+                  },
+                  {
+                    "text": "は、",
+                    "type": "text"
+                  },
+                  {
+                    "attrs": {
+                      "href": "urn:metanorma:doc-part:rfc_4122"
+                    },
+                    "content": [
+                      {
+                        "text": "Universally Unique Identifier（UUID）",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "resource_link"
+                  },
+                  {
+                    "text": "とする。UUIDとは、ソフトウェア上でオブジェクトを一意に識別するための識別子であり、128ビット（16バイト）の値で表す。先頭から4ビットごとに16進数の値（0～f）に変換し、8桁-4桁-4桁-4桁-12桁に区切って表現する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_76f92684-f1ec-2537-026b-3792adf0fc94"
+                },
+                "content": [
+                  {
+                    "text": "集成の実装",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_e49e61ac-1e42-4ae1-6a22-cf9c8935881b"
+                },
+                "content": [
+                  {
+                    "text": "応用スキーマに示された地物型間の集成は、部品となるオブジェクトを、全体となるオブジェクトの子要素として記述する。",
+                    "type": "text"
+                  },
+                  {
+                    "type": "linebreak"
+                  },
+                  {
+                    "text": "この時、部品となるオブジェクトの識別子（gml:id）を、全体となるオブジェクト以外のオブジェクトが参照してもよい。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_5eb0b130-9df6-1240-8d64-2c6c751e7c88"
+                },
+                "content": [
+                  {
+                    "text": "空間参照系の識別",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_b007a0f7-9124-19bf-2630-7987ed5762cf"
+                },
+                "content": [
+                  {
+                    "text": "幾何オブジェクトに適用される空間参照系は、都市モデル（core:CityModel）に挿入されるEnvelop要素の属性snsNameにおいて、以下のEPSGコードを挿入することにより識別する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_8064ad5f-58c9-aa4c-52c9-80ea645c8c2d"
+                },
+                "content": [
+                  {
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "text": "表",
+                            "type": "text"
+                          }
+                        ],
+                        "type": "span"
+                      },
+                      {
+                        "text": "7-1",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "figCaption"
+                  },
+                  {
+                    "attrs": {
+                      "colWidths": [
+                        "69.2307%",
+                        "30.7693%"
+                      ]
+                    },
+                    "content": [
+                      {
+                        "content": [
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": ""
+                                },
+                                "content": [
+                                  {
+                                    "text": "空間参照系の名称",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_header"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": ""
+                                },
+                                "content": [
+                                  {
+                                    "text": "srsNameに挿入する値",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_header"
+                          }
+                        ],
+                        "type": "table_row"
+                      },
+                      {
+                        "content": [
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_788a5be9-9dc2-a9c9-31c4-0e67dce693e1"
+                                },
+                                "content": [
+                                  {
+                                    "text": "日本測地系2011 における経緯度座標系と東京湾平均海面を基準とする標高の複合座標参照系",
+                                    "type": "text"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          },
+                          {
+                            "attrs": {
+                              "background": null,
+                              "colspan": null,
+                              "colwidth": null,
+                              "rowspan": null
+                            },
+                            "content": [
+                              {
+                                "attrs": {
+                                  "resourceID": "urn:metanorma:doc-part:_6f07db5c-9394-0f95-a02f-9523651952e8"
+                                },
+                                "content": [
+                                  {
+                                    "attrs": {
+                                      "href": "http://www.opengis.net/def/crs/EPSG/0/6697"
+                                    },
+                                    "type": "external_link"
+                                  }
+                                ],
+                                "type": "paragraph"
+                              }
+                            ],
+                            "type": "table_cell"
+                          }
+                        ],
+                        "type": "table_row"
+                      }
+                    ],
+                    "type": "table"
+                  }
+                ],
+                "type": "tableFigure"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_32b90495-9dd5-27b5-6359-7e8cabc8ef01"
+                },
+                "content": [
+                  {
+                    "text": "schemaLocationの指定",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_f55917a6-0216-18bb-4714-3e645167ffe2"
+                },
+                "content": [
+                  {
+                    "text": "i-URの符号化仕様は、3D都市モデル内のschemasフォルダ（7.2.4）に格納したXMLSchemaファイルへの相対パスによりschemaLocationを指定する。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          },
+          {
+            "content": [
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_c694f358-7953-c592-e129-5022e34beeda"
+                },
+                "content": [
+                  {
+                    "text": "出力すべきタグ",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              },
+              {
+                "attrs": {
+                  "resourceID": "urn:metanorma:doc-part:_92f643f6-2663-3ab9-f356-3f764a66eb89"
+                },
+                "content": [
+                  {
+                    "text": "データ製品に含まれる全ての拡張製品仕様書において作成対象とする全ての主題属性及び空間属性のタグを出力しなければならない。",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            ],
+            "type": "list_item"
+          }
+        ],
+        "type": "bullet_list"
+      }
+    }
+  ]
+}
