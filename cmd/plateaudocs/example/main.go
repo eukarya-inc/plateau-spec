@@ -58,7 +58,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	defer imgResult.Body.Close()
+	defer func() { _ = imgResult.Body.Close() }()
 
 	fmt.Printf("Content-Length: %d bytes\n", imgResult.ContentLength)
 	fmt.Printf("Content-Type: %s\n", imgResult.ContentType)
@@ -84,7 +84,7 @@ func main() {
 		log.Fatal(err)
 	}
 	fmt.Printf("File: %s, Size: %d bytes\n", info.Name(), info.Size())
-	file.Close()
+	_ = file.Close()
 
 	// fs.ReadFile で読み取り
 	data, err := fs.ReadFile(docsFS, "standard/toc1.md")
