@@ -40,7 +40,20 @@ go build -o specgen .
 |-----------|------|-----------|
 | `-type` | ドキュメントタイプ: `standard`（標準製品仕様書）または `procedure`（標準作業手順書） | `standard` |
 | `-output` | 出力ディレクトリ（必須） | - |
+| `-path` | 生成するページをカンマ区切りで指定（例: `toc1,toc2_03`）。指定しない場合は全ページを生成 | 全ページ |
 | `-help` | ヘルプを表示 | - |
+
+### 特定ページのみ生成
+
+`-path`オプションを使うと、特定のページだけを再生成できます：
+
+```bash
+# toc1とその子ページのみ生成
+./specgen -type standard -output ./docs/standard -path toc1
+
+# 複数ページを指定
+./specgen -type standard -output ./docs/standard -path toc1,toc2,toc3
+```
 
 ### 出力構造
 
