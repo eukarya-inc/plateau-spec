@@ -6,7 +6,6 @@ import (
 	"io"
 	"net/http"
 	"strings"
-	"sync"
 	"time"
 )
 
@@ -57,13 +56,6 @@ func (c *PlateauClient) GetOutlineWithDepth(depth int) ([]OutlineItem, error) {
 
 	// Convert navigation to outline items with specified depth
 	return c.convertToOutlineRecursive(nav.Children, depth-1), nil
-}
-
-func (c *PlateauClient) getDocPath() string {
-	if c.DocumentType == "procedure" {
-		return "plateaudocument02"
-	}
-	return "plateaudocument"
 }
 
 // fetchNavigation fetches navigation for a given path
@@ -227,77 +219,4 @@ func (c *PlateauClient) GetContentByPath(path string) (*PlateauDocument, error) 
 	}
 
 	return doc, nil
-}
-
-// pathNode represents a node in the path tree
-type pathNode struct {
-	path     string
-	children []*pathNode
-}
-
-// buildPathTree builds a tree structure of paths using parallel fetching
-func (c *PlateauClient) buildPathTree(rootPath string) *pathNode {
-	root := &pathNode{path: rootPath}
-	c.buildPathTreeRecursive([]*pathNode{root})
-	return root
-}
-
-// buildPathTreeRecursive fetches children for nodes in parallel, level by level
-func (c *PlateauClient) buildPathTreeRecursive(nodes []*pathNode) {
-	if len(nodes) == 0 {
-		return
-	}
-
-	// Fetch children for all nodes at this level in parallel
-	var wg sync.WaitGroup
-	var mu sync.Mutex
-	sem := make(chan struct{}, MaxConcurrentHTTPRequests)
-
-	for _, node := range nodes {
-		wg.Add(1)
-		go func(n *pathNode) {
-			defer wg.Done()
-			sem <- struct{}{}
-			defer func() { <-sem }()
-
-			nav, err := c.fetchNavigation(n.path)
-			if err != nil || nav == nil {
-				return
-			}
-
-			mu.Lock()
-			for _, child := range nav.Children {
-				if child.Path != "" {
-					n.children = append(n.children, &pathNode{path: child.Path})
-				}
-			}
-			mu.Unlock()
-		}(node)
-	}
-
-	wg.Wait()
-
-	// Collect all children for the next level
-	var nextLevel []*pathNode
-	for _, node := range nodes {
-		nextLevel = append(nextLevel, node.children...)
-	}
-
-	// Recursively fetch children for the next level
-	if len(nextLevel) > 0 {
-		c.buildPathTreeRecursive(nextLevel)
-	}
-}
-
-// flattenPathTree flattens the tree in DFS order
-func (c *PlateauClient) flattenPathTree(root *pathNode) []string {
-	if root == nil {
-		return nil
-	}
-
-	paths := []string{root.path}
-	for _, child := range root.children {
-		paths = append(paths, c.flattenPathTree(child)...)
-	}
-	return paths
 }
