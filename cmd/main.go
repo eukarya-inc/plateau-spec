@@ -5,6 +5,7 @@ import (
 	"flag"
 	"fmt"
 	"os"
+	"strings"
 
 	"github.com/eukarya-inc/plateau-spec/cmd/specgen"
 )
@@ -13,6 +14,7 @@ func main() {
 	var (
 		docType = flag.String("type", "standard", "Document type: 'standard' or 'procedure'")
 		output  = flag.String("output", "", "Output directory (required)")
+		paths   = flag.String("path", "", "Comma-separated list of paths to generate (e.g., 'toc1,toc2_03'). If empty, generates all.")
 		help    = flag.Bool("help", false, "Show help message")
 	)
 
@@ -34,9 +36,24 @@ func main() {
 		os.Exit(1)
 	}
 
-	fmt.Printf("Generating %s specification documents to %s\n", *docType, *output)
+	// Parse paths filter
+	var pathFilter []string
+	if *paths != "" {
+		for _, p := range strings.Split(*paths, ",") {
+			p = strings.TrimSpace(p)
+			if p != "" {
+				pathFilter = append(pathFilter, p)
+			}
+		}
+	}
 
-	generator := specgen.NewGenerator(*docType, *output)
+	if len(pathFilter) > 0 {
+		fmt.Printf("Generating %s specification documents to %s (filtered: %s)\n", *docType, *output, strings.Join(pathFilter, ", "))
+	} else {
+		fmt.Printf("Generating %s specification documents to %s\n", *docType, *output)
+	}
+
+	generator := specgen.NewGenerator(*docType, *output, pathFilter)
 	if err := generator.Generate(); err != nil {
 		fmt.Fprintf(os.Stderr, "Error: %v\n", err)
 		os.Exit(1)
@@ -53,6 +70,7 @@ func printUsage() {
 	fmt.Println("Usage:")
 	fmt.Println("  spec-generator -type standard -output ./docs/spec/standard")
 	fmt.Println("  spec-generator -type procedure -output ./docs/spec/procedure")
+	fmt.Println("  spec-generator -type standard -output ./docs -path toc1,toc2")
 	fmt.Println()
 	fmt.Println("Options:")
 	fmt.Println("  -type string")
@@ -61,6 +79,9 @@ func printUsage() {
 	fmt.Println("        (default: standard)")
 	fmt.Println("  -output string")
 	fmt.Println("        Output directory (required)")
+	fmt.Println("  -path string")
+	fmt.Println("        Comma-separated list of paths to generate (e.g., 'toc1,toc2_03')")
+	fmt.Println("        If not specified, generates all pages")
 	fmt.Println("  -help")
 	fmt.Println("        Show this help message")
 	fmt.Println()

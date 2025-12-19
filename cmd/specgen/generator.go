@@ -18,17 +18,19 @@ const MaxConcurrentRequests = 10
 
 // Generator generates specification documents
 type Generator struct {
-	client    *PlateauClient
-	outputDir string
-	docType   string
+	client     *PlateauClient
+	outputDir  string
+	docType    string
+	pathFilter []string // if non-empty, only generate pages matching these IDs
 }
 
 // NewGenerator creates a new Generator
-func NewGenerator(docType, outputDir string) *Generator {
+func NewGenerator(docType, outputDir string, pathFilter []string) *Generator {
 	return &Generator{
-		client:    NewClient(docType),
-		outputDir: outputDir,
-		docType:   docType,
+		client:     NewClient(docType),
+		outputDir:  outputDir,
+		docType:    docType,
+		pathFilter: pathFilter,
 	}
 }
 
@@ -46,10 +48,18 @@ func (g *Generator) Generate() error {
 		return fmt.Errorf("failed to get outline: %w", err)
 	}
 
-	// Generate index.json
+	// Generate index.json (always generate full index)
 	fmt.Println("Generating index.json...")
 	if err := g.generateIndex(outline); err != nil {
 		return fmt.Errorf("failed to generate index.json: %w", err)
+	}
+
+	// Filter outline if pathFilter is specified
+	if len(g.pathFilter) > 0 {
+		outline = g.filterOutline(outline)
+		if len(outline) == 0 {
+			return fmt.Errorf("no pages matched the filter: %v", g.pathFilter)
+		}
 	}
 
 	// Count total pages
@@ -366,4 +376,36 @@ func extractID(path string) string {
 		return parts[len(parts)-1]
 	}
 	return path
+}
+
+// filterOutline filters outline items based on pathFilter
+// It matches items whose ID starts with any of the filter paths
+func (g *Generator) filterOutline(items []OutlineItem) []OutlineItem {
+	var result []OutlineItem
+	for _, item := range items {
+		if g.matchesFilter(item.ID) {
+			result = append(result, item)
+		} else if len(item.Children) > 0 {
+			// Check if any children match
+			filteredChildren := g.filterOutline(item.Children)
+			if len(filteredChildren) > 0 {
+				// Include parent with filtered children
+				filtered := item
+				filtered.Children = filteredChildren
+				result = append(result, filtered)
+			}
+		}
+	}
+	return result
+}
+
+// matchesFilter checks if an ID matches any of the path filters
+func (g *Generator) matchesFilter(id string) bool {
+	for _, filter := range g.pathFilter {
+		// Exact match or prefix match (e.g., "toc1" matches "toc1", "toc1_01", "toc1_01_02")
+		if id == filter || strings.HasPrefix(id, filter+"_") {
+			return true
+		}
+	}
+	return false
 }
