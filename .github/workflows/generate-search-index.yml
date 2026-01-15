@@ -1,0 +1,43 @@
+name: Generate Search Index
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: cmd/go.mod
+          cache-dependency-path: cmd/go.sum
+
+      - name: Build indexgen
+        run: go build -o indexgen ./indexgen
+        working-directory: cmd
+
+      - name: Generate search index
+        run: ./cmd/indexgen -output ./search-index.tar.gz
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: search-index
+          path: search-index.tar.gz
+          retention-days: 90
+
+      - name: Upload search index to Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release delete search-index-latest --yes || true
+          gh release create search-index-latest ./search-index.tar.gz \
+            --title "Search Index (Latest)" \
+            --notes "Auto-generated search index for full-text search.
+
+          Updated: $(date -u +%Y-%m-%dT%H:%M:%SZ)
+          Commit: ${{ github.sha }}"
