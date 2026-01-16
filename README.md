@@ -230,15 +230,6 @@ type SearchResult struct {
 }
 ```
 
-## GitHub Actions
-
-検索インデックスは以下のワークフローで生成・公開されます：
-
-- **generate-docs.yml**: ドキュメント生成後にインデックスも生成・公開
-- **generate-search-index.yml**: インデックスのみを手動生成（workflow_dispatch）
-
-生成されたインデックスは [GitHub Release](https://github.com/eukarya-inc/plateau-spec/releases/tag/search-index-latest) からダウンロードできます。
-
 ## CLIツール
 
 ### ドキュメント生成ツール (specgen)
@@ -331,6 +322,15 @@ go build -o indexgen ./indexgen
 
 - `standard.bleve/` - 標準製品仕様書の検索インデックス
 - `procedure.bleve/` - 標準作業手順書の検索インデックス
+
+## GitHub Actions
+
+検索インデックスは以下のワークフローで生成・公開されます：
+
+- **generate-docs.yml**: ドキュメント生成
+- **generate-search-index.yml**: インデックスを生成
+
+生成されたインデックスは [GitHub Release](https://github.com/eukarya-inc/plateau-spec/releases/tag/search-index-latest) からダウンロードできます。
 
 ## ライセンス
 
