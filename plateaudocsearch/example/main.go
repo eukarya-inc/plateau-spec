@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/eukarya-inc/plateau-spec/cmd/plateaudocsearch"
+	"github.com/eukarya-inc/plateau-spec/plateaudocsearch"
 )
 
 func main() {

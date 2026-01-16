@@ -1,3 +1,4 @@
+// Package search provides indexing functionality for PLATEAU specification documents.
 package search
 
 import (
@@ -13,7 +14,12 @@ import (
 	"github.com/blevesearch/bleve/v2/analysis/analyzer/custom"
 	"github.com/blevesearch/bleve/v2/analysis/token/lowercase"
 	"github.com/blevesearch/bleve/v2/mapping"
+
+	// Import to register kagome tokenizer
+	_ "github.com/eukarya-inc/plateau-spec/plateaudocsearch/search"
 )
+
+const kagomeTokenizerName = "kagome"
 
 // Document represents a searchable document.
 type Document struct {
@@ -68,11 +74,6 @@ func CreateIndex(indexPath string) (bleve.Index, error) {
 	indexMapping.AddDocumentMapping("doc", docMapping)
 
 	return bleve.New(indexPath, indexMapping)
-}
-
-// OpenIndex opens an existing Bleve index at the specified path.
-func OpenIndex(indexPath string) (bleve.Index, error) {
-	return bleve.Open(indexPath)
 }
 
 // LoadIndexJSON loads and parses index.json from the docs directory.
@@ -142,49 +143,6 @@ func extractTitleFromJSON(indexJSON *IndexJSON, path string) string {
 	for _, chapter := range indexJSON.Chapters {
 		if chapter.Path == path {
 			return chapter.Title
-		}
-	}
-	return ""
-}
-
-// IndexMarkdownFiles indexes all Markdown files in the specified directory.
-func IndexMarkdownFiles(index bleve.Index, docsDir string) (int, error) {
-	count := 0
-	err := filepath.Walk(docsDir, func(path string, info os.FileInfo, err error) error {
-		if err != nil {
-			return err
-		}
-		if info.IsDir() || !strings.HasSuffix(path, ".md") {
-			return nil
-		}
-
-		content, err := os.ReadFile(path)
-		if err != nil {
-			return err
-		}
-
-		relPath, _ := filepath.Rel(docsDir, path)
-		doc := Document{
-			ID:      relPath,
-			Path:    relPath,
-			Title:   extractTitle(string(content)),
-			Content: string(content),
-		}
-
-		if err := index.Index(doc.ID, doc); err != nil {
-			return err
-		}
-		count++
-		return nil
-	})
-	return count, err
-}
-
-func extractTitle(content string) string {
-	lines := strings.Split(content, "\n")
-	for _, line := range lines {
-		if strings.HasPrefix(line, "# ") {
-			return strings.TrimPrefix(line, "# ")
 		}
 	}
 	return ""

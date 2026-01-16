@@ -1,4 +1,4 @@
-package plateaudocs
+package plateaudoc
 
 // Index represents the structure of index.json
 type Index struct {

@@ -1,14 +1,12 @@
-module github.com/eukarya-inc/plateau-spec/cmd
+module github.com/eukarya-inc/plateau-spec/plateaudocsearch
 
 go 1.24.0
 
 require (
 	github.com/blevesearch/bleve/v2 v2.5.7
-	github.com/eukarya-inc/plateau-spec/plateaudocsearch v0.0.0
-	github.com/stretchr/testify v1.11.1
+	github.com/ikawaha/kagome-dict/ipa v1.2.6
+	github.com/ikawaha/kagome/v2 v2.10.3
 )
-
-replace github.com/eukarya-inc/plateau-spec/plateaudocsearch => ../plateaudocsearch
 
 require (
 	github.com/RoaringBitmap/roaring/v2 v2.4.5 // indirect
@@ -30,16 +28,11 @@ require (
 	github.com/blevesearch/zapx/v14 v14.4.2 // indirect
 	github.com/blevesearch/zapx/v15 v15.4.2 // indirect
 	github.com/blevesearch/zapx/v16 v16.2.8 // indirect
-	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/ikawaha/kagome-dict v1.1.7 // indirect
-	github.com/ikawaha/kagome-dict/ipa v1.2.6 // indirect
-	github.com/ikawaha/kagome/v2 v2.10.3 // indirect
 	github.com/json-iterator/go v0.0.0-20171115153421-f7279a603ede // indirect
 	github.com/mschoch/smat v0.2.0 // indirect
-	github.com/pmezard/go-difflib v1.0.0 // indirect
 	go.etcd.io/bbolt v1.4.0 // indirect
 	golang.org/x/sys v0.29.0 // indirect
 	google.golang.org/protobuf v1.36.6 // indirect
-	gopkg.in/yaml.v3 v3.0.1 // indirect
 )

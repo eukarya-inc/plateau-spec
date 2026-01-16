@@ -16,7 +16,7 @@ import (
 	"github.com/blevesearch/bleve/v2"
 
 	// Import search package to register kagome tokenizer
-	_ "github.com/eukarya-inc/plateau-spec/cmd/search"
+	_ "github.com/eukarya-inc/plateau-spec/plateaudocsearch/search"
 )
 
 const (

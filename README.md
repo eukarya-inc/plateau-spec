@@ -1,17 +1,243 @@
 # plateau-spec
 
-PLATEAU標準製品仕様書・標準作業手順書をMarkdown形式に変換したドキュメントリポジトリです。
+PLATEAU標準製品仕様書・標準作業手順書をMarkdown形式に変換したドキュメント・ライブラリ・ツールのリポジトリです。
 
 ## ドキュメント
+
+[PLATEAU](https://www.mlit.go.jp/plateau/)の仕様書は可読性の低いHTMLで提供されているため、このリポジトリではそれらをMarkdown形式に変換して提供しています。
 
 - [3D都市モデル標準製品仕様書](docs/standard/index.md) - [原本](https://www.mlit.go.jp/plateaudocument/)
 - [3D都市モデル標準作業手順書](docs/procedure/index.md) - [原本](https://www.mlit.go.jp/plateaudocument02/)
 
 > **注意**: このドキュメントは上記出典から自動変換されたものです。変換処理により原本と異なる場合があります。正確な情報は原本を参照してください。
 
-## 概要
+## Goライブラリ
 
-[PLATEAU](https://www.mlit.go.jp/plateau/)の仕様書は読みづらいHTMLで提供されているため、このリポジトリではそれらをMarkdown形式に変換して提供しています。
+### ドキュメント取得ライブラリ (plateaudoc)
+
+GitHub rawコンテンツからPLATEAU仕様書を直接取得するGoライブラリです。`fs.FS`インターフェースも実装しています。
+
+#### インストール
+
+```bash
+go get github.com/eukarya-inc/plateau-spec/plateaudoc
+```
+
+#### 使い方
+
+```go
+package main
+
+import (
+    "context"
+    "fmt"
+    "io/fs"
+    "log"
+
+    "github.com/eukarya-inc/plateau-spec/plateaudoc"
+)
+
+func main() {
+    ctx := context.Background()
+    client := plateaudoc.New()
+
+    // インデックス取得
+    index, err := client.GetIndex(ctx, "standard")
+    if err != nil {
+        log.Fatal(err)
+    }
+    fmt.Printf("Title: %s\n", index.Title)
+    fmt.Printf("Chapters: %d\n", len(index.Chapters))
+
+    // Markdown取得
+    md, err := client.GetMarkdown(ctx, "standard", "toc1")
+    if err != nil {
+        log.Fatal(err)
+    }
+    fmt.Println(md)
+
+    // JSON取得
+    jsonData, err := client.GetJSON(ctx, "standard", "toc1")
+    if err != nil {
+        log.Fatal(err)
+    }
+    fmt.Println(jsonData)
+
+    // 画像取得
+    imgResult, err := client.GetImage(ctx, "standard", "toc4_img051.png")
+    if err != nil {
+        log.Fatal(err)
+    }
+    defer imgResult.Body.Close()
+    // imgResult.Body から読み取り
+
+    // fs.FS インターフェースを使う
+    docsFS := plateaudoc.NewFS()
+    data, err := fs.ReadFile(docsFS, "standard/toc1.md")
+    if err != nil {
+        log.Fatal(err)
+    }
+    fmt.Println(string(data))
+}
+```
+
+#### API
+
+| メソッド | 説明 |
+|---------|------|
+| `GetIndex(ctx, docType)` | index.jsonを取得 |
+| `GetIndexMarkdown(ctx, docType)` | index.mdを取得 |
+| `GetMarkdown(ctx, docType, path)` | Markdownファイルを取得 |
+| `GetJSON(ctx, docType, path)` | JSONファイルを取得 |
+| `GetImage(ctx, docType, filename)` | 画像ファイルを取得 |
+
+##### オプション
+
+```go
+// カスタムベースURL
+client := plateaudoc.New(
+    plateaudoc.WithBaseURL("https://custom-url/docs"),
+)
+
+// カスタムHTTPクライアント
+client := plateaudoc.New(
+    plateaudoc.WithHTTPClient(&http.Client{Timeout: time.Minute}),
+)
+
+// gzip圧縮を無効化
+client := plateaudoc.New(
+    plateaudoc.WithoutGzip(),
+)
+```
+
+##### fs.FS インターフェース
+
+```go
+docsFS := plateaudoc.NewFS()
+
+// 標準のfs関数が使える
+data, _ := fs.ReadFile(docsFS, "standard/toc1.md")
+file, _ := docsFS.Open("procedure/toc2.md")
+```
+
+### 全文検索ライブラリ (plateaudocearch)
+
+GitHub Releaseから検索インデックスをダウンロードし、全文検索を提供するGoライブラリです。
+
+#### インストール
+
+```bash
+go get github.com/eukarya-inc/plateau-spec/plateaudocearch
+```
+
+#### 使い方
+
+```go
+package main
+
+import (
+    "context"
+    "fmt"
+    "log"
+
+    "github.com/eukarya-inc/plateau-spec/plateaudocearch"
+)
+
+func main() {
+    ctx := context.Background()
+
+    // クライアントを作成
+    client := plateaudocearch.New()
+    defer client.Close()
+
+    // 初期化（インデックスをダウンロード）
+    result, err := client.Init(ctx)
+    if err != nil {
+        log.Fatal(err)
+    }
+
+    if result.Downloaded {
+        fmt.Printf("インデックスをダウンロードしました (%v)\n", result.DownloadTime)
+    } else {
+        fmt.Println("キャッシュされたインデックスを使用します")
+    }
+
+    // 標準製品仕様書を検索
+    results, err := client.Search(ctx, plateaudocearch.DocTypeStandard, "建築物")
+    if err != nil {
+        log.Fatal(err)
+    }
+
+    for _, r := range results {
+        fmt.Printf("[%.2f] %s (%s)\n", r.Score, r.Title, r.Path)
+    }
+}
+```
+
+#### API
+
+##### Client オプション
+
+```go
+// カスタムリリースURL
+client := plateaudocearch.New(
+    plateaudocearch.WithReleaseURL("https://custom-url/search-index.tar.gz"),
+)
+
+// カスタムキャッシュディレクトリ
+client := plateaudocearch.New(
+    plateaudocearch.WithCacheDir("/path/to/cache"),
+)
+
+// カスタムHTTPクライアント
+client := plateaudocearch.New(
+    plateaudocearch.WithHTTPClient(&http.Client{Timeout: 10 * time.Minute}),
+)
+```
+
+##### 検索オプション
+
+```go
+// 検索結果の件数を指定
+results, err := client.Search(ctx, plateaudocearch.DocTypeStandard, "建築物",
+    plateaudocearch.WithLimit(20),
+)
+
+// 全ドキュメントタイプを検索
+results, err := client.Search(ctx, "", "LOD")
+// または
+results, err := client.Search(ctx, plateaudocearch.DocTypeAll, "LOD")
+```
+
+##### ドキュメントタイプ
+
+| 定数 | 値 | 説明 |
+|-----|---|------|
+| `DocTypeStandard` | `"standard"` | 標準製品仕様書 |
+| `DocTypeProcedure` | `"procedure"` | 標準作業手順書 |
+| `DocTypeAll` | `""` | 全ドキュメント |
+
+##### SearchResult
+
+```go
+type SearchResult struct {
+    ID       string   // ドキュメントID
+    DocType  DocType  // ドキュメントタイプ
+    Path     string   // ファイルパス
+    Title    string   // タイトル
+    Score    float64  // スコア
+    Snippets []string // マッチした箇所のスニペット
+}
+```
+
+## GitHub Actions
+
+検索インデックスは以下のワークフローで生成・公開されます：
+
+- **generate-docs.yml**: ドキュメント生成後にインデックスも生成・公開
+- **generate-search-index.yml**: インデックスのみを手動生成（workflow_dispatch）
+
+生成されたインデックスは [GitHub Release](https://github.com/eukarya-inc/plateau-spec/releases/tag/search-index-latest) からダウンロードできます。
 
 ## CLIツール
 
@@ -105,234 +331,6 @@ go build -o indexgen ./indexgen
 
 - `standard.bleve/` - 標準製品仕様書の検索インデックス
 - `procedure.bleve/` - 標準作業手順書の検索インデックス
-
-## Goライブラリ
-
-### ドキュメント取得ライブラリ (plateaudocs)
-
-GitHub rawコンテンツからPLATEAU仕様書を直接取得するGoライブラリです。`fs.FS`インターフェースも実装しています。
-
-#### インストール
-
-```bash
-go get github.com/eukarya-inc/plateau-spec/cmd/plateaudocs
-```
-
-#### 使い方
-
-```go
-package main
-
-import (
-    "context"
-    "fmt"
-    "io/fs"
-    "log"
-
-    "github.com/eukarya-inc/plateau-spec/cmd/plateaudocs"
-)
-
-func main() {
-    ctx := context.Background()
-    client := plateaudocs.New()
-
-    // インデックス取得
-    index, err := client.GetIndex(ctx, "standard")
-    if err != nil {
-        log.Fatal(err)
-    }
-    fmt.Printf("Title: %s\n", index.Title)
-    fmt.Printf("Chapters: %d\n", len(index.Chapters))
-
-    // Markdown取得
-    md, err := client.GetMarkdown(ctx, "standard", "toc1")
-    if err != nil {
-        log.Fatal(err)
-    }
-    fmt.Println(md)
-
-    // JSON取得
-    jsonData, err := client.GetJSON(ctx, "standard", "toc1")
-    if err != nil {
-        log.Fatal(err)
-    }
-    fmt.Println(jsonData)
-
-    // 画像取得
-    imgResult, err := client.GetImage(ctx, "standard", "toc4_img051.png")
-    if err != nil {
-        log.Fatal(err)
-    }
-    defer imgResult.Body.Close()
-    // imgResult.Body から読み取り
-
-    // fs.FS インターフェースを使う
-    docsFS := plateaudocs.NewFS()
-    data, err := fs.ReadFile(docsFS, "standard/toc1.md")
-    if err != nil {
-        log.Fatal(err)
-    }
-    fmt.Println(string(data))
-}
-```
-
-#### API
-
-| メソッド | 説明 |
-|---------|------|
-| `GetIndex(ctx, docType)` | index.jsonを取得 |
-| `GetIndexMarkdown(ctx, docType)` | index.mdを取得 |
-| `GetMarkdown(ctx, docType, path)` | Markdownファイルを取得 |
-| `GetJSON(ctx, docType, path)` | JSONファイルを取得 |
-| `GetImage(ctx, docType, filename)` | 画像ファイルを取得 |
-
-##### オプション
-
-```go
-// カスタムベースURL
-client := plateaudocs.New(
-    plateaudocs.WithBaseURL("https://custom-url/docs"),
-)
-
-// カスタムHTTPクライアント
-client := plateaudocs.New(
-    plateaudocs.WithHTTPClient(&http.Client{Timeout: time.Minute}),
-)
-
-// gzip圧縮を無効化
-client := plateaudocs.New(
-    plateaudocs.WithoutGzip(),
-)
-```
-
-##### fs.FS インターフェース
-
-```go
-docsFS := plateaudocs.NewFS()
-
-// 標準のfs関数が使える
-data, _ := fs.ReadFile(docsFS, "standard/toc1.md")
-file, _ := docsFS.Open("procedure/toc2.md")
-```
-
-### 全文検索ライブラリ (plateaudocsearch)
-
-GitHub Releaseから検索インデックスをダウンロードし、全文検索を提供するGoライブラリです。
-
-#### インストール
-
-```bash
-go get github.com/eukarya-inc/plateau-spec/cmd/plateaudocsearch
-```
-
-#### 使い方
-
-```go
-package main
-
-import (
-    "context"
-    "fmt"
-    "log"
-
-    "github.com/eukarya-inc/plateau-spec/cmd/plateaudocsearch"
-)
-
-func main() {
-    ctx := context.Background()
-
-    // クライアントを作成
-    client := plateaudocsearch.New()
-    defer client.Close()
-
-    // 初期化（インデックスをダウンロード）
-    result, err := client.Init(ctx)
-    if err != nil {
-        log.Fatal(err)
-    }
-
-    if result.Downloaded {
-        fmt.Printf("インデックスをダウンロードしました (%v)\n", result.DownloadTime)
-    } else {
-        fmt.Println("キャッシュされたインデックスを使用します")
-    }
-
-    // 標準製品仕様書を検索
-    results, err := client.Search(ctx, plateaudocsearch.DocTypeStandard, "建築物")
-    if err != nil {
-        log.Fatal(err)
-    }
-
-    for _, r := range results {
-        fmt.Printf("[%.2f] %s (%s)\n", r.Score, r.Title, r.Path)
-    }
-}
-```
-
-#### API
-
-##### Client オプション
-
-```go
-// カスタムリリースURL
-client := plateaudocsearch.New(
-    plateaudocsearch.WithReleaseURL("https://custom-url/search-index.tar.gz"),
-)
-
-// カスタムキャッシュディレクトリ
-client := plateaudocsearch.New(
-    plateaudocsearch.WithCacheDir("/path/to/cache"),
-)
-
-// カスタムHTTPクライアント
-client := plateaudocsearch.New(
-    plateaudocsearch.WithHTTPClient(&http.Client{Timeout: 10 * time.Minute}),
-)
-```
-
-##### 検索オプション
-
-```go
-// 検索結果の件数を指定
-results, err := client.Search(ctx, plateaudocsearch.DocTypeStandard, "建築物",
-    plateaudocsearch.WithLimit(20),
-)
-
-// 全ドキュメントタイプを検索
-results, err := client.Search(ctx, "", "LOD")
-// または
-results, err := client.Search(ctx, plateaudocsearch.DocTypeAll, "LOD")
-```
-
-##### ドキュメントタイプ
-
-| 定数 | 値 | 説明 |
-|-----|---|------|
-| `DocTypeStandard` | `"standard"` | 標準製品仕様書 |
-| `DocTypeProcedure` | `"procedure"` | 標準作業手順書 |
-| `DocTypeAll` | `""` | 全ドキュメント |
-
-##### SearchResult
-
-```go
-type SearchResult struct {
-    ID       string   // ドキュメントID
-    DocType  DocType  // ドキュメントタイプ
-    Path     string   // ファイルパス
-    Title    string   // タイトル
-    Score    float64  // スコア
-    Snippets []string // マッチした箇所のスニペット
-}
-```
-
-## GitHub Actions
-
-検索インデックスは以下のワークフローで生成・公開されます：
-
-- **generate-docs.yml**: ドキュメント生成後にインデックスも生成・公開
-- **generate-search-index.yml**: インデックスのみを手動生成（workflow_dispatch）
-
-生成されたインデックスは [GitHub Release](https://github.com/eukarya-inc/plateau-spec/releases/tag/search-index-latest) からダウンロードできます。
 
 ## ライセンス
 

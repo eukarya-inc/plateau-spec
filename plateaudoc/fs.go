@@ -1,4 +1,4 @@
-package plateaudocs
+package plateaudoc
 
 import (
 	"context"

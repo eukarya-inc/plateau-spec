@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/eukarya-inc/plateau-spec/cmd/search"
+	"github.com/eukarya-inc/plateau-spec/cmd/indexgen/search"
 )
 
 func main() {

@@ -7,12 +7,12 @@ import (
 	"io/fs"
 	"log"
 
-	"github.com/eukarya-inc/plateau-spec/cmd/plateaudocs"
+	"github.com/eukarya-inc/plateau-spec/plateaudoc"
 )
 
 func main() {
 	ctx := context.Background()
-	client := plateaudocs.New()
+	client := plateaudoc.New()
 
 	// インデックス取得
 	fmt.Println("=== Index (standard) ===")
@@ -72,7 +72,7 @@ func main() {
 
 	// FS テスト
 	fmt.Println("\n=== FS (fs.FS interface) ===")
-	docsFS := plateaudocs.NewFS()
+	docsFS := plateaudoc.NewFS()
 
 	// fs.Stat でサイズ取得
 	file, err := docsFS.Open("standard/toc1.md")
@@ -97,5 +97,5 @@ func main() {
 		fmt.Println(string(data))
 	}
 
-	fmt.Println("\n✅ All tests passed!")
+	fmt.Println("\nAll tests passed!")
 }

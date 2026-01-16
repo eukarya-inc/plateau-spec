@@ -2,6 +2,11 @@ name: Generate Search Index
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'docs/**'
 
 jobs:
   generate:
