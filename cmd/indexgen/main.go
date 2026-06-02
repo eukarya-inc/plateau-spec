@@ -29,7 +29,7 @@ func main() {
 		fmt.Fprintf(os.Stderr, "Error creating temp directory: %v\n", err)
 		os.Exit(1)
 	}
-	defer os.RemoveAll(tmpDir)
+	defer func() { _ = os.RemoveAll(tmpDir) }()
 
 	// Process standard docs
 	standardDir := filepath.Join(*docsDir, "standard")

@@ -150,18 +150,30 @@ func extractTitleFromJSON(indexJSON *IndexJSON, path string) string {
 
 // CompressIndex compresses the index directory contents to a .tar.gz file.
 // The contents are placed at the root level (e.g., standard.bleve/, procedure.bleve/).
-func CompressIndex(srcDir, outputPath string) error {
+func CompressIndex(srcDir, outputPath string) (err error) {
 	outFile, err := os.Create(outputPath)
 	if err != nil {
 		return err
 	}
-	defer outFile.Close()
+	defer func() {
+		if cerr := outFile.Close(); cerr != nil && err == nil {
+			err = cerr
+		}
+	}()
 
 	gzWriter := gzip.NewWriter(outFile)
-	defer gzWriter.Close()
+	defer func() {
+		if cerr := gzWriter.Close(); cerr != nil && err == nil {
+			err = cerr
+		}
+	}()
 
 	tarWriter := tar.NewWriter(gzWriter)
-	defer tarWriter.Close()
+	defer func() {
+		if cerr := tarWriter.Close(); cerr != nil && err == nil {
+			err = cerr
+		}
+	}()
 
 	return filepath.Walk(srcDir, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
@@ -197,7 +209,7 @@ func CompressIndex(srcDir, outputPath string) error {
 		if err != nil {
 			return err
 		}
-		defer file.Close()
+		defer func() { _ = file.Close() }()
 
 		_, err = io.Copy(tarWriter, file)
 		return err
