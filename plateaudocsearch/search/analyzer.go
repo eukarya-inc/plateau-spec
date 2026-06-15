@@ -6,6 +6,13 @@ import (
 	"github.com/blevesearch/bleve/v2/registry"
 	"github.com/ikawaha/kagome-dict/ipa"
 	"github.com/ikawaha/kagome/v2/tokenizer"
+
+	// Register the "custom" analyzer type and "to_lower" token filter so that
+	// indexes built with them (see cmd/indexgen) can also be opened at search
+	// time. Without these, bleve.Open fails with
+	// "no analyzer with name or type 'custom' registered".
+	_ "github.com/blevesearch/bleve/v2/analysis/analyzer/custom"
+	_ "github.com/blevesearch/bleve/v2/analysis/token/lowercase"
 )
 
 const kagomeTokenizerName = "kagome"
