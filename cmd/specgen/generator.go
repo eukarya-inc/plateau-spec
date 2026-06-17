@@ -314,19 +314,19 @@ func (g *Generator) generateIndex(outline []OutlineItem) error {
 func (g *Generator) saveIndexMarkdown(path string, index *Index) error {
 	var sb strings.Builder
 
-	sb.WriteString(fmt.Sprintf("# %s\n\n", index.Title))
+	fmt.Fprintf(&sb, "# %s\n\n", index.Title)
 
 	// Add source URL
 	sourceURL := "https://www.mlit.go.jp/plateaudocument/"
 	if g.docType == "procedure" {
 		sourceURL = "https://www.mlit.go.jp/plateaudocument02/"
 	}
-	sb.WriteString(fmt.Sprintf("出典: %s\n\n", sourceURL))
+	fmt.Fprintf(&sb, "出典: %s\n\n", sourceURL)
 
 	// Add disclaimer
 	sb.WriteString("> **注意**: このドキュメントは上記出典から自動変換されたものです。変換処理により原本と異なる場合があります。正確な情報は原本を参照してください。\n\n")
 
-	sb.WriteString(fmt.Sprintf("生成日時: %s\n\n", index.GeneratedAt))
+	fmt.Fprintf(&sb, "生成日時: %s\n\n", index.GeneratedAt)
 	sb.WriteString("## 目次\n\n")
 
 	g.writeChapterLinks(&sb, index.Chapters, 0)
