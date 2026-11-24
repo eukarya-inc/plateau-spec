@@ -29,32 +29,32 @@ jobs:
       - name: Build CLI
         run: |
           cd cmd
-          go build -o specgen .
+          go build -o ../bin/specgen .
 
       - name: Generate standard docs
         if: inputs.document_type == 'all' || inputs.document_type == 'standard'
         run: |
           rm -r ./docs/standard
-          ./cmd/specgen -type standard -output ./docs/standard
+          ./bin/specgen -type standard -output ./docs/standard
 
       - name: Generate procedure docs
         if: inputs.document_type == 'all' || inputs.document_type == 'procedure'
         run: |
           rm -r ./docs/procedure
-          ./cmd/specgen -type procedure -output ./docs/procedure
+          ./bin/specgen -type procedure -output ./docs/procedure
 
       - name: Build indexgen
-        run: go build -o indexgen ./indexgen
+        run: go build -o ../bin/indexgen ./indexgen
         working-directory: cmd
 
       - name: Generate search index
-        run: ./cmd/indexgen -output ./search-index.tar.gz
+        run: ./bin/indexgen -docs ./docs -output ./search-index.mokuji
 
       - name: Upload search index artifact
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: search-index
-          path: search-index.tar.gz
+          path: search-index.mokuji
           retention-days: 90
 
       - name: Create Pull Request

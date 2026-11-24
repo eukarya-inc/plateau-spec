@@ -246,17 +246,18 @@ PLATEAU仕様書を自動でダウンロード・変換するCLIツールです�
 
 ```bash
 cd cmd
-go build -o specgen .
+go build -o ../bin/specgen .
+cd ..
 ```
 
 #### 使い方
 
 ```bash
 # 標準製品仕様書を生成
-./specgen -type standard -output ./docs/standard
+./bin/specgen -type standard -output ./docs/standard
 
 # 標準作業手順書を生成
-./specgen -type procedure -output ./docs/procedure
+./bin/specgen -type procedure -output ./docs/procedure
 ```
 
 #### オプション
@@ -274,10 +275,10 @@ go build -o specgen .
 
 ```bash
 # toc1とその子ページのみ生成
-./specgen -type standard -output ./docs/standard -path toc1
+./bin/specgen -type standard -output ./docs/standard -path toc1
 
 # 複数ページを指定
-./specgen -type standard -output ./docs/standard -path toc1,toc2,toc3
+./bin/specgen -type standard -output ./docs/standard -path toc1,toc2,toc3
 ```
 
 #### 出力構造
@@ -305,14 +306,15 @@ go build -o specgen .
 
 ```bash
 cd cmd
-go build -o indexgen ./indexgen
+go build -o ../bin/indexgen ./indexgen
+cd ..
 ```
 
 #### 使い方
 
 ```bash
 # インデックスを生成
-./indexgen -docs ./docs -output ./search-index.mokuji
+./bin/indexgen -docs ./docs -output ./search-index.mokuji
 ```
 
 #### オプション
