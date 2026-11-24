@@ -22,11 +22,11 @@ jobs:
           cache-dependency-path: cmd/go.sum
 
       - name: Build indexgen
-        run: go build -o indexgen ./indexgen
+        run: go build -o ../bin/indexgen ./indexgen
         working-directory: cmd
 
       - name: Generate search index
-        run: ./cmd/indexgen -output ./search-index.mokuji
+        run: ./bin/indexgen -docs ./docs -output ./search-index.mokuji
 
       - name: Upload artifact
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
