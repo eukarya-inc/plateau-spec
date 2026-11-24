@@ -131,16 +131,8 @@ func params(options mokuji.WriteOptions) map[string]any {
 
 // layoutOf is the layout an index records, or "" if it records none.
 func layoutOf(index *mokuji.Index) string {
-	v := index.Meta
-	for _, key := range []string{"generator", "params", indexLayoutParam} {
-		m, ok := v.(map[any]any)
-		if !ok {
-			return ""
-		}
-		v = m[key]
-	}
-	s, _ := v.(string)
-	return s
+	layout, _ := index.Generator.Params[indexLayoutParam].(string)
+	return layout
 }
 
 // cleanField puts text in the form it is stored and searched in: NFKC, so
