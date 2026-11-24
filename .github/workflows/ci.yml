@@ -22,6 +22,10 @@ jobs:
         run: go test -v ./...
         working-directory: cmd
 
+      - name: Test plateaudocsearch
+        run: go test -v ./...
+        working-directory: plateaudocsearch
+
   lint:
     runs-on: ubuntu-latest
     steps:

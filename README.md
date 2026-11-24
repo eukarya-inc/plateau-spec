@@ -120,14 +120,20 @@ data, _ := fs.ReadFile(docsFS, "standard/toc1.md")
 file, _ := docsFS.Open("procedure/toc2.md")
 ```
 
-### 全文検索ライブラリ (plateaudocearch)
+### 全文検索ライブラリ (plateaudocsearch)
 
 GitHub Releaseから検索インデックスをダウンロードし、全文検索を提供するGoライブラリです。
+
+インデックスは [Mokuji](https://github.com/reearth/mokuji) 形式の1ファイル（約1.4MB）で、初回にダウンロードしてキャッシュディレクトリに保存し、`Init` 以降はメモリ上に保持します。検索のたびに通信やディスク読み込みは発生しません。
+
+仕様書の節（`index.json` の全項目）を1件ずつ、その節自身の本文（子の節を含まない）で索引しているため、一致した箇所の節が結果として返ります。日本語は文字bigram、英数字は単語単位で照合し（`LOD2の` のように和文に続く英数字も分けて扱います）、BM25で順位付けします。
+
+> **以前のバージョンからの移行**: 検索インデックスはBleve（`search-index.tar.gz`）からMokuji（`search-index.mokuji`）に変わりました。旧形式は配布を終了したため、旧バージョンの `plateaudocsearch` はキャッシュのない環境で `Init` に失敗します。最新版に更新してください。`Client` のAPIは変わりませんが、結果は章ではなく節の単位になり、`plateaudocsearch/search` パッケージは削除しました。旧形式のキャッシュは、新しいインデックスのダウンロード時に削除されます。
 
 #### インストール
 
 ```bash
-go get github.com/eukarya-inc/plateau-spec/plateaudocearch
+go get github.com/eukarya-inc/plateau-spec/plateaudocsearch
 ```
 
 #### 使い方
@@ -140,14 +146,14 @@ import (
     "fmt"
     "log"
 
-    "github.com/eukarya-inc/plateau-spec/plateaudocearch"
+    "github.com/eukarya-inc/plateau-spec/plateaudocsearch"
 )
 
 func main() {
     ctx := context.Background()
 
     // クライアントを作成
-    client := plateaudocearch.New()
+    client := plateaudocsearch.New()
     defer client.Close()
 
     // 初期化（インデックスをダウンロード）
@@ -163,7 +169,7 @@ func main() {
     }
 
     // 標準製品仕様書を検索
-    results, err := client.Search(ctx, plateaudocearch.DocTypeStandard, "建築物")
+    results, err := client.Search(ctx, plateaudocsearch.DocTypeStandard, "建築物")
     if err != nil {
         log.Fatal(err)
     }
@@ -180,18 +186,18 @@ func main() {
 
 ```go
 // カスタムリリースURL
-client := plateaudocearch.New(
-    plateaudocearch.WithReleaseURL("https://custom-url/search-index.tar.gz"),
+client := plateaudocsearch.New(
+    plateaudocsearch.WithReleaseURL("https://custom-url/search-index.mokuji"),
 )
 
 // カスタムキャッシュディレクトリ
-client := plateaudocearch.New(
-    plateaudocearch.WithCacheDir("/path/to/cache"),
+client := plateaudocsearch.New(
+    plateaudocsearch.WithCacheDir("/path/to/cache"),
 )
 
 // カスタムHTTPクライアント
-client := plateaudocearch.New(
-    plateaudocearch.WithHTTPClient(&http.Client{Timeout: 10 * time.Minute}),
+client := plateaudocsearch.New(
+    plateaudocsearch.WithHTTPClient(&http.Client{Timeout: 10 * time.Minute}),
 )
 ```
 
@@ -199,14 +205,14 @@ client := plateaudocearch.New(
 
 ```go
 // 検索結果の件数を指定
-results, err := client.Search(ctx, plateaudocearch.DocTypeStandard, "建築物",
-    plateaudocearch.WithLimit(20),
+results, err := client.Search(ctx, plateaudocsearch.DocTypeStandard, "建築物",
+    plateaudocsearch.WithLimit(20),
 )
 
 // 全ドキュメントタイプを検索
 results, err := client.Search(ctx, "", "LOD")
 // または
-results, err := client.Search(ctx, plateaudocearch.DocTypeAll, "LOD")
+results, err := client.Search(ctx, plateaudocsearch.DocTypeAll, "LOD")
 ```
 
 ##### ドキュメントタイプ
@@ -221,12 +227,12 @@ results, err := client.Search(ctx, plateaudocearch.DocTypeAll, "LOD")
 
 ```go
 type SearchResult struct {
-    ID       string   // ドキュメントID
+    ID       string   // 節のID（index.json の path。例: "toc4_01_01"）
     DocType  DocType  // ドキュメントタイプ
-    Path     string   // ファイルパス
-    Title    string   // タイトル
-    Score    float64  // スコア
-    Snippets []string // マッチした箇所のスニペット
+    Path     string   // Markdownファイルのパス（例: "toc4_01_01.md"）
+    Title    string   // 節のタイトル
+    Score    float64  // スコア（BM25）
+    Snippets []string // マッチした箇所のスニペット（HTMLエスケープ済み、一致箇所は <mark> で囲む）
 }
 ```
 
@@ -293,7 +299,7 @@ go build -o specgen .
 
 ### インデックス生成ツール (indexgen)
 
-Markdown形式のドキュメントから全文検索用インデックスを生成するCLIツールです。
+仕様書のドキュメントから全文検索用インデックス（Mokuji形式の1ファイル）を生成するCLIツールです。各節の本文は、specgenが保存した `json/` から子の節を除いて変換します。
 
 #### ビルド
 
@@ -306,7 +312,7 @@ go build -o indexgen ./indexgen
 
 ```bash
 # インデックスを生成
-./indexgen -docs ./docs -output ./search-index.tar.gz
+./indexgen -docs ./docs -output ./search-index.mokuji
 ```
 
 #### オプション
@@ -314,14 +320,11 @@ go build -o indexgen ./indexgen
 | オプション | 説明 | デフォルト |
 |-----------|------|-----------|
 | `-docs` | ドキュメントの基準ディレクトリ | `./docs` |
-| `-output` | 出力ファイルパス (.tar.gz) | `./search-index.tar.gz` |
+| `-output` | 出力ファイルパス | `./search-index.mokuji` |
 
 #### 出力
 
-生成される `search-index.tar.gz` には以下が含まれます：
-
-- `standard.bleve/` - 標準製品仕様書の検索インデックス
-- `procedure.bleve/` - 標準作業手順書の検索インデックス
+`search-index.mokuji` は標準製品仕様書と標準作業手順書の両方を含む1つのインデックスです。[mokuji](https://github.com/reearth/mokuji) CLIの `mokuji info` で中身を確認できます。
 
 ## GitHub Actions
 

@@ -1,33 +1,17 @@
-// Package search provides indexing functionality for PLATEAU specification documents.
+// Package search collects the sections of PLATEAU specification documents to
+// be indexed for full-text search.
 package search
 
 import (
-	"archive/tar"
-	"compress/gzip"
 	"encoding/json"
-	"io"
+	"fmt"
 	"os"
 	"path/filepath"
-	"strings"
+	"regexp"
 
-	"github.com/blevesearch/bleve/v2"
-	"github.com/blevesearch/bleve/v2/analysis/analyzer/custom"
-	"github.com/blevesearch/bleve/v2/analysis/token/lowercase"
-	"github.com/blevesearch/bleve/v2/mapping"
-
-	// Import to register kagome tokenizer
-	_ "github.com/eukarya-inc/plateau-spec/plateaudocsearch/search"
+	"github.com/eukarya-inc/plateau-spec/cmd/metanorma2md"
+	"github.com/eukarya-inc/plateau-spec/plateaudocsearch"
 )
-
-const kagomeTokenizerName = "kagome"
-
-// Document represents a searchable document.
-type Document struct {
-	ID      string `json:"id"`
-	Path    string `json:"path"`
-	Title   string `json:"title"`
-	Content string `json:"content"`
-}
 
 // IndexJSON represents the structure of index.json.
 type IndexJSON struct {
@@ -43,43 +27,16 @@ type Chapter struct {
 	Children []Chapter `json:"children,omitempty"`
 }
 
-// CreateIndex creates a new Bleve index with Japanese analyzer at the specified path.
-func CreateIndex(indexPath string) (bleve.Index, error) {
-	indexMapping := bleve.NewIndexMapping()
-
-	if err := indexMapping.AddCustomTokenizer("kagome", map[string]interface{}{
-		"type": kagomeTokenizerName,
-	}); err != nil {
-		return nil, err
-	}
-
-	if err := indexMapping.AddCustomAnalyzer("ja", map[string]interface{}{
-		"type":      custom.Name,
-		"tokenizer": "kagome",
-		"token_filters": []string{
-			lowercase.Name,
-		},
-	}); err != nil {
-		return nil, err
-	}
-
-	indexMapping.DefaultAnalyzer = "ja"
-
-	docMapping := bleve.NewDocumentMapping()
-	textFieldMapping := mapping.NewTextFieldMapping()
-	textFieldMapping.Analyzer = "ja"
-
-	docMapping.AddFieldMappingsAt("title", textFieldMapping)
-	docMapping.AddFieldMappingsAt("content", textFieldMapping)
-	indexMapping.AddDocumentMapping("doc", docMapping)
-
-	return bleve.New(indexPath, indexMapping)
+// page is a section as specgen saved it in json/: its own content, without
+// its subsections'.
+type page struct {
+	Title   string                 `json:"title"`
+	Content []metanorma2md.Content `json:"content"`
 }
 
 // LoadIndexJSON loads and parses index.json from the docs directory.
 func LoadIndexJSON(docsDir string) (*IndexJSON, error) {
-	indexPath := filepath.Join(docsDir, "index.json")
-	data, err := os.ReadFile(indexPath)
+	data, err := os.ReadFile(filepath.Join(docsDir, "index.json"))
 	if err != nil {
 		return nil, err
 	}
@@ -88,118 +45,74 @@ func LoadIndexJSON(docsDir string) (*IndexJSON, error) {
 	if err := json.Unmarshal(data, &indexJSON); err != nil {
 		return nil, err
 	}
-
 	return &indexJSON, nil
 }
 
-// GetRootPaths extracts root-level paths from index.json chapters.
-// Only includes paths without underscore (e.g., "toc1", "toc3" but not "toc0_01", "toc2_01").
-func GetRootPaths(indexJSON *IndexJSON) []string {
-	var paths []string
-	for _, chapter := range indexJSON.Chapters {
-		if !strings.Contains(chapter.Path, "_") {
-			paths = append(paths, chapter.Path)
-		}
-	}
-	return paths
-}
-
-// IndexFromJSON indexes only the root-level documents specified in index.json.
-func IndexFromJSON(index bleve.Index, docsDir string) (int, error) {
+// CollectDocuments returns every section listed in docsDir/index.json, in
+// outline order, each with its own text only.
+//
+// A section's Markdown file contains its subsections as well, so indexing the
+// files would count a subsection once for every section above it. The JSON
+// specgen saved beside them holds each section's own content, which is
+// converted here instead.
+func CollectDocuments(docsDir string, docType plateaudocsearch.DocType) ([]plateaudocsearch.Document, error) {
 	indexJSON, err := LoadIndexJSON(docsDir)
 	if err != nil {
-		return 0, err
+		return nil, err
 	}
 
-	rootPaths := GetRootPaths(indexJSON)
-	count := 0
-
-	for _, p := range rootPaths {
-		mdPath := filepath.Join(docsDir, p+".md")
-		content, err := os.ReadFile(mdPath)
-		if err != nil {
-			// Skip if file doesn't exist
-			continue
+	var docs []plateaudocsearch.Document
+	var walk func([]Chapter) error
+	walk = func(chapters []Chapter) error {
+		for _, ch := range chapters {
+			text, err := sectionText(filepath.Join(docsDir, "json", ch.Path+".json"))
+			if err != nil {
+				return fmt.Errorf("%s: %w", ch.Path, err)
+			}
+			docs = append(docs, plateaudocsearch.Document{
+				DocType: docType,
+				ID:      ch.Path,
+				Title:   ch.Title,
+				Text:    text,
+			})
+			if err := walk(ch.Children); err != nil {
+				return err
+			}
 		}
-
-		doc := Document{
-			ID:      p,
-			Path:    p + ".md",
-			Title:   extractTitleFromJSON(indexJSON, p),
-			Content: string(content),
-		}
-
-		if err := index.Index(doc.ID, doc); err != nil {
-			return count, err
-		}
-		count++
+		return nil
 	}
-
-	return count, nil
+	if err := walk(indexJSON.Chapters); err != nil {
+		return nil, err
+	}
+	return docs, nil
 }
 
-// extractTitleFromJSON finds the title for a path from index.json.
-func extractTitleFromJSON(indexJSON *IndexJSON, path string) string {
-	for _, chapter := range indexJSON.Chapters {
-		if chapter.Path == path {
-			return chapter.Title
-		}
-	}
-	return ""
-}
+var (
+	// An image is nothing to search; a link is its text.
+	mdImage = regexp.MustCompile(`!\[[^\]]*\]\([^)]*\)|\[Image\]`)
+	mdLink  = regexp.MustCompile(`\[([^\]]*)\]\([^)]*\)`)
+	// Table rules, and the marks of headings, emphasis and table cells.
+	mdRule   = regexp.MustCompile(`\|?(\s*:?-{3,}:?\s*\|)+`)
+	mdMarkup = regexp.MustCompile(`[#*|]+`)
+)
 
-// CompressIndex compresses the index directory contents to a .tar.gz file.
-// The contents are placed at the root level (e.g., standard.bleve/, procedure.bleve/).
-func CompressIndex(srcDir, outputPath string) error {
-	outFile, err := os.Create(outputPath)
+// sectionText is a section's own content as plain text: converted to
+// Markdown as specgen converts it, then with the markup taken out, since a
+// snippet is cut from it.
+func sectionText(jsonPath string) (string, error) {
+	data, err := os.ReadFile(jsonPath)
 	if err != nil {
-		return err
+		return "", err
 	}
-	defer outFile.Close()
+	var p page
+	if err := json.Unmarshal(data, &p); err != nil {
+		return "", err
+	}
 
-	gzWriter := gzip.NewWriter(outFile)
-	defer gzWriter.Close()
-
-	tarWriter := tar.NewWriter(gzWriter)
-	defer tarWriter.Close()
-
-	return filepath.Walk(srcDir, func(path string, info os.FileInfo, err error) error {
-		if err != nil {
-			return err
-		}
-
-		// Skip the root directory itself
-		if path == srcDir {
-			return nil
-		}
-
-		header, err := tar.FileInfoHeader(info, info.Name())
-		if err != nil {
-			return err
-		}
-
-		// Use path relative to srcDir (not its parent)
-		relPath, err := filepath.Rel(srcDir, path)
-		if err != nil {
-			return err
-		}
-		header.Name = relPath
-
-		if err := tarWriter.WriteHeader(header); err != nil {
-			return err
-		}
-
-		if info.IsDir() {
-			return nil
-		}
-
-		file, err := os.Open(path)
-		if err != nil {
-			return err
-		}
-		defer file.Close()
-
-		_, err = io.Copy(tarWriter, file)
-		return err
-	})
+	md := metanorma2md.Convert(&metanorma2md.Document{Content: p.Content}, nil)
+	md = mdImage.ReplaceAllString(md, " ")
+	md = mdLink.ReplaceAllString(md, "$1")
+	md = mdRule.ReplaceAllString(md, " ")
+	md = mdMarkup.ReplaceAllString(md, " ")
+	return md, nil
 }
